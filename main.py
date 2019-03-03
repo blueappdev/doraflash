@@ -30,7 +30,7 @@ class MainPage(webapp2.RequestHandler):
 <link rel="stylesheet" href="stylesheets/stylesheet.css">
 </head>
 <body onload="pageLoaded()">
-Version 0.1 (1. März 2019)
+Version 0.2 (1. März 2019)
 """)
         self.addButtons()
         self.write("""
