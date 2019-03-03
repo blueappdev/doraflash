@@ -169,7 +169,7 @@ function moveCurrentCard() {
 function computeNewPosition(card) {
     console.log("computeNewPosition()");
     console.log("    numberOfCorrectAnswers %o", card.numberOfCorrectAnswers);
-    const mapping = [ 0, 1, 2, 3, 5, 8, 12, 17, 23, 28, 38, 48, 60, 70, 85, 100, 120, 145, 170, 200 ];
+    const mapping = [ 0, 1, 3, 6, 10, 15, 21, 28, 36, 45, 55, 66, 78, 91, 115, 145, 170, 200 ];
     let newPosition = mapping[card.numberOfCorrectAnswers] 
     if (! newPosition) newPosition = 1000000;
     newPosition = Math.min(cards.length, newPosition);

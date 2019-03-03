@@ -25,7 +25,7 @@ class MainPage(webapp2.RequestHandler):
 <head>
 <meta charset="utf-8">
 <title>Dora Flash</title>
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
 <script src="js/data.js"></script>
 <script src="js/functions.js"></script>
 <link rel="stylesheet" href="stylesheets/stylesheet.css">
@@ -48,14 +48,13 @@ Version 0.3 (1. März 2019)
     def addButtons(self):
         if False:
             return 
-        self.write("""<button onclick="fetchLesson()">Fetch</button>
-<button onclick="inspectLesson()">Inspect</button>
-<button onclick="saveCardsToLocalStorage()">Save</button>
-<button onclick="loadCardsFromLocalStorage()">Load</button>
-<button onclick="fillScreen()">Fill</button>
-<button onclick="processAnswer()">Answer</button>
-<button onclick="inspectFeedback()">Feedback</button>
-""")
+        self.write('<button onclick="fetchLesson()">Fetch</button>')
+        self.write('<button onclick="inspectLesson()">Inspect</button>')
+        self.write('<button onclick="saveCardsToLocalStorage()">Save</button>')
+        self.write('<button onclick="loadCardsFromLocalStorage()">Load</button>')
+        self.write('<button onclick="fillScreen()">Fill</button>')
+        self.write('<button onclick="processAnswer()">Answer</button>')
+        self.write('<button onclick="inspectFeedback()">Feedback</button>')
 
     def write(self, aString):
         self.response.write(aString)
