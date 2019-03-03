@@ -41,15 +41,13 @@ table {
   margin: 20px;
   padding: 20px;
   border-collapse: collapse;
-  table-align: left;
 }
 
-th {
+th, td {
   border: 1px solid black;
-}
-
-td {
-  border: 1px solid black;
+  padding: 2px;
+  text-align: left;
+  vertical-align: top;
 }
 
 .correct-feedback {

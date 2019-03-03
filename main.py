@@ -26,11 +26,12 @@ class MainPage(webapp2.RequestHandler):
 <meta charset="utf-8">
 <title>Dora Flash</title>
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+<script src="js/data.js"></script>
 <script src="js/functions.js"></script>
 <link rel="stylesheet" href="stylesheets/stylesheet.css">
 </head>
 <body onload="pageLoaded()">
-Version 0.2 (1. März 2019)
+Version 0.3 (1. März 2019)
 """)
         self.addButtons()
         self.write("""
