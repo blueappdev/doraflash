@@ -15,39 +15,39 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+from google.appengine.api import users
 import webapp2
 
 class MainPage(webapp2.RequestHandler):
     def get(self):
         self.response.headers['Content-Type'] = 'text/html'
-        self.write("""<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<title>Dora Flash</title>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
-<script src="js/data.js"></script>
-<script src="js/functions.js"></script>
-<link rel="stylesheet" href="stylesheets/stylesheet.css">
-</head>
-<body onload="pageLoaded()">
-Version 0.3 (1. März 2019)
-""")
-        self.addButtons()
-        self.write("""
-<h1>Hallo, Dora!</h1>
-<div class="questionTitle">Beantworte bitte die Frage.</div>
-<div id="question" class="question">Hier kommt die Frage hin.</div>
-<div class="answerTitle">Gib hier bitte deine Antwort ein.</div>
-<input class="answer" type="text" spellcheck="false" onchange="processAnswer()">
-<div class="feedback"></div>
-</body>
-<html>
-""")
+        self.write('<!DOCTYPE html>')
+        self.write('<html lang="en">')
+        self.write('<head>')
+        self.write('<meta charset="utf-8">')
+        self.write('<title>Dora Flash</title>')
+        self.write('<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>')
+        self.write('<script src="js/data.js"></script>')
+        self.write('<script src="js/functions.js"></script>')
+        self.write('<link rel="stylesheet" href="stylesheets/stylesheet.css">')
+        self.write('</head>')
+        self.write('<body onload="pageLoaded()">')
+        self.write('Version 0.4 (4. März 2019)')
+        self.write(users.get_current_user())
+        self.addSupportButtons()
+        self.write('<h1>Hallo, Dora!</h1>')
+        self.write('<div class="questionTitle">Beantworte bitte die Frage.</div>')
+        self.write('<div id="question" class="question">Hier kommt die Frage hin.</div>')
+        self.write('<div class="answerTitle">Gib hier bitte deine Antwort ein.</div>')
+        self.write('<input class="answer" type="text" spellcheck="false" onchange="processAnswer()">')
+        self.write('<button onclick="shuffleCards()">Alle Fragen mischen</button>')
+        self.write('<div class="feedback"></div>')
+        self.write('</body>')
+        self.write('<html>')
 
-    def addButtons(self):
-        if False:
-            return 
+    def addSupportButtons(self):
+        if True:
+            return             
         self.write('<button onclick="fetchLesson()">Fetch</button>')
         self.write('<button onclick="inspectLesson()">Inspect</button>')
         self.write('<button onclick="saveCardsToLocalStorage()">Save</button>')
@@ -58,7 +58,6 @@ Version 0.3 (1. März 2019)
 
     def write(self, aString):
         self.response.write(aString)
-
 
 app = webapp2.WSGIApplication([
     ('/', MainPage),

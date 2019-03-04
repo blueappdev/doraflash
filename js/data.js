@@ -498,7 +498,7 @@ function addCards() {
     add("liegen (Perfekt, ich ...)", "ich ", "ich habe gelegen");    
     
     add("heißen (Präsens, er ...)","er ","er heißt");
-    add("heißen (Präsens, ich ...)","er ","ich heiße");
+    add("heißen (Präsens, ich ...)","ich ","ich heiße");
     add("heißen (Präterium, ich ...)", "ich ", "ich hieß");
     add("heißen (Perfekt, ich ...)", "ich ", "ich habe geheißen");  
     

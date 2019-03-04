@@ -169,10 +169,32 @@ function moveCurrentCard() {
 function computeNewPosition(card) {
     console.log("computeNewPosition()");
     console.log("    numberOfCorrectAnswers %o", card.numberOfCorrectAnswers);
-    const mapping = [ 0, 1, 3, 6, 10, 15, 21, 28, 36, 45, 55, 66, 78, 91, 115, 145, 170, 200 ];
+    //const mapping = [ 0, 1, 3, 6, 10, 15, 21, 28, 36, 45, 55, 66, 78, 91, 115, 145, 170, 200 ];
+    const mapping = [ 0, 3, 6, 10, 20, 30, 40, 50, 70, 100, 140, 180, 230, 300, 380 ];
     let newPosition = mapping[card.numberOfCorrectAnswers] 
     if (! newPosition) newPosition = 1000000;
     newPosition = Math.min(cards.length, newPosition);
     console.log("    newPosition %o", newPosition);
     return newPosition;
+}
+
+function shuffleArray(array) {
+    var currentIndex = array.length;
+    var temporaryValue, randomIndex;
+    // While there remain elements to shuffle...
+    while (0 !== currentIndex) {
+        // Pick a remaining element...
+        randomIndex = Math.floor(Math.random() * currentIndex);
+        currentIndex -= 1;
+        // And swap it with the current element.
+        temporaryValue = array[currentIndex];
+        array[currentIndex] = array[randomIndex];
+        array[randomIndex] = temporaryValue;
+    }
+    return array;
+}
+
+function shuffleCards() {
+    self.shuffleArray(self.cards);
+    setCurrentCard(cards[0]);
 }
