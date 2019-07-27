@@ -6,12 +6,18 @@ handlers:
 - url: /js
   static_dir: js
   
-- url: /stylesheets
-  static_dir: stylesheets
-
+- url: /css
+  static_dir: css
+  
+- url: /png
+  static_dir: png
+  
+- url: /menu
+  static_dir: menu
+  
 - url: /favicon.ico
-  static_files: favicon\.ico
-  upload: favicon\.ico
+  static_files: favicon.ico
+  upload: favicon.ico
   
 #- url: /
 #  static_files: index\.html
@@ -19,3 +25,4 @@ handlers:
   
 - url: /.*
   script: main.app
+  login: required

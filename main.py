@@ -19,46 +19,28 @@ from google.appengine.api import users
 import webapp2
 
 class MainPage(webapp2.RequestHandler):
+    def loadTemplate(self):
+        stream = open('html/template.html')
+        self.template = stream.read()
+        stream.close()
+       
+    def enrichTemplate(self):
+        user = users.get_current_user()
+        if user is None:
+            username = "Guest"
+        else:
+            username = user.nickname()
+        #user.user_id() to be used with persistent data
+        self.template = self.template.replace("%USERNAME%", username) 
+    
     def get(self):
+        self.loadTemplate()
+        self.enrichTemplate()
         self.response.headers['Content-Type'] = 'text/html'
-        self.write('<!DOCTYPE html>')
-        self.write('<html lang="en">')
-        self.write('<head>')
-        self.write('<meta charset="utf-8">')
-        self.write('<title>Dora Flash</title>')
-        self.write('<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>')
-        self.write('<script src="js/data.js"></script>')
-        self.write('<script src="js/functions.js"></script>')
-        self.write('<link rel="stylesheet" href="stylesheets/stylesheet.css">')
-        self.write('</head>')
-        self.write('<body onload="pageLoaded()">')
-        self.write('Version 0.4 (4. März 2019)')
-        self.write(users.get_current_user())
-        self.addSupportButtons()
-        self.write('<h1>Hallo, Dora!</h1>')
-        self.write('<div class="questionTitle">Beantworte bitte die Frage.</div>')
-        self.write('<div id="question" class="question">Hier kommt die Frage hin.</div>')
-        self.write('<div class="answerTitle">Gib hier bitte deine Antwort ein.</div>')
-        self.write('<input class="answer" type="text" spellcheck="false" onchange="processAnswer()">')
-        self.write('<button onclick="shuffleCards()">Alle Fragen mischen</button>')
-        self.write('<div class="feedback"></div>')
-        self.write('</body>')
-        self.write('<html>')
-
-    def addSupportButtons(self):
-        if True:
-            return             
-        self.write('<button onclick="fetchLesson()">Fetch</button>')
-        self.write('<button onclick="inspectLesson()">Inspect</button>')
-        self.write('<button onclick="saveCardsToLocalStorage()">Save</button>')
-        self.write('<button onclick="loadCardsFromLocalStorage()">Load</button>')
-        self.write('<button onclick="fillScreen()">Fill</button>')
-        self.write('<button onclick="processAnswer()">Answer</button>')
-        self.write('<button onclick="inspectFeedback()">Feedback</button>')
+        self.write(self.template)
 
     def write(self, aString):
         self.response.write(aString)
 
-app = webapp2.WSGIApplication([
-    ('/', MainPage),
-], debug=True)
+app = webapp2.WSGIApplication([('/', MainPage)], debug=True)
+

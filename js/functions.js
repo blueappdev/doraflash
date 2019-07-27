@@ -12,6 +12,7 @@ function pageLoaded () {
     fetchLesson();
     fillScreen();
     console.log('end pageLoaded()');
+
 }
 
 function fetchLesson() {
