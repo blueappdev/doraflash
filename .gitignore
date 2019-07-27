@@ -1,9 +1,6 @@
-*.pyc
-*.exe
-*.dll
-*.bat
-*.cmd
+#
+# .gitignore
+#
 
-BACKUP/
-thirdparty/
-testdata/
+*.pyc
+
