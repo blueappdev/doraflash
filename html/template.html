@@ -4,64 +4,24 @@
     <meta charset="utf-8">
     <link rel="icon" href="png/favicon.png" type="image/png">
     <title>Dora Flash</title>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
-       <style>
-   
-li a, .dropbtn {
-    display: inline-block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-li a:hover, .dropdown:hover .dropbtn {
-    background-color: red;
-}
-
-li.dropdown {
-    display: inline-block;
-}
-
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: green;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-}
-
-.dropdown-content a {
-    color: black;
-    
-    padding: 8px 14px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
-}
-
-.dropdown-content a:hover {
-    background-color: red;
-    color: white;
-}
-
-.show {display:block;}
-
-</style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <link rel="stylesheet" href="menu/menu.css"> 
     <script src="menu/menu.js"></script>  
-    <script src="js/data.js"></script>
+    <script src="js/utils.js"></script>
+    <script src="js/chinese.js"></script>
+    <script src="js/german.js"></script>
+    <script src="js/greek.js"></script>
     <script src="js/functions.js"></script>
     <link rel="stylesheet" href="css/stylesheet.css">
-
   </head>
   <body onload="pageLoaded()">
   <div>
    <ul class="hMenuBar">
     <li class="hMenuItem"><a class="dropbtn" onclick="toggleMenu('myDropdown1')">Courses</a>
       <div class="dropdown-content" id="myDropdown1">
-        <a onclick="onNewDiagram()">Deutsch</a>
-        <a onclick="onLoadDiagram()">Chinesisch</a>
+        <a onclick="loadCourse('chinese')">Chinese</a>
+        <a onclick="loadCourse('german')">German</a>
+        <a onclick="loadCourse('greek')">Greek</a>
       </div>
     </li>
     <li class="hMenuItem"><a class="dropbtn" onclick="toggleMenu('myDropdown2')">Tools</a>
@@ -84,21 +44,7 @@ li.dropdown {
      %USERNAME%
      </ul> 
   </div>
-<script>
-// Close the dropdown if the user clicks outside of it
-window.onclick = function(e) {
-  if (!e.target.matches('.dropbtn')) {
-    var dropdowns = document.getElementsByClassName("dropdown-content");
-    for (var d = 0; d < dropdowns.length; d++) {
-      var openDropdown = dropdowns[d];
-      if (openDropdown.classList.contains('show')) {
-        openDropdown.classList.remove('show');
-      }
-    }
-  }
-}
-</script>
-  <h1>Hallo, Dora!</h1>
+  <h1 id="course_name">[course_name]</h1>
   <div class="questionTitle">Beantworte bitte die Frage.</div>
   <div id="question" class="question">Hier kommt die Frage hin.</div>
   <div class="answerTitle">Gib hier bitte deine Antwort ein.</div>

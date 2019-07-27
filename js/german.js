@@ -1,19 +1,7 @@
 "use strict";
 
-function addCards1() {
-    console.log('addCards()');
-    add("a", "", "1");
-    add("b", "", "2");
-    add("c", "", "3");
-    add("d", "", "4");
-    add("e", "", "5");
-    add("f", "", "6");
-    add("g", "", "7");
-    add("h", "", "8");
-}
-
-function addCards() {
-    console.log('addCards()');
+function addGermanCards() {
+    console.log('addGermanCards()');
     add("bauen (Präsens, ich ...)", "ich ", "ich baue");
     add("bauen (Präterium, ich ...)", "ich ", "ich baute");
     add("bauen (Perfekt, ich ...)", "ich ", "ich habe gebaut");

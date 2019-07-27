@@ -1,22 +1,36 @@
 "use strict";
 
+console.log('load functions.js');
+
 var cards = [];
 var currentCard = null;
 var feedback = [];
 
-console.log('load functions.js');
-
-function pageLoaded () {
-    console.log('pageLoaded()');
-    //loadCardsFromLocalStorage();
-    fetchLesson();
-    fillScreen();
-    console.log('end pageLoaded()');
-
+function addCards(name) {
+    console.log('addCards(%o)', name);
+    if (name === "chinese") {
+        addChineseCards();
+        return;
+    }
+    if (name === "greek") {
+        addGreekCards();
+        return;
+    }
+    addGermanCards();
 }
 
-function fetchLesson() {
-    addCards();
+function loadCourse(name) {
+    removeAllCards()
+    addCards(name);
+    $("#course_name").html("Learn " + name.capitalize());
+    fillScreen();
+}
+
+function pageLoaded () {
+    console.log('pageLoaded() - begin');
+    //loadCardsFromLocalStorage();
+    loadCourse("chinese");
+    console.log('pageLoaded() - end');
 }
 
 function inspectLesson() {
@@ -37,16 +51,33 @@ function add(question, answerHint, answer) {
         };
     cards.push(card)
 }
+
+function addQuestionAnswerComment(question, answer, comment) {
+    let card = {
+        question: question, 
+        answerHint: "", 
+        answer: answer,
+        comment: comment,
+        numberOfCorrectAnswers: 0,
+        numberOfWrongAnswers: 0
+    };
+    cards.push(card)
+}
+
 function saveCardsToLocalStorage() {
     console.log('saveCardsToLocalStorage()');
     localStorage.setItem("cards", JSON.stringify(cards));
 }
 
+function removeAllCards() {
+    console.log('removeAllCards()');
+    cards = [];
+}
+
 function loadCardsFromLocalStorage() {
     console.log("loadCardsFromLocalStorage()");
     cards = JSON.parse(localStorage.getItem("cards"));
-    if (!cards)
-        cards = []
+    if (!cards) removeAllCards()
 }
 
 function fillScreen() {
@@ -60,12 +91,12 @@ function fillScreen() {
 }
 
 function setCurrentCard(card) {
-    console.log('setCurrentCard()');
+    console.log('setCurrentCard() - begin');
     console.log('question=%o', card.question);
     currentCard = card;
     $('.question').text(card.question);
     $('.answer').val(card.answerHint);
-    console.log('end setCurrentCard()');
+    console.log('setCurrentCard() - end');
 }
 
 function processAnswer() {
@@ -92,8 +123,68 @@ function hasAnswer(answer) {
     return true;
 }
 
-function isAcceptableAnswer(answer) {
-    return (answer == currentCard.answer);
+function removeAccents(str) {
+    str = str.replace(/Ā/g,"A");
+    str = str.replace(/ā/g,"a");   
+    str = str.replace(/Á/g,"A");      
+    str = str.replace(/á/g,"a");      
+    str = str.replace(/Ǎ/g,"A");      
+    str = str.replace(/ǎ/g,"a");      
+    str = str.replace(/À/g,"A");     
+    str = str.replace(/à/g,"a");       
+    str = str.replace(/Ē/g,"E");       
+    str = str.replace(/ē/g,"e");       
+    str = str.replace(/É/g,"E");       
+    str = str.replace(/é/g,"e");       
+    str = str.replace(/Ě/g,"E");       
+    str = str.replace(/ě/g,"e");       
+    str = str.replace(/È/g,"E");       
+    str = str.replace(/è/g,"e");       
+    str = str.replace(/Ī/g,"I");       
+    str = str.replace(/ī/g,"i");       
+    str = str.replace(/Í/g,"I");       
+    str = str.replace(/í/g,"i");       
+    str = str.replace(/Ǐ/g,"I");       
+    str = str.replace(/ǐ/g,"i");       
+    str = str.replace(/Ì/g,"I");       
+    str = str.replace(/ì/g,"i");       
+    str = str.replace(/Ō/g,"O");      
+    str = str.replace(/ō/g,"o");      
+    str = str.replace(/Ó/g,"O");       
+    str = str.replace(/ó/g,"o");       
+    str = str.replace(/Ǒ/g,"O");       
+    str = str.replace(/ǒ/g,"o");       
+    str = str.replace(/Ò/g,"O");       
+    str = str.replace(/ò/g,"o");       
+    str = str.replace(/Ū/g,"U");       
+    str = str.replace(/ū/g,"u");       
+    str = str.replace(/Ú/g,"U");       
+    str = str.replace(/ú/g,"u");       
+    str = str.replace(/Ǔ/g,"U");       
+    str = str.replace(/ǔ/g,"u");       
+    str = str.replace(/Ù/g,"U");       
+    str = str.replace(/ù/g,"u");       
+    str = str.replace(/Ü/g,"Ü");       
+    str = str.replace(/ü/g,"ü");      
+    str = str.replace(/Ǘ/g,"Ü");       
+    str = str.replace(/ǘ/g,"ü");       
+    str = str.replace(/Ǚ/g,"Ü");       
+    str = str.replace(/ǚ/g,"ü");       
+    str = str.replace(/Ǜ/g,"Ü");       
+    str = str.replace(/ǜ/g,"ü");
+    return str;
+}
+
+function isAcceptableAnswer(userAnswer) {
+    // todo: add some flag to the card or course to customize the conversion
+    var expectedAnswer = currentCard.answer
+    if (userAnswer === userAnswer.toLowerCase()) {
+        expectedAnswer = expectedAnswer.toLowerCase();
+    }
+    if (userAnswer === removeAccents(userAnswer)) {
+        expectedAnswer = removeAccents(expectedAnswer);
+    }
+    return (userAnswer == expectedAnswer);
 }
 
 function reportMissingAnswer(answer) {
@@ -104,11 +195,7 @@ function reportCorrectAnswer(answer) {
     console.log("reportCorrectAnswer(%o)", answer);
     $(".feedback").html('<font color="darkgreen">Die Antwort ist richtig.</font>');
     currentCard.numberOfCorrectAnswers += 1;
-    addFeedback({
-        isCorrect: true,
-        question: currentCard.question,
-        userAnswer: answer,
-        answer: currentCard.answer});
+    addFeedback(true, answer, currentCard);
     moveCurrentCard();
 }
 
@@ -119,16 +206,23 @@ function reportWrongAnswer(answer) {
     if (currentCard.numberOfCorrectAnswers) {
         currentCard.numberOfCorrectAnswers = 0;
     }
-    addFeedback({
-        isCorrect: false,
-        question: currentCard.question,
-        userAnswer: answer,
-        answer: currentCard.answer});
+    addFeedback(false, answer, currentCard);
 }
     
-function addFeedback(aRecord) {
+function addFeedback(isCorrect, userAnswer, card) {
     console.log("addFeedback()");
-    feedback.unshift(aRecord);
+    var newRecord = {
+            isCorrect: isCorrect,
+            question: card.question,
+            userAnswer: userAnswer,
+            answer: card.comment || card.answer
+        };
+    feedback.unshift(newRecord);  // unshift() adds at the beginning
+    showFeedback();
+}
+
+function showFeedback() {
+    console.log("showFeedback() - begin");
     var html = '<table>';
     html += '<thead><tr>';
     html += '<th>Frage</th>';
@@ -154,7 +248,7 @@ function addFeedback(aRecord) {
     }
     html += '</table>';
     $(".feedback").append(html);
-    console.log("end addFeedback()");
+    console.log("showFeedback() - end");
 }
 
 function moveCurrentCard() {

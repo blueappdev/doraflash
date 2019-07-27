@@ -15,9 +15,9 @@ handlers:
 - url: /menu
   static_dir: menu
   
-- url: /favicon.ico
-  static_files: favicon.ico
-  upload: favicon.ico
+#- url: /favicon.ico
+#  static_files: favicon.ico
+#  upload: favicon.ico
   
 #- url: /
 #  static_files: index\.html
@@ -25,4 +25,4 @@ handlers:
   
 - url: /.*
   script: main.app
-  login: required
+  #login: required
