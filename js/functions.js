@@ -2,9 +2,75 @@
 
 console.log('load functions.js');
 
-var cards = [];
+var currentCourse = null;
 var currentCard = null;
 var feedback = [];
+
+// Card class
+function Card(question, answers, hint, comment) {
+    this.question = question;
+    this.answers = answers;
+    this.hint = hint;
+    this.comment = comment;
+    this.numberOfCorrectAnswers = 0;
+    this.numberOfWrongAnswers = 0;
+} 
+
+// Course class
+function Course(name) {
+    this.name = name;
+    this.cards = [];
+}
+
+Course.prototype.addCard = function(aCard) {
+    this.cards.push(aCard);
+}
+
+Course.prototype.mergeRecord = function(question, answers, hint, comment) {
+    var oldCard = this.cards.find(function(each) {return each.question === question});
+    if (oldCard) {
+        console.log("Old card found for %o.");
+        oldCard.question = question;
+        oldCard.answers = answers;
+        oldCard.hint = hint;
+        oldCard.comment = comment;
+    }
+    else {
+        console.log("No card found for %o. Create a new card.");
+        var newCard = new Card(question, answers, hint, comment);
+        this.cards.push(newCard);
+    }
+}
+
+Course.prototype.storageKey = function() {
+    return "course" + this.name;
+}
+
+Course.prototype.saveToLocalStorage = function() {
+    console.log('saveToLocalStorage()');
+    localStorage.setItem(this.storageKey(), JSON.stringify(this));
+}
+
+Course.prototype.loadFromLocalStorage = function() {
+    console.log('loadFromLocalStorage(%o)', this.name);
+    var newCourse = this;
+    var loadedCourse = localStorage.getItem(this.storageKey());
+    if (!loadedCourse) {
+        console.log("Not found in local storage.");
+        return;
+    }
+    loadedCourse = JSON.parse(loadedCourse);
+    console.assert(this.name === loadedCourse.name);
+    loadedCourse.cards.forEach(function(each) {
+        console.log(each.question);
+        newCourse.addCard(each);
+    });
+}
+
+function makePersistent() {
+    console.log("makePersistent()");
+    currentCourse.saveToLocalStorage();
+}
 
 function addCards(name) {
     console.log('addCards(%o)', name);
@@ -20,7 +86,8 @@ function addCards(name) {
 }
 
 function loadCourse(name) {
-    removeAllCards()
+    self.currentCourse = new Course(name);
+    self.currentCourse.loadFromLocalStorage();
     addCards(name);
     $("#course_name").html("Learn " + name.capitalize());
     fillScreen();
@@ -33,61 +100,30 @@ function pageLoaded () {
     console.log('pageLoaded() - end');
 }
 
-function inspectLesson() {
-    alert(JSON.stringify(cards));
+function inspectCurrentCourse() {
+    alert(JSON.stringify(currentCourse));
 }
 
 function inspectFeedback() {
     alert(JSON.stringify(feedback));
 }
 
-function add(question, answerHint, answer) {
-    let card = {
-        question: question, 
-        answerHint: answerHint, 
-        answer: answer,
-        numberOfCorrectAnswers: 0,
-        numberOfWrongAnswers: 0
-        };
-    cards.push(card)
+function addQuestionHintAnswer(question, hint, answer) {
+    currentCourse.mergeRecord(question, [answer], hint, "");
 }
 
-function addQuestionAnswerComment(question, answer, comment) {
-    let card = {
-        question: question, 
-        answerHint: "", 
-        answer: answer,
-        comment: comment,
-        numberOfCorrectAnswers: 0,
-        numberOfWrongAnswers: 0
-    };
-    cards.push(card)
-}
-
-function saveCardsToLocalStorage() {
-    console.log('saveCardsToLocalStorage()');
-    localStorage.setItem("cards", JSON.stringify(cards));
-}
-
-function removeAllCards() {
-    console.log('removeAllCards()');
-    cards = [];
-}
-
-function loadCardsFromLocalStorage() {
-    console.log("loadCardsFromLocalStorage()");
-    cards = JSON.parse(localStorage.getItem("cards"));
-    if (!cards) removeAllCards()
+function addQuestionAnswersComment(question, answers, comment) {
+    currentCourse.mergeRecord(question, answers, "", comment);
 }
 
 function fillScreen() {
     console.log('fillScreen()');
-    if (! cards.length) {
+    if (! currentCourse.cards.length) {
         console.log('No cards available');
         alert('No cards available');
         return;
     }
-    setCurrentCard(cards[0]);
+    setCurrentCard(currentCourse.cards[0]);
 }
 
 function setCurrentCard(card) {
@@ -95,7 +131,7 @@ function setCurrentCard(card) {
     console.log('question=%o', card.question);
     currentCard = card;
     $('.question').text(card.question);
-    $('.answer').val(card.answerHint);
+    $('.answer').val(card.hint);
     console.log('setCurrentCard() - end');
 }
 
@@ -111,6 +147,7 @@ function processAnswer() {
     } else {
         reportWrongAnswer(answer);
     }
+    makePersistent();
 }
 
 function preprocessAnswer(aString) {
@@ -177,14 +214,17 @@ function removeAccents(str) {
 
 function isAcceptableAnswer(userAnswer) {
     // todo: add some flag to the card or course to customize the conversion
-    var expectedAnswer = currentCard.answer
-    if (userAnswer === userAnswer.toLowerCase()) {
-        expectedAnswer = expectedAnswer.toLowerCase();
+    for (var i = 0; i < currentCard.answers.length; i++) {
+        var expectedAnswer = currentCard.answers[i];
+        if (userAnswer === userAnswer.toLowerCase()) {
+            expectedAnswer = expectedAnswer.toLowerCase();
+        }
+        if (userAnswer === removeAccents(userAnswer)) {
+            expectedAnswer = removeAccents(expectedAnswer);
+        }
+        if (userAnswer == expectedAnswer) return true;
     }
-    if (userAnswer === removeAccents(userAnswer)) {
-        expectedAnswer = removeAccents(expectedAnswer);
-    }
-    return (userAnswer == expectedAnswer);
+    return false;
 }
 
 function reportMissingAnswer(answer) {
@@ -215,7 +255,7 @@ function addFeedback(isCorrect, userAnswer, card) {
             isCorrect: isCorrect,
             question: card.question,
             userAnswer: userAnswer,
-            answer: card.comment || card.answer
+            answer: card.comment || card.answers[0]
         };
     feedback.unshift(newRecord);  // unshift() adds at the beginning
     showFeedback();
@@ -253,10 +293,10 @@ function showFeedback() {
 
 function moveCurrentCard() {
     console.log("moveCurrentCard()");
-    let card = cards.shift();
+    let card = currentCourse.cards.shift();
     console.log("Shifted card %o", card.question);
     let newPosition = computeNewPosition(card);
-    cards.splice(newPosition, 0, card);
+    currentCourse.cards.splice(newPosition, 0, card);
     fillScreen();
     console.log("end moveCurrentCard()");
 }
@@ -268,7 +308,7 @@ function computeNewPosition(card) {
     const mapping = [ 0, 3, 6, 10, 20, 30, 40, 50, 70, 100, 140, 180, 230, 300, 380 ];
     let newPosition = mapping[card.numberOfCorrectAnswers] 
     if (! newPosition) newPosition = 1000000;
-    newPosition = Math.min(cards.length, newPosition);
+    newPosition = Math.min(currentCourse.cards.length, newPosition);
     console.log("    newPosition %o", newPosition);
     return newPosition;
 }
@@ -290,6 +330,7 @@ function shuffleArray(array) {
 }
 
 function shuffleCards() {
-    self.shuffleArray(self.cards);
-    setCurrentCard(cards[0]);
+    self.shuffleArray(currentCourse.cards);
+    setCurrentCard(currentCourse.cards[0]);
+    makePersistent();
 }

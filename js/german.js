@@ -2,534 +2,534 @@
 
 function addGermanCards() {
     console.log('addGermanCards()');
-    add("bauen (Präsens, ich ...)", "ich ", "ich baue");
-    add("bauen (Präterium, ich ...)", "ich ", "ich baute");
-    add("bauen (Perfekt, ich ...)", "ich ", "ich habe gebaut");
+    addQuestionHintAnswer("bauen (Präsens, ich ...)", "ich ", "ich baue");
+    addQuestionHintAnswer("bauen (Präterium, ich ...)", "ich ", "ich baute");
+    addQuestionHintAnswer("bauen (Perfekt, ich ...)", "ich ", "ich habe gebaut");
     
-    add("hören (Präsens, ich ...)", "ich ", "ich höre");
-    add("hören (Präterium, ich ...)", "ich ", "ich hörte");
-    add("hören (Perfekt, ich ...)", "ich ", "ich habe gehört");
+    addQuestionHintAnswer("hören (Präsens, ich ...)", "ich ", "ich höre");
+    addQuestionHintAnswer("hören (Präterium, ich ...)", "ich ", "ich hörte");
+    addQuestionHintAnswer("hören (Perfekt, ich ...)", "ich ", "ich habe gehört");
     
-    add("heizen (Präsens, ich ...)", "ich ", "ich heize");
-    add("heizen (Präterium, ich ...)", "ich ", "ich heizte");
-    add("heizen (Perfekt, ich ...)", "ich ", "ich habe geheizt");
+    addQuestionHintAnswer("heizen (Präsens, ich ...)", "ich ", "ich heize");
+    addQuestionHintAnswer("heizen (Präterium, ich ...)", "ich ", "ich heizte");
+    addQuestionHintAnswer("heizen (Perfekt, ich ...)", "ich ", "ich habe geheizt");
     
-    add("spülen (Präsens, ich ...)", "ich ", "ich spüle");
-    add("spülen (Präterium, ich ...)", "ich ", "ich spülte");
-    add("spülen (Perfekt, ich ...)", "ich ", "ich habe gespült");
+    addQuestionHintAnswer("spülen (Präsens, ich ...)", "ich ", "ich spüle");
+    addQuestionHintAnswer("spülen (Präterium, ich ...)", "ich ", "ich spülte");
+    addQuestionHintAnswer("spülen (Perfekt, ich ...)", "ich ", "ich habe gespült");
     
-    add("trocknen (Präsens, ich ...)", "ich ", "ich trockne");
-    add("trocknen (Präterium, ich ...)", "ich ", "ich trocknete");
-    add("trocknen (Perfekt, ich ...)", "ich ", "ich habe getrocknet");
+    addQuestionHintAnswer("trocknen (Präsens, ich ...)", "ich ", "ich trockne");
+    addQuestionHintAnswer("trocknen (Präterium, ich ...)", "ich ", "ich trocknete");
+    addQuestionHintAnswer("trocknen (Perfekt, ich ...)", "ich ", "ich habe getrocknet");
 
-    add("laufen (Präsens, ich ...)", "ich ", "ich laufe");
-    add("laufen (Präsens, er ...)", "er ", "er läuft");
-    add("laufen (Präterium, ich ...)", "ich ", "ich lief");
-    add("laufen (Perfekt, ich ...)", "ich ", "ich bin gelaufen");
+    addQuestionHintAnswer("laufen (Präsens, ich ...)", "ich ", "ich laufe");
+    addQuestionHintAnswer("laufen (Präsens, er ...)", "er ", "er läuft");
+    addQuestionHintAnswer("laufen (Präterium, ich ...)", "ich ", "ich lief");
+    addQuestionHintAnswer("laufen (Perfekt, ich ...)", "ich ", "ich bin gelaufen");
     
-    add("finden (Präsens, ich ...)", "ich ", "ich finde");
-    add("finden (Präterium, ich ...)", "ich ", "ich fand");
-    add("finden (Perfekt, ich ...)", "ich ", "ich habe gefunden");
+    addQuestionHintAnswer("finden (Präsens, ich ...)", "ich ", "ich finde");
+    addQuestionHintAnswer("finden (Präterium, ich ...)", "ich ", "ich fand");
+    addQuestionHintAnswer("finden (Perfekt, ich ...)", "ich ", "ich habe gefunden");
     
-    add("treffen (Präsens, ich ...)", "ich ", "ich treffe");
-    add("treffen (Präterium, ich ...)", "ich ", "ich traf");
-    add("treffen (Perfekt, ich ...)", "ich ", "ich habe getroffen");
+    addQuestionHintAnswer("treffen (Präsens, ich ...)", "ich ", "ich treffe");
+    addQuestionHintAnswer("treffen (Präterium, ich ...)", "ich ", "ich traf");
+    addQuestionHintAnswer("treffen (Perfekt, ich ...)", "ich ", "ich habe getroffen");
 
-    add("schreiben (Präsens, ich ...)", "ich ", "ich schreibe");
-    add("schreiben (Präterium, ich ...)", "ich ", "ich schrieb");
-    add("schreiben (Perfekt, ich ...)", "ich habe ", "ich habe geschrieben");
+    addQuestionHintAnswer("schreiben (Präsens, ich ...)", "ich ", "ich schreibe");
+    addQuestionHintAnswer("schreiben (Präterium, ich ...)", "ich ", "ich schrieb");
+    addQuestionHintAnswer("schreiben (Perfekt, ich ...)", "ich habe ", "ich habe geschrieben");
     
-    add("schlafen (Präsens, ich ...)", "ich ", "ich schlafe");
-    add("schlafen (Präterium, ich ...)", "ich ", "ich schlief");
-    add("schlafen (Perfekt, ich ...)", "ich habe ", "ich habe geschlafen");
+    addQuestionHintAnswer("schlafen (Präsens, ich ...)", "ich ", "ich schlafe");
+    addQuestionHintAnswer("schlafen (Präterium, ich ...)", "ich ", "ich schlief");
+    addQuestionHintAnswer("schlafen (Perfekt, ich ...)", "ich habe ", "ich habe geschlafen");
     
-    add("geben (Präsens, ich ...)", "ich ", "ich gebe");
-    add("geben (Präterium, ich ...)", "ich ", "ich gab");
-    add("geben (Perfekt, ich ...)", "ich habe ", "ich habe gegeben");
+    addQuestionHintAnswer("geben (Präsens, ich ...)", "ich ", "ich gebe");
+    addQuestionHintAnswer("geben (Präterium, ich ...)", "ich ", "ich gab");
+    addQuestionHintAnswer("geben (Perfekt, ich ...)", "ich habe ", "ich habe gegeben");
     
-    add("tauchen (Präsens, ich ...)", "ich ", "ich tauche");
-    add("tauchen (Präterium, ich ...)", "ich ", "ich tauchte");
-    add("tauchen (Perfekt, ich ...)", "ich habe ", "ich habe getaucht");
+    addQuestionHintAnswer("tauchen (Präsens, ich ...)", "ich ", "ich tauche");
+    addQuestionHintAnswer("tauchen (Präterium, ich ...)", "ich ", "ich tauchte");
+    addQuestionHintAnswer("tauchen (Perfekt, ich ...)", "ich habe ", "ich habe getaucht");
     
-    add("haben (Präsens, ich ...)", "ich ", "ich habe");
-    add("haben (Präterium, ich ...)", "ich ", "ich hatte");
-    add("haben (Perfekt, ich ...)", "ich ", "ich habe gehabt");
+    addQuestionHintAnswer("haben (Präsens, ich ...)", "ich ", "ich habe");
+    addQuestionHintAnswer("haben (Präterium, ich ...)", "ich ", "ich hatte");
+    addQuestionHintAnswer("haben (Perfekt, ich ...)", "ich ", "ich habe gehabt");
     
-    add("machen (Präsens, ich ...)", "ich ", "ich mache");
-    add("machen (Präterium, ich ...)", "ich ", "ich machte");
-    add("machen (Perfekt, ich ...)", "ich ", "ich habe gemacht");
+    addQuestionHintAnswer("machen (Präsens, ich ...)", "ich ", "ich mache");
+    addQuestionHintAnswer("machen (Präterium, ich ...)", "ich ", "ich machte");
+    addQuestionHintAnswer("machen (Perfekt, ich ...)", "ich ", "ich habe gemacht");
     
-    add("ziehen (Präsens, ich ...)", "ich ", "ich ziehe");
-    add("ziehen (Präterium, ich ...)", "ich ", "ich zog");
-    add("ziehen (Perfekt, ich ...)", "ich habe", "ich habe gezogen");
+    addQuestionHintAnswer("ziehen (Präsens, ich ...)", "ich ", "ich ziehe");
+    addQuestionHintAnswer("ziehen (Präterium, ich ...)", "ich ", "ich zog");
+    addQuestionHintAnswer("ziehen (Perfekt, ich ...)", "ich habe", "ich habe gezogen");
     
-    add("klingeln (Präsens, ich ...)", "ich ", "ich klingle");
-    add("klingeln (Präterium, ich ...)", "ich ", "ich klingelte");
-    add("klingeln (Perfekt, ich ...)", "ich ", "ich habe geklingelt");
+    addQuestionHintAnswer("klingeln (Präsens, ich ...)", "ich ", "ich klingle");
+    addQuestionHintAnswer("klingeln (Präterium, ich ...)", "ich ", "ich klingelte");
+    addQuestionHintAnswer("klingeln (Perfekt, ich ...)", "ich ", "ich habe geklingelt");
     
-    add("klingen (Präsens, ich ...)", "ich ", "ich klinge");
-    add("klingen (Präterium, ich ...)", "ich ", "ich klang");
-    add("klingen (Präterium, er ...)", "er ", "er klang");
-    add("klingen (Perfekt, ich ...)", "ich ", "ich habe geklungen");
+    addQuestionHintAnswer("klingen (Präsens, ich ...)", "ich ", "ich klinge");
+    addQuestionHintAnswer("klingen (Präterium, ich ...)", "ich ", "ich klang");
+    addQuestionHintAnswer("klingen (Präterium, er ...)", "er ", "er klang");
+    addQuestionHintAnswer("klingen (Perfekt, ich ...)", "ich ", "ich habe geklungen");
     
-    add("rufen (Präsens, ich ...)", "ich ", "ich rufe");
-    add("rufen (Präterium, ich ...)", "ich ", "ich rief");
-    add("rufen (Perfekt, ich ...)", "ich ", "ich habe gerufen");
+    addQuestionHintAnswer("rufen (Präsens, ich ...)", "ich ", "ich rufe");
+    addQuestionHintAnswer("rufen (Präterium, ich ...)", "ich ", "ich rief");
+    addQuestionHintAnswer("rufen (Perfekt, ich ...)", "ich ", "ich habe gerufen");
     
-    add("bedeuten (Präsens, ich ...)", "ich ", "ich bedeute");
-    add("bedeuten (Präterium, ich ...)", "ich ", "ich bedeutete");
-    add("bedeuten (Perfekt, ich ...)", "ich ", "ich habe bedeutet");
+    addQuestionHintAnswer("bedeuten (Präsens, ich ...)", "ich ", "ich bedeute");
+    addQuestionHintAnswer("bedeuten (Präterium, ich ...)", "ich ", "ich bedeutete");
+    addQuestionHintAnswer("bedeuten (Perfekt, ich ...)", "ich ", "ich habe bedeutet");
     
-    add("bekommen (Präsens, ich ...)", "ich ", "ich bekomme");
-    add("bekommen (Präterium, ich ...)", "ich ", "ich bekam");
-    add("bekommen (Perfekt, ich ...)", "ich ", "ich habe bekommen");
+    addQuestionHintAnswer("bekommen (Präsens, ich ...)", "ich ", "ich bekomme");
+    addQuestionHintAnswer("bekommen (Präterium, ich ...)", "ich ", "ich bekam");
+    addQuestionHintAnswer("bekommen (Perfekt, ich ...)", "ich ", "ich habe bekommen");
     
-    add("kommen (Präsens, ich ...)", "ich ", "ich komme");
-    add("kommen (Präterium, ich ...)", "ich ", "ich kam");
-    add("kommen (Perfekt, ich ...)", "ich ", "ich bin gekommen");
+    addQuestionHintAnswer("kommen (Präsens, ich ...)", "ich ", "ich komme");
+    addQuestionHintAnswer("kommen (Präterium, ich ...)", "ich ", "ich kam");
+    addQuestionHintAnswer("kommen (Perfekt, ich ...)", "ich ", "ich bin gekommen");
     
-    add("treiben (Präsens, ich ...)", "ich ", "ich treibe");
-    add("treiben (Präsens, er ...)", "er ", "er treibt");
-    add("treiben (Präterium, er ...)", "er ", "er trieb");
-    add("treiben (Perfekt, er ...)", "er ", "er hat getrieben ");
+    addQuestionHintAnswer("treiben (Präsens, ich ...)", "ich ", "ich treibe");
+    addQuestionHintAnswer("treiben (Präsens, er ...)", "er ", "er treibt");
+    addQuestionHintAnswer("treiben (Präterium, er ...)", "er ", "er trieb");
+    addQuestionHintAnswer("treiben (Perfekt, er ...)", "er ", "er hat getrieben ");
     
-    add("fangen (Präsens, ich ...)", "ich ", "ich fange");
-    add("fangen (Präterium, ich ...)", "ich ", "ich fing");
-    add("fangen (Perfekt, ich ...)", "ich ", "ich habe gefangen");
+    addQuestionHintAnswer("fangen (Präsens, ich ...)", "ich ", "ich fange");
+    addQuestionHintAnswer("fangen (Präterium, ich ...)", "ich ", "ich fing");
+    addQuestionHintAnswer("fangen (Perfekt, ich ...)", "ich ", "ich habe gefangen");
     
-    add("sein (Präsens, ich ...)", "ich ", "ich bin");
-    add("sein (Präterium, ich ...)", "ich ", "ich war");
-    add("sein (Perfekt, ich ...)", "ich ", "ich bin gewesen ");
+    addQuestionHintAnswer("sein (Präsens, ich ...)", "ich ", "ich bin");
+    addQuestionHintAnswer("sein (Präterium, ich ...)", "ich ", "ich war");
+    addQuestionHintAnswer("sein (Perfekt, ich ...)", "ich ", "ich bin gewesen ");
     
-    add("werfen (Präsens, ich ...)", "ich ", "ich werfe");
-    add("werfen (Präterium, ich ...)", "ich ", "ich warf");
-    add("werfen (Perfekt, ich ...)", "ich ", "ich habe geworfen");
+    addQuestionHintAnswer("werfen (Präsens, ich ...)", "ich ", "ich werfe");
+    addQuestionHintAnswer("werfen (Präterium, ich ...)", "ich ", "ich warf");
+    addQuestionHintAnswer("werfen (Perfekt, ich ...)", "ich ", "ich habe geworfen");
     
-    add("können (Präsens, ich ...)", "ich ", "ich kann");
-    add("können (Präsens, du ...)", "du ", "du kannst");
-    add("können (Präterium, ich ...)", "ich ", "ich konnte");
-    add("können (Präterium, du ...)", "du ", "du konntest");
-    add("können (Perfekt, ich ...)", "ich ", "ich habe gekonnt");
+    addQuestionHintAnswer("können (Präsens, ich ...)", "ich ", "ich kann");
+    addQuestionHintAnswer("können (Präsens, du ...)", "du ", "du kannst");
+    addQuestionHintAnswer("können (Präterium, ich ...)", "ich ", "ich konnte");
+    addQuestionHintAnswer("können (Präterium, du ...)", "du ", "du konntest");
+    addQuestionHintAnswer("können (Perfekt, ich ...)", "ich ", "ich habe gekonnt");
     
-    add("kennen (Präsens, ich ...)", "ich ", "ich kenne");
-    add("kennen (Präterium, ich ...)", "ich ", "ich kannte");
-    add("kennen (Perfekt, ich ...)", "ich ", "ich habe gekannt");
+    addQuestionHintAnswer("kennen (Präsens, ich ...)", "ich ", "ich kenne");
+    addQuestionHintAnswer("kennen (Präterium, ich ...)", "ich ", "ich kannte");
+    addQuestionHintAnswer("kennen (Perfekt, ich ...)", "ich ", "ich habe gekannt");
     
-    add("erkennen (Präsens, ich ...)", "ich ", "ich erkenne");
-    add("erkennen (Präterium, ich ...)", "ich ", "ich erkannte");
-    add("erkennen (Perfekt, ich ...)", "ich ", "ich habe erkannt");
+    addQuestionHintAnswer("erkennen (Präsens, ich ...)", "ich ", "ich erkenne");
+    addQuestionHintAnswer("erkennen (Präterium, ich ...)", "ich ", "ich erkannte");
+    addQuestionHintAnswer("erkennen (Perfekt, ich ...)", "ich ", "ich habe erkannt");
     
-    add("weißen (Präsens, ich ...)", "ich ", "ich weiße");
-    add("weißen (Präterium, ich ...)", "ich ", "ich weißte");
-    add("weißen (Perfekt, ich ...)", "ich ", "ich habe geweißt");
+    addQuestionHintAnswer("weißen (Präsens, ich ...)", "ich ", "ich weiße");
+    addQuestionHintAnswer("weißen (Präterium, ich ...)", "ich ", "ich weißte");
+    addQuestionHintAnswer("weißen (Perfekt, ich ...)", "ich ", "ich habe geweißt");
     
-    add("umwandeln (Präsens, ich ...)", "ich ", "ich wandle um");
-    add("umwandeln (Präterium, ich ...)", "ich ", "ich wandelte um");
-    add("unwandeln (Perfekt, ich ...)", "ich ", "ich habe umgewandelt");
+    addQuestionHintAnswer("umwandeln (Präsens, ich ...)", "ich ", "ich wandle um");
+    addQuestionHintAnswer("umwandeln (Präterium, ich ...)", "ich ", "ich wandelte um");
+    addQuestionHintAnswer("unwandeln (Perfekt, ich ...)", "ich ", "ich habe umgewandelt");
     
-    add("bestimmen (Präsens, ich ...)", "ich ", "ich bestimme");
-    add("bestimmen (Präterium, ich ...)", "ich ", "ich bestimmte");
-    add("bestimmen (Perfekt, ich ...)", "ich ", "ich habe bestimmt");
+    addQuestionHintAnswer("bestimmen (Präsens, ich ...)", "ich ", "ich bestimme");
+    addQuestionHintAnswer("bestimmen (Präterium, ich ...)", "ich ", "ich bestimmte");
+    addQuestionHintAnswer("bestimmen (Perfekt, ich ...)", "ich ", "ich habe bestimmt");
     
-    add("sehen (Präsens, ich ...)", "ich ", "ich sehe");
-    add("sehen (Präterium, ich ...)", "ich ", "ich sah");
-    add("sehen (Perfekt, ich ...)", "ich ", "ich habe gesehen");
+    addQuestionHintAnswer("sehen (Präsens, ich ...)", "ich ", "ich sehe");
+    addQuestionHintAnswer("sehen (Präterium, ich ...)", "ich ", "ich sah");
+    addQuestionHintAnswer("sehen (Perfekt, ich ...)", "ich ", "ich habe gesehen");
     
-    add("lieben (Präsens, ich ...)", "ich ", "ich liebe");
-    add("lieben (Präterium, ich ...)", "ich ", "ich liebte");
-    add("lieben (Perfekt, ich ...)", "ich ", "ich habe geliebt");
+    addQuestionHintAnswer("lieben (Präsens, ich ...)", "ich ", "ich liebe");
+    addQuestionHintAnswer("lieben (Präterium, ich ...)", "ich ", "ich liebte");
+    addQuestionHintAnswer("lieben (Perfekt, ich ...)", "ich ", "ich habe geliebt");
     
-    add("gefallen (Präsens, ich ...)", "ich ", "ich gefalle");
-    add("gefallen (Präterium, er ...)", "er ", "er gefällt");
-    add("gefallen (Präterium, ich ...)", "ich ", "ich gefiel");
-    add("gefallen (Perfekt, ich ...)", "ich ", "ich habe gefallen");
+    addQuestionHintAnswer("gefallen (Präsens, ich ...)", "ich ", "ich gefalle");
+    addQuestionHintAnswer("gefallen (Präterium, er ...)", "er ", "er gefällt");
+    addQuestionHintAnswer("gefallen (Präterium, ich ...)", "ich ", "ich gefiel");
+    addQuestionHintAnswer("gefallen (Perfekt, ich ...)", "ich ", "ich habe gefallen");
     
-    add("fressen (Präsens, er ...)", "er ", "er frisst");
-    add("fressen (Präterium, er ...)", "er ", "er fraß");
-    add("fressen (Perfekt, er ...)", "er ", "er hat gefressen ");
+    addQuestionHintAnswer("fressen (Präsens, er ...)", "er ", "er frisst");
+    addQuestionHintAnswer("fressen (Präterium, er ...)", "er ", "er fraß");
+    addQuestionHintAnswer("fressen (Perfekt, er ...)", "er ", "er hat gefressen ");
     
-    add("suchen (Präsens, ich ...)", "ich ", "ich suche");
-    add("suchen (Präterium, ich ...)", "ich ", "ich suchte");
-    add("suchen (Perfekt, ich ...)", "ich ", "ich habe gesucht");
+    addQuestionHintAnswer("suchen (Präsens, ich ...)", "ich ", "ich suche");
+    addQuestionHintAnswer("suchen (Präterium, ich ...)", "ich ", "ich suchte");
+    addQuestionHintAnswer("suchen (Perfekt, ich ...)", "ich ", "ich habe gesucht");
     
-    add("dürfen (Präsens, ich ...)", "ich ", "ich darf");
-    add("dürfen (Präterium, ich ...)", "ich ", "ich durfte");
-    add("dürfen (Perfekt, ich ...)", "ich ", "ich habe gedurft");
+    addQuestionHintAnswer("dürfen (Präsens, ich ...)", "ich ", "ich darf");
+    addQuestionHintAnswer("dürfen (Präterium, ich ...)", "ich ", "ich durfte");
+    addQuestionHintAnswer("dürfen (Perfekt, ich ...)", "ich ", "ich habe gedurft");
     
-    add("brauchen (Präsens, ich ...)", "ich ", "ich brauche");
-    add("brauchen (Präterium, ich ...)", "ich ", "ich brauchte");
-    add("brauchen (Perfekt, ich ...)", "ich ", "ich habe gebraucht");
+    addQuestionHintAnswer("brauchen (Präsens, ich ...)", "ich ", "ich brauche");
+    addQuestionHintAnswer("brauchen (Präterium, ich ...)", "ich ", "ich brauchte");
+    addQuestionHintAnswer("brauchen (Perfekt, ich ...)", "ich ", "ich habe gebraucht");
     
-    add("vergiften (Präsens, ich ...)", "ich ", "ich vergifte");
-    add("vergiften (Präterium, ich ...)", "ich ", "ich vergiftete");
-    add("vergiften (Perfekt, ich ...)", "ich ", "ich habe vergiftet");
+    addQuestionHintAnswer("vergiften (Präsens, ich ...)", "ich ", "ich vergifte");
+    addQuestionHintAnswer("vergiften (Präterium, ich ...)", "ich ", "ich vergiftete");
+    addQuestionHintAnswer("vergiften (Perfekt, ich ...)", "ich ", "ich habe vergiftet");
 
-    add("müssen (Präsens, ich ...)", "ich ", "ich muss");
-    add("müssen (Präterium, ich ...)", "ich ", "ich musste");
-    add("müssen (Perfekt, ich ...)", "ich ", "ich habe gemusst");
+    addQuestionHintAnswer("müssen (Präsens, ich ...)", "ich ", "ich muss");
+    addQuestionHintAnswer("müssen (Präterium, ich ...)", "ich ", "ich musste");
+    addQuestionHintAnswer("müssen (Perfekt, ich ...)", "ich ", "ich habe gemusst");
     
-    add("scheinen (Präsens, ich ...)", "ich ", "ich scheine");
-    add("scheinen (Präterium, ich ...)", "ich ", "ich schien");
-    add("scheinen (Perfekt, ich ...)", "ich ", "ich habe geschienen");
+    addQuestionHintAnswer("scheinen (Präsens, ich ...)", "ich ", "ich scheine");
+    addQuestionHintAnswer("scheinen (Präterium, ich ...)", "ich ", "ich schien");
+    addQuestionHintAnswer("scheinen (Perfekt, ich ...)", "ich ", "ich habe geschienen");
     
-    add("entdecken (Präsens, ich ...)", "ich ", "ich entdecke");
-    add("entdecken (Präterium, ich ...)", "ich ", "ich entdeckte");
-    add("entdecken (Perfekt, ich ...)", "ich ", "ich habe entdeckt");
+    addQuestionHintAnswer("entdecken (Präsens, ich ...)", "ich ", "ich entdecke");
+    addQuestionHintAnswer("entdecken (Präterium, ich ...)", "ich ", "ich entdeckte");
+    addQuestionHintAnswer("entdecken (Perfekt, ich ...)", "ich ", "ich habe entdeckt");
 
-    add("sich fürchten (Präsens, ich ...)", "ich ", "ich fürchte mich");
-    add("sich fürchten (Präterium, ich ...)", "ich ", "ich fürchtete mich");
-    add("sich fürchten (Perfekt, ich ...)", "ich ", "ich habe mich gefürchtet");
+    addQuestionHintAnswer("sich fürchten (Präsens, ich ...)", "ich ", "ich fürchte mich");
+    addQuestionHintAnswer("sich fürchten (Präterium, ich ...)", "ich ", "ich fürchtete mich");
+    addQuestionHintAnswer("sich fürchten (Perfekt, ich ...)", "ich ", "ich habe mich gefürchtet");
     
-    add("fürchten (Präsens, ich ...)", "ich ", "ich fürchte");
-    add("fürchten (Präterium, ich ...)", "ich ", "ich fürchtete");
-    add("fürchten (Perfekt, ich ...)", "ich ", "ich habe gefürchtet");
+    addQuestionHintAnswer("fürchten (Präsens, ich ...)", "ich ", "ich fürchte");
+    addQuestionHintAnswer("fürchten (Präterium, ich ...)", "ich ", "ich fürchtete");
+    addQuestionHintAnswer("fürchten (Perfekt, ich ...)", "ich ", "ich habe gefürchtet");
 
-    add("bitten (Präsens, ich ...)", "ich ", "ich bitte");
-    add("bitten (Präterium, ich ...)", "ich ", "ich bat");
-    add("bitten (Perfekt, ich ...)", "ich ", "ich habe gebeten");
+    addQuestionHintAnswer("bitten (Präsens, ich ...)", "ich ", "ich bitte");
+    addQuestionHintAnswer("bitten (Präterium, ich ...)", "ich ", "ich bat");
+    addQuestionHintAnswer("bitten (Perfekt, ich ...)", "ich ", "ich habe gebeten");
     
-    add("sagen (Präsens, ich ...)", "ich ", "ich sage");
-    add("sagen (Präterium, ich ...)", "ich ", "ich sagte");
-    add("sagen (Perfekt, ich ...)", "ich ", "ich habe gesagt");
+    addQuestionHintAnswer("sagen (Präsens, ich ...)", "ich ", "ich sage");
+    addQuestionHintAnswer("sagen (Präterium, ich ...)", "ich ", "ich sagte");
+    addQuestionHintAnswer("sagen (Perfekt, ich ...)", "ich ", "ich habe gesagt");
     
-    add("lesen (Präsens, ich ...)", "ich ", "ich lese");
-    add("lesen (Präterium, ich ...)", "ich ", "ich las");
-    add("lesen (Perfekt, ich ...)", "ich ", "ich habe gelesen");
+    addQuestionHintAnswer("lesen (Präsens, ich ...)", "ich ", "ich lese");
+    addQuestionHintAnswer("lesen (Präterium, ich ...)", "ich ", "ich las");
+    addQuestionHintAnswer("lesen (Perfekt, ich ...)", "ich ", "ich habe gelesen");
     
-    add("zeigen (Präsens, ich ...)", "ich ", "ich zeige");
-    add("zeigen (Präterium, ich ...)", "ich ", "ich zeigte");
-    add("zeigen (Perfekt, ich ...)", "ich ", "ich habe gezeigt");
+    addQuestionHintAnswer("zeigen (Präsens, ich ...)", "ich ", "ich zeige");
+    addQuestionHintAnswer("zeigen (Präterium, ich ...)", "ich ", "ich zeigte");
+    addQuestionHintAnswer("zeigen (Perfekt, ich ...)", "ich ", "ich habe gezeigt");
     
-    add("gehen (Präsens, ich ...)", "ich ", "ich gehe");
-    add("gehen (Präterium, ich ...)", "ich ", "ich ging");
-    add("gehen (Perfekt, ich ...)", "ich ", "ich bin gegangen");
+    addQuestionHintAnswer("gehen (Präsens, ich ...)", "ich ", "ich gehe");
+    addQuestionHintAnswer("gehen (Präterium, ich ...)", "ich ", "ich ging");
+    addQuestionHintAnswer("gehen (Perfekt, ich ...)", "ich ", "ich bin gegangen");
     
-    add("wollen (Präsens, ich ...)", "ich ", "ich will");
-    add("wollen (Präterium, ich ...)", "ich ", "ich wollte");
-    add("wollen (Perfekt, ich ...)", "ich ", "ich habe gewollt");
+    addQuestionHintAnswer("wollen (Präsens, ich ...)", "ich ", "ich will");
+    addQuestionHintAnswer("wollen (Präterium, ich ...)", "ich ", "ich wollte");
+    addQuestionHintAnswer("wollen (Perfekt, ich ...)", "ich ", "ich habe gewollt");
     
-    add("aufhören (Präsens, ich ...)", "ich ", "ich höre auf");
-    add("aufhören (Präterium, ich ...)", "ich ", "ich hörte auf ");
-    add("aufhören (Perfekt, ich ...)", "ich ", "ich habe aufgehört ");
+    addQuestionHintAnswer("aufhören (Präsens, ich ...)", "ich ", "ich höre auf");
+    addQuestionHintAnswer("aufhören (Präterium, ich ...)", "ich ", "ich hörte auf ");
+    addQuestionHintAnswer("aufhören (Perfekt, ich ...)", "ich ", "ich habe aufgehört ");
     
-    add("springen (Präsens, ich ...)", "ich ", "ich springe");
-    add("springen (Präterium, ich ...)", "ich ", "ich sprang");
-    add("springen (Perfekt, ich ...)", "ich ", "ich bin gesprungen");
+    addQuestionHintAnswer("springen (Präsens, ich ...)", "ich ", "ich springe");
+    addQuestionHintAnswer("springen (Präterium, ich ...)", "ich ", "ich sprang");
+    addQuestionHintAnswer("springen (Perfekt, ich ...)", "ich ", "ich bin gesprungen");
     
-    add("arbeiten (Präsens, ich ...)", "ich ", "ich arbeite");
-    add("arbeiten (Präterium, ich ...)", "ich ", "ich arbeitete");
-    add("arbeiten (Perfekt, ich ...)", "ich ", "ich habe gearbeitet");
+    addQuestionHintAnswer("arbeiten (Präsens, ich ...)", "ich ", "ich arbeite");
+    addQuestionHintAnswer("arbeiten (Präterium, ich ...)", "ich ", "ich arbeitete");
+    addQuestionHintAnswer("arbeiten (Perfekt, ich ...)", "ich ", "ich habe gearbeitet");
     
-    add("antworten (Präsens, ich ...)", "ich ", "ich antworte");
-    add("antworten (Präterium, ich ...)", "ich ", "ich antwortete");
-    add("antworten (Perfekt, ich ...)", "ich ", "ich habe geantwortet"); 
+    addQuestionHintAnswer("antworten (Präsens, ich ...)", "ich ", "ich antworte");
+    addQuestionHintAnswer("antworten (Präterium, ich ...)", "ich ", "ich antwortete");
+    addQuestionHintAnswer("antworten (Perfekt, ich ...)", "ich ", "ich habe geantwortet"); 
     
-    add("helfen (Präsens, ich ...)", "ich ", "ich helfe");
-    add("helfen (Präterium, ich ...)", "ich ", "ich half");
-    add("helfen (Perfekt, ich ...)", "ich ", "ich habe geholfen");
+    addQuestionHintAnswer("helfen (Präsens, ich ...)", "ich ", "ich helfe");
+    addQuestionHintAnswer("helfen (Präterium, ich ...)", "ich ", "ich half");
+    addQuestionHintAnswer("helfen (Perfekt, ich ...)", "ich ", "ich habe geholfen");
     
-    add("transportieren (Präsens, ich ...)", "ich ", "ich transportiere");
-    add("transportieren (Präterium, ich ...)", "ich ", "ich transportierte");
-    add("transportieren (Perfekt, ich ...)", "ich ", "ich habe transportiert");
+    addQuestionHintAnswer("transportieren (Präsens, ich ...)", "ich ", "ich transportiere");
+    addQuestionHintAnswer("transportieren (Präterium, ich ...)", "ich ", "ich transportierte");
+    addQuestionHintAnswer("transportieren (Perfekt, ich ...)", "ich ", "ich habe transportiert");
     
-    add("tragen (Präsens, ich ...)", "ich ", "ich trage");
-    add("tragen (Präterium, ich ...)", "ich ", "ich trug");
-    add("tragen (Perfekt, ich ...)", "ich ", "ich habe getragen");
+    addQuestionHintAnswer("tragen (Präsens, ich ...)", "ich ", "ich trage");
+    addQuestionHintAnswer("tragen (Präterium, ich ...)", "ich ", "ich trug");
+    addQuestionHintAnswer("tragen (Perfekt, ich ...)", "ich ", "ich habe getragen");
     
-    add("schlagen (Präsens, ich ...)", "ich ", "ich schlage");
-    add("schlagen (Präterium, ich ...)", "ich ", "ich schlug");
-    add("schlagen (Perfekt, ich ...)", "ich ", "ich habe geschlagen");
+    addQuestionHintAnswer("schlagen (Präsens, ich ...)", "ich ", "ich schlage");
+    addQuestionHintAnswer("schlagen (Präterium, ich ...)", "ich ", "ich schlug");
+    addQuestionHintAnswer("schlagen (Perfekt, ich ...)", "ich ", "ich habe geschlagen");
     
-    add("binden (Präsens, ich ...)", "ich ", "ich binde");
-    add("binden (Präterium, ich ...)", "ich ", "ich band");
-    add("binden (Perfekt, ich ...)", "ich ", "ich habe gebunden");
+    addQuestionHintAnswer("binden (Präsens, ich ...)", "ich ", "ich binde");
+    addQuestionHintAnswer("binden (Präterium, ich ...)", "ich ", "ich band");
+    addQuestionHintAnswer("binden (Perfekt, ich ...)", "ich ", "ich habe gebunden");
     
-    add("verbinden (Präsens, ich ...)", "ich ", "ich verbinde");
-    add("verbinden (Präterium, ich ...)", "ich ", "ich verband");
-    add("verbinden (Perfekt, ich ...)", "ich ", "ich habe verbunden");
+    addQuestionHintAnswer("verbinden (Präsens, ich ...)", "ich ", "ich verbinde");
+    addQuestionHintAnswer("verbinden (Präterium, ich ...)", "ich ", "ich verband");
+    addQuestionHintAnswer("verbinden (Perfekt, ich ...)", "ich ", "ich habe verbunden");
     
-    add("bringen (Präsens, ich ...)", "ich ", "ich bringe");
-    add("bringen (Präterium, ich ...)", "ich ", "ich brachte");
-    add("bringen (Perfekt, ich ...)", "ich ", "ich habe gebracht");
+    addQuestionHintAnswer("bringen (Präsens, ich ...)", "ich ", "ich bringe");
+    addQuestionHintAnswer("bringen (Präterium, ich ...)", "ich ", "ich brachte");
+    addQuestionHintAnswer("bringen (Perfekt, ich ...)", "ich ", "ich habe gebracht");
     
-    add("sitzen (Präsens, ich ...)", "ich ", "ich sitze");
-    add("sitzen (Präterium, du ...)", "du ", "du saßest");
-    add("sitzen (Präterium, ich ...)", "ich ", "ich saß");
-    add("sitzen (Perfekt, ich ...)", "ich ", "ich habe gesessen");
+    addQuestionHintAnswer("sitzen (Präsens, ich ...)", "ich ", "ich sitze");
+    addQuestionHintAnswer("sitzen (Präterium, du ...)", "du ", "du saßest");
+    addQuestionHintAnswer("sitzen (Präterium, ich ...)", "ich ", "ich saß");
+    addQuestionHintAnswer("sitzen (Perfekt, ich ...)", "ich ", "ich habe gesessen");
     
-    add("schenken (Präsens, ich ...)", "ich ", "ich schenke");
-    add("schenken (Präterium, ich ...)", "ich ", "ich schenkte");
-    add("schenken (Perfekt, ich ...)", "ich ", "ich habe geschenkt");
+    addQuestionHintAnswer("schenken (Präsens, ich ...)", "ich ", "ich schenke");
+    addQuestionHintAnswer("schenken (Präterium, ich ...)", "ich ", "ich schenkte");
+    addQuestionHintAnswer("schenken (Perfekt, ich ...)", "ich ", "ich habe geschenkt");
     
-    add("spielen (Präsens, ich ...)", "ich ", "ich spiele");
-    add("spielen (Präterium, ich ...)", "ich ", "ich spielte");
-    add("spielen (Perfekt, ich ...)", "ich ", "ich habe gespielt");
+    addQuestionHintAnswer("spielen (Präsens, ich ...)", "ich ", "ich spiele");
+    addQuestionHintAnswer("spielen (Präterium, ich ...)", "ich ", "ich spielte");
+    addQuestionHintAnswer("spielen (Perfekt, ich ...)", "ich ", "ich habe gespielt");
     
-    add("fahren (Präsens, ich ...)", "ich ", "ich fahre");
-    add("fahren (Präterium, ich ...)", "ich ", "ich fuhr");
-    add("fahren (Perfekt, ich ...)", "ich ", "ich bin gefahren");
+    addQuestionHintAnswer("fahren (Präsens, ich ...)", "ich ", "ich fahre");
+    addQuestionHintAnswer("fahren (Präterium, ich ...)", "ich ", "ich fuhr");
+    addQuestionHintAnswer("fahren (Perfekt, ich ...)", "ich ", "ich bin gefahren");
     
-    add("waschen (Präsens, ich ...)", "ich ", "ich wasche");
-    add("waschen (Präterium, ich ...)", "ich ", "ich wusch");
-    add("waschen (Perfekt, ich ...)", "ich ", "ich habe gewaschen");
+    addQuestionHintAnswer("waschen (Präsens, ich ...)", "ich ", "ich wasche");
+    addQuestionHintAnswer("waschen (Präterium, ich ...)", "ich ", "ich wusch");
+    addQuestionHintAnswer("waschen (Perfekt, ich ...)", "ich ", "ich habe gewaschen");
     
-    add("kochen (Präsens, ich ...)", "ich ", "ich koche");
-    add("kochen (Präterium, ich ...)", "ich ", "ich kochte");
-    add("kochen (Perfekt, ich ...)", "ich ", "ich habe gekocht");
+    addQuestionHintAnswer("kochen (Präsens, ich ...)", "ich ", "ich koche");
+    addQuestionHintAnswer("kochen (Präterium, ich ...)", "ich ", "ich kochte");
+    addQuestionHintAnswer("kochen (Perfekt, ich ...)", "ich ", "ich habe gekocht");
     
-    add("packen (Präsens, ich ...)", "ich ", "ich packe");
-    add("packen (Präterium, ich ...)", "ich ", "ich packte");
-    add("packen (Perfekt, ich ...)", "ich ", "ich habe gepackt");
+    addQuestionHintAnswer("packen (Präsens, ich ...)", "ich ", "ich packe");
+    addQuestionHintAnswer("packen (Präterium, ich ...)", "ich ", "ich packte");
+    addQuestionHintAnswer("packen (Perfekt, ich ...)", "ich ", "ich habe gepackt");
 
-    add("verkaufen (Präsens, ich ...)", "ich ", "ich verkaufe");
-    add("verkaufen (Präterium, ich ...)", "ich ", "ich verkaufte");
-    add("verkaufen (Perfekt, ich ...)", "ich ", "ich habe verkauft");
+    addQuestionHintAnswer("verkaufen (Präsens, ich ...)", "ich ", "ich verkaufe");
+    addQuestionHintAnswer("verkaufen (Präterium, ich ...)", "ich ", "ich verkaufte");
+    addQuestionHintAnswer("verkaufen (Perfekt, ich ...)", "ich ", "ich habe verkauft");
     
-    add("stricken (Präsens, ich ...)", "ich ", "ich stricke");
-    add("stricken (Präterium, ich ...)", "ich ", "ich strickte");
-    add("stricken (Perfekt, ich ...)", "ich ", "ich habe gestrickt");
+    addQuestionHintAnswer("stricken (Präsens, ich ...)", "ich ", "ich stricke");
+    addQuestionHintAnswer("stricken (Präterium, ich ...)", "ich ", "ich strickte");
+    addQuestionHintAnswer("stricken (Perfekt, ich ...)", "ich ", "ich habe gestrickt");
     
-    add("schneiden (Präsens, ich ...)", "ich ", "ich schneide");
-    add("schneiden (Präterium, ich ...)", "ich ", "ich schnitt");
-    add("schneiden (Perfekt, ich ...)", "ich ", "ich habe geschnitten");
+    addQuestionHintAnswer("schneiden (Präsens, ich ...)", "ich ", "ich schneide");
+    addQuestionHintAnswer("schneiden (Präterium, ich ...)", "ich ", "ich schnitt");
+    addQuestionHintAnswer("schneiden (Perfekt, ich ...)", "ich ", "ich habe geschnitten");
     
-    add("regnen (Präsens, es ...)", "es ", "es regnet");
-    add("regnen (Präterium, es ...)", "es ", "es regnete");
-    add("regnen (Perfekt, es ...)", "es ", "es hat geregnet");
+    addQuestionHintAnswer("regnen (Präsens, es ...)", "es ", "es regnet");
+    addQuestionHintAnswer("regnen (Präterium, es ...)", "es ", "es regnete");
+    addQuestionHintAnswer("regnen (Perfekt, es ...)", "es ", "es hat geregnet");
     
-    add("marschieren (Präsens, ich ...)", "ich ", "ich marschiere");
-    add("marschieren (Präterium, ich ...)", "ich ", "ich marschierte");
-    add("marschieren (Perfekt, ich ...)", "ich ", "ich bin marschiert");
+    addQuestionHintAnswer("marschieren (Präsens, ich ...)", "ich ", "ich marschiere");
+    addQuestionHintAnswer("marschieren (Präterium, ich ...)", "ich ", "ich marschierte");
+    addQuestionHintAnswer("marschieren (Perfekt, ich ...)", "ich ", "ich bin marschiert");
     
-    add("radieren (Präsens, ich ...)", "ich ", "ich radiere");
-    add("radieren (Präterium, ich ...)", "ich ", "ich radierte");
-    add("radieren (Perfekt, ich ...)", "ich ", "ich habe radiert");
+    addQuestionHintAnswer("radieren (Präsens, ich ...)", "ich ", "ich radiere");
+    addQuestionHintAnswer("radieren (Präterium, ich ...)", "ich ", "ich radierte");
+    addQuestionHintAnswer("radieren (Perfekt, ich ...)", "ich ", "ich habe radiert");
     
-    add("trinken (Präsens, ich ...)", "ich ", "ich trinke");
-    add("trinken (Präterium, ich ...)", "ich ", "ich trank");
-    add("trinken (Perfekt, ich ...)", "ich ", "ich habe getrunken");
+    addQuestionHintAnswer("trinken (Präsens, ich ...)", "ich ", "ich trinke");
+    addQuestionHintAnswer("trinken (Präterium, ich ...)", "ich ", "ich trank");
+    addQuestionHintAnswer("trinken (Perfekt, ich ...)", "ich ", "ich habe getrunken");
     
-    add("ruhen (Präsens, ich ...)", "ich ", "ich ruhe");
-    add("ruhen (Präterium, ich ...)", "ich ", "ich ruhte");
-    add("ruhen (Perfekt, ich ...)", "ich ", "ich habe geruht");
+    addQuestionHintAnswer("ruhen (Präsens, ich ...)", "ich ", "ich ruhe");
+    addQuestionHintAnswer("ruhen (Präterium, ich ...)", "ich ", "ich ruhte");
+    addQuestionHintAnswer("ruhen (Perfekt, ich ...)", "ich ", "ich habe geruht");
     
-    add("telefonieren (Präsens, ich ...)", "ich ", "ich telefoniere");
-    add("telefonieren (Präterium, ich ...)", "ich ", "ich telefonierte");
-    add("telefonieren (Perfekt, ich ...)", "ich ", "ich habe telefoniert");
+    addQuestionHintAnswer("telefonieren (Präsens, ich ...)", "ich ", "ich telefoniere");
+    addQuestionHintAnswer("telefonieren (Präterium, ich ...)", "ich ", "ich telefonierte");
+    addQuestionHintAnswer("telefonieren (Perfekt, ich ...)", "ich ", "ich habe telefoniert");
     
-    add("schwimmen (Präsens, ich ...)", "ich ", "ich schwimme");
-    add("schwimmen (Präterium, ich ...)", "ich ", "ich schwamm");
-    add("schwimmen (Perfekt, ich ...)", "ich ", "ich bin geschwommen");
+    addQuestionHintAnswer("schwimmen (Präsens, ich ...)", "ich ", "ich schwimme");
+    addQuestionHintAnswer("schwimmen (Präterium, ich ...)", "ich ", "ich schwamm");
+    addQuestionHintAnswer("schwimmen (Perfekt, ich ...)", "ich ", "ich bin geschwommen");
     
-    add("treten (Präsens, ich ...)", "ich ", "ich trete");
-    add("treten (Präterium, ich ...)", "ich ", "ich trat");
-    add("treten (Perfekt, ich ...)", "ich ", "ich habe getreten");
+    addQuestionHintAnswer("treten (Präsens, ich ...)", "ich ", "ich trete");
+    addQuestionHintAnswer("treten (Präterium, ich ...)", "ich ", "ich trat");
+    addQuestionHintAnswer("treten (Perfekt, ich ...)", "ich ", "ich habe getreten");
     
-    add("reisen (Präsens, ich ...)", "ich ", "ich reise");
-    add("reisen (Präterium, ich ...)", "ich ", "ich reiste");
-    add("reisen (Perfekt, ich ...)", "ich ", "ich bin gereist");
+    addQuestionHintAnswer("reisen (Präsens, ich ...)", "ich ", "ich reise");
+    addQuestionHintAnswer("reisen (Präterium, ich ...)", "ich ", "ich reiste");
+    addQuestionHintAnswer("reisen (Perfekt, ich ...)", "ich ", "ich bin gereist");
     
-    add("krähen (Präsens, er ...)", "er ", "er kräht");
-    add("krähen (Präterium, er ...)", "er ", "er krähte");
-    add("krähen (Perfekt, er ...)", "er ", "er hat gekräht");
+    addQuestionHintAnswer("krähen (Präsens, er ...)", "er ", "er kräht");
+    addQuestionHintAnswer("krähen (Präterium, er ...)", "er ", "er krähte");
+    addQuestionHintAnswer("krähen (Perfekt, er ...)", "er ", "er hat gekräht");
     
-    add("schneien (Präsens, es ...)", "es ", "es schneit");
-    add("schneien (Präterium, es ...)", "es ", "es schneite");
-    add("schneien (Perfekt, es ...)", "es ", "es hat geschneit");
+    addQuestionHintAnswer("schneien (Präsens, es ...)", "es ", "es schneit");
+    addQuestionHintAnswer("schneien (Präterium, es ...)", "es ", "es schneite");
+    addQuestionHintAnswer("schneien (Perfekt, es ...)", "es ", "es hat geschneit");
     
-    add("backen (Präsens, ich ...)", "ich ", "ich backe");
-    add("backen (Präterium, ich ...)", "ich ", "ich buk");  // auch ich backte
-    add("backen (Perfekt, ich ...)", "ich ", "ich habe gebacken");
+    addQuestionHintAnswer("backen (Präsens, ich ...)", "ich ", "ich backe");
+    addQuestionHintAnswer("backen (Präterium, ich ...)", "ich ", "ich buk");  // auch ich backte
+    addQuestionHintAnswer("backen (Perfekt, ich ...)", "ich ", "ich habe gebacken");
     
-    add("malen (Präsens, ich ...)", "ich ", "ich male");
-    add("malen (Präterium, ich ...)", "ich ", "ich malte");
-    add("malen (Perfekt, ich ...)", "ich ", "ich habe gemalt");
+    addQuestionHintAnswer("malen (Präsens, ich ...)", "ich ", "ich male");
+    addQuestionHintAnswer("malen (Präterium, ich ...)", "ich ", "ich malte");
+    addQuestionHintAnswer("malen (Perfekt, ich ...)", "ich ", "ich habe gemalt");
     
-    add("lachen (Präsens, ich ...)", "ich ", "ich lache");
-    add("lachen (Präterium, ich ...)", "ich ", "ich lachte");
-    add("lachen (Perfekt, ich ...)", "ich ", "ich habe gelacht");
+    addQuestionHintAnswer("lachen (Präsens, ich ...)", "ich ", "ich lache");
+    addQuestionHintAnswer("lachen (Präterium, ich ...)", "ich ", "ich lachte");
+    addQuestionHintAnswer("lachen (Perfekt, ich ...)", "ich ", "ich habe gelacht");
     
-    add("frühstücken (Präsens, ich ...)", "ich ", "ich frühstücke");
-    add("frühstücken (Präterium, ich ...)", "ich ", "ich frühstückte");
-    add("frühstücken (Perfekt, ich ...)", "ich ", "ich habe gefrühstückt");
+    addQuestionHintAnswer("frühstücken (Präsens, ich ...)", "ich ", "ich frühstücke");
+    addQuestionHintAnswer("frühstücken (Präterium, ich ...)", "ich ", "ich frühstückte");
+    addQuestionHintAnswer("frühstücken (Perfekt, ich ...)", "ich ", "ich habe gefrühstückt");
     
-    add("blättern (Präsens, ich ...)", "ich ", "ich blättere");   // auch blättre
-    add("blättern (Präterium, ich ...)", "ich ", "ich blätterte");
-    add("blättern (Perfekt, ich ...)", "ich ", "ich habe geblättert");
+    addQuestionHintAnswer("blättern (Präsens, ich ...)", "ich ", "ich blättere");   // auch blättre
+    addQuestionHintAnswer("blättern (Präterium, ich ...)", "ich ", "ich blätterte");
+    addQuestionHintAnswer("blättern (Perfekt, ich ...)", "ich ", "ich habe geblättert");
     
-    add("schmieren (Präsens, ich ...)", "ich ", "ich schmiere");
-    add("schmieren (Präterium, ich ...)", "ich ", "ich schmierte");
-    add("schmieren (Perfekt, ich ...)", "ich ", "ich habe geschmiert");
+    addQuestionHintAnswer("schmieren (Präsens, ich ...)", "ich ", "ich schmiere");
+    addQuestionHintAnswer("schmieren (Präterium, ich ...)", "ich ", "ich schmierte");
+    addQuestionHintAnswer("schmieren (Perfekt, ich ...)", "ich ", "ich habe geschmiert");
         
-    add("verkleiden (Präsens, ich ...)", "ich ", "ich verkleide");
-    add("verkleiden (Präterium, ich ...)", "ich ", "ich verkleidete");
-    add("verkleiden (Perfekt, ich ...)", "ich ", "ich habe verkleidet");
+    addQuestionHintAnswer("verkleiden (Präsens, ich ...)", "ich ", "ich verkleide");
+    addQuestionHintAnswer("verkleiden (Präterium, ich ...)", "ich ", "ich verkleidete");
+    addQuestionHintAnswer("verkleiden (Perfekt, ich ...)", "ich ", "ich habe verkleidet");
     
-    add("schlendern (Präsens, ich ...)", "ich ", "ich schlendere");
-    add("schlendern (Präterium, ich ...)", "ich ", "ich schlenderte");
-    add("schlendern (Perfekt, ich ...)", "ich ", "ich bin geschlendert");
+    addQuestionHintAnswer("schlendern (Präsens, ich ...)", "ich ", "ich schlendere");
+    addQuestionHintAnswer("schlendern (Präterium, ich ...)", "ich ", "ich schlenderte");
+    addQuestionHintAnswer("schlendern (Perfekt, ich ...)", "ich ", "ich bin geschlendert");
     
-    add("beißen (Präsens, er ...)", "er ", "er beißt");
-    add("beißen (Präterium, er ...)", "er ", "er biss");
-    add("beißen (Perfekt, er ...)", "er ", "er hat gebissen");
+    addQuestionHintAnswer("beißen (Präsens, er ...)", "er ", "er beißt");
+    addQuestionHintAnswer("beißen (Präterium, er ...)", "er ", "er biss");
+    addQuestionHintAnswer("beißen (Perfekt, er ...)", "er ", "er hat gebissen");
 
-    add("fallen (Präsens, ich ...)", "ich ", "ich falle");
-    add("fallen (Präterium, ich ...)", "ich ", "ich fiel");
-    add("fallen (Perfekt, ich ...)", "ich ", "ich bin gefallen");
+    addQuestionHintAnswer("fallen (Präsens, ich ...)", "ich ", "ich falle");
+    addQuestionHintAnswer("fallen (Präterium, ich ...)", "ich ", "ich fiel");
+    addQuestionHintAnswer("fallen (Perfekt, ich ...)", "ich ", "ich bin gefallen");
     
-    add("erfinden (Präsens, ich ...)", "ich ", "ich erfinde");
-    add("erfinden (Präterium, ich ...)", "ich ", "ich erfand");
-    add("erfinden (Perfekt, ich ...)", "ich ", "ich habe erfunden");
+    addQuestionHintAnswer("erfinden (Präsens, ich ...)", "ich ", "ich erfinde");
+    addQuestionHintAnswer("erfinden (Präterium, ich ...)", "ich ", "ich erfand");
+    addQuestionHintAnswer("erfinden (Perfekt, ich ...)", "ich ", "ich habe erfunden");
     
-    add("drehen (Präsens, ich ...)", "ich ", "ich drehe");
-    add("drehen (Präterium, ich ...)", "ich ", "ich drehte");
-    add("drehen (Perfekt, ich ...)", "ich ", "ich habe gedreht");
+    addQuestionHintAnswer("drehen (Präsens, ich ...)", "ich ", "ich drehe");
+    addQuestionHintAnswer("drehen (Präterium, ich ...)", "ich ", "ich drehte");
+    addQuestionHintAnswer("drehen (Perfekt, ich ...)", "ich ", "ich habe gedreht");
     
-    add("stehen (Präsens, ich ...)", "ich ", "ich stehe");
-    add("stehen (Präterium, ich ...)", "ich ", "ich stand");
-    add("stehen (Perfekt, ich ...)", "ich ", "ich habe gestanden");
+    addQuestionHintAnswer("stehen (Präsens, ich ...)", "ich ", "ich stehe");
+    addQuestionHintAnswer("stehen (Präterium, ich ...)", "ich ", "ich stand");
+    addQuestionHintAnswer("stehen (Perfekt, ich ...)", "ich ", "ich habe gestanden");
     
-    add("wegrennen (Präsens, ich ...)", "ich ", "ich renne weg");
-    add("wegrennen (Präterium, ich ...)", "ich ", "ich rannte weg");
-    add("wegrennen (Perfekt, ich ...)", "ich ", "ich bin weggerannt");
+    addQuestionHintAnswer("wegrennen (Präsens, ich ...)", "ich ", "ich renne weg");
+    addQuestionHintAnswer("wegrennen (Präterium, ich ...)", "ich ", "ich rannte weg");
+    addQuestionHintAnswer("wegrennen (Perfekt, ich ...)", "ich ", "ich bin weggerannt");
     
-    add("rennen (Präsens, ich ...)", "ich ", "ich renne");
-    add("rennen (Präterium, ich ...)", "ich ", "ich rannte");
-    add("rennen (Perfekt, ich ...)", "ich ", "ich bin gerannt");
+    addQuestionHintAnswer("rennen (Präsens, ich ...)", "ich ", "ich renne");
+    addQuestionHintAnswer("rennen (Präterium, ich ...)", "ich ", "ich rannte");
+    addQuestionHintAnswer("rennen (Perfekt, ich ...)", "ich ", "ich bin gerannt");
     
-    add("schreien (Präsens, ich ...)", "ich ", "ich schreie");
-    add("schreien (Präterium, ich ...)", "ich ", "ich schrie");
-    add("schreien (Perfekt, ich ...)", "ich ", "ich habe geschrien");
+    addQuestionHintAnswer("schreien (Präsens, ich ...)", "ich ", "ich schreie");
+    addQuestionHintAnswer("schreien (Präterium, ich ...)", "ich ", "ich schrie");
+    addQuestionHintAnswer("schreien (Perfekt, ich ...)", "ich ", "ich habe geschrien");
     
-    add("fühlen (Präsens, ich ...)", "ich ", "ich fühle");
-    add("fühlen (Präterium, ich ...)", "ich ", "ich fühlte");
-    add("fühlen (Perfekt, ich ...)", "ich ", "ich habe gefühlt");
+    addQuestionHintAnswer("fühlen (Präsens, ich ...)", "ich ", "ich fühle");
+    addQuestionHintAnswer("fühlen (Präterium, ich ...)", "ich ", "ich fühlte");
+    addQuestionHintAnswer("fühlen (Perfekt, ich ...)", "ich ", "ich habe gefühlt");
     
-    add("aufwachen (Präsens, ich ...)", "ich ", "ich wache auf");
-    add("aufwachen (Präterium, ich ...)", "ich ", "ich wachte auf");
-    add("aufwachen (Perfekt, ich ...)", "ich ", "ich bin aufgewacht");
+    addQuestionHintAnswer("aufwachen (Präsens, ich ...)", "ich ", "ich wache auf");
+    addQuestionHintAnswer("aufwachen (Präterium, ich ...)", "ich ", "ich wachte auf");
+    addQuestionHintAnswer("aufwachen (Perfekt, ich ...)", "ich ", "ich bin aufgewacht");
     
-    add("denken (Präsens, ich ...)", "ich ", "ich denke");
-    add("denken (Präterium, ich ...)", "ich ", "ich dachte");
-    add("denken (Perfekt, ich ...)", "ich ", "ich habe gedacht");
+    addQuestionHintAnswer("denken (Präsens, ich ...)", "ich ", "ich denke");
+    addQuestionHintAnswer("denken (Präterium, ich ...)", "ich ", "ich dachte");
+    addQuestionHintAnswer("denken (Perfekt, ich ...)", "ich ", "ich habe gedacht");
         
-    add("geschehen (Präsens, es ...)", "es ", "es geschieht");
-    add("geschehen (Präterium, es ...)", "es ", "es geschah");
-    add("geschehen (Perfekt, es ...)", "es ", "es ist geschehen");
+    addQuestionHintAnswer("geschehen (Präsens, es ...)", "es ", "es geschieht");
+    addQuestionHintAnswer("geschehen (Präterium, es ...)", "es ", "es geschah");
+    addQuestionHintAnswer("geschehen (Perfekt, es ...)", "es ", "es ist geschehen");
     
-    add("wissen (Präsens, ich ...)", "ich ", "ich weiß");
-    add("wissen (Präterium, ich ...)", "ich ", "ich wusste");
-    add("wissen (Perfekt, ich ...)", "ich habe ", "ich habe gewusst")
+    addQuestionHintAnswer("wissen (Präsens, ich ...)", "ich ", "ich weiß");
+    addQuestionHintAnswer("wissen (Präterium, ich ...)", "ich ", "ich wusste");
+    addQuestionHintAnswer("wissen (Perfekt, ich ...)", "ich habe ", "ich habe gewusst")
     
-    add("essen (Präsens, ich ...)", "ich ", "ich esse");
-    add("essen (Präterium, ich ...)", "ich ", "ich aß");
-    add("essen (Perfekt, ich ...)", "ich habe ", "ich habe gegessen");
+    addQuestionHintAnswer("essen (Präsens, ich ...)", "ich ", "ich esse");
+    addQuestionHintAnswer("essen (Präterium, ich ...)", "ich ", "ich aß");
+    addQuestionHintAnswer("essen (Perfekt, ich ...)", "ich habe ", "ich habe gegessen");
     
-    add("fliegen (Präsens, ich ...)", "ich ", "ich fliege");
-    add("fliegen (Präterium, ich ...)", "ich ", "ich flog");
-    add("fliegen (Perfekt, ich ...)", "ich ", "ich bin geflogen");
+    addQuestionHintAnswer("fliegen (Präsens, ich ...)", "ich ", "ich fliege");
+    addQuestionHintAnswer("fliegen (Präterium, ich ...)", "ich ", "ich flog");
+    addQuestionHintAnswer("fliegen (Perfekt, ich ...)", "ich ", "ich bin geflogen");
     
-    add("halten (Präsens, ich ...)", "ich ", "ich halte");
-    add("halten (Präterium, ich ...)", "ich ", "ich hielt");
-    add("halten (Perfekt, ich ...)", "ich ", "ich habe gehalten");
+    addQuestionHintAnswer("halten (Präsens, ich ...)", "ich ", "ich halte");
+    addQuestionHintAnswer("halten (Präterium, ich ...)", "ich ", "ich hielt");
+    addQuestionHintAnswer("halten (Perfekt, ich ...)", "ich ", "ich habe gehalten");
     
-    add("heben (Präsens, ich ...)", "ich ", "ich hebe");
-    add("heben (Präterium, ich ...)", "ich ", "ich hob");
-    add("heben (Perfekt, ich ...)", "ich ", "ich habe gehoben");
+    addQuestionHintAnswer("heben (Präsens, ich ...)", "ich ", "ich hebe");
+    addQuestionHintAnswer("heben (Präterium, ich ...)", "ich ", "ich hob");
+    addQuestionHintAnswer("heben (Perfekt, ich ...)", "ich ", "ich habe gehoben");
     
-    add("pfeifen (Präsens, ich ...)", "ich ", "ich pfeife");
-    add("pfeifen (Präterium, ich ...)", "ich ", "ich pfiff");
-    add("pfeifen (Perfekt, ich ...)", "ich ", "ich habe gepfiffen");   
+    addQuestionHintAnswer("pfeifen (Präsens, ich ...)", "ich ", "ich pfeife");
+    addQuestionHintAnswer("pfeifen (Präterium, ich ...)", "ich ", "ich pfiff");
+    addQuestionHintAnswer("pfeifen (Perfekt, ich ...)", "ich ", "ich habe gepfiffen");   
     
-    add("singen (Präsens, ich ...)", "ich ", "ich singe");
-    add("singen (Präterium, ich ...)", "ich ", "ich sang");
-    add("singen (Perfekt, ich ...)", "ich ", "ich habe gesungen");    
+    addQuestionHintAnswer("singen (Präsens, ich ...)", "ich ", "ich singe");
+    addQuestionHintAnswer("singen (Präterium, ich ...)", "ich ", "ich sang");
+    addQuestionHintAnswer("singen (Perfekt, ich ...)", "ich ", "ich habe gesungen");    
     
-    add("steigen (Präsens, ich ...)", "ich ", "ich steige");
-    add("steigen (Präterium, ich ...)", "ich ", "ich stieg");
-    add("steigen (Perfekt, ich ...)", "ich ", "ich bin gestiegen");    
+    addQuestionHintAnswer("steigen (Präsens, ich ...)", "ich ", "ich steige");
+    addQuestionHintAnswer("steigen (Präterium, ich ...)", "ich ", "ich stieg");
+    addQuestionHintAnswer("steigen (Perfekt, ich ...)", "ich ", "ich bin gestiegen");    
     
-    add("nehmen (Präsens, ich ...)", "ich ", "ich nehme");
-    add("nehmen (Präterium, ich ...)", "ich ", "ich nahm");
-    add("nehmen (Perfekt, ich ...)", "ich ", "ich habe genommen");
+    addQuestionHintAnswer("nehmen (Präsens, ich ...)", "ich ", "ich nehme");
+    addQuestionHintAnswer("nehmen (Präterium, ich ...)", "ich ", "ich nahm");
+    addQuestionHintAnswer("nehmen (Perfekt, ich ...)", "ich ", "ich habe genommen");
     
-    add("übernehmen (Präsens, ich ...)", "ich ", "ich übernehme");
-    add("übernehmen (Präterium, ich ...)", "ich ", "ich übernahm");
-    add("übernehmen (Perfekt, ich ...)", "ich ", "ich habe übernommen");
+    addQuestionHintAnswer("übernehmen (Präsens, ich ...)", "ich ", "ich übernehme");
+    addQuestionHintAnswer("übernehmen (Präterium, ich ...)", "ich ", "ich übernahm");
+    addQuestionHintAnswer("übernehmen (Perfekt, ich ...)", "ich ", "ich habe übernommen");
     
-    add("tun (Präsens, ich ...)", "ich ", "ich tue");
-    add("tun (Präterium, ich ...)", "ich ", "ich tat");
-    add("tun (Perfekt, ich ...)", "ich ", "ich habe getan");
+    addQuestionHintAnswer("tun (Präsens, ich ...)", "ich ", "ich tue");
+    addQuestionHintAnswer("tun (Präterium, ich ...)", "ich ", "ich tat");
+    addQuestionHintAnswer("tun (Perfekt, ich ...)", "ich ", "ich habe getan");
     
-    add("werden (Präsens, ich ...)", "ich ", "ich werde");
-    add("werden (Präterium, ich ...)", "ich ", "ich wurde");
-    add("werden (Perfekt, ich ...)", "ich ", "ich bin geworden");
+    addQuestionHintAnswer("werden (Präsens, ich ...)", "ich ", "ich werde");
+    addQuestionHintAnswer("werden (Präterium, ich ...)", "ich ", "ich wurde");
+    addQuestionHintAnswer("werden (Perfekt, ich ...)", "ich ", "ich bin geworden");
     
-    add("hängen (Präsens, er ...)", "er ", "er hängt");
-    add("hängen (Präterium, er ...)", "er ", "er hing");
-    add("hängen (Perfekt, er ...)", "er ", "er hat gehangen");   
+    addQuestionHintAnswer("hängen (Präsens, er ...)", "er ", "er hängt");
+    addQuestionHintAnswer("hängen (Präterium, er ...)", "er ", "er hing");
+    addQuestionHintAnswer("hängen (Perfekt, er ...)", "er ", "er hat gehangen");   
     
-    add("helfen (Präsens, ich ...)", "ich ", "ich helfe");
-    add("helfen (Präterium, ich ...)", "ich ", "ich half");
-    add("helfen (Perfekt, ich ...)", "ich ", "ich habe geholfen");
+    addQuestionHintAnswer("helfen (Präsens, ich ...)", "ich ", "ich helfe");
+    addQuestionHintAnswer("helfen (Präterium, ich ...)", "ich ", "ich half");
+    addQuestionHintAnswer("helfen (Perfekt, ich ...)", "ich ", "ich habe geholfen");
     
-    add("lassen (Präsens, ich ...)", "ich ", "ich lasse");
-    add("lassen (Präterium, ich ...)", "ich ", "ich ließ");
-    add("lassen (Perfekt, ich ...)", "ich ", "ich habe gelassen"); 
+    addQuestionHintAnswer("lassen (Präsens, ich ...)", "ich ", "ich lasse");
+    addQuestionHintAnswer("lassen (Präterium, ich ...)", "ich ", "ich ließ");
+    addQuestionHintAnswer("lassen (Perfekt, ich ...)", "ich ", "ich habe gelassen"); 
     
-    add("lügen (Präsens, ich ...)", "ich ", "ich lüge");
-    add("lügen (Präterium, ich ...)", "ich ", "ich log");
-    add("lügen (Perfekt, ich ...)", "ich ", "ich habe gelogen");  
+    addQuestionHintAnswer("lügen (Präsens, ich ...)", "ich ", "ich lüge");
+    addQuestionHintAnswer("lügen (Präterium, ich ...)", "ich ", "ich log");
+    addQuestionHintAnswer("lügen (Perfekt, ich ...)", "ich ", "ich habe gelogen");  
     
-    add("liegen (Präsens, ich ...)", "ich ", "ich liege");
-    add("liegen (Präterium, ich ...)", "ich ", "ich lag");
-    add("liegen (Perfekt, ich ...)", "ich ", "ich habe gelegen");    
+    addQuestionHintAnswer("liegen (Präsens, ich ...)", "ich ", "ich liege");
+    addQuestionHintAnswer("liegen (Präterium, ich ...)", "ich ", "ich lag");
+    addQuestionHintAnswer("liegen (Perfekt, ich ...)", "ich ", "ich habe gelegen");    
     
-    add("heißen (Präsens, er ...)","er ","er heißt");
-    add("heißen (Präsens, ich ...)","ich ","ich heiße");
-    add("heißen (Präterium, ich ...)", "ich ", "ich hieß");
-    add("heißen (Perfekt, ich ...)", "ich ", "ich habe geheißen");  
+    addQuestionHintAnswer("heißen (Präsens, er ...)","er ","er heißt");
+    addQuestionHintAnswer("heißen (Präsens, ich ...)","ich ","ich heiße");
+    addQuestionHintAnswer("heißen (Präterium, ich ...)", "ich ", "ich hieß");
+    addQuestionHintAnswer("heißen (Perfekt, ich ...)", "ich ", "ich habe geheißen");  
     
-    add("beginnen (Präsens, er ...)","er ","er beginnt");
-    add("beginnen (Präsens, wir ...)","wir ","wir beginnen");
-    add("beginnen (Präsens, ihr ...)","ihr ","ihr beginnt");
-    add("beginnen (Präsens, Sie ...)","Sie ","Sie beginnen");
+    addQuestionHintAnswer("beginnen (Präsens, er ...)","er ","er beginnt");
+    addQuestionHintAnswer("beginnen (Präsens, wir ...)","wir ","wir beginnen");
+    addQuestionHintAnswer("beginnen (Präsens, ihr ...)","ihr ","ihr beginnt");
+    addQuestionHintAnswer("beginnen (Präsens, Sie ...)","Sie ","Sie beginnen");
     
-    add("verlieren (Präsens, er ...)","er ","er verliert");
-    add("verlieren (Präsens, ich ...)","ich ","ich verliere");
-    add("verlieren (Präterium, er ...)","er ","er verlor");
-    add("verlieren (Präterium, ich ...)","ich ","ich verlor");
-    add("verlieren (Perfekt, er ...)","er ","er hat verloren");
-    add("verlieren (Perfekt, ich ...)","ich ","ich habe verloren");
-    add("verlieren (Perfekt, wir ...)","wir ","wir haben verloren");
+    addQuestionHintAnswer("verlieren (Präsens, er ...)","er ","er verliert");
+    addQuestionHintAnswer("verlieren (Präsens, ich ...)","ich ","ich verliere");
+    addQuestionHintAnswer("verlieren (Präterium, er ...)","er ","er verlor");
+    addQuestionHintAnswer("verlieren (Präterium, ich ...)","ich ","ich verlor");
+    addQuestionHintAnswer("verlieren (Perfekt, er ...)","er ","er hat verloren");
+    addQuestionHintAnswer("verlieren (Perfekt, ich ...)","ich ","ich habe verloren");
+    addQuestionHintAnswer("verlieren (Perfekt, wir ...)","wir ","wir haben verloren");
     
-    add("bleiben (Präsens, er ...)","er ","er bleibt");
-    add("er bleibt (Präterium, er ...)","er ","er blieb");
-    add("ich blieb (Präsens, ich ...)","ich ","ich bleibe");
+    addQuestionHintAnswer("bleiben (Präsens, er ...)","er ","er bleibt");
+    addQuestionHintAnswer("er bleibt (Präterium, er ...)","er ","er blieb");
+    addQuestionHintAnswer("ich blieb (Präsens, ich ...)","ich ","ich bleibe");
     
-    add("springen (Präsens, er ...)","er ","er springt");
-    add("springen (Präterium, er ...)","er ","er sprang");
+    addQuestionHintAnswer("springen (Präsens, er ...)","er ","er springt");
+    addQuestionHintAnswer("springen (Präterium, er ...)","er ","er sprang");
     
-    add("geben (Präsens, ich ...)","ich ","ich gebe");
-    add("geben (Präsens, er ...)","er ","er gibt");
-    add("geben (Präterium, er ...)","er ","er gab");
-    add("geben (Perfekt, er ...)","er ","er hat gegeben");
+    addQuestionHintAnswer("geben (Präsens, ich ...)","ich ","ich gebe");
+    addQuestionHintAnswer("geben (Präsens, er ...)","er ","er gibt");
+    addQuestionHintAnswer("geben (Präterium, er ...)","er ","er gab");
+    addQuestionHintAnswer("geben (Perfekt, er ...)","er ","er hat gegeben");
     
-    add("lernen (Präsens, ich ...)", "ich ", "ich lerne");
-    add("lernen (Präterium, ich ...)", "ich ", "ich lernte");
+    addQuestionHintAnswer("lernen (Präsens, ich ...)", "ich ", "ich lerne");
+    addQuestionHintAnswer("lernen (Präterium, ich ...)", "ich ", "ich lernte");
     
-    add("trinken (Präsens, ich ...)", "ich ", "ich trinke");
-    add("trinken (Präterium, ich ...)", "ich ", "ich trank");
-    add("trinken (Perfekt, ich ...)", "ich ", "ich habe getrunken");
+    addQuestionHintAnswer("trinken (Präsens, ich ...)", "ich ", "ich trinke");
+    addQuestionHintAnswer("trinken (Präterium, ich ...)", "ich ", "ich trank");
+    addQuestionHintAnswer("trinken (Perfekt, ich ...)", "ich ", "ich habe getrunken");
     
-    add("essen (Präterium, ich ...)", "ich ", "ich aß");
-    add("essen (Präsens, ich ...)", "ich ", "ich esse");
-    add("essen (Präsens, wir ...)", "wir ", "wir essen");
+    addQuestionHintAnswer("essen (Präterium, ich ...)", "ich ", "ich aß");
+    addQuestionHintAnswer("essen (Präsens, ich ...)", "ich ", "ich esse");
+    addQuestionHintAnswer("essen (Präsens, wir ...)", "wir ", "wir essen");
     
-    add("beißen (Präsens, er ...)", "er ", "er beißt");
-    add("beißen (Präterium, er ...)", "er ", "er biss");
+    addQuestionHintAnswer("beißen (Präsens, er ...)", "er ", "er beißt");
+    addQuestionHintAnswer("beißen (Präterium, er ...)", "er ", "er biss");
     
-    add("gehen (Präsens, ich ...)", "ich ", "ich gehe");
-    add("gehen (Präterium, ich ...)", "ich ", "ich ging");
+    addQuestionHintAnswer("gehen (Präsens, ich ...)", "ich ", "ich gehe");
+    addQuestionHintAnswer("gehen (Präterium, ich ...)", "ich ", "ich ging");
 }
 

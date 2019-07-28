@@ -31,10 +31,9 @@
     </li>
     <li class="hMenuItem"><a class="dropbtn" onclick="toggleMenu('myDropdown3')">Support</a>
       <div class="dropdown-content" id="myDropdown3">
-        <a onclick="fetchLesson()">Fetch</a>
-        <a onclick="inspectLesson()">Inspect</a>
-        <a onclick="saveCardsToLocalStorage()">Save</a>
-        <a onclick="loadCardsFromLocalStorage()">Load</a>
+        <a onclick="inspectCurrentCourse()">Inspect current course</a>
+        <a onclick="currentCourse.saveToLocalStorage()">Save current course to local storage</a>
+        <a onclick="load()">Load</a>
         <a onclick="fillScreen()">Fill</a>
         <a onclick="processAnswer()">Answer</a>
         <a onclick="inspectFeedback()">Feedback</a>
