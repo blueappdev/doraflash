@@ -53,6 +53,10 @@ function addGreekCards() {
     addQuestionAnswersComment("χ", ["Chi"], "Chi (ch / ch (h))");
     addQuestionAnswersComment("ψ", ["Psi"], "Psi (ps / ps)");
     addQuestionAnswersComment("ω", ["Omega"], "Omega (o- / o)");
-  
+    
+    addQuestionAnswersComment("Καλημέρα", ["Kaliméra"], "Kaliméra - Good morning");
+    addQuestionAnswersComment("Αθήνα", ["Athína"], "Athína - Athens");
+    addQuestionAnswersComment("Ζεύς", ["Zéfs"], "Zéfs - Zeus");
+    addQuestionAnswersComment("ώρα", ["óra"], "óra - hour");  
 }
 

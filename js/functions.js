@@ -6,6 +6,12 @@ var currentCourse = null;
 var currentCard = null;
 var feedback = [];
 
+// Returns a numeric timestamp in local time.
+function timestampNow() {
+    var date = new Date();
+    return date.getFullYear() * 10000 + (date.getMonth() + 1) * 100 + date.getDate();
+}
+
 // Card class
 function Card(question, answers, hint, comment) {
     this.question = question;
@@ -13,7 +19,8 @@ function Card(question, answers, hint, comment) {
     this.hint = hint;
     this.comment = comment;
     this.numberOfCorrectAnswers = 0;
-    this.numberOfWrongAnswers = 0;
+    this.timestampOfLastWrongAnswer = 0;
+    this.timestampForSkipping = 0;
 } 
 
 // Course class
@@ -24,6 +31,13 @@ function Course(name) {
 
 Course.prototype.addCard = function(aCard) {
     this.cards.push(aCard);
+}
+
+Course.prototype.eligibleCards = function() {
+    return this.cards.filter(
+        function(each){
+            return each.timestampForSkipping !== timestampNow();
+        });
 }
 
 Course.prototype.mergeRecord = function(question, answers, hint, comment) {
@@ -120,12 +134,13 @@ function addQuestionAnswersComment(question, answers, comment) {
 
 function fillScreen() {
     console.log('fillScreen()');
-    if (! currentCourse.cards.length) {
-        console.log('No cards available');
-        alert('No cards available');
+    var eligibleCards = currentCourse.eligibleCards();
+    if (!eligibleCards.length) {
+        console.log('No eligible cards available');
+        alert('No eligible cards available');
         return;
     }
-    setCurrentCard(currentCourse.cards[0]);
+    setCurrentCard(eligibleCards[0]);
 }
 
 function setCurrentCard(card) {
@@ -142,13 +157,15 @@ function processAnswer() {
     let answer = $('.answer').val();
     console.log("answer=%o", answer);
     answer = preprocessAnswer(answer);    
-    if (!hasAnswer(answer)) {
-        reportMissingAnswer(answer);
-    } else if (isAcceptableAnswer(answer)) {
-        reportCorrectAnswer(answer)
+    if (hasAnswer(answer)) {
+        if (isAcceptableAnswer(answer)) {
+            processCorrectAnswer(answer)
+        } else {
+            processWrongAnswer(answer);
+        }        
     } else {
-        reportWrongAnswer(answer);
-    }
+        processMissingAnswer(answer);
+    }    
     makePersistent();
 }
 
@@ -229,22 +246,33 @@ function isAcceptableAnswer(userAnswer) {
     return false;
 }
 
-function reportMissingAnswer(answer) {
-    console.log("reportCorrectAnswer(%o)", answer);
+function processMissingAnswer(answer) {
+    console.log("processMissingAnswer(%o)", answer);
     $(".feedback").html('<font color="black">Gib bitte zuerst deine Antwort ein.</font>');}
 
-function reportCorrectAnswer(answer) {
-    console.log("reportCorrectAnswer(%o)", answer);
-    $(".feedback").html('<font color="darkgreen">Die Antwort ist richtig.</font>');
-    currentCard.numberOfCorrectAnswers += 1;
+function processCorrectAnswer(answer) {
+    console.log("processCorrectAnswer(%o)", answer);
+    var feedback = "Die Antwort ist richtig.";
+    console.log("timestampOfLastWrongAnswer=%o", currentCard.timestampOfLastWrongAnswer)
+    console.log("currentTimestamp=%o", timestampNow())
+    if (currentCard.timestampOfLastWrongAnswer === timestampNow()) {
+        currentCard.numberOfCorrectAnswers += 1;
+    } else {
+        feedback = "Die Anwort war beim ersten Versuch heute richtig";
+        currentCard.numberOfCorrectAnswers += 4;
+        currentCard.timestampForSkipping = timestampNow();
+        console.log("timestampForSkipping %o", currentCard.timestampForSkipping);
+    } 
+    $(".feedback").html('<font color="darkgreen">' + feedback + '</font>');
     addFeedback(true, answer, currentCard);
     moveCurrentCard();
 }
 
-function reportWrongAnswer(answer) {
-    console.log("reportWrongAnswer(%o)", answer);
+function processWrongAnswer(answer) {
+    console.log("processWrongAnswer(%o)", answer);
     $(".feedback").html('<font color="red" weight="bold">Die Antwort ist leider noch nicht richtig.</font>')
-    currentCard.numberOfCorrectAnswers -= 2;  
+    currentCard.timestampOfLastWrongAnswer = timestampNow();  
+    currentCard.numberOfCorrectAnswers -= 2;   
     if (currentCard.numberOfCorrectAnswers) {
         currentCard.numberOfCorrectAnswers = 0;
     }
@@ -252,12 +280,13 @@ function reportWrongAnswer(answer) {
 }
     
 function addFeedback(isCorrect, userAnswer, card) {
-    console.log("addFeedback()");
+    console.log("addFeedback(%o)", card.timestampForSkipping);
     var newRecord = {
             isCorrect: isCorrect,
             question: card.question,
             userAnswer: userAnswer,
-            answer: card.comment || card.answers[0]
+            answer: card.comment || card.answers[0],
+            skip : (card.timestampForSkipping || 0).toString()
         };
     feedback.unshift(newRecord);  // unshift() adds at the beginning
     showFeedback();
@@ -270,6 +299,7 @@ function showFeedback() {
     html += '<th>Frage</th>';
     html += '<th>Deine Antwort</th>';
     html += '<th>Richtige Antwort</th>';
+    html += '<th>Skip</th>';
     html += '</tr></thead>';
       
     for (var i in feedback) {
@@ -286,6 +316,9 @@ function showFeedback() {
         html += '<td>';
         html += feedback[i].answer;
         html += '</td>';
+        html += '<td>';
+        html += feedback[i].skip;
+        html += '</td>';
         html += '</tr>';
     }
     html += '</table>';
@@ -295,24 +328,26 @@ function showFeedback() {
 
 function moveCurrentCard() {
     console.log("moveCurrentCard()");
-    let card = currentCourse.cards.shift();
-    console.log("Shifted card %o", card.question);
-    let newPosition = computeNewPosition(card);
-    currentCourse.cards.splice(newPosition, 0, card);
+    currentCourse.cards = currentCourse.cards.filter(function(each) {
+            return !(Object.is(each,currentCard));
+        });
+    console.log("computeNewPosition()");
+    console.log("    numberOfCorrectAnswers %o", currentCard.numberOfCorrectAnswers);
+    const mapping = [ 1, 3, 6, 10, 20, 30, 40, 50, 70, 100, 140, 180, 230, 300, 380 ];
+    var newPosition = mapping[currentCard.numberOfCorrectAnswers] || 10000;
+    newPosition = Math.min(currentCourse.eligibleCards().length - 1, newPosition);
+    console.log("    newPosition %o", newPosition);
+    var cardAtNewPosition = currentCourse.eligibleCards()[newPosition];
+    var adjustedPosition = currentCourse.cards.indexOf(cardAtNewPosition);
+    console.assert(adjustedPosition >= 0, "unexpected adjustedPosition");
+    console.log("    adjustedPosition %o", adjustedPosition);
+    currentCourse.cards.splice(adjustedPosition, 0, currentCard);
     fillScreen();
     console.log("end moveCurrentCard()");
 }
 
 function computeNewPosition(card) {
-    console.log("computeNewPosition()");
-    console.log("    numberOfCorrectAnswers %o", card.numberOfCorrectAnswers);
-    //const mapping = [ 0, 1, 3, 6, 10, 15, 21, 28, 36, 45, 55, 66, 78, 91, 115, 145, 170, 200 ];
-    const mapping = [ 0, 3, 6, 10, 20, 30, 40, 50, 70, 100, 140, 180, 230, 300, 380 ];
-    let newPosition = mapping[card.numberOfCorrectAnswers] 
-    if (! newPosition) newPosition = 1000000;
-    newPosition = Math.min(currentCourse.cards.length, newPosition);
-    console.log("    newPosition %o", newPosition);
-    return newPosition;
+
 }
 
 function shuffleArray(array) {
