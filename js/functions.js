@@ -86,17 +86,19 @@ function addCards(name) {
 }
 
 function loadCourse(name) {
+    console.log('loadCourse(%o)', name);
     self.currentCourse = new Course(name);
     self.currentCourse.loadFromLocalStorage();
     addCards(name);
+    localStorage.setItem("currentCourseName", name);
     $("#course_name").html("Learn " + name.capitalize());
     fillScreen();
 }
 
 function pageLoaded () {
     console.log('pageLoaded() - begin');
-    //loadCardsFromLocalStorage();
-    loadCourse("chinese");
+    var currentCourseName = localStorage.getItem("currentCourseName") || "chinese";
+    loadCourse(currentCourseName);
     console.log('pageLoaded() - end');
 }
 
