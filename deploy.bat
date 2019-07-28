@@ -1,2 +1,2 @@
-gcloud app deploy app.yaml 
+gcloud app deploy app.yaml --quiet
 rem index.yaml

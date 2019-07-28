@@ -21,6 +21,7 @@ function Card(question, answers, hint, comment) {
     this.numberOfCorrectAnswers = 0;
     this.timestampOfLastWrongAnswer = 0;
     this.timestampForSkipping = 0;
+    this.garbageFlag = false;
 } 
 
 // Course class
@@ -43,14 +44,15 @@ Course.prototype.eligibleCards = function() {
 Course.prototype.mergeRecord = function(question, answers, hint, comment) {
     var oldCard = this.cards.find(function(each) {return each.question === question});
     if (oldCard) {
-        console.log("Old card found for %o.");
+        //console.log("Old card found for %o.", question);
         oldCard.question = question;
         oldCard.answers = answers;
         oldCard.hint = hint;
         oldCard.comment = comment;
+        oldCard.garbageFlag = false;
     }
     else {
-        console.log("No card found for %o. Create a new card.");
+        //console.log("No card found for %o. Create a new card.");
         var newCard = new Card(question, answers, hint, comment);
         this.cards.push(newCard);
     }
@@ -76,9 +78,19 @@ Course.prototype.loadFromLocalStorage = function() {
     loadedCourse = JSON.parse(loadedCourse);
     console.assert(this.name === loadedCourse.name);
     loadedCourse.cards.forEach(function(each) {
-        console.log(each.question);
+        //console.log(each.question);
+        each.garbageFlag = true;
         newCourse.addCard(each);
     });
+}
+
+Course.prototype.cleanupGarbage = function() {
+    console.log('cleanupGarbage(%o) - begin', this.name);
+    this.cards.forEach(function(each) {
+        if (each.garbageFlag) console.log("Garbage %o", each.question);
+    });
+    this.cards = this.cards.filter(function(each) { return !each.garbageFlag });
+    console.log('cleanupGarbage(%o) - end', this.name);
 }
 
 function makePersistent() {
@@ -104,6 +116,7 @@ function loadCourse(name) {
     self.currentCourse = new Course(name);
     self.currentCourse.loadFromLocalStorage();
     addCards(name);
+    self.currentCourse.cleanupGarbage();
     localStorage.setItem("currentCourseName", name);
     $("#course_name").html("Learn " + name.capitalize());
     fillScreen();
@@ -179,6 +192,10 @@ function hasAnswer(answer) {
     return true;
 }
 
+function removeWhite(str) {
+    return str.replace(/\s+/g,'');
+}
+
 function removeAccents(str) {
     str = str.replace(/Ā/g,"A");
     str = str.replace(/ā/g,"a");   
@@ -240,6 +257,9 @@ function isAcceptableAnswer(userAnswer) {
         }
         if (userAnswer === removeAccents(userAnswer)) {
             expectedAnswer = removeAccents(expectedAnswer);
+        }
+        if (userAnswer === removeWhite(userAnswer)) {
+            expectedAnswer = removeWhite(expectedAnswer);
         }
         if (userAnswer == expectedAnswer) return true;
     }
