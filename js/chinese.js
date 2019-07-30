@@ -7,7 +7,7 @@ function addChineseCards() {
 }
     
 function addHSK1() {
-    addQuestionAnswersComment("我",["wǒ"],"wǒ - I; me");
+    addQuestionAnswersComment("我", ["wǒ"],"wǒ - I; me");
     addQuestionAnswersComment("你",["nǐ"],"nǐ - you (singular)");
     addQuestionAnswersComment("是",["shì"],"shì - be; is; are; am");
     addQuestionAnswersComment("了",["le"],"le - indicates a completed or finished action");
@@ -52,7 +52,7 @@ function addHSK1() {
     addQuestionAnswersComment("谢谢",["xièxie"],"xièxie - thank you");
     addQuestionAnswersComment("先生",["xiānsheng"],"xiānsheng - Mr.; Sir");
     addQuestionAnswersComment("喜欢",["xǐhuan"],"xǐhuan - to like");
-    addQuestionAnswersComment("大",["dà", "dài"],"dà, dài - big; large");
+    addQuestionAnswersComment("大",["dà","dài"],"dà, dài - big; large");
     addQuestionAnswersComment("东西",["dōngxi"],"dōngxi - things; stuff");
     addQuestionAnswersComment("小",["xiǎo"],"xiǎo - small; young");
     addQuestionAnswersComment("叫",["jiào"],"jiào - to be called");
@@ -160,21 +160,21 @@ function addHSK1() {
 
 function addHSK2() {
     addQuestionAnswersComment("就",["jiù"],"jiù - then; at once; just; only; with regard to");
-    addQuestionAnswersComment("要",["yào, yāo"],"yào, yāo - to want; to need; will/shall; important | demand; request");
+    addQuestionAnswersComment("要",["yào", "yāo"],"yào, yāo - to want; to need; will/shall; important | demand; request");
     addQuestionAnswersComment("知道",["zhīdao"],"zhīdao - know; be aware of");
-    addQuestionAnswersComment("吧",["ba, bā"],"ba, bā - particle indicating polite suggestion; | onomatopoeia | bar (serving drinks, providing internet access, etc.)");
+    addQuestionAnswersComment("吧",["ba","bā"],"ba, bā - particle indicating polite suggestion; | onomatopoeia | bar (serving drinks, providing internet access, etc.)");
     addQuestionAnswersComment("到",["dào"],"dào - arrive (at a place); until (a time)");
     addQuestionAnswersComment("对",["duì"],"duì - correct; a pair; to face; be opposite; to; towards");
     addQuestionAnswersComment("也",["yě"],"yě - also; too");
-    addQuestionAnswersComment("还",["hái, huán"],"hái, huán - still; yet; in addition; even | repay; to return");
+    addQuestionAnswersComment("还",["hái","huán"],"hái, huán - still; yet; in addition; even | repay; to return");
     addQuestionAnswersComment("让",["ràng"],"ràng - ask; let; yield");
-    addQuestionAnswersComment("给",["gěi, jǐ"],"gěi, jǐ - to give; to grant; (passive particle) | provide");
+    addQuestionAnswersComment("给",["gěi","jǐ"],"gěi, jǐ - to give; to grant; (passive particle) | provide");
     addQuestionAnswersComment("过",["guò"],"guò - to pass; to cross; go over; (indicates a past experience)");
-    addQuestionAnswersComment("得",["dé, děi, de"],"dé, děi, de - obtain | must | (complement particle)");
+    addQuestionAnswersComment("得",["dé","děi","de"],"dé, děi, de - obtain | must | (complement particle)");
     addQuestionAnswersComment("真",["zhēn"],"zhēn - real; true; genuine");
-    addQuestionAnswersComment("着",["zhe, zháo, zhuó"],"zhe, zháo, zhuó - -ing (indicating action in progress) | to touch; to feel | to wear; apply");
+    addQuestionAnswersComment("着",["zhe","zháo","zhuó"],"zhe, zháo, zhuó - -ing (indicating action in progress) | to touch; to feel | to wear; apply");
     addQuestionAnswersComment("可以",["kěyǐ"],"kěyǐ - can; may; possible; okay");
-    addQuestionAnswersComment("别",["bié, biè"],"bié, biè - don't do something; don't | depart; | other; difference; distinguish");
+    addQuestionAnswersComment("别",["bié","biè"],"bié, biè - don't do something; don't | depart; | other; difference; distinguish");
     addQuestionAnswersComment("走",["zǒu"],"zǒu - to walk; to go; to move (Kangxi radical 156)");
     addQuestionAnswersComment("告诉",["gàosu"],"gàosu - to tell; inform");
     addQuestionAnswersComment("因为",["yīnwèi"],"yīnwèi - because");
@@ -218,7 +218,7 @@ function addHSK2() {
     addQuestionAnswersComment("穿",["chuān"],"chuān - to wear; put on; penetrate");
     addQuestionAnswersComment("送",["sòng"],"sòng - deliver; to carry; to give; send");
     addQuestionAnswersComment("玩",["wán"],"wán - to play; have a good time; visit; enjoy");
-    addQuestionAnswersComment("长",["cháng, zhǎng"],"cháng, zhǎng - long; length | grow; chief (Kangxi radical 168)");
+    addQuestionAnswersComment("长",["cháng","zhǎng"],"cháng, zhǎng - long; length | grow; chief (Kangxi radical 168)");
     addQuestionAnswersComment("小时",["xiǎoshí"],"xiǎoshí - hour");
     addQuestionAnswersComment("完",["wán"],"wán - to finish; be over; complete");
     addQuestionAnswersComment("每",["měi"],"měi - each; every");
@@ -264,11 +264,11 @@ function addHSK2() {
     addQuestionAnswersComment("红",["hóng"],"hóng - red; symbol of success; bonus; popular");
     addQuestionAnswersComment("慢",["màn"],"màn - slow");
     addQuestionAnswersComment("近",["jìn"],"jìn - near; close (to)");
-    addQuestionAnswersComment("白",["bái, bó"],"bái, bó - white; snowy; pure; bright; empty (Kangxi radical 106)");
+    addQuestionAnswersComment("白",["bái","bó"],"bái, bó - white; snowy; pure; bright; empty (Kangxi radical 106)");
     addQuestionAnswersComment("姐姐",["jiějie"],"jiějie - older sister");
     addQuestionAnswersComment("介绍",["jièshào"],"jièshào - to introduce; recommend; introduction");
     addQuestionAnswersComment("鱼",["yú"],"yú - fish (Kangxi radical 195)");
-    addQuestionAnswersComment("累",["lèi, lěi, léi"],"lèi, lěi, léi - tired | accumulate; implicate | rope; bind together");
+    addQuestionAnswersComment("累",["lèi","lěi","léi"],"lèi, lěi, léi - tired | accumulate; implicate | rope; bind together");
     addQuestionAnswersComment("课",["kè"],"kè - class; subject; lesson; course");
     addQuestionAnswersComment("上班",["shàng bān"],"shàng bān - go to work; be on duty");
     addQuestionAnswersComment("旁边",["pángbiān"],"pángbiān - side, beside");
