@@ -101,13 +101,16 @@ function makePersistent() {
 function addCards(name) {
     console.log('addCards(%o)', name);
     if (name === "chinese") {
+        self.currentCourse.inputType = "pinyin";
         addChineseCards();
         return;
     }
     if (name === "greek") {
+        self.currentCourse.inputType = "default";
         addGreekCards();
         return;
     }
+    self.currentCourse.inputType = "default";
     addGermanCards();
 }
 
@@ -124,7 +127,10 @@ function loadCourse(name) {
 
 function pageLoaded () {
     console.log('pageLoaded() - begin');
-    $("#answer").keypress(function(event){processKeyPressed(event, this)});
+    $("#answer").keypress(function(event){
+        var inputProcessor = registeredInputProcessors[currentCourse.inputType || "default"];
+        inputProcessor.processKeyPressed(event, this);
+    });
     var currentCourseName = localStorage.getItem("currentCourseName") || "chinese";
     loadCourse(currentCourseName);
     console.log('pageLoaded() - end');
@@ -161,14 +167,14 @@ function setCurrentCard(card) {
     console.log('setCurrentCard() - begin');
     console.log('question=%o', card.question);
     currentCard = card;
-    $('.question').text(card.question);
-    $('.answer').val(card.hint);
+    $('#question').text(card.question);
+    $('#answer').val(card.hint);
     console.log('setCurrentCard() - end');
 }
 
 function processAnswer() {
     console.log("processAnswer()");
-    let answer = $('.answer').val();
+    let answer = $('#answer').val();
     console.log("answer=%o", answer);
     answer = preprocessAnswer(answer);    
     if (hasAnswer(answer)) {
@@ -269,7 +275,7 @@ function isAcceptableAnswer(userAnswer) {
 
 function processMissingAnswer(answer) {
     console.log("processMissingAnswer(%o)", answer);
-    $(".feedback").html('<font color="black">Gib bitte zuerst deine Antwort ein.</font>');}
+    $("#feedback").html('<font color="black">Gib bitte zuerst deine Antwort ein.</font>');}
 
 function processCorrectAnswer(answer) {
     console.log("processCorrectAnswer(%o)", answer);
@@ -284,14 +290,14 @@ function processCorrectAnswer(answer) {
         currentCard.timestampForSkipping = timestampNow();
         console.log("timestampForSkipping %o", currentCard.timestampForSkipping);
     } 
-    $(".feedback").html('<font color="darkgreen">' + feedback + '</font>');
+    $("#feedback").html('<font color="darkgreen">' + feedback + '</font>');
     addFeedback(true, answer, currentCard);
     moveCurrentCard();
 }
 
 function processWrongAnswer(answer) {
     console.log("processWrongAnswer(%o)", answer);
-    $(".feedback").html('<font color="red" weight="bold">Die Antwort ist leider noch nicht richtig.</font>')
+    $("#feedback").html('<font color="red" weight="bold">Die Antwort ist leider noch nicht richtig.</font>')
     currentCard.timestampOfLastWrongAnswer = timestampNow();  
     currentCard.numberOfCorrectAnswers -= 2;   
     if (currentCard.numberOfCorrectAnswers) {
@@ -299,7 +305,7 @@ function processWrongAnswer(answer) {
     }
     addFeedback(false, answer, currentCard);
 }
-    
+
 function addFeedback(isCorrect, userAnswer, card) {
     console.log("addFeedback(%o)", card.timestampForSkipping);
     var newRecord = {
@@ -343,7 +349,7 @@ function showFeedback() {
         html += '</tr>';
     }
     html += '</table>';
-    $(".feedback").append(html);
+    $("#feedback").append(html);
     console.log("showFeedback() - end");
 }
 
@@ -388,42 +394,12 @@ function shuffleCards() {
     setCurrentCard(currentCourse.cards[0]);
     makePersistent();
 }
-var replacedChar = 'v';
-var replacement = 'ü';
-var moveCursorBy = replacement.length - replacedChar.length; //Or 0 if you want the cursor to be after between '@' and '[SomeTextHere]'
 
-function processKeyPressed(event, widget) {
-    if(event.key == replacedChar){
-        event.preventDefault();
-    // IE
-    if(document.selection){
-      // Determines the selected text. If no text selected, the location of the cursor in the text is returned
-      var range = document.selection.createRange();
-      // Place the replacement on the location of the selection, and remove the data in the selection
-      range.text = replacement;
-      // Chrome + FF
-    } else if(widget.selectionStart || widget.selectionStart == '0') {
-      // Determines the start and end of the selection.
-      // If no text selected, they are the same and the location of the cursor in the text is returned
-      // Don't make it a jQuery obj, because selectionStart and selectionEnd isn't known.
-      var start = widget.selectionStart;
-      var end = widget.selectionEnd;
-      // Place the replacement on the location of the selection, and remove the data in the selection
-      widget.value = widget.value.substring(0, start) + replacement 
-            + widget.value.substring(end, widget.value.length);
-      //widget.value = "uhu";
-      // Set the cursor back at the correct location in the text
-      widget.selectionStart = start + moveCursorBy + 1;
-      widget.selectionEnd = start + moveCursorBy + 1;
-    } else {
-      // if no selection could be determined,
-      // place the replacement at the end.
-      $("answer").val($("answer").val() + replacement);
-    }
-    return false;
-  }
+function onTest() {
+    console.log("onTest() - begin");
+    $("#answer").val("uhu");
+    console.log("onTest() - end");
 }
-
 
 console.log("bbbb");
 

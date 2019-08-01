@@ -12,6 +12,7 @@
     <script src="js/german.js"></script>
     <script src="js/greek.js"></script>
     <script src="js/functions.js"></script>
+    <script src="js/inputProcessing.js"></script>
     <link rel="stylesheet" href="css/stylesheet.css">
   </head>
   <body onload="pageLoaded()">
@@ -34,7 +35,7 @@
         <a onclick="inspectCurrentCourse()">Inspect current course</a>
         <a onclick="currentCourse.saveToLocalStorage()">Save current course to local storage</a>
         <a onclick="load()">Load</a>
-        <a onclick="fillScreen()">Fill</a>
+        <a onclick="onTest()">Test</a>
         <a onclick="processAnswer()">Answer</a>
         <a onclick="inspectFeedback()">Feedback</a>
       </div>
@@ -48,6 +49,6 @@
   <div id="question" class="question">Hier kommt die Frage hin.</div>
   <div class="answerTitle">Gib hier bitte deine Antwort ein.</div>
   <input id="answer" class="answer" type="text" spellcheck="false" onchange="processAnswer()">
-  <div class="feedback"></div>
+  <div id="feedback" class="feedback"></div>
   </body>
 <html>
