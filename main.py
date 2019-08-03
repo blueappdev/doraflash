@@ -5,8 +5,12 @@ import webapp2
 import codecs, json, os.path, string
 
 class RequestHandler(webapp2.RequestHandler):
-    def write(self, aString):
-        self.response.write(aString)
+    def write(self, *args):
+        for arg in args:
+            self.response.write(arg)
+    
+    def json(self, str):
+        return json.dumps(str, ensure_ascii=False)
 
 class MainPage(RequestHandler):
     def loadTemplate(self):
@@ -42,17 +46,11 @@ class CourseHandler(RequestHandler):
 
     def writeHeader(self):
         self.write('"use strict";\n')
-        self.write('function ')
-        self.write(self.name)
-        self.write('() {\n')
-        self.write('console.log("')
-        self.write(self.name)
-        self.write('() - begin");\n')
+        self.write('function ', self.name, '() {\n')
+        self.write('console.log("', self.name, '() - begin");\n')
     
     def writeFooter(self):
-        self.write('console.log("')
-        self.write(self.name)
-        self.write('() - end");\n')
+        self.write('console.log("',self.name, '() - end");\n')
         self.write('}\n')
         
     def writeContent(self):
@@ -73,14 +71,12 @@ class CourseHandler(RequestHandler):
         stream.close()
     
     def setAttribute(self, key, value):
-        if key == "input-type":
-            self.write("self.currentCourse.inputType = ")
-            self.write(json.dumps(value, ensure_ascii=False))
-            self.write(";\n")
-        elif key == "name":
-            self.write("self.currentCourse.name = ")
-            self.write(json.dumps(value, ensure_ascii=False))
-            self.write(";\n")
+        if key == "name":
+            self.write("self.currentCourse.name = ", self.json(value), ";\n")
+        elif key == "input-type":
+            self.write("self.currentCourse.inputType = ", self.json(value), ";\n")        
+        elif key == "title":
+            self.write("self.currentCourse.title = ", self.json(value), ";\n")
         else:
             raise Exception("unknown attribute found " + repr(key))
 
@@ -90,13 +86,11 @@ class CourseHandler(RequestHandler):
         question, answers, comment = record
         answers = answers.split("|")
         answers = map(string.strip, answers)
-        self.write("addQuestionAnswersComment(")
-        self.write(json.dumps(question, ensure_ascii=False))
-        self.write(",")
-        self.write(json.dumps(answers, ensure_ascii=False))
-        self.write(",")
-        self.write(json.dumps(comment, ensure_ascii=False))
-        self.write(");\n")
+        self.write(
+            "addQuestionAnswersComment(",
+            self.json(question), ",", 
+            self.json(answers), ",", 
+            self.json(comment), ");\n")
         
 
 app = webapp2.WSGIApplication([

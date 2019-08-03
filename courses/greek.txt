@@ -1,6 +1,7 @@
 ﻿# Greek 
 
-@name = Greek
+@name = greek
+@title = Greek
 
 Α:Alpha:Alpha (a / a)
 Β:Beta:Beta (b / v (w))

@@ -2,7 +2,8 @@
 # Course
 #
 
-@name = Traditional Chinese Characters
+@name = traditional
+@title = Traditional Chinese Characters
 @input-type = chinese
 
 # hsk1.txt

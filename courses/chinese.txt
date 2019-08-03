@@ -1,6 +1,7 @@
 # Chinese
 
-@name = Chinese
+@name = chinese
+@title = Chinese
 @input-type = pinyin
 
 # hsk1.txt
