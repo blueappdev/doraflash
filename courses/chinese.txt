@@ -1,0 +1,306 @@
+# Chinese
+
+# HSK1
+我 : wǒ : wǒ - I; me
+你 : nǐ : nǐ - you (singular)
+是 : shì : shì - be; is; are; am
+了 : le : le - indicates a completed or finished action
+不 : bù : bù - no; not
+在 : zài : zài - at; on; in; indicates an action in progress
+他 : tā : tā - he; him
+我们 : wǒmen : wǒmen - we; us
+好 : hǎo : hǎo - good
+有 : yǒu : yǒu - have
+这 : zhè : zhè - this
+会 : huì : huì - know how to
+吗 : ma : ma - indicates a yes/no question (added to a statement)
+什么 : shénme : shénme - what? (replaces the noun to turn a statement into a question)
+说 : shuō : shuō - speak
+她 : tā : tā - she
+想 : xiǎng : xiǎng - think; believe; suppose; would like to
+一 : yī : yī - one; once; a
+很 : hěn : hěn - very; quite
+人 : rén : rén - person; man; people
+那 : nà : nà - that; then
+来 : lái : lái - come; arrive; ever since; next
+都 : dōu : dōu - all; both
+个 : ge : ge - general measure word
+能 : néng : néng - can; be able
+去 : qù : qù - go; to leave
+和 : hé : hé - and; with
+做 : zuò : zuò - do; make
+上 : shàng : shàng - above; up
+没有 : méiyǒu : méiyǒu - not have; there is not
+看 : kàn : kàn - see; look at; to watch
+怎么 : zěnme : zěnme - how?
+现在 : xiànzài : xiànzài - now
+点 : diǎn : diǎn - a dot; a little; o'clock
+呢 : ne : ne - indicates a question; how about...?;
+太 : tài : tài - too (much)
+里 : lǐ : lǐ - inside; Chinese mile (~.5 km)
+听 : tīng : tīng - listen; hear
+谁 : shéi : shéi - who
+多 : duō : duō - many
+时候 : shíhou : shíhou - time
+下 : xià : xià - fall; below
+谢谢 : xièxie : xièxie - thank you
+先生 : xiānsheng : xiānsheng - Mr.; Sir
+喜欢 : xǐhuan : xǐhuan - to like
+大 : dà | dài : dà, dài - big; large
+东西 : dōngxi : dōngxi - things; stuff
+小 : xiǎo : xiǎo - small; young
+叫 : jiào : jiào - to be called
+爱 : ài : ài - love
+年 : nián : nián - year
+请 : qǐng : qǐng - please; invite; to treat someone to something
+回 : huí : huí - to return; to reply; to go back
+工作 : gōngzuò : gōngzuò - work; a job
+钱 : qián : qián - money; coin
+吃 : chī : chī - eat
+开 : kāi : kāi - to open; to start; to operate (a vehicle)
+家 : jiā : jiā - family; home
+哪 : nǎ : nǎ - which; how
+朋友 : péngyou : péngyou - friend
+妈妈 : māma : māma - mom; mum
+今天 : jīntiān : jīntiān - today
+几 : jǐ : jǐ - how many; several; a few
+爸爸 : bàba : bàba - Dad
+些 : xiē : xiē - some; few; several
+怎么样 : zěnmeyàng : zěnmeyàng - how about?; how is/was it?
+对不起 : duìbuqǐ : duìbuqǐ - sorry
+住 : zhù : zhù - to live; reside; to stop
+三 : sān : sān - three
+高兴 : gāoxìng : gāoxìng - happy; glad
+买 : mǎi : mǎi - to buy
+医生 : yīshēng : yīshēng - doctor
+哪儿 : nǎr : nǎr - where? (Beijing accent)
+字 : zì : zì - letter; character
+名字 : míngzi : míngzi - name
+认识 : rènshi : rènshi - recognize; know (a person)
+坐 : zuò : zuò - sit
+喝 : hē : hē - to drink
+写 : xiě : xiě - to write; to compose
+月 : yuè : yuè - moon; month; flesh (radical)
+号 : hào : hào - number; day of a month
+狗 : gǒu : gǒu - dog
+岁 : suì : suì - years old; age
+看见 : kànjiàn : kànjiàn - see; catch sight of
+打电话 : dǎ diànhuà : dǎ diànhuà - make a phone call
+喂 : wèi : wèi - hello (on the phone)
+儿子 : érzi : érzi - son
+漂亮 : piàoliang : piàoliang - pretty; beautiful
+分钟 : fēnzhōng : fēnzhōng - minute; (measure word for time)
+再见 : zàijiàn : zàijiàn - goodbye; see you later
+本 : běn : běn - measure word for books
+明天 : míngtiān : míngtiān - tomorrow
+少 : shǎo : shǎo - few; little
+多少 : duōshao : duōshao - how much?; how many?
+块 : kuài : kuài - lump; piece; sum of money
+女儿 : nǚ'ér : nǚ'ér - daughter
+小姐 : xiǎojie : xiǎojie - young lady; miss; Ms.
+衣服 : yīfu : yīfu - clothes
+水 : shuǐ : shuǐ - water
+学校 : xuéxiào : xuéxiào - school
+电影 : diànyǐng : diànyǐng - movie; film
+书 : shū : shū - book; letter
+四 : sì : sì - four
+五 : wǔ : wǔ - five
+医院 : yīyuàn : yīyuàn - hospital
+没关系 : méi guānxi : méi guānxi - it doesn't matter; never mind
+飞机 : fēijī : fēijī - airplane
+二 : èr : èr - two
+电视 : diànshì : diànshì - television; TV
+读 : dú : dú - to read; to study
+后面 : hòumian : hòumian - back; behind
+昨天 : zuótiān : zuótiān - yesterday
+睡觉 : shuì jiào : shuì jiào - to sleep; go to bed
+六 : liù : liù - six
+老师 : lǎoshī : lǎoshī - teacher
+星期 : xīngqī : xīngqī - week
+十 : shí : shí - ten
+猫 : māo : māo - cat
+电脑 : diànnǎo : diànnǎo - computer
+热 : rè : rè - heat; hot
+学生 : xuésheng : xuésheng - student
+下午 : xiàwǔ : xiàwǔ - afternoon
+学习 : xuéxí : xuéxí - learn; to study
+冷 : lěng : lěng - cold
+不客气 : bú kèqi : bú kèqi - you're welcome; don't be polite
+前面 : qiánmiàn : qiánmiàn - in front
+八 : bā : bā - eight
+中国 : Zhōngguó : Zhōngguó - China
+七 : qī : qī - seven
+菜 : cài : cài - dish (type of food); vegetables
+桌子 : zhuōzi : zhuōzi - table; desk
+出租车 : chūzūchē : chūzūchē - taxi; cab
+天气 : tiānqì : tiānqì - weather
+茶 : chá : chá - tea
+九 : jiǔ : jiǔ - nine
+商店 : shāngdiàn : shāngdiàn - shop; store
+椅子 : yǐzi : yǐzi - chair
+同学 : tóngxué : tóngxué - fellow student; schoolmate
+一点儿 : yìdiǎnr : yìdiǎnr - a bit; a few
+苹果 : píngguǒ : píngguǒ - apple
+饭店 : fàndiàn : fàndiàn - restaurant; hotel
+中午 : zhōngwǔ : zhōngwǔ - noon; midday
+上午 : shàngwǔ : shàngwǔ - late morning (before noon)
+水果 : shuǐguǒ : shuǐguǒ - fruit
+杯子 : bēizi : bēizi - cup; glass
+下雨 : xiàyǔ : xiàyǔ - to rain
+米饭 : mǐfàn : mǐfàn - (cooked) rice
+北京 : Běijīng : Běijīng - Beijing
+汉语 : Hànyǔ : Hànyǔ - Chinese language    
+
+# HSK2
+就 : jiù : jiù - then; at once; just; only; with regard to
+要 : yào | yāo : yào, yāo - to want; to need; will/shall; important | demand; request
+知道 : zhīdao : zhīdao - know; be aware of
+吧 : ba | bā : ba, bā - particle indicating polite suggestion; | onomatopoeia | bar (serving drinks, providing internet access, etc.)
+到 : dào : dào - arrive (at a place); until (a time)
+对 : duì : duì - correct; a pair; to face; be opposite; to; towards
+也 : yě : yě - also; too
+还 : hái | huán : hái, huán - still; yet; in addition; even | repay; to return
+让 : ràng : ràng - ask; let; yield
+给 : gěi | jǐ : gěi, jǐ - to give; to grant; (passive particle) | provide
+过 : guò : guò - to pass; to cross; go over; (indicates a past experience)
+得 : dé | děi | de : dé, děi, de - obtain | must | (complement particle)
+真 : zhēn : zhēn - real; true; genuine
+着 : zhe | zháo | zhuó : zhe, zháo, zhuó - -ing (indicating action in progress) | to touch; to feel | to wear; apply
+可以 : kěyǐ : kěyǐ - can; may; possible; okay
+别 : bié | biè : bié, biè - don't do something; don't | depart; | other; difference; distinguish
+走 : zǒu : zǒu - to walk; to go; to move (Kangxi radical 156)
+告诉 : gàosu : gàosu - to tell; inform
+因为 : yīnwèi : yīnwèi - because
+再 : zài : zài - again; once more
+快 : kuài : kuài - fast; quick; swift
+但是 : dànshì : dànshì - but; however
+已经 : yǐjing : yǐjing - already
+为什么 : wèishénme : wèishénme - why?; for what reason?
+觉得 : juéde : juéde - feel; think
+它 : tā : tā - it
+从 : cóng : cóng - from; obey; observe
+找 : zhǎo : zhǎo - try to find; look for; seek; to give change
+最 : zuì : zuì - the most; -est; (indicator for superlative)
+可能 : kěnéng : kěnéng - possible; maybe
+次 : cì : cì - (mw for number of times of occurrence); nth; order
+出 : chū : chū - go out; occur
+孩子 : háizi : háizi - child; children; son or daughter
+所以 : suǒyǐ : suǒyǐ - so; therefore; as a result
+两 : liǎng : liǎng - two; 2; both; (unit of weight equal to 50 grams)
+错 : cuò : cuò - mistake; error; blunder; miss an opportunity
+等 : děng : děng - to wait; rank; equal; etc.
+题 : tí : tí - topic; subject; question on a test or assignment
+问 : wèn : wèn - ask; inquire
+问题 : wèntí : wèntí - question; problem
+一起 : yìqǐ : yìqǐ - together; in the same place
+开始 : kāishǐ : kāishǐ - begin; to start; beginning
+时间 : shíjiān : shíjiān - time; period
+事情 : shìqing : shìqing - matter; affair; thing; business
+一下 : yíxià : yíxià - a little bit/while; one time; once
+非常 : fēicháng : fēicháng - extremely; extraordinary; very
+希望 : xīwàng : xīwàng - to hope; wish for; to desire
+准备 : zhǔnbèi : zhǔnbèi - prepare; get ready
+比 : bǐ : bǐ - compare; (indicates comparison) (Kangxi radical 81); to gesticulate as one talks
+件 : jiàn : jiàn - (mw for things, clothes, and items)
+意思 : yìsi : yìsi - meaning; idea; opinion
+第一 : dìyī : dìyī - first; number 1
+进 : jìn : jìn - enter; come in
+大家 : dàjiā : dàjiā - everyone
+新 : xīn : xīn - new; Xinjiang autonomous region (abbreviation)
+您 : nín : nín - you (polite)
+穿 : chuān : chuān - to wear; put on; penetrate
+送 : sòng : sòng - deliver; to carry; to give; send
+玩 : wán : wán - to play; have a good time; visit; enjoy
+长 : cháng | zhǎng : cháng, zhǎng - long; length | grow; chief (Kangxi radical 168)
+小时 : xiǎoshí : xiǎoshí - hour
+完 : wán : wán - to finish; be over; complete
+每 : měi : měi - each; every
+公司 : gōngsī : gōngsī - company; corporation
+帮助 : bāngzhù : bāngzhù - help; assist; aid
+晚上 : wǎnshang : wǎnshang - evening; night
+说话 : shuōhuà : shuōhuà - to talk; speak
+门 : mén : mén - door; opening; gate (Kangxi radical 169)
+女 : nǚ : nǚ - woman; female (Kangxi radical 38)
+忙 : máng : máng - busy
+卖 : mài : mài - to sell
+高 : gāo : gāo - high; tall (Kangxi radical 189)
+房间 : fángjiān : fángjiān - room
+路 : lù : lù - road; path; journey; route
+懂 : dǒng : dǒng - understand; know
+正在 : zhèngzài : zhèngzài - in the process of (doing something); currently
+笑 : xiào : xiào - to laugh; to smile
+远 : yuǎn : yuǎn - far; distant; remote
+妻子 : qīzi : qīzi - wife
+丈夫 : zhàngfu : zhàngfu - husband; man
+离 : lí : lí - leave; depart; go away; apart from
+往 : wǎng : wǎng - to go (in a direction); towards; in the past
+男 : nán : nán - male
+眼睛 : yǎnjing : yǎnjing - eye
+快乐 : kuàilè : kuàilè - happy
+虽然 : suīrán : suīrán - although; even though
+早上 : zǎoshang : zǎoshang - (early) morning
+药 : yào : yào - medicine; drug; cure; chemical
+身体 : shēntǐ : shēntǐ - health; (human) body
+黑 : hēi : hēi - black; dark (Kangxi radical 203); Heilongjiang province (abbreviation)
+咖啡 : kāfēi : kāfēi - coffee
+日 : rì : rì - sun; day; date; time (Kangxi radical 72)
+休息 : xiūxi : xiūxi - to rest; take a break
+外 : wài : wài - outer; outside; in addition; foreign
+生日 : shēngrì : shēngrì - birthday
+哥哥 : gēge : gēge - older brother
+票 : piào : piào - ticket; bank note; a vote
+手机 : shǒujī : shǒujī - mobile (cell) phone
+洗 : xǐ : xǐ - to wash; bathe
+跳舞 : tiào wǔ : tiào wǔ - to dance
+弟弟 : dìdi : dìdi - younger brother
+妹妹 : mèimei : mèimei - younger sister
+红 : hóng : hóng - red; symbol of success; bonus; popular
+慢 : màn : màn - slow
+近 : jìn : jìn - near; close (to)
+白 : bái | bó : bái, bó - white; snowy; pure; bright; empty (Kangxi radical 106)
+姐姐 : jiějie : jiějie - older sister
+介绍 : jièshào : jièshào - to introduce; recommend; introduction
+鱼 : yú : yú - fish (Kangxi radical 195)
+累 : lèi | lěi | léi : lèi, lěi, léi - tired | accumulate; implicate | rope; bind together
+课 : kè : kè - class; subject; lesson; course
+上班 : shàng bān : shàng bān - go to work; be on duty
+旁边 : pángbiān : pángbiān - side, beside
+运动 : yùndòng : yùndòng - (physical) exercise; movement; sports; campaign
+去年 : qùnián : qùnián - last year
+报纸 : bàozhǐ : bàozhǐ - newspaper
+颜色 : yánsè : yánsè - color
+机场 : jīchǎng : jīchǎng - airport; airfield
+唱歌 : chànggē : chànggē - sing (a song)
+千 : qiān : qiān - one thousand
+好吃 : hǎochī : hǎochī - tasty
+考试 : kǎoshì : kǎoshì - test; exam; to give or take a test
+左边 : zuǒbian : zuǒbian - the left side; the left
+姓 : xìng : xìng - surname; family name
+百 : bǎi : bǎi - hundred
+雪 : xuě : xuě - snow
+贵 : guì : guì - expensive; noble; honorable; Guizhou province (abbreviation)
+生病 : shēng bìng : shēng bìng - get sick; fall ill
+游泳 : yóuyǒng : yóuyǒng - to swim
+牛奶 : niúnǎi : niúnǎi - cow's milk
+右边 : yòubian : yòubian - the right (as opposed to left) side
+便宜 : piányi : piányi - cheap
+公共汽车 : gōnggòng qìchē : gōnggòng qìchē - (public) bus
+起床 : qǐ chuáng : qǐ chuáng - get out of bed
+打篮球 : dǎ lánqiú : dǎ lánqiú - play basketball
+鸡蛋 : jīdàn : jīdàn - (chicken) egg
+踢足球 : tīzúqiú : tīzúqiú - to play football/soccer
+零 : líng : líng - zero; remnant
+手表 : shǒubiǎo : shǒubiǎo - wristwatch
+旅游 : lǚyóu : lǚyóu - trip; journey; tour
+服务员 : fúwùyuán : fúwùyuán - waiter/waitress; server; attendant
+宾馆 : bīnguǎn : bīnguǎn - guesthouse; hotel
+教室 : jiàoshì : jiàoshì - classroom
+跑步 : pǎo bù : pǎo bù - to run; to jog
+阴 : yīn : yīn - cloudy (weather); yin (the negative principle of Yin and Yang); secret; the moon; negative; shade
+面条 : miàntiáo : miàntiáo - noodles
+铅笔 : qiānbǐ : qiānbǐ - pencil
+火车站 : huǒchēzhàn : huǒchēzhàn - train station
+西瓜 : xīguā : xīguā - watermelon
+羊肉 : yángròu : yángròu - mutton; lamb
+晴 : qíng : qíng - clear; fine (as of weather)
+

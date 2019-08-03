@@ -14,7 +14,7 @@
 Μ:My:My (m / m)
 Ν:Ny:Ny (n / n)
 Ξ:Xi:Xi (x / x)
-Ο:Omikron|Omicron:Omikron (o / o)
+Ο:Omikron   |  Omicron  :  Omikron (o / o)
 Π:Pi:Pi (p / p)
 Ρ:Rho:Rho (r (rh) / r)
 Σ:Sigma:Sigma (s / s (ss))

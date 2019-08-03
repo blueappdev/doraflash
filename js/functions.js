@@ -102,12 +102,12 @@ function addCards(name) {
     console.log('addCards(%o)', name);
     if (name === "chinese") {
         self.currentCourse.inputType = "pinyin";
-        addChineseCards();
+        chinese();
         return;
     }
     if (name === "greek") {
         self.currentCourse.inputType = "default";
-        addGreekCards();
+        greek();
         return;
     }
     self.currentCourse.inputType = "default";
