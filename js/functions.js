@@ -100,17 +100,19 @@ function makePersistent() {
 
 function addCards(name) {
     console.log('addCards(%o)', name);
+    self.currentCourse.inputType = "default";
     if (name === "chinese") {
-        self.currentCourse.inputType = "pinyin";
         chinese();
         return;
     }
+    if (name === "traditional") {
+        traditional();
+        return;
+    }
     if (name === "greek") {
-        self.currentCourse.inputType = "default";
         greek();
         return;
     }
-    self.currentCourse.inputType = "default";
     addGermanCards();
 }
 
@@ -121,19 +123,22 @@ function loadCourse(name) {
     addCards(name);
     self.currentCourse.cleanupGarbage();
     localStorage.setItem("currentCourseName", name);
-    $("#course_name").html("Learn " + name.capitalize());
+    $("#course_name").html(self.currentCourse.name);
     fillScreen();
 }
 
 function pageLoaded () {
     console.log('pageLoaded() - begin');
     $("#answer").keypress(function(event){
-        var inputProcessor = registeredInputProcessors[currentCourse.inputType || "default"];
-        inputProcessor.processKeyPressed(event, this);
+        currentInputProcessor().processKeyPressed(event, this);
     });
     var currentCourseName = localStorage.getItem("currentCourseName") || "chinese";
     loadCourse(currentCourseName);
     console.log('pageLoaded() - end');
+}
+
+function currentInputProcessor() {
+    return registeredInputProcessors[currentCourse.inputType || "default"];
 }
 
 function inspectCurrentCourse() {
@@ -177,15 +182,21 @@ function processAnswer() {
     let answer = $('#answer').val();
     console.log("answer=%o", answer);
     answer = preprocessAnswer(answer);    
-    if (hasAnswer(answer)) {
-        if (isAcceptableAnswer(answer)) {
-            processCorrectAnswer(answer)
-        } else {
-            processWrongAnswer(answer);
-        }        
-    } else {
+    if (!hasAnswer(answer)) {
         processMissingAnswer(answer);
-    }    
+        return;
+    }
+    var reason = currentInputProcessor().reasonForInvalidPrecheck(answer);
+    if (reason) {
+        console.log("wrong answer type ", answer);
+        $("#feedback").html('<font color="red">'+reason+'</font>');
+        return;
+    }
+    if (isAcceptableAnswer(answer)) {
+        processCorrectAnswer(answer)
+    } else {
+        processWrongAnswer(answer);
+    }            
     makePersistent();
 }
 
@@ -275,7 +286,7 @@ function isAcceptableAnswer(userAnswer) {
 
 function processMissingAnswer(answer) {
     console.log("processMissingAnswer(%o)", answer);
-    $("#feedback").html('<font color="black">Gib bitte zuerst deine Antwort ein.</font>');}
+    $("#feedback").html('<font color="red">Gib bitte zuerst deine Antwort ein.</font>');}
 
 function processCorrectAnswer(answer) {
     console.log("processCorrectAnswer(%o)", answer);
@@ -285,7 +296,7 @@ function processCorrectAnswer(answer) {
     if (currentCard.timestampOfLastWrongAnswer === timestampNow()) {
         currentCard.numberOfCorrectAnswers += 1;
     } else {
-        feedback = "Die Anwort war beim ersten Versuch heute richtig";
+        feedback = "Die Anwort war beim ersten Versuch heute richtig und wird heute nicht mehr gefragt.";
         currentCard.numberOfCorrectAnswers += 4;
         currentCard.timestampForSkipping = timestampNow();
         console.log("timestampForSkipping %o", currentCard.timestampForSkipping);
@@ -326,7 +337,7 @@ function showFeedback() {
     html += '<th>Frage</th>';
     html += '<th>Deine Antwort</th>';
     html += '<th>Richtige Antwort</th>';
-    html += '<th>Skip</th>';
+    // html += '<th>Skip</th>';
     html += '</tr></thead>';
       
     for (var i in feedback) {
@@ -343,9 +354,9 @@ function showFeedback() {
         html += '<td>';
         html += feedback[i].answer;
         html += '</td>';
-        html += '<td>';
-        html += feedback[i].skip;
-        html += '</td>';
+        //html += '<td>';
+        //html += feedback[i].skip;
+        //html += '</td>';
         html += '</tr>';
     }
     html += '</table>';
@@ -399,6 +410,11 @@ function onTest() {
     console.log("onTest() - begin");
     $("#answer").val("uhu");
     console.log("onTest() - end");
+}
+
+function onPeekAnswer() {
+    $("#feedback").html("");
+    addFeedback(false, "", currentCard);
 }
 
 console.log("bbbb");

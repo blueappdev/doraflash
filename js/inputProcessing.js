@@ -14,6 +14,10 @@ DefaultInputProcessor.prototype.register = function() {
     registeredInputProcessors[this.name] = this;
 };
 
+DefaultInputProcessor.prototype.reasonForInvalidPrecheck = function(event, str) {
+    return "";
+};
+
 DefaultInputProcessor.prototype.processKeyPressed = function(event, widget) {
     // console.log("def inp %o", currentCourse.inputType);
     // By default do nothing.
@@ -70,6 +74,27 @@ PinyinInputProcessor.prototype.processKeyPressed = function(event, widget) {
 };
 
 (new PinyinInputProcessor()).register();
+
+// Class ChineseInputProcessor inherits from DefaultInputProcessor
+function ChineseInputProcessor() {
+    console.log("ChineseInputProcessor");
+    DefaultInputProcessor.call(this);
+    this.name = "chinese";
+};
+ChineseInputProcessor.prototype = Object.create(DefaultInputProcessor.prototype);
+ChineseInputProcessor.prototype.constructor = ChineseInputProcessor;
+
+ChineseInputProcessor.prototype.processKeyPressed = function(event, widget) {
+};
+
+ChineseInputProcessor.prototype.reasonForInvalidPrecheck = function(str) {
+    // should call super
+    if (str.match(/[a-z]/i)) return "Eine Pinyin Antwort wurde eingegeben. Bitte Chinesisch eingeben."
+    return "";
+};
+
+(new ChineseInputProcessor()).register();
+
 
 console.log('inputProcessing.js - end');
 

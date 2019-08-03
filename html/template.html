@@ -9,6 +9,7 @@
     <script src="menu/menu.js"></script>  
     <script src="js/utils.js"></script>
     <script src="course?name=chinese"></script>
+    <script src="course?name=traditional"></script>
     <script src="js/german.js"></script>
     <script src="course?name=greek"></script>
     <script src="js/functions.js"></script>
@@ -20,7 +21,8 @@
    <ul class="hMenuBar">
     <li class="hMenuItem"><a class="dropbtn" onclick="toggleMenu('myDropdown1')">Courses</a>
       <div class="dropdown-content" id="myDropdown1">
-        <a onclick="loadCourse('chinese')">Chinese</a>
+        <a onclick="loadCourse('chinese')">Chinese (简体字)</a>
+        <a onclick="loadCourse('traditional')">繁体字 Traditional Chinese Characters</a>
         <a onclick="loadCourse('german')">German</a>
         <a onclick="loadCourse('greek')">Greek</a>
       </div>
@@ -40,14 +42,17 @@
         <a onclick="inspectFeedback()">Feedback</a>
       </div>
     </li>
-     Version 0.6 (2019-July-28)
+     Version 0.7 (2019-08-03)
      %USERNAME%
-     </ul> 
+    </ul> 
   </div>
   <h1 id="course_name">[course_name]</h1>
   <div class="questionTitle">Beantworte bitte die Frage.</div>
   <div id="question" class="question">Hier kommt die Frage hin.</div>
-  <div class="answerTitle">Gib hier bitte deine Antwort ein.</div>
+  <div class="answerTitle">
+    Gib hier bitte deine Antwort ein.
+    <button onclick="onPeekAnswer()">Spicken</button>
+  </div>
   <input id="answer" class="answer" type="text" spellcheck="false" onchange="processAnswer()">
   <div id="feedback" class="feedback"></div>
   </body>

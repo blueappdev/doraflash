@@ -62,12 +62,28 @@ class CourseHandler(RequestHandler):
             line = line.strip()
             if line == "" or line[0] == "#":
                 continue
-            record = line.split(":")
+            if line[0] == "@":
+                key, value = line[1:].split("=",1)
+                self.setAttribute(key.strip(), value.strip())
+                continue
+            record = line.split(":", 2)
             record = map(string.strip, record)
             self.writeRecord(record)
         self.template = stream.read()
         stream.close()
-        
+    
+    def setAttribute(self, key, value):
+        if key == "input-type":
+            self.write("self.currentCourse.inputType = ")
+            self.write(json.dumps(value, ensure_ascii=False))
+            self.write(";\n")
+        elif key == "name":
+            self.write("self.currentCourse.name = ")
+            self.write(json.dumps(value, ensure_ascii=False))
+            self.write(";\n")
+        else:
+            raise Exception("unknown attribute found " + repr(key))
+
     def writeRecord(self, record):
         if len(record) != 3:
             print record

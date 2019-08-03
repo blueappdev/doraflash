@@ -1,0 +1,2815 @@
+#
+# Course
+#
+
+@name = Traditional Chinese Characters
+@input-type = chinese
+
+# hsk1.txt
+我們 : 我们 : 我们 wǒmen - we; us
+這 : 这 : 这 zhè - this
+會 : 会 : 会 huì - know how to
+嗎 : 吗 : 吗 ma - indicates a yes/no question (added to a statement)
+什麼 : 什么 : 什么 shénme - what? (replaces the noun to turn a statement into a question)
+說 : 说 : 说 shuō - speak
+來 : 来 : 来 lái - come; arrive; ever since; next
+個 : 个 : 个 ge - general measure word
+沒有 : 没有 : 没有 méiyǒu - not have; there is not
+怎麼 : 怎么 : 怎么 zěnme - how?
+現在 : 现在 : 现在 xiànzài - now
+點 : 点 : 点 diǎn - a dot; a little; o'clock
+裡 : 里 : 里 lǐ - inside; Chinese mile (~.5 km)
+聽 : 听 : 听 tīng - listen; hear
+誰 : 谁 : 谁 shéi - who
+時候 : 时候 : 时候 shíhou - time
+謝謝 : 谢谢 : 谢谢 xièxie - thank you
+喜歡 : 喜欢 : 喜欢 xǐhuan - to like
+東西 : 东西 : 东西 dōngxi - things; stuff
+愛 : 爱 : 爱 ài - love
+請 : 请 : 请 qǐng - please; invite; to treat someone to something
+錢 : 钱 : 钱 qián - money; coin
+開 : 开 : 开 kāi - to open; to start; to operate (a vehicle)
+媽媽 : 妈妈 : 妈妈 māma - mom; mum
+幾 : 几 : 几 jǐ - how many; several; a few
+怎麼樣 : 怎么样 : 怎么样 zěnmeyàng - how about?; how is/was it?
+對不起 : 对不起 : 对不起 duìbuqǐ - sorry
+高興 : 高兴 : 高兴 gāoxìng - happy; glad
+買 : 买 : 买 mǎi - to buy
+醫生 : 医生 : 医生 yīshēng - doctor
+哪兒 : 哪儿 : 哪儿 nǎr - where? (Beijing accent)
+認識 : 认识 : 认识 rènshi - recognize; know (a person)
+寫 : 写 : 写 xiě - to write; to compose
+號 : 号 : 号 hào - number; day of a month
+歲 : 岁 : 岁 suì - years old; age
+看見 : 看见 : 看见 kànjiàn - see; catch sight of
+打電話 : 打电话 : 打电话 dǎ diànhuà - make a phone call
+兒子 : 儿子 : 儿子 érzi - son
+分鐘 : 分钟 : 分钟 fēnzhōng - minute; (measure word for time)
+再見 : 再见 : 再见 zàijiàn - goodbye; see you later
+塊 : 块 : 块 kuài - lump; piece; sum of money
+女兒 : 女儿 : 女儿 nǚ'ér - daughter
+學校 : 学校 : 学校 xuéxiào - school
+電影 : 电影 : 电影 diànyǐng - movie; film
+書 : 书 : 书 shū - book; letter
+醫院 : 医院 : 医院 yīyuàn - hospital
+沒關系 : 没关系 : 没关系 méi guānxi - it doesn't matter; never mind
+飛機 : 飞机 : 飞机 fēijī - airplane
+電視 : 电视 : 电视 diànshì - television; TV
+讀 : 读 : 读 dú - to read; to study
+睡覺 : 睡觉 : 睡觉 shuì jiào - to sleep; go to bed
+老師 : 老师 : 老师 lǎoshī - teacher
+貓 : 猫 : 猫 māo - cat
+電腦 : 电脑 : 电脑 diànnǎo - computer
+熱 : 热 : 热 rè - heat; hot
+學生 : 学生 : 学生 xuésheng - student
+學習 : 学习 : 学习 xuéxí - learn; to study
+不客氣 : 不客气 : 不客气 bú kèqi - you're welcome; don't be polite
+中國 : 中国 : 中国 Zhōngguó - China
+出租車 : 出租车 : 出租车 chūzūchē - taxi; cab
+天氣 : 天气 : 天气 tiānqì - weather
+同學 : 同学 : 同学 tóngxué - fellow student; schoolmate
+一點兒 : 一点儿 : 一点儿 yìdiǎnr - a bit; a few
+蘋果 : 苹果 : 苹果 píngguǒ - apple
+飯店 : 饭店 : 饭店 fàndiàn - restaurant; hotel
+米飯 : 米饭 : 米饭 mǐfàn - (cooked) rice
+漢語 : 汉语 : 汉语 Hànyǔ - Chinese language
+
+# hsk2.txt
+對 : 对 : 对 duì - correct; a pair; to face; be opposite; to; towards
+還 : 还 : 还 hái, huán - still; yet; in addition; even | repay; to return
+讓 : 让 : 让 ràng - ask; let; yield
+給 : 给 : 给 gěi, jǐ - to give; to grant; (passive particle) | provide
+過 : 过 : 过 guò - to pass; to cross; go over; (indicates a past experience)
+著 : 着 : 着 zhe, zháo, zhuó - -ing (indicating action in progress) | to touch; to feel | to wear; apply
+別 : 别 : 别 bié, biè - don't do something; don't | depart; | other; difference; distinguish
+告訴 : 告诉 : 告诉 gàosu - to tell; inform
+因為 : 因为 : 因为 yīnwèi - because
+已經 : 已经 : 已经 yǐjing - already
+為什麼 : 为什么 : 为什么 wèishénme - why?; for what reason?
+覺得 : 觉得 : 觉得 juéde - feel; think
+從 : 从 : 从 cóng - from; obey; observe
+兩 : 两 : 两 liǎng - two; 2; both; (unit of weight equal to 50 grams)
+錯 : 错 : 错 cuò - mistake; error; blunder; miss an opportunity
+題 : 题 : 题 tí - topic; subject; question on a test or assignment
+問 : 问 : 问 wèn - ask; inquire
+問題 : 问题 : 问题 wèntí - question; problem
+開始 : 开始 : 开始 kāishǐ - begin; to start; beginning
+時間 : 时间 : 时间 shíjiān - time; period
+准備 : 准备 : 准备 zhǔnbèi - prepare; get ready
+進 : 进 : 进 jìn - enter; come in
+長 : 长 : 长 cháng, zhǎng - long; length | grow; chief (Kangxi radical 168)
+小時 : 小时 : 小时 xiǎoshí - hour
+幫助 : 帮助 : 帮助 bāngzhù - help; assist; aid
+說話 : 说话 : 说话 shuōhuà - to talk; speak
+門 : 门 : 门 mén - door; opening; gate (Kangxi radical 169)
+賣 : 卖 : 卖 mài - to sell
+房間 : 房间 : 房间 fángjiān - room
+遠 : 远 : 远 yuǎn - far; distant; remote
+離 : 离 : 离 lí - leave; depart; go away; apart from
+快樂 : 快乐 : 快乐 kuàilè - happy
+雖然 : 虽然 : 虽然 suīrán - although; even though
+藥 : 药 : 药 yào - medicine; drug; cure; chemical
+身體 : 身体 : 身体 shēntǐ - health; (human) body
+手機 : 手机 : 手机 shǒujī - mobile (cell) phone
+紅 : 红 : 红 hóng - red; symbol of success; bonus; popular
+介紹 : 介绍 : 介绍 jièshào - to introduce; recommend; introduction
+魚 : 鱼 : 鱼 yú - fish (Kangxi radical 195)
+課 : 课 : 课 kè - class; subject; lesson; course
+旁邊 : 旁边 : 旁边 pángbiān - side, beside
+運動 : 运动 : 运动 yùndòng - (physical) exercise; movement; sports; campaign
+報紙 : 报纸 : 报纸 bàozhǐ - newspaper
+顏色 : 颜色 : 颜色 yánsè - color
+機場 : 机场 : 机场 jīchǎng - airport; airfield
+考試 : 考试 : 考试 kǎoshì - test; exam; to give or take a test
+左邊 : 左边 : 左边 zuǒbian - the left side; the left
+貴 : 贵 : 贵 guì - expensive; noble; honorable; Guizhou province (abbreviation)
+右邊 : 右边 : 右边 yòubian - the right (as opposed to left) side
+公共汽車 : 公共汽车 : 公共汽车 gōnggòng qìchē - (public) bus
+打籃球 : 打篮球 : 打篮球 dǎ lánqiú - play basketball
+雞蛋 : 鸡蛋 : 鸡蛋 jīdàn - (chicken) egg
+服務員 : 服务员 : 服务员 fúwùyuán - waiter/waitress; server; attendant
+賓館 : 宾馆 : 宾馆 bīnguǎn - guesthouse; hotel
+陰 : 阴 : 阴 yīn - cloudy (weather); yin (the negative principle of Yin and Yang); secret; the moon; negative; shade
+面條 : 面条 : 面条 miàntiáo - noodles
+鉛筆 : 铅笔 : 铅笔 qiānbǐ - pencil
+火車站 : 火车站 : 火车站 huǒchēzhàn - train station
+
+# hsk3.txt
+還 : 还 : 还 hái, huán - still; yet; in addition; even | repay; to return
+過 : 过 : 过 guò - to pass; to cross; go over; (indicates a past experience)
+隻 : 只 : 只 zhǐ, zhī - only; merely; just; but | (mw for birds and certain animals)
+為 : 为 : 为 wéi, wèi - to act (as); become; to mean | for; because of; to; for the sake of
+應該 : 应该 : 应该 yīnggāi - should; ought to; must
+起來 : 起来 : 起来 qǐ lai - (beginning or continuing an action); to rise; get up (from bed)
+帶 : 带 : 带 dài - band; belt; ribbon; carry; bring; take along; bring up (kids)
+一樣 : 一样 : 一样 yíyàng - the same; alike; equal to
+當然 : 当然 : 当然 dāngrán - of course; naturally
+認為 : 认为 : 认为 rènwéi - believe; think that
+離開 : 离开 : 离开 líkāi - leave; depart
+還是 : 还是 : 还是 háishi - or; still; nevertheless; had better
+發 : 发 : 发 fā, fà - send out; to issue; to show (one's feelings) | hair
+發現 : 发现 : 发现 fāxiàn - discover; to find
+必須 : 必须 : 必须 bìxū - must; have to
+為了 : 为了 : 为了 wèile - in order to; for the sake of; for the purpose of
+種 : 种 : 种 zhǒng, zhòng - type; breed; race; seed | to plant
+記得 : 记得 : 记得 jìde - remember
+過去 : 过去 : 过去 guòqù - in the past; formerly
+擔心 : 担心 : 担心 dānxīn - to worry; feel anxious
+條 : 条 : 条 tiáo - strip; (mw for long thin objects); item
+長 : 长 : 长 cháng, zhǎng - long; length | grow; chief (Kangxi radical 168)
+別人 : 别人 : 别人 biéren - other people; others
+機會 : 机会 : 机会 jīhuì - opportunity; chance; occasion
+張 : 张 : 张 zhāng - (mw for flat objects); to spread out; (common surname)
+比賽 : 比赛 : 比赛 bǐsài - (sports) match; competition
+關 : 关 : 关 guān - to close; shut; concern; relationship; turn off; mountain pass
+關系 : 关系 : 关系 guānxi - relation; to concern
+馬 : 马 : 马 mǎ - horse (Kangxi radical 187)
+馬上 : 马上 : 马上 mǎshàng - at once; immediately; right away
+決定 : 决定 : 决定 juédìng - decide; resolve
+關於 : 关于 : 关于 guānyú - about; regarding; concerning
+難 : 难 : 难 nán, nàn - difficult | trouble; to blame
+結束 : 结束 : 结束 jiéshù - to end; to finish; conclude
+願意 : 愿意 : 愿意 yuànyì - be willing; want to; be ready
+歡迎 : 欢迎 : 欢迎 huānyíng - to welcome; greet
+總是 : 总是 : 总是 zǒngshì - always; eventually
+參加 : 参加 : 参加 cānjiā - participate; join; take part in
+辦法 : 办法 : 办法 bànfǎ - method; way (of doing something)
+選擇 : 选择 : 选择 xuǎnzé - select; to pick; choose
+壞 : 坏 : 坏 huài - bad; broken
+試 : 试 : 试 shì - to try; to test; examination
+特別 : 特别 : 特别 tèbié - special; especially; particular
+其實 : 其实 : 其实 qíshí - actually; in fact
+隻有 : 只有 : 只有 zhǐyǒu - only
+講 : 讲 : 讲 jiǎng - to talk; to lecture; to explain; a speech
+換 : 换 : 换 huàn - change; to exchange; to barter; to trade
+結婚 : 结婚 : 结婚 jiéhūn - get married
+剛才 : 刚才 : 刚才 gāngcái - just now; a moment ago
+節目 : 节目 : 节目 jiémù - program; item (on a program)
+輛 : 辆 : 辆 liàng - (mw for vehicles)
+萬 : 万 : 万 wàn - ten thousand
+解決 : 解决 : 解决 jiějué - settle (a dispute); resolve; solve
+辦公室 : 办公室 : 办公室 bàngōngshì - office
+游戲 : 游戏 : 游戏 yóuxì - game; play; recreation
+幫忙 : 帮忙 : 帮忙 bāngmáng - to help
+國家 : 国家 : 国家 guójiā - country; state; nation
+聲音 : 声音 : 声音 shēngyīn - sound; voice
+可愛 : 可爱 : 可爱 kě'ài - cute; lovely
+臉 : 脸 : 脸 liǎn - face
+簡單 : 简单 : 简单 jiǎndān - simple; not complicated
+檢查 : 检查 : 检查 jiǎnchá - to check; examine; inspect
+音樂 : 音乐 : 音乐 yīnyuè - music
+照顧 : 照顾 : 照顾 zhàogu - take care of; look after; give consideration
+聰明 : 聪明 : 聪明 cōngming - intelligent; clever; bright; smart
+終於 : 终于 : 终于 zhōngyú - at last; in the end; finally
+禮物 : 礼物 : 礼物 lǐwù - gift; present
+頭發 : 头发 : 头发 tóufa - hair (on the head)
+關心 : 关心 : 关心 guānxīn - concerned about/with
+腳 : 脚 : 脚 jiǎo - foot (body part)
+生氣 : 生气 : 生气 shēngqì - angry; mad
+畫 : 画 : 画 huà - draw; picture; painting
+年輕 : 年轻 : 年轻 niánqīng - young
+忘記 : 忘记 : 忘记 wàngjì - forget
+樓 : 楼 : 楼 lóu - story; floor; (multi-story) building
+新聞 : 新闻 : 新闻 xīnwén - news
+比較 : 比较 : 比较 bǐjiào - compare; contrast; relatively
+雙 : 双 : 双 shuāng - two; double; (mw for pairs)
+見面 : 见面 : 见面 jiànmiàn - meet/see somebody (face to face); meeting
+經常 : 经常 : 经常 jīngcháng - often; frequently; daily
+一會兒 : 一会儿 : 一会儿 yíhuìr - a while; a moment
+影響 : 影响 : 影响 yǐngxiǎng - influence; affect; effect
+認真 : 认真 : 认真 rènzhēn - serious; earnest; take seriously
+銀行 : 银行 : 银行 yínháng - bank
+安靜 : 安静 : 安静 ānjìng - quiet; peaceful; calm
+多麼 : 多么 : 多么 duōme - how (wonderful, etc.); what (a great idea)
+餓 : 饿 : 饿 è - hungry
+根據 : 根据 : 根据 gēnjù - according to; based on; basis
+幾乎 : 几乎 : 几乎 jīhū - almost
+后來 : 后来 : 后来 hòulái - afterwards; after; later
+動物 : 动物 : 动物 dòngwù - animal
+一邊 : 一边 : 一边 yìbiān - one side; on the one hand; at the same time
+遲到 : 迟到 : 迟到 chídào - arrive late
+歷史 : 历史 : 历史 lìshǐ - history
+經過 : 经过 : 经过 jīngguò - to pass; go through; as a result of
+習慣 : 习惯 : 习惯 xíguàn - habit; be accustomed to; usual practice
+公園 : 公园 : 公园 gōngyuán - public park
+干淨 : 干净 : 干净 gānjìng - clean; neat and tidy
+鳥 : 鸟 : 鸟 niǎo - bird (Kangxi radical 196)
+樹 : 树 : 树 shù - tree
+會議 : 会议 : 会议 huìyì - meeting; conference
+褲子 : 裤子 : 裤子 kùzi - pants; trousers
+鄰居 : 邻居 : 邻居 línjū - neighbor
+經理 : 经理 : 经理 jīnglǐ - manager; director
+層 : 层 : 层 céng - (mw for layers, floors of buildings)
+燈 : 灯 : 灯 dēng - lamp; light
+練習 : 练习 : 练习 liànxí - practice; exercise
+爺爺 : 爷爷 : 爷爷 yéye - (informal) father's father; paternal grandfather
+藍 : 蓝 : 蓝 lán - blue
+難過 : 难过 : 难过 nánguò - be grieved; be sad; have a hard time
+中間 : 中间 : 中间 zhōngjiān - center; middle; between; among
+司機 : 司机 : 司机 sījī - driver; chauffeur
+舊 : 旧 : 旧 jiù - old; past; used
+滿意 : 满意 : 满意 mǎnyì - satisfied; pleased
+騎 : 骑 : 骑 qí - to ride (an animal or bike); to sit astride
+太陽 : 太阳 : 太阳 tàiyáng - the sun
+極 : 极 : 极 jí - an extreme; pole; very
+變化 : 变化 : 变化 biànhuà - change
+東 : 东 : 东 dōng - East
+年級 : 年级 : 年级 niánjí - grade; year (in school)
+環境 : 环境 : 环境 huánjìng - environment; surroundings
+地圖 : 地图 : 地图 dìtú - map
+電子郵件 : 电子邮件 : 电子邮件 diànzǐ yóujiàn - email
+新鮮 : 新鲜 : 新鲜 xīnxiān - fresh (experience, food, etc.); new; novel
+熱情 : 热情 : 热情 rèqíng - cordial; warm; enthusiastic
+電梯 : 电梯 : 电梯 diàntī - elevator
+洗手間 : 洗手间 : 洗手间 xǐshǒujiān - toilet; lavatory; washroom
+飲料 : 饮料 : 饮料 yǐnliào - beverage; drink
+校長 : 校长 : 校长 xiàozhǎng - principal (of school, college or university); president; headmaster
+作業 : 作业 : 作业 zuòyè - school assignment; homework; task
+襯衫 : 衬衫 : 衬衫 chènshān - shirt; blouse
+成績 : 成绩 : 成绩 chéngjì - achievement; success; results (of work or study)
+圖書館 : 图书馆 : 图书馆 túshūguǎn - library
+綠 : 绿 : 绿 lǜ - green
+打掃 : 打扫 : 打扫 dǎsǎo - to clean; to sweep
+數學 : 数学 : 数学 shùxué - mathematics
+自行車 : 自行车 : 自行车 zìxíngchē - bike; bicycle
+著急 : 着急 : 着急 zháojí - to worry; feel anxious
+起飛 : 起飞 : 起飞 qǐfēi - take off (in an airplane); liftoff
+地鐵 : 地铁 : 地铁 dìtiě - subway
+體育 : 体育 : 体育 tǐyù - physical training; sports
+護照 : 护照 : 护照 hùzhào - passport
+節日 : 节日 : 节日 jiérì - holiday; festival
+盤子 : 盘子 : 盘子 pánzi - plate; dish; tray
+鍛煉 : 锻炼 : 锻炼 duànliàn - to exercise; work out; toughen; to temper
+愛好 : 爱好 : 爱好 àihào - hobby; fond of; to like; interest
+飽 : 饱 : 饱 bǎo - eat until full; satisfied
+筆記本 : 笔记本 : 笔记本 bǐjìběn - notebook
+菜單 : 菜单 : 菜单 càidān - menu
+上網 : 上网 : 上网 shàngwǎng - to surf the web; to go online
+季節 : 季节 : 季节 jìjié - season; time; period
+發燒 : 发烧 : 发烧 fāshāo - have a fever
+空調 : 空调 : 空调 kōngtiáo - air conditioning
+照相機 : 照相机 : 照相机 zhàoxiàngjī - camera
+傘 : 伞 : 伞 sǎn - umbrella; parasol
+個子 : 个子 : 个子 gèzi - height; stature; build
+熊貓 : 熊猫 : 熊猫 xióngmāo - panda
+復習 : 复习 : 复习 fùxí - revise; to review
+請假 : 请假 : 请假 qǐng jià - to ask for time off
+感興趣 : 感兴趣 : 感兴趣 gǎn xìngqù - be interested in
+詞典 : 词典 : 词典 cídiǎn - dictionary
+留學 : 留学 : 留学 liú xué - study abroad
+刮風 : 刮风 : 刮风 guāfēng - windy; to blow (wind)
+黃河 : 黄河 : 黄河 huánghé - Yellow River
+
+# hsk4.txt
+當 : 当 : 当 dāng, dàng - should; act as; work as; manage; match; (sound of bells) | appropriate; assume; pawn
+也許 : 也许 : 也许 yěxǔ - perhaps; probably; maybe
+不過 : 不过 : 不过 búguò - only; merely; but; however
+發生 : 发生 : 发生 fāshēng - happen; occur; take place
+感覺 : 感觉 : 感觉 gǎnjué - to feel; become aware of; feeling
+以為 : 以为 : 以为 yǐwéi - think (mistakenly); consider (that); believe
+與 : 与 : 与 yǔ, yù, yú - (formal) and; to give; together with; participate; final particle expressing doubt or surprise
+卻 : 却 : 却 què - but; yet; however
+繼續 : 继续 : 继续 jìxù - to continue; to go on; to proceed
+夠 : 够 : 够 gòu - enough; to reach
+父親 : 父亲 : 父亲 fùqin - father
+談 : 谈 : 谈 tán - to talk; to chat; discuss
+場 : 场 : 场 chǎng, cháng - courtyard; place; field; (mw for games, performances, etc.) | threshing floor
+剛 : 刚 : 刚 gāng - just (indicating the immediate past); recently; firm
+情況 : 情况 : 情况 qíngkuàng - circumstance; state of affairs; situation
+隻要 : 只要 : 只要 zhǐyào - so long as; if only; provided that
+成為 : 成为 : 成为 chéngwéi - become; turn into
+永遠 : 永远 : 永远 yǒngyuǎn - forever; eternal; always
+計劃 : 计划 : 计划 jìhuà - plan; project
+倆 : 俩 : 俩 liǎ, liǎng - (colloquial) two (people)
+感謝 : 感谢 : 感谢 gǎnxiè - thank; be grateful
+從來 : 从来 : 从来 cónglái - have always (from the beginning); never (with negative)
+贏 : 赢 : 赢 yíng - to win; to beat; to profit
+連 : 连 : 连 lián - even; including; join
+確實 : 确实 : 确实 quèshí - indeed; in truth; reliable
+保証 : 保证 : 保证 bǎozhèng - to guarantee; ensure
+改變 : 改变 : 改变 gǎibiàn - to change; alter; to transform
+麻煩 : 麻烦 : 麻烦 máfan - trouble (someone); troubling; bothersome
+出現 : 出现 : 出现 chūxiàn - appear; arise; emerge
+保護 : 保护 : 保护 bǎohù - to protect; to defend
+結果 : 结果 : 结果 jiéguǒ - result; outcome; finally
+當時 : 当时 : 当时 dāngshí - then; at that time; while
+律師 : 律师 : 律师 lǜshī - lawyer
+無 : 无 : 无 wú - have not; without; not (Kangxi radical 71)
+咱們 : 咱们 : 咱们 zánmen - we (including the listener); us; our
+進行 : 进行 : 进行 jìnxíng - carry on; carry out; undertake
+內 : 内 : 内 nèi - inside; inner; internal; within
+調查 : 调查 : 调查 diàochá - investigate; survey; inquiry
+考慮 : 考虑 : 考虑 kǎolǜ - think over; consider
+約會 : 约会 : 约会 yuēhuì - appointment; engagement; date
+通過 : 通过 : 通过 tōngguò - by means of; through (a method); pass through; via
+開心 : 开心 : 开心 kāixīn - feel happy; have a great time; make fun of somebody
+母親 : 母亲 : 母亲 mǔqin - mother
+解釋 : 解释 : 解释 jiěshì - to explain
+聯系 : 联系 : 联系 liánxì - integrate; link; connection; contact
+証明 : 证明 : 证明 zhèngmíng - proof; testify; confirm; certificate
+難道 : 难道 : 难道 nándào - could it be that ...?; don't tell me ...
+危險 : 危险 : 危险 wēixiǎn - danger; dangerous; perilous
+討厭 : 讨厌 : 讨厌 tǎoyàn - to hate; loathe; disgusting; troublesome
+樣子 : 样子 : 样子 yàngzi - manner; air; appearance; looks
+任務 : 任务 : 任务 rènwu - a mission; an assignment; a task
+轉 : 转 : 转 zhuǎn, zhuàn - to turn; to change; pass on | revolve; rotate
+緊張 : 紧张 : 紧张 jǐnzhāng - nervous; tension; strain
+放棄 : 放弃 : 放弃 fàngqì - abandon; renounce; give up
+來自 : 来自 : 来自 láizì - come from (a place)
+本來 : 本来 : 本来 běnlái - originally; at first
+並且 : 并且 : 并且 bìngqiě - and; besides; moreover
+對於 : 对于 : 对于 duìyú - regarding; as far as sth. is concerned; with regards to; for
+冷靜 : 冷静 : 冷静 lěngjìng - calm; cool-headed; sober
+放鬆 : 放松 : 放松 fàngsōng - relax; loosen; slacken
+丟 : 丢 : 丢 diū - lose (something); throw; put aside
+負責 : 负责 : 负责 fùzé - responsible for (something); in charge of
+夢 : 梦 : 梦 mèng - to dream
+錯誤 : 错误 : 错误 cuòwù - error; mistake; mistaken
+隨便 : 随便 : 随便 suíbiàn - as one pleases; informal; random; casual
+經歷 : 经历 : 经历 jīnglì - undergo; to experience
+建議 : 建议 : 建议 jiànyì - to propose; to suggest; recommend
+否則 : 否则 : 否则 fǒuzé - if not; otherwise; or else
+鑰匙 : 钥匙 : 钥匙 yàoshi - key
+堅持 : 坚持 : 坚持 jiānchí - persist in; persevere
+到處 : 到处 : 到处 dàochù - everywhere; in all places; all over
+可憐 : 可怜 : 可怜 kělián - pitiful; poor; pathetic
+實在 : 实在 : 实在 shízài - honest; in reality; honestly; indeed; certainly
+騙 : 骗 : 骗 piàn - to cheat; to swindle; deceive
+原諒 : 原谅 : 原谅 yuánliàng - to excuse; forgive; to pardon
+亂 : 乱 : 乱 luàn - disorder; confusion; arbitrarily
+滿 : 满 : 满 mǎn - full; abbreviation for Manchurian
+打擾 : 打扰 : 打扰 dǎrǎo - disturb
+正確 : 正确 : 正确 zhèngquè - correct; proper
+同時 : 同时 : 同时 tóngshí - at the same time; simultaneously
+輸 : 输 : 输 shū - to transport; to lose (a game, etc.)
+號碼 : 号码 : 号码 hàomǎ - number
+嚴重 : 严重 : 严重 yánzhòng - grave; serious; critical
+脫 : 脱 : 脱 tuō - to shed; take off; to escape
+原來 : 原来 : 原来 yuánlái - original; former; as it turns out
+討論 : 讨论 : 讨论 tǎolùn - to discuss; discussion; to talk over
+說明 : 说明 : 说明 shuōmíng - explain; explanation; illustrate; to show
+動作 : 动作 : 动作 dòngzuò - movement; motion; action
+趕 : 赶 : 赶 gǎn - catch up; overtake; drive away
+懷疑 : 怀疑 : 怀疑 huáiyí - doubt; to suspect; be skeptical
+拒絕 : 拒绝 : 拒绝 jùjué - to refuse; to decline; to reject
+演員 : 演员 : 演员 yǎnyuán - actor or actress; performer
+活動 : 活动 : 活动 huódòng - activity; exercise; move about
+無論 : 无论 : 无论 wúlùn - no matter what; regardless of whether...
+適合 : 适合 : 适合 shìhé - to suit; to fit
+允許 : 允许 : 允许 yǔnxǔ - to permit; allow
+意見 : 意见 : 意见 yìjiàn - opinion; view; suggestion; complaint
+獲得 : 获得 : 获得 huòdé - obtain; acquire; to gain
+邀請 : 邀请 : 邀请 yāoqǐng - to invite
+盡管 : 尽管 : 尽管 jǐnguǎn - despite; although; even though | freely; without hesitation
+浪費 : 浪费 : 浪费 làngfèi - to waste; squander
+失敗 : 失败 : 失败 shībài - be defeated; fail; lose
+責任 : 责任 : 责任 zérèn - responsibility; blame; duty
+美麗 : 美丽 : 美丽 měilì - beautiful
+壓力 : 压力 : 压力 yālì - pressure; stress
+厲害 : 厉害 : 厉害 lìhai - terrible; formidable; fierce; cool; awesome
+出發 : 出发 : 出发 chūfā - start out; set off
+興奮 : 兴奋 : 兴奋 xīngfèn - excitement; be excited
+觀眾 : 观众 : 观众 guānzhòng - spectator; audience
+反對 : 反对 : 反对 fǎnduì - oppose; fight against
+開玩笑 : 开玩笑 : 开玩笑 kāi wánxiào - joke; play a joke; make fun of
+雜志 : 杂志 : 杂志 zázhì - magazine
+合適 : 合适 : 合适 héshì - suitable; proper; appropriate
+廣告 : 广告 : 广告 guǎnggào - advertisement; a commercial
+帥 : 帅 : 帅 shuài - handsome; graceful; commander-in-chief
+關鍵 : 关键 : 关键 guānjiàn - crucial; key; pivotal
+聚會 : 聚会 : 聚会 jùhuì - hold a meeting; get together; a party
+接著 : 接着 : 接着 jiēzhe - continue; carry on; to catch; follow
+技術 : 技术 : 技术 jìshù - technology; technique; skill
+困難 : 困难 : 困难 kùnnan - difficulty; difficult; problem
+激動 : 激动 : 激动 jīdòng - excite; agitate
+驕傲 : 骄傲 : 骄傲 jiāo'ào - proud; arrogant; conceited; take pride in
+節 : 节 : 节 jié - section; part; festival; moral integrity; save; (mw for class periods)
+許多 : 许多 : 许多 xǔduō - many; a lot; much
+順利 : 顺利 : 顺利 shùnlì - go smoothly; without a hitch; successful
+職業 : 职业 : 职业 zhíyè - profession; occupation
+賺 : 赚 : 赚 zhuàn, zuàn - earn; make a profit | to cheat; to swindle
+於是 : 于是 : 于是 yúshì - as a result; thus; therefore
+周圍 : 周围 : 周围 zhōuwéi - surroundings; vicinity; environment
+愛情 : 爱情 : 爱情 àiqíng - (romantic) love
+超過 : 超过 : 超过 chāoguò - surpass; exceed; outstrip
+順便 : 顺便 : 顺便 shùnbiàn - conveniently; in passing; on the way
+無聊 : 无聊 : 无聊 wúliáo - nonsense; bored; silly; stupid
+復雜 : 复杂 : 复杂 fùzá - complicated; complex
+社會 : 社会 : 社会 shèhuì - society
+好處 : 好处 : 好处 hǎochu - benefit; advantage
+估計 : 估计 : 估计 gūjì - appraise; estimate
+地點 : 地点 : 地点 dìdiǎn - place; site; location
+輕 : 轻 : 轻 qīng - light; easy; gentle; soft
+輕鬆 : 轻松 : 轻松 qīngsōng - relaxed; gentle; easygoing
+舉 : 举 : 举 jǔ - lift; raise; cite
+免費 : 免费 : 免费 miǎn fèi - free (of charge); no cost
+傷心 : 伤心 : 伤心 shāngxīn - sad; grieve; brokenhearted
+記者 : 记者 : 记者 jìzhě - reporter; journalist
+仔細 : 仔细 : 仔细 zǐxì - careful; attentive; cautious
+廁所 : 厕所 : 厕所 cèsuǒ - bathroom; toilet; lavatory
+過程 : 过程 : 过程 guòchéng - course of events; process
+申請 : 申请 : 申请 shēnqǐng - apply for; application
+發展 : 发展 : 发展 fāzhǎn - develop; development; growth
+畢業 : 毕业 : 毕业 bì yè - to graduate; to finish school
+廚房 : 厨房 : 厨房 chúfáng - kitchen
+專業 : 专业 : 专业 zhuānyè - profession; specialized field of study; major
+祝賀 : 祝贺 : 祝贺 zhùhè - congratulate
+條件 : 条件 : 条件 tiáojiàn - condition; circumstances; prerequisite
+千萬 : 千万 : 千万 qiānwàn - ten million; be sure to; must
+由於 : 由于 : 由于 yóuyú - due to; owing to; as a result of; thanks to
+密碼 : 密码 : 密码 mìmǎ - password; secret code
+經驗 : 经验 : 经验 jīngyàn - experience
+臟 : 脏 : 脏 zāng, zàng - filthy; dirty | internal organs; viscera
+藝術 : 艺术 : 艺术 yìshù - art
+數字 : 数字 : 数字 shùzì - number; numeral; figure; digit
+暫時 : 暂时 : 暂时 zànshí - temporary; transient; for the moment
+優秀 : 优秀 : 优秀 yōuxiù - outstanding; excellent
+笑話 : 笑话 : 笑话 xiàohua - joke; laugh at
+響 : 响 : 响 xiǎng - make a sound; to ring; echo
+科學 : 科学 : 科学 kēxué - science; scientific knowledge
+餐廳 : 餐厅 : 餐厅 cāntīng - dining hall; cafeteria; restaurant
+距離 : 距离 : 距离 jùlí - distance; be apart; away from
+窗戶 : 窗户 : 窗户 chuānghu - window
+空氣 : 空气 : 空气 kōngqì - air
+護士 : 护士 : 护士 hùshi - nurse
+大約 : 大约 : 大约 dàyuē - approximately; about
+內容 : 内容 : 内容 nèiróng - content; substance; details
+規定 : 规定 : 规定 guīdìng - regulation; stipulate; fix; set
+現金 : 现金 : 现金 xiànjīn - cash
+兒童 : 儿童 : 儿童 értóng - child; children
+態度 : 态度 : 态度 tàidu - manner; bearing; attitude
+吃驚 : 吃惊 : 吃惊 chī jīng - be startled; be shocked; be amazed
+世紀 : 世纪 : 世纪 shìjì - century
+回憶 : 回忆 : 回忆 huíyì - to recall; recollect
+重點 : 重点 : 重点 zhòngdiǎn - emphasis; main point
+皮膚 : 皮肤 : 皮肤 pífū - skin
+區別 : 区别 : 区别 qūbié - difference; distinguish
+陽光 : 阳光 : 阳光 yángguāng - sunshine; sunlight
+頁 : 页 : 页 yè - page; leaf (Kangxi radical 181)
+語言 : 语言 : 语言 yǔyán - language
+標准 : 标准 : 标准 biāozhǔn - (an official) standard; norm; criterion
+誤會 : 误会 : 误会 wùhuì - to misunderstand; to mistake
+橋 : 桥 : 桥 qiáo - bridge
+舉行 : 举行 : 举行 jǔxíng - convene; to hold (a meeting, ceremony, etc.)
+不僅 : 不仅 : 不仅 bùjǐn - not only; not just
+餅干 : 饼干 : 饼干 bǐnggān - biscuit; cracker; cookie
+國際 : 国际 : 国际 guójì - international
+競爭 : 竞争 : 竞争 jìngzhēng - compete
+湯 : 汤 : 汤 tāng - soup; broth
+誠實 : 诚实 : 诚实 chéngshí - honest; honorable
+顧客 : 顾客 : 顾客 gùkè - customer; client
+年齡 : 年龄 : 年龄 niánlíng - (a person's) age
+小說 : 小说 : 小说 xiǎoshuō - novel; fiction
+適應 : 适应 : 适应 shìyìng - to suit; to fit; adapt
+將來 : 将来 : 将来 jiānglái - the future
+沙發 : 沙发 : 沙发 shāfā - sofa
+經濟 : 经济 : 经济 jīngjì - economy; economic
+購物 : 购物 : 购物 gòuwù - go shopping; buy goods
+抽煙 : 抽烟 : 抽烟 chōuyān - to smoke (a cigarette, pipe, etc.)
+禮貌 : 礼貌 : 礼貌 lǐmào - courtesy; politeness; manners
+判斷 : 判断 : 判断 pànduàn - to judge; judgment; to decide
+網站 : 网站 : 网站 wǎngzhàn - website
+眼鏡 : 眼镜 : 眼镜 yǎnjìng - glasses; spectacles
+鏡子 : 镜子 : 镜子 jìngzi - mirror
+廣播 : 广播 : 广播 guǎngbō - broadcast; on the air
+專門 : 专门 : 专门 zhuānmén - specialized
+彈鋼琴 : 弹钢琴 : 弹钢琴 tán gāngqín - play the piano
+嘗 : 尝 : 尝 cháng - to taste; flavor; (past tense marker)
+對話 : 对话 : 对话 duìhuà - dialogue; conversation
+詳細 : 详细 : 详细 xiángxì - detailed; in detail; minute
+隨著 : 随着 : 随着 suízhe - along with; in the wake of
+嚴格 : 严格 : 严格 yángé - strict; stringent; tight
+日記 : 日记 : 日记 rìjì - diary
+偶爾 : 偶尔 : 偶尔 ǒu'ěr - occasionally; once in a while; sometimes
+實際 : 实际 : 实际 shíjì - actual; reality; practice
+友誼 : 友谊 : 友谊 yǒuyì - friendship; companionship
+准確 : 准确 : 准确 zhǔnquè - accurate; precise
+平時 : 平时 : 平时 píngshí - ordinarily; in normal times; in peacetime
+對面 : 对面 : 对面 duìmiàn - opposite; across from; the other side
+脾氣 : 脾气 : 脾气 píqi - temperament; disposition; temper
+價格 : 价格 : 价格 jiàgé - price
+鼓勵 : 鼓励 : 鼓励 gǔlì - encourage; inspire
+及時 : 及时 : 及时 jíshí - timely; in time; promptly; without delay
+工資 : 工资 : 工资 gōngzī - wages; pay; earnings; salary
+隻好 : 只好 : 只好 zhǐhǎo - have to; be forced to
+感動 : 感动 : 感动 gǎndòng - be moved; to touch emotionally
+知識 : 知识 : 知识 zhīshi - knowledge; intellectual
+難受 : 难受 : 难受 nánshòu - feel unwell; to suffer pain
+獎金 : 奖金 : 奖金 jiǎngjīn - bonus
+孫子 : 孙子 : 孙子 sūnzi - grandson; son's son
+公裡 : 公里 : 公里 gōnglǐ - kilometer
+基礎 : 基础 : 基础 jīchǔ - base; foundation
+准時 : 准时 : 准时 zhǔnshí - punctually; on time
+積極 : 积极 : 积极 jījí - active; positive; energetic
+力氣 : 力气 : 力气 lìqi - physical strength; effort
+襪子 : 袜子 : 袜子 wàzi - socks; stockings
+煩惱 : 烦恼 : 烦恼 fánnǎo - worried; vexed
+舉辦 : 举办 : 举办 jǔbàn - to conduct; to hold
+減少 : 减少 : 减少 jiǎnshǎo - reduce; to decrease
+親戚 : 亲戚 : 亲戚 qīnqi - a relative (i.e. family relation)
+參觀 : 参观 : 参观 cānguān - to visit (a place, such as a tourist spot); inspect
+豐富 : 丰富 : 丰富 fēngfù - rich; enrich; abundant; plentiful
+批評 : 批评 : 批评 pīpíng - criticize
+排隊 : 排队 : 排队 pái duì - queue; stand in line
+窮 : 穷 : 穷 qióng - poor; exhausted
+鹽 : 盐 : 盐 yán - salt
+溫度 : 温度 : 温度 wēndù - temperature
+數量 : 数量 : 数量 shùliàng - amount; quantity; number
+亞洲 : 亚洲 : 亚洲 Yàzhōu - Asia
+來不及 : 来不及 : 来不及 lái bu jí - there's not enough time (to do something); it's too late
+師傅 : 师傅 : 师傅 shīfu - master; qualified worker; teacher
+來得及 : 来得及 : 来得及 lái de jí - there's still time
+減肥 : 减肥 : 减肥 jiǎnféi - go on a diet; lose weight
+客廳 : 客厅 : 客厅 kètīng - living room; parlor
+雲 : 云 : 云 yún - cloud; Yunnan province | say; speak
+質量 : 质量 : 质量 zhìliàng - quality; mass (physics)
+學期 : 学期 : 学期 xuéqī - semester; school term
+衛生間 : 卫生间 : 卫生间 wèishēngjiān - restroom; bathroom; water closet (WC)
+網球 : 网球 : 网球 wǎngqiú - tennis; tennis ball
+閱讀 : 阅读 : 阅读 yuèdú - read; reading
+順序 : 顺序 : 顺序 shùnxù - sequence; order
+重視 : 重视 : 重视 zhòngshì - to value; take seriously
+推遲 : 推迟 : 推迟 tuīchí - postpone; defer
+缺點 : 缺点 : 缺点 quēdiǎn - weak point; defect; fault; shortcoming
+羨慕 : 羡慕 : 羡慕 xiànmù - to envy; admire
+零錢 : 零钱 : 零钱 língqián - small change (of money)
+懶 : 懒 : 懒 lǎn - lazy
+傳真 : 传真 : 传真 chuánzhēn - fax; facsimile
+優點 : 优点 : 优点 yōudiǎn - merit; good point; a strength; a benefit
+房東 : 房东 : 房东 fángdōng - landlord
+按時 : 按时 : 按时 ànshí - on time; on schedule
+特點 : 特点 : 特点 tèdiǎn - a characteristic; trait; feature
+性別 : 性别 : 性别 xìngbié - gender; sex; sexual distinction
+報名 : 报名 : 报名 bào míng - sign up; apply
+互聯網 : 互联网 : 互联网 Hùliánwǎng - Internet
+大使館 : 大使馆 : 大使馆 dàshǐguǎn - embassy
+總結 : 总结 : 总结 zǒngjié - summarize; conclude
+熱鬧 : 热闹 : 热闹 rènao - bustling; lively; busy
+郊區 : 郊区 : 郊区 jiāoqū - suburbs; outskirts
+簽証 : 签证 : 签证 qiānzhèng - visa
+活潑 : 活泼 : 活泼 huópo - lively; vivacious
+郵局 : 邮局 : 邮局 yóujú - post office
+氣候 : 气候 : 气候 qìhòu - climate; atmosphere; weather
+理發 : 理发 : 理发 lǐfà - a barber, hairdressing; haircut
+復印 : 复印 : 复印 fùyìn - photocopy; duplicate
+詞語 : 词语 : 词语 cíyǔ - words and expressions; terms
+表揚 : 表扬 : 表扬 biǎoyáng - to praise; commend
+打針 : 打针 : 打针 dǎzhēn - inject; get a shot
+堵車 : 堵车 : 堵车 dǔchē - traffic jam
+葉子 : 叶子 : 叶子 yèzi - leaves
+涼快 : 凉快 : 凉快 liángkuai - nice and cool; pleasantly cool
+導游 : 导游 : 导游 dǎoyóu - tour guide
+西紅柿 : 西红柿 : 西红柿 xīhóngshì - tomato
+節約 : 节约 : 节约 jiéyuē - frugal; to save
+碩士 : 硕士 : 硕士 shuòshì - Master's degree (M.A.)
+積累 : 积累 : 积累 jīlěi - accumulate; accumulation
+應聘 : 应聘 : 应聘 yìngpìn - accept a job offer; to apply for a job
+礦泉水 : 矿泉水 : 矿泉水 kuàngquánshuǐ - mineral water
+長城 : 长城 : 长城 chángchéng - the Great Wall
+語法 : 语法 : 语法 yǔfǎ - grammar
+禮拜天 : 礼拜天 : 礼拜天 lǐbàitiān - Sunday
+餃子 : 饺子 : 饺子 jiǎozi - dumpling; potsticker
+國籍 : 国籍 : 国籍 guójí - nationality
+售貨員 : 售货员 : 售货员 shòuhuòyuán - salesclerk; shop assistant
+翻譯 : 翻译 : 翻译 fānyì - translate; translation; interpret
+養成 : 养成 : 养成 yǎngchéng - cultivate; acquire; to form
+馬虎 : 马虎 : 马虎 mǎhu - careless; sloppy; casual
+普通話 : 普通话 : 普通话 pǔtōnghuà - Mandarin (common language)
+登機牌 : 登机牌 : 登机牌 dēngjīpái - boarding pass
+佔線 : 占线 : 占线 zhànxiàn - the (phone) line is busy
+烤鴨 : 烤鸭 : 烤鸭 kǎoyā - roast duck
+長江 : 长江 : 长江 Chángjiāng - the Yangtze River; the Changjiang River
+預習 : 预习 : 预习 yùxí - (of students) prepare a lesson before class; preview
+京劇 : 京剧 : 京剧 jīngjù - Beijing Opera
+
+# hsk5.txt
+殺 : 杀 : 杀 shā - to kill; to murder
+親愛 : 亲爱 : 亲爱 qīn'ài - beloved; Dear ... (a way of starting a letter lovers, intimate friends or close relatives)
+寶貝 : 宝贝 : 宝贝 bǎobèi - treasure; precious things; darling; baby
+槍 : 枪 : 枪 qiāng - gun; spear
+確定 : 确定 : 确定 quèdìng - definite; certain; fixed; determine
+或許 : 或许 : 或许 huòxǔ - perhaps; maybe
+表現 : 表现 : 表现 biǎoxiàn - to show; to show off; display; performance
+絕對 : 绝对 : 绝对 juéduì - absolute; definite
+整個 : 整个 : 整个 zhěnggè - whole; entire; total
+處理 : 处理 : 处理 chǔlǐ - deal with; to process; sell at a discount; to treat (by a special process)
+行動 : 行动 : 行动 xíngdòng - to move; get around; action
+作為 : 作为 : 作为 zuòwéi - regard as; act as; action; deed
+曾經 : 曾经 : 曾经 céngjīng - once; (refers to something that happened previously)
+總統 : 总统 : 总统 zǒngtǒng - president (of a country)
+傷害 : 伤害 : 伤害 shānghài - injure; to harm; wound
+証據 : 证据 : 证据 zhèngjù - evidence; proof; testimony
+事實 : 事实 : 事实 shìshí - fact; in fact
+裝 : 装 : 装 zhuāng - to load; dress up; pretend; clothing; to install
+簡直 : 简直 : 简直 jiǎnzhí - simply; at all
+的確 : 的确 : 的确 díquè - really; indeed
+瘋狂 : 疯狂 : 疯狂 fēngkuáng - crazy; madness; wild; extreme popularity; insane; frenzied; unbridled
+記錄 : 记录 : 记录 jìlù - to record; take notes
+目標 : 目标 : 目标 mùbiāo - target; goal; objective
+系統 : 系统 : 系统 xìtǒng - system
+滾 : 滚 : 滚 gǔn - to roll; get lost; to boil
+報告 : 报告 : 报告 bàogào - to report; make known; inform; speech; lecture
+人類 : 人类 : 人类 rénlèi - humanity; human race; mankind
+沖 : 冲 : 冲 chōng, chòng - to rush; to clash; to rinse; thoroughfare | vigorously; bluntly; pungent; toward
+手術 : 手术 : 手术 shǒushù - surgery; operation
+組 : 组 : 组 zǔ - compose; team up; group
+個人 : 个人 : 个人 gèrén - individual; personal; oneself
+意義 : 意义 : 意义 yìyì - meaning; significance
+承認 : 承认 : 承认 chéngrèn - to admit; concede; acknowledge
+顯然 : 显然 : 显然 xiǎnrán - clear; evidently; obviously
+幸運 : 幸运 : 幸运 xìngyùn - luck; fortune
+未來 : 未来 : 未来 wèilái - future
+嚇 : 吓 : 吓 xià, hè - frighten; to scare; intimidate
+治療 : 治疗 : 治疗 zhìliáo - to treat; to cure; medical treatment
+行為 : 行为 : 行为 xíngwéi - action; behavior; conduct
+婚禮 : 婚礼 : 婚礼 hūnlǐ - wedding ceremony
+組織 : 组织 : 组织 zǔzhī - organize; organization
+明顯 : 明显 : 明显 míngxiǎn - clear; obvious
+答應 : 答应 : 答应 dāying - to respond; to promise; to answer; agree
+威脅 : 威胁 : 威胁 wēixié - threaten; to menace
+戰爭 : 战争 : 战争 zhànzhēng - war; conflict
+訓練 : 训练 : 训练 xùnliàn - to train; to drill; to exercise; training
+面對 : 面对 : 面对 miànduì - to face; confront
+真實 : 真实 : 真实 zhēnshí - true; real; authentic
+受傷 : 受伤 : 受伤 shòu shāng - sustain injuries (in an accident, etc.); be injured
+屬於 : 属于 : 属于 shǔyú - belong to; be part of
+鎖 : 锁 : 锁 suǒ - lock
+夢想 : 梦想 : 梦想 mèngxiǎng - dream of; wishful thinking
+人員 : 人员 : 人员 rényuán - staff; crew; personnel
+數 : 数 : 数 shù, shǔ, shuò - number | to count; to rank | frequently; repeatedly
+尋找 : 寻找 : 寻找 xúnzhǎo - seek; look for; quest
+爛 : 烂 : 烂 làn - overcooked; rotten; soft; mushy
+反應 : 反应 : 反应 fǎnyìng - react; respond; reply
+遺憾 : 遗憾 : 遗憾 yíhàn - regret; pity; sorry
+設計 : 设计 : 设计 shèjì - plan; design
+偉大 : 伟大 : 伟大 wěidà - great; mighty; large
+自從 : 自从 : 自从 zìcóng - since; ever since
+簽 : 签 : 签 qiān - bamboo used for drawing lots; toothpick; to sign (one's name)
+顆 : 颗 : 颗 kē - (mw for hearts and small, round things like seeds, grains, beans, etc.)
+超級 : 超级 : 超级 chāojí - super; transcending; high grade
+破壞 : 破坏 : 破坏 pòhuài - destroy; destruction; to wreck; to break
+頓 : 顿 : 顿 dùn - pause; arrange; stamp feet; suddenly; (mw for meals)
+時刻 : 时刻 : 时刻 shíkè - moment; constantly
+相當 : 相当 : 相当 xiāngdāng - equivalent to; appropriate; considerably; quite
+聞 : 闻 : 闻 wén - hear; to smell; news; reputation
+俱樂部 : 俱乐部 : 俱乐部 jùlèbù - club (group or organization)
+信號 : 信号 : 信号 xìnhào - signal
+充滿 : 充满 : 充满 chōngmǎn - brimming with; very full
+斷 : 断 : 断 duàn - to break; decide; absolutely (usually negative)
+搶 : 抢 : 抢 qiǎng, qiāng - fight over; vie for; grab; rush | bump against
+現實 : 现实 : 现实 xiànshí - reality; actuality; practical
+恢復 : 恢复 : 恢复 huīfù - reinstate; resume; recover
+確認 : 确认 : 确认 quèrèn - confirm; confirmation; verify
+懷孕 : 怀孕 : 怀孕 huáiyùn - become pregnant; have conceived
+資料 : 资料 : 资料 zīliào - data; material; resources; information
+腦袋 : 脑袋 : 脑袋 nǎodai - head; mental capability; brains
+項 : 项 : 项 xiàng - nape (of the neck); sum (of money); mw item
+記憶 : 记忆 : 记忆 jìyì - memory; to remember
+緊急 : 紧急 : 紧急 jǐnjí - urgent; pressing
+權利 : 权利 : 权利 quánlì - right; privilege
+冠軍 : 冠军 : 冠军 guànjūn - champion
+教練 : 教练 : 教练 jiàoliàn - (athlete's) coach; sports coach; instructor
+隨時 : 随时 : 随时 suíshí - at any time; whenever necessary
+對方 : 对方 : 对方 duìfāng - counterpart; the other party involved
+敵人 : 敌人 : 敌人 dírén - enemy
+豬 : 猪 : 猪 zhū - pig
+挑戰 : 挑战 : 挑战 tiǎozhàn - challenge
+狀態 : 状态 : 状态 zhuàngtài - state of affairs; condition; state
+報道 : 报道 : 报道 bàodào - to report; news report
+參與 : 参与 : 参与 cānyù - participate (in sth.); attach oneself to
+到達 : 到达 : 到达 dàodá - to reach; arrive
+顯示 : 显示 : 显示 xiǎnshì - display, illustrate, to show
+離婚 : 离婚 : 离婚 lí hūn - to divorce; divorced from (one's spouse)
+盡力 : 尽力 : 尽力 jìn lì - do one's best; to strive as much as possible
+慶祝 : 庆祝 : 庆祝 qìngzhù - celebrate
+假裝 : 假装 : 假装 jiǎzhuāng - pretend to be; feign; make believe
+狀況 : 状况 : 状况 zhuàngkuàng - condition; state; situation
+心臟 : 心脏 : 心脏 xīnzàng - heart
+國王 : 国王 : 国王 guówáng - king
+項目 : 项目 : 项目 xiàngmù - program; item; project
+實話 : 实话 : 实话 shíhuà - truth
+冒險 : 冒险 : 冒险 màoxiǎn - take a risk; take chances
+勝利 : 胜利 : 胜利 shènglì - victory; triumph
+保險 : 保险 : 保险 bǎoxiǎn - insurance; insure; safe
+單獨 : 单独 : 单独 dāndú - alone
+專家 : 专家 : 专家 zhuānjiā - expert; specialist
+趕快 : 赶快 : 赶快 gǎnkuài - at once; immediately
+風格 : 风格 : 风格 fēnggé - style
+機器 : 机器 : 机器 jīqì - machine
+盡快 : 尽快 : 尽快 jǐnkuài - as quickly as possible
+價值 : 价值 : 价值 jiàzhí - value; worth
+牆 : 墙 : 墙 qiáng - wall
+徹底 : 彻底 : 彻底 chèdǐ - thorough; complete; completely
+擺 : 摆 : 摆 bǎi - to put (on); arrange; to sway; pendulum
+請求 : 请求 : 请求 qǐngqiú - to request; ask
+命運 : 命运 : 命运 mìngyùn - fate; destiny
+老實 : 老实 : 老实 lǎoshi - honest; sincere; naive; simpleminded
+以來 : 以来 : 以来 yǐlái - since (a previous event)
+則 : 则 : 则 zé - standard; regulation; however; in that case
+規則 : 规则 : 规则 guīzé - rule; law; regulation
+說服 : 说服 : 说服 shuō fú - persuade; convince
+產生 : 产生 : 产生 chǎnshēng - to produce; emerge; to cause
+時代 : 时代 : 时代 shídài - age; era; period
+接觸 : 接触 : 接触 jiēchù - come into contact with
+卡車 : 卡车 : 卡车 kǎchē - truck
+規矩 : 规矩 : 规矩 guīju - rule; custom
+部門 : 部门 : 部门 bùmén - department; branch; section
+地區 : 地区 : 地区 dìqū - an area; a region; a district
+導致 : 导致 : 导致 dǎozhì - lead to; bring about; to cause
+對待 : 对待 : 对待 duìdài - to treat
+空間 : 空间 : 空间 kōngjiān - space
+情緒 : 情绪 : 情绪 qíngxù - emotion; sentiment; mood; morale
+創造 : 创造 : 创造 chuàngzào - create; bring about; creativity
+范圍 : 范围 : 范围 fànwéi - scope; range; limits; extent
+稱 : 称 : 称 chēng, chèn - weigh; to call; be called | appropriate
+盡量 : 尽量 : 尽量 jǐnliàng - as much as possible; to the best of one's ability (jìn-: eat or drink to one's fill)
+親自 : 亲自 : 亲自 qīnzì - personally
+石頭 : 石头 : 石头 shítou - stone; rock
+頂 : 顶 : 顶 dǐng - top; roof; carry on one's head; prop up; to butt; (mw for headwear, i.e. hats)
+細節 : 细节 : 细节 xìjié - details; particulars
+運氣 : 运气 : 运气 yùnqi - luck
+相處 : 相处 : 相处 xiāngchǔ - get along; interact
+度過 : 度过 : 度过 dùguò - spend; to pass
+奇跡 : 奇迹 : 奇迹 qíjì - miracle; miraculous; marvel
+媒體 : 媒体 : 媒体 méitǐ - (news) media; medium
+趕緊 : 赶紧 : 赶紧 gǎnjǐn - at once; hurriedly; lose no time
+無所謂 : 无所谓 : 无所谓 wúsuǒwèi - doesn't matter; be indifferent
+表達 : 表达 : 表达 biǎodá - to express; to voice; convey
+一輩子 : 一辈子 : 一辈子 yíbèizi - (for) a lifetime; all one's life
+實現 : 实现 : 实现 shíxiàn - achieve; to implement
+對手 : 对手 : 对手 duìshǒu - opponent; adversary; match
+憑 : 凭 : 凭 píng - lean against; evidence; proof; no matter (what/how/etc.)
+廢話 : 废话 : 废话 fèihuà - nonsense; rubbish
+滿足 : 满足 : 满足 mǎnzú - satisfy; meet (the needs of)
+傳統 : 传统 : 传统 chuántǒng - tradition; traditional
+重復 : 重复 : 重复 chóngfù - to repeat; to duplicate
+欣賞 : 欣赏 : 欣赏 xīnshǎng - appreciate; enjoy; admire
+理論 : 理论 : 理论 lǐlùn - theory
+年紀 : 年纪 : 年纪 niánjì - age
+觀察 : 观察 : 观察 guānchá - observe; to watch; to survey
+龍 : 龙 : 龙 lóng - dragon (Kangxi radical 212)
+蓋 : 盖 : 盖 gài - lid; top; cover; to build
+移動 : 移动 : 移动 yídòng - to move
+不斷 : 不断 : 不断 búduàn - unceasing; uninterrupted; continuously
+關閉 : 关闭 : 关闭 guānbì - close; shut
+達到 : 达到 : 达到 dá dào - achieve; attain; to reach
+總之 : 总之 : 总之 zǒngzhī - in a word; in short; in brief / anyway; anyhow
+在於 : 在于 : 在于 zàiyú - lie in; be in; rest with; depend on
+教訓 : 教训 : 教训 jiàoxun - lesson; teach someone or learn a lesson; a moral
+權力 : 权力 : 权力 quánlì - power; authority
+穩定 : 稳定 : 稳定 wěndìng - stable; steady
+數據 : 数据 : 数据 shùjù - data; numbers; digital
+堅強 : 坚强 : 坚强 jiānqiáng - strong; staunch
+勇氣 : 勇气 : 勇气 yǒngqì - courage; valor
+員工 : 员工 : 员工 yuángōng - employee; staff; personnel
+假設 : 假设 : 假设 jiǎshè - suppose that; hypothesis; conjecture
+時尚 : 时尚 : 时尚 shíshàng - fashion; fad
+設備 : 设备 : 设备 shèbèi - equipment; facilities; installations
+過分 : 过分 : 过分 guòfèn - excessive; overly
+投資 : 投资 : 投资 tóu zī - investment
+對象 : 对象 : 对象 duìxiàng - target; object; partner; boyfriend or girlfriend
+實驗 : 实验 : 实验 shíyàn - experiment; test
+戀愛 : 恋爱 : 恋爱 liàn'ài - romantic love; be in love; love affair
+話題 : 话题 : 话题 huàtí - subject (of a talk or conversation)
+市場 : 市场 : 市场 shìchǎng - market
+團 : 团 : 团 tuán - round; ball; group; unite; dumpling; (mw for ball-like things)
+損失 : 损失 : 损失 sǔnshī - loss (financial); lose
+骨頭 : 骨头 : 骨头 gǔtou - bone; moral character
+爭取 : 争取 : 争取 zhēngqǔ - fight for; compete for; strive
+當地 : 当地 : 当地 dāngdì - local
+內部 : 内部 : 内部 nèibù - internal; interior; inside (part, section)
+姿勢 : 姿势 : 姿势 zīshì - posture; position; pose
+臥室 : 卧室 : 卧室 wòshì - bedroom
+資格 : 资格 : 资格 zīgé - qualifications; seniority
+辭職 : 辞职 : 辞职 cízhí - resign from a position
+工廠 : 工厂 : 工厂 gōngchǎng - factory
+獨立 : 独立 : 独立 dúlì - independent
+決賽 : 决赛 : 决赛 juésài - finals (of a competition); final match
+網絡 : 网络 : 网络 wǎngluò - network
+暈 : 晕 : 晕 yūn, yùn - dizzy; to faint | giddy; halo
+公開 : 公开 : 公开 gōngkāi - public; make public
+觀點 : 观点 : 观点 guāndiǎn - point of view; standpoint
+說不定 : 说不定 : 说不定 shuōbudìng - can't say for sure; perhaps; maybe
+交換 : 交换 : 交换 jiāohuàn - to exchange; to swap; to switch
+擁抱 : 拥抱 : 拥抱 yōngbào - embrace; to hug
+萬一 : 万一 : 万一 wànyī - just in case; if by any chance
+發明 : 发明 : 发明 fāmíng - invent
+組合 : 组合 : 组合 zǔhé - assemble; combination
+針對 : 针对 : 针对 zhēnduì - in connection with; directed towards
+具體 : 具体 : 具体 jùtǐ - concrete; definite; specific
+領導 : 领导 : 领导 lǐngdǎo - to lead; leader; leadership
+主題 : 主题 : 主题 zhǔtí - theme; subject; topic
+牙齒 : 牙齿 : 牙齿 yáchǐ - tooth
+繞 : 绕 : 绕 rào - to wind; to coil; move round
+系領帶 : 系领带 : 系领带 jìlǐngdài - tie a neck tie
+駕駛 : 驾驶 : 驾驶 jiàshǐ - to drive; to pilot (a ship, an airplane, etc.)
+應付 : 应付 : 应付 yìngfu - to cope with; deal with; handle; do sth. perfunctorily; do sth. after a fashion; make do
+財產 : 财产 : 财产 cáichǎn - property; fortune
+高級 : 高级 : 高级 gāojí - high-level; high-grade; advanced
+服裝 : 服装 : 服装 fúzhuāng - (formal) clothing; costume; dress
+風險 : 风险 : 风险 fēngxiǎn - risk; venture; hazard
+歐洲 : 欧洲 : 欧洲 Ōuzhōu - Europe
+擋 : 挡 : 挡 dǎng, dàng - to block; hinder; gear; equipment | arrange; put in order
+個性 : 个性 : 个性 gèxìng - individuality; personality
+撿 : 捡 : 捡 jiǎn - to pick up; collect; gather
+持續 : 持续 : 持续 chíxù - continue; persist
+採取 : 采取 : 采取 cǎiqǔ - carry out or adopt; take(measures, policies, attitudes, etc.)
+類型 : 类型 : 类型 lèixíng - type
+金屬 : 金属 : 金属 jīnshǔ - metal
+期間 : 期间 : 期间 qījiān - period of time; time
+產品 : 产品 : 产品 chǎnpǐn - product; goods; merchandise
+胡說 : 胡说 : 胡说 húshuō - talk nonsense; drivel
+揮 : 挥 : 挥 huī - to wave; brandish; wield; wipe away
+指揮 : 指挥 : 指挥 zhǐhuī - to command; to conduct; commander
+自動 : 自动 : 自动 zìdòng - automatic
+平靜 : 平静 : 平静 píngjìng - calm; peaceful; tranquil; serene
+發表 : 发表 : 发表 fābiǎo - publish; to issue (a statement); announce
+演講 : 演讲 : 演讲 yǎnjiǎng - give a lecture; make a speech
+成長 : 成长 : 成长 chéngzhǎng - to mature; grow up
+劃 : 划 : 划 huà, huá - delimit; to transfer; assign | to row; to paddle; to scratch
+光臨 : 光临 : 光临 guānglín - (polite) welcome!; honor somebody with one's presence
+詩 : 诗 : 诗 shī - poem; poetry; verse
+佔 : 占 : 占 zhàn, zhān - occupy; seize; to constitute | to divine; fortune telling
+救護車 : 救护车 : 救护车 jiùhùchē - ambulance
+採訪 : 采访 : 采访 cǎifǎng - interview; gather news; hunt for and collect
+評價 : 评价 : 评价 píngjià - to evaluate
+強烈 : 强烈 : 强烈 qiángliè - intense; strong; violent
+掙 : 挣 : 挣 zhèng, zhēng - to earn | to struggle
+階段 : 阶段 : 阶段 jiēduàn - stage; phase
+違反 : 违反 : 违反 wéifǎn - violate (a law)
+否認 : 否认 : 否认 fǒurèn - deny; declare to be untrue
+頻道 : 频道 : 频道 píndào - frequency; (television) channel
+物質 : 物质 : 物质 wùzhì - matter; substance; material
+時期 : 时期 : 时期 shíqī - period in time or history; period; time
+傳說 : 传说 : 传说 chuánshuō - it is said; legend; pass on (a story)
+射擊 : 射击 : 射击 shèjī - to shoot; to fire (a gun)
+願望 : 愿望 : 愿望 yuànwàng - desire; wish; aspiration
+繩子 : 绳子 : 绳子 shéngzi - cord; string; rope
+發揮 : 发挥 : 发挥 fāhuī - to bring (skill, talent, etc.) into play; to develop (an idea)
+紀念 : 纪念 : 纪念 jìniàn - commemorate; remember
+使勁兒 : 使劲儿 : 使劲儿 shǐjìnr - exert all one's strength
+畢竟 : 毕竟 : 毕竟 bìjìng - after all; overall; when all is said and done
+娛樂 : 娱乐 : 娱乐 yúlè - entertain; amuse; entertainment
+睜 : 睁 : 睁 zhēng - to open (eyes)
+經典 : 经典 : 经典 jīngdiǎn - classics; scriptures
+顯得 : 显得 : 显得 xiǎnde - appear; seem; to look
+進步 : 进步 : 进步 jìnbù - make progress; to advance
+博物館 : 博物馆 : 博物馆 bówùguǎn - museum
+承擔 : 承担 : 承担 chéngdān - undertake; assume (responsibility)
+至於 : 至于 : 至于 zhìyú - as for; go so far as to
+罵 : 骂 : 骂 mà - scold; curse; condemn; verbally abuse
+登記 : 登记 : 登记 dēngjì - register (one's name); check in; enroll
+指導 : 指导 : 指导 zhǐdǎo - to guide; give directions
+相關 : 相关 : 相关 xiāngguān - correlation; interrelated; dependence
+諷刺 : 讽刺 : 讽刺 fěngcì - satirize; ridicule; mock; irony
+抓緊 : 抓紧 : 抓紧 zhuā jǐn - to grasp firmly; to pay close or special attention to; to rush in; to make the most of
+圓 : 圆 : 圆 yuán - round; circular; formal unit of Chinese currency
+嚴肅 : 严肃 : 严肃 yánsù - solemn; serious; earnest
+稱呼 : 称呼 : 称呼 chēnghu - to call; address as; name
+標志 : 标志 : 标志 biāozhì - sign; mark; signal; symbol
+搖 : 摇 : 摇 yáo - to shake; to rock
+宣傳 : 宣传 : 宣传 xuānchuán - propaganda; to propagate; to give publicity to
+談判 : 谈判 : 谈判 tánpàn - negotiate; negotiation; conference
+商業 : 商业 : 商业 shāngyè - business; commerce; trade
+億 : 亿 : 亿 yì - one hundred million (100,000,000)
+面臨 : 面临 : 面临 miànlín - be faced with; be up against
+等於 : 等于 : 等于 děngyú - (Mathematics) equal to
+當心 : 当心 : 当心 dāngxīn - take care; watch out
+課程 : 课程 : 课程 kèchéng - course; curriculum; class
+經營 : 经营 : 经营 jīngyíng - engage in (a business activity, etc.); run/operate (a business)
+項鏈 : 项链 : 项链 xiàngliàn - necklace
+資金 : 资金 : 资金 zījīn - funds; funding
+原則 : 原则 : 原则 yuánzé - principle; doctrine
+勸 : 劝 : 劝 quàn - advise; to urge; persuade
+紀錄 : 纪录 : 纪录 jìlù - a record; to take notes
+寵物 : 宠物 : 宠物 chǒngwù - a pet
+廣場 : 广场 : 广场 guǎngchǎng - public square; plaza
+無數 : 无数 : 无数 wúshù - countless; innumerable
+燙 : 烫 : 烫 tàng - to scald; to burn; scalding hot; to iron
+主動 : 主动 : 主动 zhǔdòng - to take initiative; voluntary
+聯合 : 联合 : 联合 liánhé - alliance; combine; unite
+氣氛 : 气氛 : 气氛 qìfēn - atmosphere; mood; ambience
+體驗 : 体验 : 体验 tǐyàn - experience for oneself; to personally experience (usually a kind of life)
+錄音 : 录音 : 录音 lùyīn - sound recording; to record
+黃金 : 黄金 : 黄金 huángjīn - gold
+編輯 : 编辑 : 编辑 biānjí - to edit; compile; editor
+優勢 : 优势 : 优势 yōushì - advantage; superiority; dominant position
+臨時 : 临时 : 临时 línshí - temporary; at the time; when the time comes
+溫柔 : 温柔 : 温柔 wēnróu - gentle and soft; tender; gentle
+詢問 : 询问 : 询问 xúnwèn - inquire about
+軍事 : 军事 : 军事 jūnshì - military affairs; military matters
+銷售 : 销售 : 销售 xiāoshòu - to sell; to market; sales
+結論 : 结论 : 结论 jiélùn - conclusion; verdict
+自願 : 自愿 : 自愿 zìyuàn - voluntary
+化學 : 化学 : 化学 huàxué - chemistry
+調整 : 调整 : 调整 tiáozhěng - adjustment; revision
+過敏 : 过敏 : 过敏 guòmǐn - be allergic; allergy
+婦女 : 妇女 : 妇女 fùnǚ - woman; women in general
+總算 : 总算 : 总算 zǒngsuàn - at long last; finally; on the whole
+宴會 : 宴会 : 宴会 yànhuì - banquet; feast; dinner party
+懷念 : 怀念 : 怀念 huáiniàn - cherish the memory of; think fondly of
+溫暖 : 温暖 : 温暖 wēnnuǎn - warm
+連續 : 连续 : 连续 liánxù - continually; in a row; successively
+義務 : 义务 : 义务 yìwù - duty; obligation; volunteer duty
+夸張 : 夸张 : 夸张 kuāzhāng - exaggerate; overstate; exaggerated; overstated; vaunted; hyperbole
+遲早 : 迟早 : 迟早 chízǎo - sooner or later
+電台 : 电台 : 电台 diàntái - transceiver; broadcasting station
+推薦 : 推荐 : 推荐 tuījiàn - recommend; recommendation
+咨詢 : 咨询 : 咨询 zīxún - request information; consultant; advisory
+燃燒 : 燃烧 : 燃烧 ránshāo - combustion; burn; kindle
+豪華 : 豪华 : 豪华 háohuá - luxurious
+輕易 : 轻易 : 轻易 qīngyì - easily; lightly; rashly
+軟 : 软 : 软 ruǎn - soft
+銀 : 银 : 银 yín - silver (the element)
+明確 : 明确 : 明确 míngquè - clear-cut; clearly; clarify
+秘書 : 秘书 : 秘书 mìshu - secretary
+闖 : 闯 : 闯 chuǎng - rush; break through; to temper oneself (by battling difficulties)
+復制 : 复制 : 复制 fùzhì - duplicate; reproduce
+閃電 : 闪电 : 闪电 shǎndiàn - lightning
+攝影 : 摄影 : 摄影 shè yǐng - take a photograph; shoot a film
+車庫 : 车库 : 车库 chēkù - garage
+破產 : 破产 : 破产 pò chǎn - go bankrupt; go broke; bankruptcy
+沙灘 : 沙滩 : 沙滩 shātān - sand bar; sand beach
+著火 : 着火 : 着火 zháohuǒ - catch fire; ignite
+贊成 : 赞成 : 赞成 zànchéng - approve; endorse
+熱愛 : 热爱 : 热爱 rè'ài - love ardently; adore; passion
+摩托車 : 摩托车 : 摩托车 mótuōchē - motorcycle; motorbike
+結合 : 结合 : 结合 jiéhé - combine; to link; to bind
+現象 : 现象 : 现象 xiànxiàng - appearance; phenomenon
+領域 : 领域 : 领域 lǐngyù - domain; sphere; field; area
+電池 : 电池 : 电池 diànchí - battery
+據說 : 据说 : 据说 jùshuō - it is said that; reportedly
+家鄉 : 家乡 : 家乡 jiāxiāng - hometown
+現代 : 现代 : 现代 xiàndài - modern times; modern age
+妨礙 : 妨碍 : 妨碍 fáng'ài - hinder; to hamper; to obstruct
+裝飾 : 装饰 : 装饰 zhuāngshì - decorate
+診斷 : 诊断 : 诊断 zhěnduàn - diagnosis; diagnose
+資源 : 资源 : 资源 zīyuán - natural resource; resource
+獨特 : 独特 : 独特 dútè - unique; distinctive
+體會 : 体会 : 体会 tǐhuì - know from experience; learn through experience; realize; understanding; experience
+生產 : 生产 : 生产 shēngchǎn - to produce; manufacture; give birth to a child
+貸款 : 贷款 : 贷款 dài kuǎn - (bank) loan; provide a loan
+膽小鬼 : 胆小鬼 : 胆小鬼 dǎnxiǎoguǐ - coward
+釣 : 钓 : 钓 diào - to fish
+轉變 : 转变 : 转变 zhuǎnbiàn - to change; to transform
+組成 : 组成 : 组成 zǔchéng - to form; part; element; constitute
+專心 : 专心 : 专心 zhuānxīn - be absorbed; concentrate; attentive
+告別 : 告别 : 告别 gàobié - say goodbye to; to leave; to part
+貢獻 : 贡献 : 贡献 gòngxiàn - contribute; dedicate; contribution
+始終 : 始终 : 始终 shǐzhōng - from beginning to end; all along
+賬戶 : 账户 : 账户 zhànghù - bank account
+行業 : 行业 : 行业 hángyè - industry; business
+戲劇 : 戏剧 : 戏剧 xìjù - drama; play; theater
+執照 : 执照 : 执照 zhízhào - a license; a permit
+溝通 : 沟通 : 沟通 gōutōng - link; connect; communicate
+單位 : 单位 : 单位 dānwèi - unit; work unit
+論文 : 论文 : 论文 lùnwén - thesis; paper; treatise
+多虧 : 多亏 : 多亏 duōkuī - thanks to; luckily
+冊 : 册 : 册 cè - book; (mw for books)
+注冊 : 注册 : 注册 zhùcè - register; registration; enroll
+木頭 : 木头 : 木头 mùtou - wood; log; timber
+樂觀 : 乐观 : 乐观 lèguān - optimism; hopeful
+爭論 : 争论 : 争论 zhēnglùn - argue; to dispute; contend; argument
+業余 : 业余 : 业余 yèyú - spare time; amateur
+失業 : 失业 : 失业 shī yè - lose one's job; unemployment
+難怪 : 难怪 : 难怪 nánguài - no wonder
+計算 : 计算 : 计算 jìsuàn - to count; calculate; compute
+收獲 : 收获 : 收获 shōuhuò - harvest; acquisition; gain
+謹慎 : 谨慎 : 谨慎 jǐnshèn - cautious; prudent
+猶豫 : 犹豫 : 犹豫 yóuyù - hesitate; hesitant; undecided
+從此 : 从此 : 从此 cóngcǐ - from now on; since then
+企業 : 企业 : 企业 qǐyè - company; business; firm
+下載 : 下载 : 下载 xiàzǎi - to download
+獅子 : 狮子 : 狮子 shīzi - lion
+展開 : 展开 : 展开 zhǎn kāi - spread out; unfold; carry out; in full swing
+雙方 : 双方 : 双方 shuāngfāng - bilateral; both sides; both parties involved
+開放 : 开放 : 开放 kāifàng - (of flowers) to bloom; open up; to be open-minded; lift a ban, restriction, etc.; release; liberalization; China's 1979 open policy
+凍 : 冻 : 冻 dòng - to freeze
+舒適 : 舒适 : 舒适 shūshì - cozy; comfortable; snug
+疑問 : 疑问 : 疑问 yíwèn - doubt; question; to query
+霧 : 雾 : 雾 wù - fog; mist
+從前 : 从前 : 从前 cóngqián - previously; formerly; in the past
+運用 : 运用 : 运用 yùnyòng - to use; apply
+列車 : 列车 : 列车 lièchē - train (railway term)
+香腸 : 香肠 : 香肠 xiāngcháng - sausage
+極其 : 极其 : 极其 jíqí - extremely; exceedingly
+屆 : 届 : 届 jiè - arrive at; period; session; (mw for events; meetings; etc.)
+決心 : 决心 : 决心 juéxīn - determination; resolution
+位於 : 位于 : 位于 wèiyú - be located at
+傳播 : 传播 : 传播 chuánbō - propagate; to spread
+從事 : 从事 : 从事 cóngshì - go for; engage in; deal with
+寬 : 宽 : 宽 kuān - wide; broad; relaxed; lenient
+總裁 : 总裁 : 总裁 zǒngcái - director-general; president
+點心 : 点心 : 点心 diǎnxin - dim sum; light refreshments; snacks
+抽屜 : 抽屉 : 抽屉 chōuti - drawer
+陣 : 阵 : 阵 zhèn - short period; disposition of troops; wave
+風景 : 风景 : 风景 fēngjǐng - scenery; landscape
+寫作 : 写作 : 写作 xiězuò - writing; composition; written works
+大廈 : 大厦 : 大厦 dàshà - large building; edifice; mansion
+贊美 : 赞美 : 赞美 zànměi - admire; applause; to praise
+結構 : 结构 : 结构 jiégòu - structure; composition
+証件 : 证件 : 证件 zhèngjiàn - paperwork; credentials; papers; certificates
+熱烈 : 热烈 : 热烈 rèliè - warm; enthusiastic
+發言 : 发言 : 发言 fāyán - make a speech; statement
+辯論 : 辩论 : 辩论 biànlùn - argue; debate; argue over
+傳染 : 传染 : 传染 chuánrǎn - infect; be contagious
+實習 : 实习 : 实习 shíxí - to practice; field work; work as an intern
+不要緊 : 不要紧 : 不要紧 bú yàojǐn - unimportant; not serious; it doesn't matter
+忽視 : 忽视 : 忽视 hūshì - neglect; ignore; to overlook
+賠償 : 赔偿 : 赔偿 péicháng - compensate; pay for somebody else's loss
+邏輯 : 逻辑 : 逻辑 luóji - logic
+輸入 : 输入 : 输入 shūrù - input; enter; import
+攔 : 拦 : 拦 lán - to block; to cut off; hinder
+寶貴 : 宝贵 : 宝贵 bǎoguì - valuable; precious; value
+逐漸 : 逐渐 : 逐渐 zhújiàn - gradually; by degrees
+安裝 : 安装 : 安装 ānzhuāng - install; erect; to fix; to mount
+分別 : 分别 : 分别 fēnbié - distinguish; split up; difference; to part
+語氣 : 语气 : 语气 yǔqì - tone; manner of speaking; mood
+設施 : 设施 : 设施 shèshī - facilities; installation
+奮斗 : 奋斗 : 奋斗 fèndòu - strive; to struggle
+培養 : 培养 : 培养 péiyǎng - to train; cultivate; bring up
+鍋 : 锅 : 锅 guō - pot; pan; boiler
+形狀 : 形状 : 形状 xíngzhuàng - form; figure; shape
+裝修 : 装修 : 装修 zhuāngxiū - renovate; to fit up
+鈴 : 铃 : 铃 líng - bell
+稅 : 税 : 税 shuì - tax
+濃 : 浓 : 浓 nóng - concentrated; dense
+業務 : 业务 : 业务 yèwù - business; profession
+運輸 : 运输 : 运输 yùnshū - transport; transportation
+收據 : 收据 : 收据 shōujù - receipt
+工程師 : 工程师 : 工程师 gōngchéngshī - engineer
+寧可 : 宁可 : 宁可 nìngkě - would rather; it is the lesser of two evils to
+神話 : 神话 : 神话 shénhuà - mythology; fairy tale
+耽誤 : 耽误 : 耽误 dānwu - to delay; waste time
+問候 : 问候 : 问候 wènhòu - send a greeting; send one's regards to
+提問 : 提问 : 提问 tíwèn - put questions to; to quiz
+開發 : 开发 : 开发 kāifā - develop; to exploit (a resource)
+維修 : 维修 : 维修 wéixiū - maintain (of equipment); to mend; repair
+本質 : 本质 : 本质 běnzhì - essence; nature; innate character
+麥克風 : 麦克风 : 麦克风 màikèfēng - microphone
+統一 : 统一 : 统一 tǒngyī - unify; unite; integrate; universal
+補充 : 补充 : 补充 bǔchōng - replenish; to supplement; to complement
+嘉賓 : 嘉宾 : 嘉宾 jiābīn - honored guest
+形勢 : 形势 : 形势 xíngshì - circumstances; situation; terrain
+軟件 : 软件 : 软件 ruǎnjiàn - (computer) software
+淺 : 浅 : 浅 qiǎn - shallow; simple; superficial; light (of colors)
+會計 : 会计 : 会计 kuàijì - accountant; accounting
+發抖 : 发抖 : 发抖 fādǒu - to shiver; to shudder; tremble
+工業 : 工业 : 工业 gōngyè - industry
+耳環 : 耳环 : 耳环 ěrhuán - earring
+體貼 : 体贴 : 体贴 tǐtiē - show consideration for; thoughtful
+飄 : 飘 : 飘 piāo - to float; flutter
+善於 : 善于 : 善于 shànyú - be good at; excel at
+集體 : 集体 : 集体 jítǐ - collective; group
+改進 : 改进 : 改进 gǎijìn - improve; make better
+時髦 : 时髦 : 时髦 shímáo - fashionable
+生長 : 生长 : 生长 shēngzhǎng - grow; grow up
+測驗 : 测验 : 测验 cèyàn - test; exam; to test
+擔任 : 担任 : 担任 dānrèn - hold the post of; serve as
+隨身 : 随身 : 随身 suíshēn - carry on one's person; bring with one
+培訓 : 培训 : 培训 péixùn - cultivate; train
+縣 : 县 : 县 xiàn - county; district
+總共 : 总共 : 总共 zǒnggòng - altogether; in sum; in all; in total
+文學 : 文学 : 文学 wénxué - literature
+打聽 : 打听 : 打听 dǎting - ask about; inquire about
+勞駕 : 劳驾 : 劳驾 láo jià - excuse me
+相對 : 相对 : 相对 xiāngduì - opposite; relatively; to resist
+擴大 : 扩大 : 扩大 kuòdà - enlarge; expand
+單純 : 单纯 : 单纯 dānchún - simple; pure; merely
+錄取 : 录取 : 录取 lùqǔ - recruit; enroll; matriculate
+陽台 : 阳台 : 阳台 yángtái - balcony
+牛仔褲 : 牛仔裤 : 牛仔裤 niúzǎikù - jeans; cowboy pants
+簡歷 : 简历 : 简历 jiǎnlì - resume; curriculum vitae
+利潤 : 利润 : 利润 lìrùn - profit
+絲毫 : 丝毫 : 丝毫 sīháo - the slightest amount or degree; a very little bit
+反復 : 反复 : 反复 fǎnfù - repeatedly; over and over
+台階 : 台阶 : 台阶 táijiē - flight of steps; sidestep; fig. way out of an embarrassing situation
+漲 : 涨 : 涨 zhǎng, zhàng - to rise (of prices, rivers); to go up | to swell; to bloat
+強調 : 强调 : 强调 qiángdiào - emphasize; to stress
+轉告 : 转告 : 转告 zhuǎngào - pass on; to communicate; to transmit
+活躍 : 活跃 : 活跃 huóyuè - active; vigorous
+展覽 : 展览 : 展览 zhǎnlǎn - put on display; to exhibit; exhibition
+刪除 : 删除 : 删除 shānchú - to delete
+農民 : 农民 : 农民 nóngmín - peasant
+志願者 : 志愿者 : 志愿者 zhìyuànzhě - volunteer
+惡劣 : 恶劣 : 恶劣 èliè - vile; horrible
+責備 : 责备 : 责备 zébèi - to blame; criticize (sb.); accuse
+哲學 : 哲学 : 哲学 zhéxué - philosophy
+櫃台 : 柜台 : 柜台 guìtái - counter; bar; front desk
+貿易 : 贸易 : 贸易 màoyì - (commercial) trade
+輔導 : 辅导 : 辅导 fǔdǎo - to coach; to tutor; give advice (in study)
+具備 : 具备 : 具备 jùbèi - possess; be equipped with
+何況 : 何况 : 何况 hékuàng - let alone; much less
+紀律 : 纪律 : 纪律 jìlǜ - discipline; morale; laws and regulations
+對比 : 对比 : 对比 duìbǐ - compare; to contrast; comparison
+構成 : 构成 : 构成 gòuchéng - to constitute; to compose
+車廂 : 车厢 : 车厢 chēxiāng - carriage; railroad car
+圍巾 : 围巾 : 围巾 wéijīn - scarf; shawl
+體現 : 体现 : 体现 tǐxiàn - embody; incarnate; reflect; to manifest
+規律 : 规律 : 规律 guīlǜ - law (e.g. of science); regular pattern; discipline
+樂器 : 乐器 : 乐器 yuèqì - musical instrument
+觀念 : 观念 : 观念 guānniàn - notion; thought; concept
+遞 : 递 : 递 dì - hand over; to pass; to give
+澆 : 浇 : 浇 jiāo - to water; irrigate; to pour; to sprinkle
+規模 : 规模 : 规模 guīmó - scale; scope; extent
+艱苦 : 艰苦 : 艰苦 jiānkǔ - difficult; hard; arduous
+召開 : 召开 : 召开 zhàokāi - convene (a conference or meeting); call together
+整體 : 整体 : 整体 zhěngtǐ - whole; entirety
+營養 : 营养 : 营养 yíngyǎng - nutrition; nourishment; sustenance
+報社 : 报社 : 报社 bàoshè - newspaper office
+報到 : 报到 : 报到 bàodào - report for duty; to check in; register
+幼兒園 : 幼儿园 : 幼儿园 yòu'éryuán - kindergarten; nursery school
+啟發 : 启发 : 启发 qǐfā - enlighten; inspire
+噸 : 吨 : 吨 dūn - ton
+從而 : 从而 : 从而 cóng'ér - thus; thereby; as a result
+目錄 : 目录 : 目录 mùlù - catalog; table of contents; directory (on computer hard drive)
+結實 : 结实 : 结实 jiēshi - sturdy; (also -shí: bear fruit)
+綜合 : 综合 : 综合 zōnghé - synthesized; composite; summarize
+手續 : 手续 : 手续 shǒuxù - formalities; procedure
+優美 : 优美 : 优美 yōuměi - graceful; fine; elegant
+導演 : 导演 : 导演 dǎoyǎn - to direct; director
+壺 : 壶 : 壶 hú - pot; kettle; jug; (mw for bottled liquids)
+圍繞 : 围绕 : 围绕 wéirào - revolve around; center on (an issue)
+延長 : 延长 : 延长 yáncháng - extend; prolong; lengthen
+兼職 : 兼职 : 兼职 jiānzhí - part time
+營業 : 营业 : 营业 yíngyè - do business; to trade
+題目 : 题目 : 题目 tímù - subject; title; topic
+消費 : 消费 : 消费 xiāofèi - consumption; spending
+預訂 : 预订 : 预订 yùdìng - place an order; book ahead; subscribe for
+預防 : 预防 : 预防 yùfáng - prevent; take precautions against
+緩解 : 缓解 : 缓解 huǎnjiě - to alleviate
+休閑 : 休闲 : 休闲 xiūxián - recreation; leisure
+謙虛 : 谦虚 : 谦虚 qiānxū - modest
+客觀 : 客观 : 客观 kèguān - objective; impartial; unbiased
+堅決 : 坚决 : 坚决 jiānjué - resolute; determined; uncompromising
+流淚 : 流泪 : 流泪 liúlèi - shed tears
+親切 : 亲切 : 亲切 qīnqiè - kind; amiable; cordial
+愛心 : 爱心 : 爱心 àixīn - compassion
+過期 : 过期 : 过期 guòqī - overdue; expire
+海關 : 海关 : 海关 hǎiguān - customs (i.e. border inspection)
+消極 : 消极 : 消极 xiāojí - passive; negative; demoralized
+夏令營 : 夏令营 : 夏令营 xiàlìngyíng - summer camp
+日歷 : 日历 : 日历 rìlì - calendar
+淘氣 : 淘气 : 淘气 táoqì - naughty; bad
+擁擠 : 拥挤 : 拥挤 yōngjǐ - to crowd; to push; to squeeze
+節省 : 节省 : 节省 jiéshěng - save; use sparingly; frugal
+建設 : 建设 : 建设 jiànshè - to build; to construct; construction
+熱心 : 热心 : 热心 rèxīn - enthusiastic; zealous; warmhearted
+勞動 : 劳动 : 劳动 láodòng - work; toil; (physical) labor
+靈活 : 灵活 : 灵活 línghuó - flexible; nimble; agile
+流傳 : 流传 : 流传 liúchuán - to spread; circulate; hand down
+家務 : 家务 : 家务 jiāwù - household duties; chores; housework
+稱贊 : 称赞 : 称赞 chēngzàn - to praise; to acclaim
+參考 : 参考 : 参考 cānkǎo - reference; consult
+高檔 : 高档 : 高档 gāodàng - top quality; first rate; high class
+討價還價 : 讨价还价 : 讨价还价 tǎo jià huán jià - bargaining; haggling over price
+數碼 : 数码 : 数码 shùmǎ - numeral; number; amount; digital
+實踐 : 实践 : 实践 shíjiàn - practice; put into practice; carry out
+灰塵 : 灰尘 : 灰尘 huīchén - dust; dirt
+總理 : 总理 : 总理 zǒnglǐ - premier; prime minister
+發達 : 发达 : 发达 fādá - developed (country, etc.); flourishing; prosper
+個別 : 个别 : 个别 gèbié - individual; specific; isolated; very few
+預報 : 预报 : 预报 yùbào - to predict; forecast
+陸地 : 陆地 : 陆地 lùdì - land; dry land (as opposed to the sea)
+慚愧 : 惭愧 : 惭愧 cánkuì - ashamed
+瀏覽 : 浏览 : 浏览 liúlǎn - browse; glance over; skim through
+性質 : 性质 : 性质 xìngzhì - nature; characteristic; quality
+動畫片 : 动画片 : 动画片 dònghuàpiàn - animated film
+常識 : 常识 : 常识 chángshí - common sense; general knowledge
+膠水 : 胶水 : 胶水 jiāoshuǐ - (watery) glue; gum
+進口 : 进口 : 进口 jìn kǒu - import; entrance; enter
+種類 : 种类 : 种类 zhǒnglèi - kind; category; class
+主張 : 主张 : 主张 zhǔzhāng - to advocate; viewpoint; position
+生動 : 生动 : 生动 shēngdòng - vivid; lively
+操場 : 操场 : 操场 cāochǎng - playground; sports field
+上當 : 上当 : 上当 shàng dàng - be fooled; be duped; be taken in
+鋼鐵 : 钢铁 : 钢铁 gāngtiě - steel
+疲勞 : 疲劳 : 疲劳 píláo - fatigue; wearily; weariness; tired
+整齊 : 整齐 : 整齐 zhěngqí - tidy; neat; in good order
+輪流 : 轮流 : 轮流 lúnliú - to alternate; take turns; rotate
+罰款 : 罚款 : 罚款 fákuǎn - fine; penalty (monetary)
+商務 : 商务 : 商务 shāngwù - business; commercial affairs
+鍵盤 : 键盘 : 键盘 jiànpán - keyboard
+單元 : 单元 : 单元 dānyuán - unit; entrance number; staircase (for residential buildings)
+苗條 : 苗条 : 苗条 miáotiao - slim; slender
+描寫 : 描写 : 描写 miáoxiě - to describe; to depict; to portray
+絲綢 : 丝绸 : 丝绸 sīchóu - silk
+幸虧 : 幸亏 : 幸亏 xìngkuī - fortunately; luckily
+詞匯 : 词汇 : 词汇 cíhuì - vocabulary
+應用 : 应用 : 应用 yìngyòng - to apply; to use; application
+海鮮 : 海鲜 : 海鲜 hǎixiān - seafood
+步驟 : 步骤 : 步骤 bùzhòu - step; move; measure; procedure
+武術 : 武术 : 武术 wǔshù - martial arts
+潮濕 : 潮湿 : 潮湿 cháoshī - damp; moist; humid
+學術 : 学术 : 学术 xuéshù - learning; science; academic
+悲觀 : 悲观 : 悲观 bēiguān - pessimistic
+糧食 : 粮食 : 粮食 liángshi - grain; food; cereals
+推廣 : 推广 : 推广 tuīguǎng - popularize; to spread
+空閑 : 空闲 : 空闲 kòngxián - leisure; free time; idle; unused
+難免 : 难免 : 难免 nánmiǎn - hard to avoid; difficult to escape from
+小氣 : 小气 : 小气 xiǎoqì - stingy; petty
+敘述 : 叙述 : 叙述 xùshù - retell; narrate
+議論 : 议论 : 议论 yìlùn - discuss; to comment; talk about
+初級 : 初级 : 初级 chūjí - junior; primary
+長途 : 长途 : 长途 chángtú - long distance
+急診 : 急诊 : 急诊 jízhěn - emergency call; emergency treatment
+優惠 : 优惠 : 优惠 yōuhuì - preferential; favorable
+美術 : 美术 : 美术 měishù - the fine arts; art
+廣泛 : 广泛 : 广泛 guǎngfàn - extensive; wide ranging
+調皮 : 调皮 : 调皮 tiáopí - naughty; mischievous; unruly
+講座 : 讲座 : 讲座 jiǎngzuò - a lecture or course of lectures; lecture hall
+誠懇 : 诚恳 : 诚恳 chéngkěn - honest; sincere
+熟練 : 熟练 : 熟练 shúliàn - practiced; proficient; skilled
+面積 : 面积 : 面积 miànjī - (surface) area
+辦理 : 办理 : 办理 bànlǐ - to handle; to transact; to conduct
+農業 : 农业 : 农业 nóngyè - agriculture; farming
+趨勢 : 趋势 : 趋势 qūshì - trend; tendency
+交際 : 交际 : 交际 jiāojì - socialize; social intercourse; communication
+繁榮 : 繁荣 : 繁荣 fánróng - prosperous; prosperity; booming (economy)
+主觀 : 主观 : 主观 zhǔguān - subjective
+小麥 : 小麦 : 小麦 xiǎomài - wheat
+慌張 : 慌张 : 慌张 huāngzhāng - flustered; flurried
+本領 : 本领 : 本领 běnlǐng - skill; ability; capability
+促進 : 促进 : 促进 cùjìn - promote (an idea or cause); to advance
+愛護 : 爱护 : 爱护 àihù - cherish; reassure; take good care of
+開幕式 : 开幕式 : 开幕式 kāimùshì - opening ceremony
+勤奮 : 勤奋 : 勤奋 qínfèn - hardworking; diligent; industrious
+自覺 : 自觉 : 自觉 zìjué - conscious; be aware of; self-motivated
+實用 : 实用 : 实用 shíyòng - practical; pragmatic; functional
+兌換 : 兑换 : 兑换 duìhuàn - to exchange; to convert (currencies)
+夾子 : 夹子 : 夹子 jiāzi - clip; tongs; folder
+講究 : 讲究 : 讲究 jiǎngjiu - Be particular about; fastidious; stress; exquisite ; careful study
+縮短 : 缩短 : 缩短 suōduǎn - shorten; cut down; curtail
+振動 : 振动 : 振动 zhèndòng - vibrate; vibration
+不耐煩 : 不耐烦 : 不耐烦 búnàifán - impatience; impatient
+單調 : 单调 : 单调 dāndiào - monotonous; dull
+輕視 : 轻视 : 轻视 qīngshì - contempt; to scorn; scornful
+發票 : 发票 : 发票 fāpiào - receipt or bill for purchase; invoice
+學歷 : 学历 : 学历 xuélì - educational background; school record
+時差 : 时差 : 时差 shíchā - jetlag; time difference
+島嶼 : 岛屿 : 岛屿 dǎoyǔ - islands
+艱巨 : 艰巨 : 艰巨 jiānjù - very difficult; arduous; hard
+紛紛 : 纷纷 : 纷纷 fēnfēn - one after another; in succession; in profusion; diverse; pell-mell
+長輩 : 长辈 : 长辈 zhǎngbèi - an elder; an elder generation
+朗讀 : 朗读 : 朗读 lǎngdú - read aloud
+打噴嚏 : 打喷嚏 : 打喷嚏 dǎpēntì - to sneeze
+可見 : 可见 : 可见 kějiàn - it can clearly be seen that; clear
+醬油 : 酱油 : 酱油 jiàngyóu - soy sauce
+樣式 : 样式 : 样式 yàngshì - type; style; form
+無奈 : 无奈 : 无奈 wúnài - can't help but; have no choice
+結賬 : 结账 : 结账 jiézhàng - pay the bill; settle accounts
+壽命 : 寿命 : 寿命 shòumìng - life span; life expectancy
+疼愛 : 疼爱 : 疼爱 téng ài - love dearly; be very fond of
+游覽 : 游览 : 游览 yóulǎn - go sight-seeing; tour
+隨手 : 随手 : 随手 suíshǒu - convenient; without extra trouble
+試卷 : 试卷 : 试卷 shìjuàn - exam paper; test paper
+書架 : 书架 : 书架 shūjià - bookshelf
+農村 : 农村 : 农村 nóngcūn - rural area; countryside
+充電器 : 充电器 : 充电器 chōngdiànqì - battery charger
+風俗 : 风俗 : 风俗 fēngsú - social custom
+果實 : 果实 : 果实 guǒshí - fruit; gains; results
+著涼 : 着凉 : 着凉 zháo liáng - catch a cold
+拐彎 : 拐弯 : 拐弯 guǎi wān - turn a corner; make a turn
+發愁 : 发愁 : 发愁 fā chóu - worry about sth.
+廣大 : 广大 : 广大 guǎngdà - vast; extensive
+均勻 : 均匀 : 均匀 jūnyún - even; well-distributed
+濕潤 : 湿润 : 湿润 shīrùn - moist; humid
+吃虧 : 吃亏 : 吃亏 chīkuī - suffer losses; get the worst of
+學問 : 学问 : 学问 xuéwen - learning; knowledge
+鮮艷 : 鲜艳 : 鲜艳 xiānyàn - bright-colored
+內科 : 内科 : 内科 nèikē - internal medicine
+不見得 : 不见得 : 不见得 bújiàndé - not necessarily; not likely
+孝順 : 孝顺 : 孝顺 xiàoshùn - filial piety
+光盤 : 光盘 : 光盘 guāngpán - CD (compact disc)
+聲調 : 声调 : 声调 shēngdiào - tone; note
+災害 : 灾害 : 灾害 zāihài - disaster; calamity
+陸續 : 陆续 : 陆续 lùxù - in turn; successively; one after another
+愛惜 : 爱惜 : 爱惜 àixī - cherish; treasure; use sparingly
+國慶節 : 国庆节 : 国庆节 Guóqìng Jié - National Day
+開水 : 开水 : 开水 kāishuǐ - boiled water; boil water
+饅頭 : 馒头 : 馒头 mántou - steamed bun/roll
+經商 : 经商 : 经商 jīng shāng - trade; be in business; do commerce
+與其 : 与其 : 与其 yǔqí - rather than; better than
+干活兒 : 干活儿 : 干活儿 gàn huór - do manual labor; to work
+鼠標 : 鼠标 : 鼠标 shǔ biāo - mouse (computer)
+推辭 : 推辞 : 推辞 tuīcí - to decline; turn down
+提綱 : 提纲 : 提纲 tígāng - outline; the key point
+成語 : 成语 : 成语 chéngyǔ - idiom; proverb
+匯率 : 汇率 : 汇率 huìlǜ - exchange rate
+華裔 : 华裔 : 华裔 Huáyì - person of Chinese descent
+粘貼 : 粘贴 : 粘贴 zhāntiē - to paste
+虛心 : 虚心 : 虚心 xūxīn - modest; open-minded
+挂號 : 挂号 : 挂号 guà hào - register; check into hospital; send by registered mail
+標點 : 标点 : 标点 biāodiǎn - punctuation; punctuation mark; punctuate
+歸納 : 归纳 : 归纳 guīnà - conclude from the facts; induce; sum up from the facts
+太極拳 : 太极拳 : 太极拳 tàijíquán - Tai chi, a Chinese martial art
+人民幣 : 人民币 : 人民币 rénmínbì - (currency) renminbi (RMB)
+名勝古跡 : 名胜古迹 : 名胜古迹 míngshènggǔjì - famous scenic spots and ancient historic sites
+連忙 : 连忙 : 连忙 liánmáng - promptly; at once
+
+# hsk6.txt
+尸體 : 尸体 : 尸体 shītǐ - dead body; corpse; carcass
+現場 : 现场 : 现场 xiànchǎng - scene (of event or incident); on the spot
+監獄 : 监狱 : 监狱 jiānyù - prison; jail
+擁有 : 拥有 : 拥有 yōngyǒu - have; possess
+選手 : 选手 : 选手 xuǎnshǒu - athlete; contestant; player
+撒謊 : 撒谎 : 撒谎 sā huǎng - to tell lies
+發誓 : 发誓 : 发誓 fāshì - to vow; to pledge; swear
+心眼兒 : 心眼儿 : 心眼儿 xīnyǎnr - one's thoughts; mind; intention; willingness to accept new ideas
+意識 : 意识 : 意识 yìshi - realize; consciousness; awareness; sense
+線索 : 线索 : 线索 xiànsuǒ - trail; clues; hints; thread (of a story)
+失蹤 : 失踪 : 失踪 shī zōng - be missing; be unaccounted for
+意味著 : 意味着 : 意味着 yìwèizhe - signify; to mean; imply
+惡心 : 恶心 : 恶心 ěxin - disgusting; nauseous; make somebody embarrassed (èxīn: bad/vicious habit; vice)
+攻擊 : 攻击 : 攻击 gōngjī - to attack; accuse; to charge
+試圖 : 试图 : 试图 shìtú - to try; to attempt
+子彈 : 子弹 : 子弹 zǐdàn - bullet; cartridge
+襲擊 : 袭击 : 袭击 xíjī - surprise attack; to raid
+靈魂 : 灵魂 : 灵魂 línghún - soul; spirit; conscience
+玩意兒 : 玩意儿 : 玩意儿 wányìr - thing; toy; gadget
+跟蹤 : 跟踪 : 跟踪 gēnzōng - follow somebody's tracks; tail; shadow
+綁架 : 绑架 : 绑架 bǎngjià - kidnap; stalking
+客戶 : 客户 : 客户 kèhù - customer; account; client
+將軍 : 将军 : 将军 jiāngjūn - a general (military officer)
+毫無 : 毫无 : 毫无 háo wú - not at all; completely without; not in the least
+成員 : 成员 : 成员 chéngyuán - member
+監視 : 监视 : 监视 jiānshì - oversee; to monitor
+嘗試 : 尝试 : 尝试 chángshì - to try; attempt
+搭檔 : 搭档 : 搭档 dādàng - team up; cooperate; work together
+對付 : 对付 : 对付 duìfu - to handle; deal with
+榮幸 : 荣幸 : 荣幸 róngxìng - honored
+隊伍 : 队伍 : 队伍 duìwu - ranks; troops
+軍隊 : 军队 : 军队 jūnduì - army troops
+偵探 : 侦探 : 侦探 zhēntàn - detective
+確保 : 确保 : 确保 quèbǎo - ensure; guarantee
+戰斗 : 战斗 : 战斗 zhàndòu - to fight; to battle; to struggle
+進展 : 进展 : 进展 jìnzhǎn - make progress; development; make headway
+樂意 : 乐意 : 乐意 lèyì - be happy/willing do something; content; satisfied
+丟三落四 : 丢三落四 : 丢三落四 diūsān làsì - forgetful; scatterbrained
+時光 : 时光 : 时光 shíguāng - time; era; period of time
+無辜 : 无辜 : 无辜 wúgū - innocent
+恐懼 : 恐惧 : 恐惧 kǒngjù - fear; dread; phobia
+驚訝 : 惊讶 : 惊讶 jīngyà - surprised; astonished; astound
+事業 : 事业 : 事业 shìyè - undertaking; project; cause; enterprise
+不可思議 : 不可思议 : 不可思议 bùkěsīyì - unimaginable; inconceivable
+檔案 : 档案 : 档案 dàng'àn - file; record; archive
+協議 : 协议 : 协议 xiéyì - agreement; pact; protocol
+搶劫 : 抢劫 : 抢劫 qiǎngjié - rob; looting
+代價 : 代价 : 代价 dàijià - price; cost; expense
+釋放 : 释放 : 释放 shìfàng - release; set free; liberate (a prisoner)
+執行 : 执行 : 执行 zhíxíng - implementation; carry out; execute
+報警 : 报警 : 报警 bàojǐng - report (an incident) to the police
+情報 : 情报 : 情报 qíngbào - intelligence; information-gathering
+神經 : 神经 : 神经 shénjīng - nerve
+犧牲 : 牺牲 : 牺牲 xīshēng - sacrifice (one's life, etc.)
+憤怒 : 愤怒 : 愤怒 fènnù - angry; indignant; furious; anger; indignation; wrath; ire
+嬰兒 : 婴儿 : 婴儿 yīng'ér - baby infant
+孤獨 : 孤独 : 孤独 gūdú - lonely; solitary
+懲罰 : 惩罚 : 惩罚 chéngfá - penalty; punishment; to punish; to penalize
+承諾 : 承诺 : 承诺 chéngnuò - to promise; to undertake
+間諜 : 间谍 : 间谍 jiàndié - a spy; intelligence agent
+確信 : 确信 : 确信 quèxìn - confident; be certain of; to firmly believe
+尷尬 : 尴尬 : 尴尬 gāngà - awkward; embarrassed
+拋棄 : 抛弃 : 抛弃 pāoqì - discard; abandon; dump (sb)
+擅長 : 擅长 : 擅长 shàncháng - be good at; be expert in
+動手 : 动手 : 动手 dòngshǒu - get to work; to touch; strike a blow
+完畢 : 完毕 : 完毕 wánbì - finish; end; complete
+機構 : 机构 : 机构 jīgòu - structure; organization; institution
+即將 : 即将 : 即将 jíjiāng - will shortly; soon; be on the verge of
+鑽石 : 钻石 : 钻石 zuànshí - diamond
+艱難 : 艰难 : 艰难 jiānnán - difficult; arduous
+痕跡 : 痕迹 : 痕迹 hénjì - vestige; trace
+區域 : 区域 : 区域 qūyù - area; region; district
+鏡頭 : 镜头 : 镜头 jìngtóu - camera shot (in a movie, etc.); scene; camera lens
+聯盟 : 联盟 : 联盟 liánméng - alliance; union; coalition
+審判 : 审判 : 审判 shěnpàn - put (someone) to trial; to try somebody
+搖滾 : 摇滚 : 摇滚 yáogǔn - rock and roll
+天賦 : 天赋 : 天赋 tiānfù - natural talent
+打擊 : 打击 : 打击 dǎjī - to strike; to hit; to attack
+類似 : 类似 : 类似 lèisì - similar; analogous
+轉移 : 转移 : 转移 zhuǎnyí - to shift; divert; migrate
+擺脫 : 摆脱 : 摆脱 bǎituō - break away; free oneself from; cast off
+棟 : 栋 : 栋 dòng - roof beam; (mw for buildings)
+開除 : 开除 : 开除 kāichú - expel; to discharge; to kick out
+儀式 : 仪式 : 仪式 yíshì - ceremony
+混亂 : 混乱 : 混乱 hùnluàn - confusion; chaotic
+聯絡 : 联络 : 联络 liánluò - communication; to contact
+劍 : 剑 : 剑 jiàn - sword
+發射 : 发射 : 发射 fāshè - to launch; to shoot (a projectile); to fire (a rocket)
+結局 : 结局 : 结局 jiéjú - conclusion; ending
+動機 : 动机 : 动机 dòngjī - motive; motivation; intention
+欺騙 : 欺骗 : 欺骗 qīpiàn - deceive; to cheat; to dupe
+並非 : 并非 : 并非 bìngfēi - really isn't
+人質 : 人质 : 人质 rénzhì - hostage
+劇本 : 剧本 : 剧本 jùběn - script for a play; opera; movie; etc
+証實 : 证实 : 证实 zhèngshí - confirm; verify
+時機 : 时机 : 时机 shíjī - opportune time; opportunity
+辯護 : 辩护 : 辩护 biànhù - speak in defense of; argue in favor of; defend
+起碼 : 起码 : 起码 qǐmǎ - at the minimum; at the very least
+隱瞞 : 隐瞒 : 隐瞒 yǐnmán - conceal; hide; (a taboo subject); cover up
+寧願 : 宁愿 : 宁愿 nìngyuàn - would rather; better
+社區 : 社区 : 社区 shèqū - community
+毀滅 : 毁灭 : 毁灭 huǐmiè - perish; ruin; destroy
+進攻 : 进攻 : 进攻 jìngōng - attack (military); assault
+報復 : 报复 : 报复 bàofu - retaliate; revenge
+荒謬 : 荒谬 : 荒谬 huāngmiù - ridiculous; nonsensical
+撥 : 拨 : 拨 bō - to dial; move with a hand/foot; stir; poke; allocate (money)
+衛星 : 卫星 : 卫星 wèixīng - satellite
+達成 : 达成 : 达成 dá chéng - to reach (an agreement); achieve
+夫婦 : 夫妇 : 夫妇 fūfù - married couple; husband and wife
+競選 : 竞选 : 竞选 jìngxuǎn - run for (electoral) office; take part in an election
+親密 : 亲密 : 亲密 qīnmì - intimate; close; familiarity
+崩潰 : 崩溃 : 崩溃 bēngkuì - collapse; crumble; fall apart
+回報 : 回报 : 回报 huíbào - repayment; payback
+試驗 : 试验 : 试验 shìyàn - experiment; test
+異常 : 异常 : 异常 yìcháng - exceptional; abnormal
+展現 : 展现 : 展现 zhǎnxiàn - come out; emerge; express; show
+強迫 : 强迫 : 强迫 qiǎngpò - compel; to force
+當事人 : 当事人 : 当事人 dāngshìrén - persons involved or implicated; party (to an affair)
+絕望 : 绝望 : 绝望 jué wàng - desperation; forlorn; hopeless
+沮喪 : 沮丧 : 沮丧 jǔsàng - dejected; depressed; dispirited
+災難 : 灾难 : 灾难 zāinàn - disaster; catastrophe
+正義 : 正义 : 正义 zhèngyì - justice; righteous
+榮譽 : 荣誉 : 荣誉 róngyù - honor; glory
+提議 : 提议 : 提议 tíyì - propose; suggest
+機密 : 机密 : 机密 jīmì - secret; classified (information)
+忠誠 : 忠诚 : 忠诚 zhōngchéng - honest; loyalty; devoted
+症狀 : 症状 : 症状 zhèngzhuàng - symptom (of an illness)
+當初 : 当初 : 当初 dāngchū - at that time; at the outset; originally
+震驚 : 震惊 : 震惊 zhènjīng - shock; astonish; amaze
+心靈 : 心灵 : 心灵 xīnlíng - heart; soul; smart; quick-witted
+掩護 : 掩护 : 掩护 yǎnhù - cover; shield; screen
+顧問 : 顾问 : 顾问 gùwèn - adviser; consultant
+障礙 : 障碍 : 障碍 zhàng'ài - barrier; obstacle
+危機 : 危机 : 危机 wēijī - crisis
+維持 : 维持 : 维持 wéichí - maintain; preserve
+主義 : 主义 : 主义 zhǔyì - -ism; ideology
+視頻 : 视频 : 视频 shìpín - video
+標記 : 标记 : 标记 biāojì - sign; mark; symbol
+出賣 : 出卖 : 出卖 chūmài - sell; betray; sell out
+紳士 : 绅士 : 绅士 shēnshì - gentleman
+殘忍 : 残忍 : 残忍 cánrěn - brutal; bloody; merciless
+跡象 : 迹象 : 迹象 jìxiàng - mark; indication; sign
+神聖 : 神圣 : 神圣 shénshèng - divine; holy; sacred
+倉庫 : 仓库 : 仓库 cāngkù - depot; storehouse; warehouse
+碼頭 : 码头 : 码头 mǎtou - dock; wharf
+補償 : 补偿 : 补偿 bǔcháng - compensation; make up
+沖動 : 冲动 : 冲动 chōngdòng - impulsive; act on impulse
+對抗 : 对抗 : 对抗 duìkàng - withstand; resist; antagonize
+奴隸 : 奴隶 : 奴隶 núlì - slave
+拜訪 : 拜访 : 拜访 bàifǎng - pay a visit; call on
+獎勵 : 奖励 : 奖励 jiǎnglì - to reward (as encouragement)
+膝蓋 : 膝盖 : 膝盖 xīgài - knee
+賊 : 贼 : 贼 zéi - thief
+種族 : 种族 : 种族 zhǒngzú - race; ethnicity
+舌頭 : 舌头 : 舌头 shétou - tongue
+消滅 : 消灭 : 消灭 xiāomiè - eliminate; perish; wipe out
+樂趣 : 乐趣 : 乐趣 lèqù - delight; pleasure; joy; fun
+訴訟 : 诉讼 : 诉讼 sùsòng - lawsuit
+封鎖 : 封锁 : 封锁 fēngsuǒ - to block off; to seal off; cordon off; blockade
+職位 : 职位 : 职位 zhíwèi - (professional) position
+可惡 : 可恶 : 可恶 kěwù - hateful; abominable; repulsive
+確切 : 确切 : 确切 quèqiè - definite; exact; precise
+壓制 : 压制 : 压制 yāzhì - suppress; inhibit; stifle
+排練 : 排练 : 排练 páiliàn - to rehearse
+評論 : 评论 : 评论 pínglùn - comment on; discuss; remark
+靈感 : 灵感 : 灵感 línggǎn - inspiration; insight; a burst of creativity in scientific or artistic endeavor
+漫畫 : 漫画 : 漫画 mànhuà - comics; manga
+預言 : 预言 : 预言 yùyán - predict; prophecy
+領先 : 领先 : 领先 lǐngxiān - leadership; to lead; be in front
+裝備 : 装备 : 装备 zhuāngbèi - equipment; to equip; to outfit
+聲明 : 声明 : 声明 shēngmíng - statement; declare; proclaim
+發動 : 发动 : 发动 fādòng - to start; to launch; mobilize
+集團 : 集团 : 集团 jítuán - group; bloc; circle; clique
+協助 : 协助 : 协助 xiézhù - assist; to help
+動力 : 动力 : 动力 dònglì - power; motion; impetus; driving force
+陰謀 : 阴谋 : 阴谋 yīnmóu - a plot; a conspiracy
+協會 : 协会 : 协会 xiéhuì - an association; a society
+喉嚨 : 喉咙 : 喉咙 hóulóng - throat; larynx
+爆發 : 爆发 : 爆发 bàofā - break out; erupt; explode
+隨意 : 随意 : 随意 suíyì - as one wishes; according to one's wishes
+策劃 : 策划 : 策划 cèhuà - plot; scheme; bring about
+彌補 : 弥补 : 弥补 míbǔ - make up for a deficiency; remedy; offset
+黨 : 党 : 党 dǎng - party; club; association
+來源 : 来源 : 来源 láiyuán - source; originate
+判決 : 判决 : 判决 pànjué - judgment (by a court of law); adjudicate
+沖突 : 冲突 : 冲突 chōngtū - conflict; clash
+化妝 : 化妆 : 化妆 huà zhuāng - put on make-up
+考驗 : 考验 : 考验 kǎoyàn - put to the test; trial
+魔術 : 魔术 : 魔术 móshù - magic
+實力 : 实力 : 实力 shílì - strength
+賭博 : 赌博 : 赌博 dǔbó - to gamble
+處境 : 处境 : 处境 chǔjìng - plight; unfavorable situation
+繼承 : 继承 : 继承 jìchéng - inherit; carry on; succeed
+隔離 : 隔离 : 隔离 gélí - insulate; separate; isolate
+企圖 : 企图 : 企图 qǐtú - (to ) attempt; try; attempt
+無能為力 : 无能为力 : 无能为力 wú néng wéi lì - incapable of action; powerless; impotent
+領袖 : 领袖 : 领袖 lǐngxiù - leader
+掙扎 : 挣扎 : 挣扎 zhēngzhá - to struggle
+騷擾 : 骚扰 : 骚扰 sāorǎo - harass; disturb; molest; cause a commotion
+難堪 : 难堪 : 难堪 nánkān - hard to take; endure; embarrassed
+許可 : 许可 : 许可 xǔkě - allow; permit; permission
+匯報 : 汇报 : 汇报 huìbào - report; give an account of; to collect information and report back
+過度 : 过度 : 过度 guòdù - excessive; exceeding; lavishly
+包圍 : 包围 : 包围 bāowéi - surround; encircle; hem in
+武裝 : 武装 : 武装 wǔzhuāng - arms; equipment; to arm
+斗爭 : 斗争 : 斗争 dòuzhēng - to struggle; to fight for; to battle
+選舉 : 选举 : 选举 xuǎnjǔ - elect; election
+隱私 : 隐私 : 隐私 yǐnsī - privacy; personal secret
+旋轉 : 旋转 : 旋转 xuánzhuǎn - to whirl; to spin; rotate
+回顧 : 回顾 : 回顾 huígù - look back; to review
+歡樂 : 欢乐 : 欢乐 huānlè - gaiety; glee; delighted
+環節 : 环节 : 环节 huánjié - link; sector; segment (of annelid worms)
+撫養 : 抚养 : 抚养 fǔyǎng - foster; bring up; raise
+殘酷 : 残酷 : 残酷 cánkù - cruel
+場合 : 场合 : 场合 chǎnghé - occasion; situation
+通訊 : 通讯 : 通讯 tōngxùn - communication; correspondence; news dispatch
+評估 : 评估 : 评估 pínggū - evaluate
+給予 : 给予 : 给予 jǐyǔ - to give
+偽造 : 伪造 : 伪造 wěizào - forge; to fake; to counterfeit
+掩蓋 : 掩盖 : 掩盖 yǎngài - conceal; cover up; hide behind
+團結 : 团结 : 团结 tuánjié - unite; hold a rally; join forces
+翹 : 翘 : 翘 qiáo, qiào - to raise; to become warped | stick up; bend upwards
+誘惑 : 诱惑 : 诱惑 yòuhuò - tempt; temptation; entice; lure; attract
+負擔 : 负担 : 负担 fùdān - to (bear a) burden; carry; a load
+輪胎 : 轮胎 : 轮胎 lúntāi - tire (of a wheel)
+團體 : 团体 : 团体 tuántǐ - group; organization; team
+傾向 : 倾向 : 倾向 qīngxiàng - trend; tendency; inclination
+統治 : 统治 : 统治 tǒngzhì - to rule (a country); govern; governance
+邊緣 : 边缘 : 边缘 biānyuán - edge; fringe; verge; brink
+復活 : 复活 : 复活 fùhuó - resurrection
+雙胞胎 : 双胞胎 : 双胞胎 shuāngbāotāi - twins
+蠟燭 : 蜡烛 : 蜡烛 làzhú - candle
+立場 : 立场 : 立场 lìchǎng - position; standpoint
+無比 : 无比 : 无比 wúbǐ - matchless; incomparable
+導彈 : 导弹 : 导弹 dǎodàn - guided missile; cruise missile
+悲慘 : 悲惨 : 悲惨 bēicǎn - miserable; tragic
+風暴 : 风暴 : 风暴 fēngbào - storm; violent commotion
+額外 : 额外 : 额外 éwài - extra; added; additional
+干擾 : 干扰 : 干扰 gānrǎo - interfere; obstruction
+牽 : 牵 : 牵 qiān - to lead along; to pull (an animal on a tether)
+欺負 : 欺负 : 欺负 qīfu - to bully; intimidate
+脫離 : 脱离 : 脱离 tuōlí - to separate oneself from; to break away from; be divorced from; diastasis (medicine); abscission; abjunction (botany)
+節奏 : 节奏 : 节奏 jiézòu - rhythm; cadence; tempo
+枕頭 : 枕头 : 枕头 zhěntou - pillow
+情節 : 情节 : 情节 qíngjié - plot; circumstances
+簡體字 : 简体字 : 简体字 jiǎntǐzì - simplified Chinese characters
+過於 : 过于 : 过于 guòyú - too much; excessively
+訪問 : 访问 : 访问 fǎngwèn - to visit; call on; to interview
+細胞 : 细胞 : 细胞 xìbāo - cell (biology)
+潛力 : 潜力 : 潜力 qiánlì - potential; capacity
+舉動 : 举动 : 举动 jǔdòng - action; act; (make) a move; movement
+鴿子 : 鸽子 : 鸽子 gēzi - dove; pigeon
+抗議 : 抗议 : 抗议 kàngyì - to protest; protest
+財富 : 财富 : 财富 cáifù - wealth; riches; fortune
+指責 : 指责 : 指责 zhǐzé - to censure; criticize; find fault with
+尊嚴 : 尊严 : 尊严 zūnyán - dignity; sanctity; honor
+收音機 : 收音机 : 收音机 shōuyīnjī - radio
+伴侶 : 伴侣 : 伴侣 bànlǚ - companion; partner; mate
+腫瘤 : 肿瘤 : 肿瘤 zhǒngliú - tumor; neoplasm
+預算 : 预算 : 预算 yùsuàn - budget
+氣味 : 气味 : 气味 qìwèi - odor; scent
+發布 : 发布 : 发布 fābù - issue; announce; release
+報仇 : 报仇 : 报仇 bàochóu - retaliate; to revenge; avenge
+渾身 : 浑身 : 浑身 húnshēn - entire body; from head to foot
+著迷 : 着迷 : 着迷 zháomí - to be fascinated
+典禮 : 典礼 : 典礼 diǎnlǐ - celebration; ceremony
+戰術 : 战术 : 战术 zhànshù - (military) tactics
+操縱 : 操纵 : 操纵 cāozòng - operate; control; manipulation
+設置 : 设置 : 设置 shèzhì - set up; install; to fit
+純粹 : 纯粹 : 纯粹 chúncuì - purely; pure
+場面 : 场面 : 场面 chǎngmiàn - scene; occasion
+窩 : 窝 : 窝 wō - nest; den
+永恆 : 永恒 : 永恒 yǒnghéng - eternal; everlasting
+弱點 : 弱点 : 弱点 ruòdiǎn - weak point; failing
+投訴 : 投诉 : 投诉 tóusù - make a complaint; appeal to a court
+服從 : 服从 : 服从 fúcóng - to obey; to comply
+賄賂 : 贿赂 : 贿赂 huìlù - to bribe
+簽署 : 签署 : 签署 qiānshǔ - sign (an agreement)
+艙 : 舱 : 舱 cāng - cabin; hold (of a ship or airplane)
+創作 : 创作 : 创作 chuàngzuò - create; to produce; creative work
+降臨 : 降临 : 降临 jiànglín - befall; descend； arrive； come
+推測 : 推测 : 推测 tuīcè - speculate; conjecture; surmise
+墳墓 : 坟墓 : 坟墓 fénmù - tomb; sepulcher
+實施 : 实施 : 实施 shíshī - to implement; put into effect; carry out
+貴族 : 贵族 : 贵族 guìzú - lord; nobility; nobleman; noblewoman
+陳述 : 陈述 : 陈述 chénshù - allegation; assertation; to declare; to state
+敞開 : 敞开 : 敞开 chǎngkāi - open wide
+邊境 : 边境 : 边境 biānjìng - border, frontier
+掩飾 : 掩饰 : 掩饰 yǎnshì - conceal a fault; gloss over
+維護 : 维护 : 维护 wéihù - defend; to safeguard; defense; maintain
+終點 : 终点 : 终点 zhōngdiǎn - the end; end point; destination; finish line (in a race)
+野蠻 : 野蛮 : 野蛮 yěmán - barbarous; uncivilized; cruel; wild
+厭惡 : 厌恶 : 厌恶 yànwù - loathe; to hate; detest
+責怪 : 责怪 : 责怪 zéguài - blame; rebuke
+漫長 : 漫长 : 漫长 màncháng - very long; endless
+贊助 : 赞助 : 赞助 zànzhù - support; sponsor
+預料 : 预料 : 预料 yùliào - anticipate; to forecast; expectation
+正當 : 正当 : 正当 zhèng dāng - timely; just when, (dàng) proper
+墮落 : 堕落 : 堕落 duòluò - morally degenerate; become depraved
+合並 : 合并 : 合并 hébìng - merge; annex
+丟人 : 丢人 : 丢人 diū rén - lose face; be disgraced
+極端 : 极端 : 极端 jíduān - extreme
+機械 : 机械 : 机械 jīxiè - machine; mechanical
+剎車 : 刹车 : 刹车 shā chē - brake (when driving); stop; switch off
+巡邏 : 巡逻 : 巡逻 xúnluó - to patrol (police, army or navy)
+定義 : 定义 : 定义 dìngyì - definition
+嘔吐 : 呕吐 : 呕吐 ǒutù - to vomit; retch; nausea
+羞恥 : 羞耻 : 羞耻 xiūchǐ - (a feeling of) shame
+清潔 : 清洁 : 清洁 qīngjié - clean; unpolluted; purity
+恐嚇 : 恐吓 : 恐吓 kǒnghè - to threaten
+軌道 : 轨道 : 轨道 guǐdào - orbit; railway; trajectory
+視線 : 视线 : 视线 shìxiàn - line of sight; view line
+帳篷 : 帐篷 : 帐篷 zhàngpeng - tent
+遺傳 : 遗传 : 遗传 yíchuán - inherit; hereditary
+血壓 : 血压 : 血压 xuèyā - blood pressure
+氧氣 : 氧气 : 氧气 yǎngqì - oxygen
+攜帶 : 携带 : 携带 xiédài - take with; portable
+檢驗 : 检验 : 检验 jiǎnyàn - inspect; examine; to test
+守護 : 守护 : 守护 shǒuhù - guard; defend; protect
+鑒於 : 鉴于 : 鉴于 jiànyú - in light of; in view of; seeing that
+誤解 : 误解 : 误解 wùjiě - misunderstand; misread
+跳躍 : 跳跃 : 跳跃 tiàoyuè - jump; leap; bound; skip
+保衛 : 保卫 : 保卫 bǎowèi - defend; to safeguard
+撤銷 : 撤销 : 撤销 chèxiāo - repeal
+事務 : 事务 : 事务 shìwù - affairs; work
+謠言 : 谣言 : 谣言 yáoyán - rumor
+報酬 : 报酬 : 报酬 bàochou - reward; remuneration
+動靜 : 动静 : 动静 dòngjìng - sound of activity; activity
+著想 : 着想 : 着想 zhuóxiǎng - give consideration to; consider (other people's) needs
+喪失 : 丧失 : 丧失 sàngshī - to lose; to forfeit
+鋪 : 铺 : 铺 pù, pū - bed; store | to spread; to lay
+輻射 : 辐射 : 辐射 fúshè - radiation
+粗魯 : 粗鲁 : 粗鲁 cūlǔ - crude; coarse; rough; language
+帶領 : 带领 : 带领 dàilǐng - to guide; to lead
+潛水 : 潜水 : 潜水 qiánshuǐ - go diving
+光榮 : 光荣 : 光荣 guāngróng - glory; honor
+違背 : 违背 : 违背 wéibèi - violate; go against
+遺產 : 遗产 : 遗产 yíchǎn - heritage; legacy
+瞬間 : 瞬间 : 瞬间 shùnjiān - in the twinkling of an eye; in an instant; momentary
+正經 : 正经 : 正经 zhèngjing - decent; serious; standard; really
+驚奇 : 惊奇 : 惊奇 jīngqí - amaze; astonished
+珍貴 : 珍贵 : 珍贵 zhēnguì - precious
+思維 : 思维 : 思维 sīwéi - (line) of thought; thinking
+先進 : 先进 : 先进 xiānjìn - advanced (technology); to advance
+級別 : 级别 : 级别 jíbié - rank; level; grade
+競賽 : 竞赛 : 竞赛 jìngsài - race; contest; competition
+墊 : 垫 : 垫 diàn - cushion; to pad; pay for somebody and expect to be repaid
+引導 : 引导 : 引导 yǐndǎo - to guide; to conduct; introduction
+學位 : 学位 : 学位 xuéwèi - academic degree; educational level
+納悶兒 : 纳闷儿 : 纳闷儿 nà mènr - feel puzzled; bewildered
+人間 : 人间 : 人间 rénjiān - man's world; the world
+修復 : 修复 : 修复 xiūfù - restoration; repair
+認定 : 认定 : 认定 rèndìng - maintain (that sth. is true); firmly believe
+拳頭 : 拳头 : 拳头 quántou - fist
+抵達 : 抵达 : 抵达 dǐdá - arrive; to reach (a destination); touch down
+發覺 : 发觉 : 发觉 fājué - discover; detect
+呈現 : 呈现 : 呈现 chéngxiàn - appear; emerge; present (a certain appearance)
+別墅 : 别墅 : 别墅 biéshù - villa
+識別 : 识别 : 识别 shíbié - identify; distinguish; discern
+失誤 : 失误 : 失误 shīwù - mistake; lapse; miss
+貪婪 : 贪婪 : 贪婪 tānlán - greedy; avaricious
+傳達 : 传达 : 传达 chuándá - convey; transmit; communicate
+鎮定 : 镇定 : 镇定 zhèndìng - cool; calm; unperturbed
+細菌 : 细菌 : 细菌 xìjūn - bacteria; virus; germ
+無知 : 无知 : 无知 wúzhī - ignorance
+儀器 : 仪器 : 仪器 yíqì - apparatus; (scientific) instrument
+親熱 : 亲热 : 亲热 qīnrè - intimate; affectionate; warm
+風趣 : 风趣 : 风趣 fēngqù - humor; wit; humorous
+誕生 : 诞生 : 诞生 dànshēng - be born; come into being
+忠實 : 忠实 : 忠实 zhōngshí - faithful; dependable
+符號 : 符号 : 符号 fúhào - symbol; mark; sign
+鑒定 : 鉴定 : 鉴定 jiàndìng - appraise; identify; evaluate
+纖維 : 纤维 : 纤维 xiānwéi - fiber
+盜竊 : 盗窃 : 盗窃 dàoqiè - steal; pilfer
+推銷 : 推销 : 推销 tuīxiāo - to market; sell
+雷達 : 雷达 : 雷达 léidá - radar
+終身 : 终身 : 终身 zhōngshēn - lifelong
+搗亂 : 捣乱 : 捣乱 dǎo luàn - cause a disturbance; look for trouble
+驅逐 : 驱逐 : 驱逐 qūzhú - banishment; expel; deport
+牽扯 : 牵扯 : 牵扯 qiānchě - implicate; involve
+循環 : 循环 : 循环 xúnhuán - circular cycle; loop; circulate
+財務 : 财务 : 财务 cáiwù - financial affairs
+局勢 : 局势 : 局势 júshì - situation; state (of affairs)
+運行 : 运行 : 运行 yùnxíng - movement; be in motion; run
+終止 : 终止 : 终止 zhōngzhǐ - stop; cease; terminate (legal)
+模樣 : 模样 : 模样 múyàng - appearance; form; approximation
+峽谷 : 峡谷 : 峡谷 xiágǔ - canyon; ravine; gorge
+頻率 : 频率 : 频率 pínlǜ - frequency
+登陸 : 登陆 : 登陆 dēnglù - to land; come ashore; sign/log in
+含義 : 含义 : 含义 hányì - implied meaning; connotation
+資助 : 资助 : 资助 zīzhù - subsidy; provide financial aid
+優先 : 优先 : 优先 yōuxiān - priority; preferential
+爭奪 : 争夺 : 争夺 zhēngduó - fight over; vie for; scramble for
+賦予 : 赋予 : 赋予 fùyǔ - confer upon; bestow; endow; entrust (a task)
+妥協 : 妥协 : 妥协 tuǒxié - to compromise; reach terms
+精確 : 精确 : 精确 jīngquè - accurate; precise
+鈔票 : 钞票 : 钞票 chāopiào - paper money; bill
+演繹 : 演绎 : 演绎 yǎnyì - deduction; to deduce; to infer
+依賴 : 依赖 : 依赖 yīlài - depend on; be dependent on
+上癮 : 上瘾 : 上瘾 shàngyǐn - become addicted; get into a habit
+電源 : 电源 : 电源 diànyuán - electric power supply
+氣色 : 气色 : 气色 qìsè - complexion
+意圖 : 意图 : 意图 yìtú - intent; intention; intend
+堅定 : 坚定 : 坚定 jiāndìng - firm; staunch; resolute
+傾聽 : 倾听 : 倾听 qīngtīng - listen attentively; heed (other people's opinions)
+童話 : 童话 : 童话 tónghuà - fairy tale
+偏見 : 偏见 : 偏见 piānjiàn - prejudice
+焦點 : 焦点 : 焦点 jiāodiǎn - focus; focal point
+無恥 : 无耻 : 无耻 wúchǐ - without any sense of shame; shameless; audaciousness
+戰略 : 战略 : 战略 zhànlüè - strategy
+仍舊 : 仍旧 : 仍旧 réngjiù - still (remaining); remain (the same); yet
+脈搏 : 脉搏 : 脉搏 màibó - pulse; throbbing
+封閉 : 封闭 : 封闭 fēngbì - to seal; to close; confine
+動脈 : 动脉 : 动脉 dòngmài - artery
+惡化 : 恶化 : 恶化 èhuà - worsen; deteriorate
+阻礙 : 阻碍 : 阻碍 zǔ'ài - obstruct; hinder; impede
+監督 : 监督 : 监督 jiāndū - control; monitor; supervise; inspect
+憲法 : 宪法 : 宪法 xiànfǎ - constitution; charter
+激勵 : 激励 : 激励 jīlì - urge; encourage; motivation
+歧視 : 歧视 : 歧视 qíshì - discriminate (against someone)
+極限 : 极限 : 极限 jíxiàn - limit; extreme boundary
+嚴厲 : 严厉 : 严厉 yánlì - strict; severe
+純潔 : 纯洁 : 纯洁 chúnjié - pure; unadulterated; cleanse
+知覺 : 知觉 : 知觉 zhījué - perception; consciousness; feeling
+壓抑 : 压抑 : 压抑 yāyì - constrain or repress one's emotions; inhibition; repressive
+進化 : 进化 : 进化 jìnhuà - evolution
+發行 : 发行 : 发行 fāxíng - publish; to issue; distribute
+遙遠 : 遥远 : 遥远 yáoyuǎn - distant; remote
+途徑 : 途径 : 途径 tújìng - way; channel
+著手 : 着手 : 着手 zhuóshǒu - put one's hand to; commence
+嘮叨 : 唠叨 : 唠叨 láodao - be talkative (especially about trivial matters); be garrulous; prattle
+搖擺 : 摇摆 : 摇摆 yáobǎi - to waver; to wag; to sway
+鎮靜 : 镇静 : 镇静 zhènjìng - calm; cool; tranquil
+處置 : 处置 : 处置 chǔzhì - to handle; take care of; punish
+名譽 : 名誉 : 名誉 míngyù - fame; reputation; honor; honorary
+腐爛 : 腐烂 : 腐烂 fǔlàn - rot; become gangrenous
+統計 : 统计 : 统计 tǒngjì - statistics; to tally; to add up
+撈 : 捞 : 捞 lāo - dredge up; fish up
+打獵 : 打猎 : 打猎 dǎ liè - hunt; to go hunting
+祖國 : 祖国 : 祖国 zǔguó - homeland; motherland; fatherland
+奉獻 : 奉献 : 奉献 fèngxiàn - consecrate; dedicate; devote
+場所 : 场所 : 场所 chǎngsuǒ - location; place
+床單 : 床单 : 床单 chuángdān - bed sheet
+固執 : 固执 : 固执 gùzhí - persistent; stubborn
+榜樣 : 榜样 : 榜样 bǎngyàng - example; model
+和諧 : 和谐 : 和谐 héxié - harmonious; concordant
+勉強 : 勉强 : 勉强 miǎnqiǎng - reluctantly; grudgingly; force sb. to do sth.
+糾正 : 纠正 : 纠正 jiūzhèng - to correct; to make right
+條款 : 条款 : 条款 tiáokuǎn - clause (of contract or law)
+關照 : 关照 : 关照 guānzhào - concern; look after; keep an eye on
+損壞 : 损坏 : 损坏 sǔnhuài - to damage; injure
+包裝 : 包装 : 包装 bāozhuāng - to pack; package; make up
+中斷 : 中断 : 中断 zhōngduàn - interrupt; break off
+液體 : 液体 : 液体 yètǐ - liquid
+擔保 : 担保 : 担保 dānbǎo - guarantee; vouch for
+報答 : 报答 : 报答 bàodá - repay; requite
+認可 : 认可 : 认可 rènkě - approve; accept; ratify
+勢力 : 势力 : 势力 shìli - power; influence
+資產 : 资产 : 资产 zīchǎn - property; assets
+佔領 : 占领 : 占领 zhànlǐng - occupy (a territory); capture; seize
+飢餓 : 饥饿 : 饥饿 jī'è - hunger; hungry; starve
+銷毀 : 销毁 : 销毁 xiāohuǐ - destroy (by melting or burning)
+注視 : 注视 : 注视 zhùshì - watch attentively; gaze at; stare
+財政 : 财政 : 财政 cáizhèng - public finances; financial
+上級 : 上级 : 上级 shàngjí - higher authorities; superiors
+差別 : 差别 : 差别 chābié - difference; disparity
+依舊 : 依旧 : 依旧 yījiù - as before; still
+言論 : 言论 : 言论 yánlùn - expression of (political) opinion; speech
+活該 : 活该 : 活该 huógāi - serve sb. right; deservedly; ought
+恰當 : 恰当 : 恰当 qiàdàng - appropriate; suitable; proper
+磁帶 : 磁带 : 磁带 cídài - cassette tape
+佔據 : 占据 : 占据 zhànjù - occupy; hold; inhabit
+華麗 : 华丽 : 华丽 huálì - gorgeous; magnificent
+答復 : 答复 : 答复 dáfù - to answer; to reply
+橫 : 横 : 横 héng, hèng - horizontal; across; (horizontal character stroke) | harsh; unexpected
+崗位 : 岗位 : 岗位 gǎngwèi - a post; a job
+大伙兒 : 大伙儿 : 大伙儿 dàhuǒr - everyone
+近來 : 近来 : 近来 jìnlái - recently; lately
+詐騙 : 诈骗 : 诈骗 zhàpiàn - defraud; swindle; blackmail
+嶄新 : 崭新 : 崭新 zhǎnxīn - brand new
+昂貴 : 昂贵 : 昂贵 ángguì - expensive; costly
+家屬 : 家属 : 家属 jiāshǔ - family member; a dependent
+化驗 : 化验 : 化验 huàyàn - laboratory test; chemically examine
+螞蟻 : 蚂蚁 : 蚂蚁 mǎyǐ - ant
+演習 : 演习 : 演习 yǎnxí - rehearse; practice; put on a play
+束縛 : 束缚 : 束缚 shùfù - to bind; restrict; to tie
+憂郁 : 忧郁 : 忧郁 yōuyù - melancholy; dejected
+頑固 : 顽固 : 顽固 wángù - stubborn; obstinate
+販賣 : 贩卖 : 贩卖 fànmài - sell; peddle; (often derogatory) to traffic in
+癱瘓 : 瘫痪 : 瘫痪 tānhuàn - paralysis
+潑 : 泼 : 泼 pō - to splash; to spill; rude and unreasonable; brutish
+傳單 : 传单 : 传单 chuándān - leaflet; flier; pamphlet
+協調 : 协调 : 协调 xiétiáo - coordinate; harmonize
+萬分 : 万分 : 万分 wànfēn - very much; extremely
+跟隨 : 跟随 : 跟随 gēnsuí - follow; followed
+罕見 : 罕见 : 罕见 hǎnjiàn - rare; rarely seen; peculiar
+緣故 : 缘故 : 缘故 yuángù - reason; cause
+安寧 : 安宁 : 安宁 ānníng - peaceful; calm; tranquil; composed
+兌現 : 兑现 : 兑现 duìxiàn - cash a check; honor a commitment
+為難 : 为难 : 为难 wéinán - make things difficult for someone; embarrassed
+腐敗 : 腐败 : 腐败 fǔbài - corruption; corrupt; rotten
+當面 : 当面 : 当面 dāng miàn - to sb.'s face; in sb.'s presence
+當場 : 当场 : 当场 dāngchǎng - at the scene; on the spot
+難得 : 难得 : 难得 nándé - hard to come by; difficult to get; rare
+濺 : 溅 : 溅 jiàn - to splash
+功勞 : 功劳 : 功劳 gōngláo - contribution; credit
+信賴 : 信赖 : 信赖 xìnlài - trust; have confidence in; confide
+戰役 : 战役 : 战役 zhànyì - military campaign; battle
+毆打 : 殴打 : 殴打 ōudǎ - beat up; hit
+權威 : 权威 : 权威 quánwēi - authority; authoritative
+償還 : 偿还 : 偿还 chánghuán - repay; reimburse
+作風 : 作风 : 作风 zuòfēng - work style; way
+罷工 : 罢工 : 罢工 bà gōng - to strike; go on strike
+邁 : 迈 : 迈 mài - to step; stride
+強制 : 强制 : 强制 qiángzhì - enforce; control; coerce
+師范 : 师范 : 师范 shīfàn - teacher-training; pedagogical; normal (school)
+烹飪 : 烹饪 : 烹饪 pēngrèn - cooking; culinary arts
+擴散 : 扩散 : 扩散 kuòsàn - spread; proliferation
+預期 : 预期 : 预期 yùqī - expect; expected; anticipate
+過失 : 过失 : 过失 guòshī - defect; fault
+竭盡全力 : 竭尽全力 : 竭尽全力 jiéjìn quánlì - to spare no efforts; do one's utmost
+依據 : 依据 : 依据 yījù - according to; basis; foundation
+擰 : 拧 : 拧 níng, nǐng, nìng - wring; to pinch | disagree; mistaken | (regional) stubborn
+圖案 : 图案 : 图案 tú'àn - design; pattern
+規劃 : 规划 : 规划 guīhuà - plan; program; project
+支撐 : 支撑 : 支撑 zhīchēng - support; prop up; crutch; brace
+執著 : 执着 : 执着 zhízhuó - to refuse to change one's viewpoint
+伴隨 : 伴随 : 伴随 bànsuí - accompany; go with; follow
+沼澤 : 沼泽 : 沼泽 zhǎozé - marsh; swamp; glade; wetlands
+折騰 : 折腾 : 折腾 zhēteng - toss from side to side (e.g. sleeplessly); do something over and over again; cause suffering; play crazy; screw around
+惱火 : 恼火 : 恼火 nǎohuǒ - get angry; irritated; annoy
+導航 : 导航 : 导航 dǎoháng - navigation
+體面 : 体面 : 体面 tǐmiàn - dignity; honorable; face
+臨床 : 临床 : 临床 línchuáng - clinical
+遲鈍 : 迟钝 : 迟钝 chídùn - slow (witted); stupid; dull
+頗 : 颇 : 颇 pō - rather; quite; inclined to one side
+准則 : 准则 : 准则 zhǔnzé - principle; standard or norm; criterion
+事態 : 事态 : 事态 shìtài - situation; existing state of affairs
+覆蓋 : 覆盖 : 覆盖 fùgài - to cover
+邊界 : 边界 : 边界 biānjiè - boundary; border
+飛翔 : 飞翔 : 飞翔 fēixiáng - fly; hover
+通緝 : 通缉 : 通缉 tōngjī - order the arrest of a criminal
+無賴 : 无赖 : 无赖 wúlài - hoodlum; rascal; rogue; rascally; scoundrelly
+統統 : 统统 : 统统 tǒngtǒng - totally; completely
+擾亂 : 扰乱 : 扰乱 rǎoluàn - disturb; perturb; harass
+飲食 : 饮食 : 饮食 yǐnshí - food and drink; diet
+熱門 : 热门 : 热门 rèmén - in demand; popular; in vogue
+審查 : 审查 : 审查 shěnchá - examine; investigate; censorship
+譴責 : 谴责 : 谴责 qiǎnzé - denounce; condemn; criticize
+虛偽 : 虚伪 : 虚伪 xūwěi - false; hypocritical; artificial; sham
+測量 : 测量 : 测量 cèliáng - to survey; to measure
+敬禮 : 敬礼 : 敬礼 jìnglǐ - to salute; best regards
+辨認 : 辨认 : 辨认 biànrèn - distinguish; identify; recognize
+激發 : 激发 : 激发 jīfā - to arouse; excite
+姿態 : 姿态 : 姿态 zītài - attitude; posture; stance
+獎賞 : 奖赏 : 奖赏 jiǎngshǎng - to reward
+發財 : 发财 : 发财 fā cái - get rich
+壓迫 : 压迫 : 压迫 yāpò - oppress
+品嘗 : 品尝 : 品尝 pǐncháng - try; taste a small amount; to sample
+種子 : 种子 : 种子 zhǒngzi - seed
+隱蔽 : 隐蔽 : 隐蔽 yǐnbì - conceal; hide; covert; under cover; Take cover!
+手勢 : 手势 : 手势 shǒushì - gesture; sign; signal
+共和國 : 共和国 : 共和国 gònghéguó - republic
+群眾 : 群众 : 群众 qúnzhòng - the masses; multitude
+散發 : 散发 : 散发 sànfā - distribute; emit
+口氣 : 口气 : 口气 kǒuqì - tone of voice; manner of speaking
+公關 : 公关 : 公关 gōngguān - public relations
+產業 : 产业 : 产业 chǎnyè - industry; estate; property
+採集 : 采集 : 采集 cǎijí - gather; collect
+氣質 : 气质 : 气质 qìzhì - temperament; disposition
+品質 : 品质 : 品质 pǐnzhì - quality; character
+爭議 : 争议 : 争议 zhēngyì - controversy; dispute; contention
+顛倒 : 颠倒 : 颠倒 diāndǎo - turn upside down; upend
+算數 : 算数 : 算数 suànshù - (do) arithmetic; count
+等級 : 等级 : 等级 děngjí - degree; rate
+現狀 : 现状 : 现状 xiànzhuàng - current situation; status quo
+寬容 : 宽容 : 宽容 kuānróng - tolerant; lenient
+宮殿 : 宫殿 : 宫殿 gōngdiàn - palace
+俘虜 : 俘虏 : 俘虏 fúlǔ - captive; prisoner
+旗幟 : 旗帜 : 旗帜 qízhì - flag; banner
+探測 : 探测 : 探测 tàncè - probe; take readings; detect; explore
+用戶 : 用户 : 用户 yònghù - user; consumer; subscriber; customer
+當選 : 当选 : 当选 dāngxuǎn - be elected
+書面 : 书面 : 书面 shūmiàn - in writing; written (guarantee, etc.)
+遙控 : 遥控 : 遥控 yáokòng - remote control
+顫抖 : 颤抖 : 颤抖 chàndǒu - tremble; to shiver; to shake
+空虛 : 空虚 : 空虚 kōngxū - hollow; emptiness; meaningless
+磚 : 砖 : 砖 zhuān - brick
+蹤跡 : 踪迹 : 踪迹 zōngjì - tracks; trail; footprint; trace; vestige
+蒼白 : 苍白 : 苍白 cāngbái - pale; wan; pallid
+否決 : 否决 : 否决 fǒujué - veto; reject; overrule
+設想 : 设想 : 设想 shèxiǎng - imagine; consider; tentative plan
+終究 : 终究 : 终究 zhōngjiū - in the end; after all is said and done; eventually
+視力 : 视力 : 视力 shìlì - vision; eyesight
+延續 : 延续 : 延续 yánxù - continue; last longer
+內在 : 内在 : 内在 nèizài - intrinsic; innate
+銅 : 铜 : 铜 tóng - copper
+樣品 : 样品 : 样品 yàngpǐn - sample; specimen
+實行 : 实行 : 实行 shíxíng - to implement; put into practice; carry out
+歲月 : 岁月 : 岁月 suìyuè - the years of a person's life
+約束 : 约束 : 约束 yuēshù - restrict; limit to; constrain; restriction
+滅亡 : 灭亡 : 灭亡 mièwáng - be destroyed; perish; exterminate; become extinct
+專長 : 专长 : 专长 zhuāncháng - specialty; special knowledge or ability
+辯解 : 辩解 : 辩解 biànjiě - explain; justify; defend (a point of view, etc.)
+墨水兒 : 墨水儿 : 墨水儿 mòshuǐer - ink
+記載 : 记载 : 记载 jìzǎi - write down; to record
+補救 : 补救 : 补救 bǔjiù - remedy; repair
+體系 : 体系 : 体系 tǐxì - system; setup
+疲憊 : 疲惫 : 疲惫 píbèi - beaten; exhausted; tired
+溫和 : 温和 : 温和 wēnhé - moderate; warm; (-huo: lukewarm)
+教養 : 教养 : 教养 jiàoyǎng - upbringing; education; bring up; nurture and train
+供給 : 供给 : 供给 gōngjǐ - to furnish; provide; to supply
+標題 : 标题 : 标题 biāotí - title; header; headline; caption
+撫摸 : 抚摸 : 抚摸 fǔmō - gently caress and stroke; to pet; to fondle
+不顧 : 不顾 : 不顾 búgù - in spite of; regardless of; to disregard
+火藥 : 火药 : 火药 huǒyào - gunpowder
+討好 : 讨好 : 讨好 tǎohǎo - to flatter
+燦爛 : 灿烂 : 灿烂 cànlàn - to glitter; brilliant; splendid
+理所當然 : 理所当然 : 理所当然 lǐ suǒ dāng rán - (idiom) it goes without saying; certainly; of course; be natural and right
+視野 : 视野 : 视野 shìyě - field of vision
+職務 : 职务 : 职务 zhíwù - post; a position; job; duties
+殘留 : 残留 : 残留 cánliú - to remain; be left over; surplus; remnant
+挑舋 : 挑衅 : 挑衅 tiǎoxìn - provoke; defiance
+疏遠 : 疏远 : 疏远 shūyuǎn - drift apart; keep at a distance; not in close touch; estranged
+攤 : 摊 : 摊 tān - to spread out; vendor's stand; booth; fry; (mw for puddles)
+動身 : 动身 : 动身 dòng shēn - go on a journey; leave
+輝煌 : 辉煌 : 辉煌 huīhuáng - splendid; glorious
+敏銳 : 敏锐 : 敏锐 mǐnruì - keen; sharp; acute; brisk
+廢墟 : 废墟 : 废墟 fèixū - ruins
+轟動 : 轰动 : 轰动 hōngdòng - a sensation; a stir
+審理 : 审理 : 审理 shěnlǐ - hear (a case)
+呼喚 : 呼唤 : 呼唤 hūhuàn - call out (a name etc.); shout
+首飾 : 首饰 : 首饰 shǒushì - jewelry
+設立 : 设立 : 设立 shèlì - set up; establish
+北極 : 北极 : 北极 běijí - the North Pole
+蒸發 : 蒸发 : 蒸发 zhēngfā - evaporate; evaporation
+登錄 : 登录 : 登录 dēnglù - sign-in
+豎 : 竖 : 竖 shù - vertical; to erect; vertical stroke
+沖擊 : 冲击 : 冲击 chōngjī - attack; impact; a shock
+頻繁 : 频繁 : 频繁 pínfán - frequently; often
+畏懼 : 畏惧 : 畏惧 wèijù - to fear; foreboding
+証書 : 证书 : 证书 zhèngshū - certificate; credentials
+時常 : 时常 : 时常 shícháng - time and again; often; frequently
+壯觀 : 壮观 : 壮观 zhuàngguān - spectacular; grand (of buildings, monuments, scenery, etc.)
+歸還 : 归还 : 归还 guīhuán - return something; revert
+條約 : 条约 : 条约 tiáoyuē - treaty; pact
+一貫 : 一贯 : 一贯 yíguàn - consistent; constant; from start to finish; then as now
+豐滿 : 丰满 : 丰满 fēngmǎn - plump; well developed; plentiful; Fengman district of Jilin City, Jilin Province
+驗証 : 验证 : 验证 yànzhèng - inspect and verify
+蛋白質 : 蛋白质 : 蛋白质 dànbáizhì - protein
+龐大 : 庞大 : 庞大 pángdà - enormous; huge; tremendous
+儲存 : 储存 : 储存 chǔcún - stockpile; to store
+紐扣兒 : 纽扣儿 : 纽扣儿 niǔkòur - button
+側面 : 侧面 : 侧面 cèmiàn - side; profile; flank; face in profile
+不擇手段 : 不择手段 : 不择手段 bùzéshǒuduàn - by fair means or foul
+捍衛 : 捍卫 : 捍卫 hànwèi - defend; uphold; safeguard
+層次 : 层次 : 层次 céngcì - level; rank order; standing; layer
+備忘錄 : 备忘录 : 备忘录 bèiwànglù - memorandum; aide-memoire; diplomacy memorandum; memorandum book
+預先 : 预先 : 预先 yùxiān - beforehand; prior
+輔助 : 辅助 : 辅助 fǔzhù - assist; aide
+戒備 : 戒备 : 戒备 jièbèi - take precautions; be on the alert
+嚴密 : 严密 : 严密 yánmì - strict; closely-knit; tight
+蘇醒 : 苏醒 : 苏醒 sūxǐng - wake up; regain consciousness
+將近 : 将近 : 将近 jiāngjìn - almost; nearly; close to
+創新 : 创新 : 创新 chuàngxīn - innovate; innovation
+當前 : 当前 : 当前 dāngqián - current; modern; present
+奔馳 : 奔驰 : 奔驰 bēnchí - run quickly; speed; Mercedes-Benz (German vehicle manufacturer)
+況且 : 况且 : 况且 kuàngqiě - moreover; besides; in addition
+麻痺 : 麻痹 : 麻痹 mábì - paralysis; palsy; numbness
+鋒利 : 锋利 : 锋利 fēnglì - sharp (i.e. a knife blade); incisive; to the point
+救濟 : 救济 : 救济 jiùjì - emergency relief; aid; help out in a disaster
+豈有此理 : 岂有此理 : 岂有此理 qǐ yǒu cǐ lǐ - outrageous; ridiculous; absurd
+讓步 : 让步 : 让步 ràng bù - give in; concede; yield
+機遇 : 机遇 : 机遇 jīyù - opportunity; stroke of good luck; favorable circumstance
+誹謗 : 诽谤 : 诽谤 fěibàng - slander; libel
+扭轉 : 扭转 : 扭转 niǔzhuǎn - to reverse; turn around (an undesirable situation)
+聲譽 : 声誉 : 声誉 shēngyù - reputation; fame
+別扭 : 别扭 : 别扭 bièniu - awkward; unnatural
+專利 : 专利 : 专利 zhuānlì - patent
+揀 : 拣 : 拣 jiǎn - choose; select; sort out
+喜悅 : 喜悦 : 喜悦 xǐyuè - happy; joyous
+區分 : 区分 : 区分 qūfēn - differentiate; find differing aspects; find the difference between
+機靈 : 机灵 : 机灵 jīling - clever; quick-witted; smartness
+音響 : 音响 : 音响 yīnxiǎng - (Electronic) speakers; acoustics; sound field (i.e., in a room or theater)
+殘疾 : 残疾 : 残疾 cánji - deformity; handicapped; crippled
+搶救 : 抢救 : 抢救 qiǎngjiù - rescue; to save
+開支 : 开支 : 开支 kāizhī - expenditures; pay; expenses
+迄今為止 : 迄今为止 : 迄今为止 qìjīnwéizhǐ - until now; so far; to date
+股東 : 股东 : 股东 gǔdōng - stockholder; shareholder
+發育 : 发育 : 发育 fāyù - develop; growth
+風度 : 风度 : 风度 fēngdù - elegant demeanor; grace; poise; style
+辜負 : 辜负 : 辜负 gūfù - let down; disappoint; fail to live up to
+貧困 : 贫困 : 贫困 pínkùn - poor; impoverished
+故鄉 : 故乡 : 故乡 gùxiāng - hometown; homeland; birthplace
+政權 : 政权 : 政权 zhèngquán - regime; political power; authority
+反駁 : 反驳 : 反驳 fǎnbó - retort; refute
+內幕 : 内幕 : 内幕 nèimù - inside story; non-public information; behind the scenes
+錘 : 锤 : 锤 chuí - hammer; weight
+諸位 : 诸位 : 诸位 zhūwèi - (pronoun) everyone; ladies and gentlemen
+竄 : 窜 : 窜 cuàn - to flee; to escape; run away
+描繪 : 描绘 : 描绘 miáohuì - describe; portray
+干預 : 干预 : 干预 gānyù - meddle; intervene; intervention
+照樣 : 照样 : 照样 zhàoyàng - as before; (same) as usual
+摟 : 搂 : 搂 lǒu, lōu - to hug; to embrace | graft (money); solicit; to gather; to collect
+慣例 : 惯例 : 惯例 guànlì - conventional
+較量 : 较量 : 较量 jiàoliàng - competition; to have a contest with sb.
+熄滅 : 熄灭 : 熄灭 xīmiè - extinguish; go out (of fire); die out; extinction
+向導 : 向导 : 向导 xiàngdǎo - guide
+凍結 : 冻结 : 冻结 dòngjié - (loan, wage, price) freeze
+鄙視 : 鄙视 : 鄙视 bǐshì - despise; disdain; look down upon
+裁縫 : 裁缝 : 裁缝 cáifeng - tailor; dressmaker
+淹沒 : 淹没 : 淹没 yānmò - submerge; drown; to flood
+公務 : 公务 : 公务 gōngwù - public affairs; official business
+光輝 : 光辉 : 光辉 guānghuī - radiance; brilliant; glory
+風光 : 风光 : 风光 fēngguāng - a natural scenic view; sight
+觸犯 : 触犯 : 触犯 chùfàn - offend; violate
+要點 : 要点 : 要点 yàodiǎn - main point; essential
+構思 : 构思 : 构思 gòusī - outline a story; make preliminary sketch
+斷絕 : 断绝 : 断绝 duànjué - sever; break off
+勝負 : 胜负 : 胜负 shèngfù - victory or defeat; the outcome of a battle
+掠奪 : 掠夺 : 掠夺 lüèduó - to plunder; rob; pillage
+氣象 : 气象 : 气象 qìxiàng - meteorology; atmosphere; phenomenon
+喘氣 : 喘气 : 喘气 chuǎnqì - to pant; gasp for breath
+手藝 : 手艺 : 手艺 shǒuyì - craft; workmanship; one's cooking
+啟示 : 启示 : 启示 qǐshì - enlightenment; revelation
+動態 : 动态 : 动态 dòngtài - development; trend; dynamic state
+決策 : 决策 : 决策 juécè - Make policy; make strategic decision
+饒恕 : 饶恕 : 饶恕 ráoshù - forgive; pardon; spare
+連鎖 : 连锁 : 连锁 liánsuǒ - chain (store etc); to interlock
+貝殼 : 贝壳 : 贝壳 bèiké - shell; conch; cowry
+虛假 : 虚假 : 虚假 xūjiǎ - false; phony; pretense; deceit
+藐視 : 藐视 : 藐视 miǎoshì - treat with contempt
+墜 : 坠 : 坠 zhuì - fall; drop
+緊迫 : 紧迫 : 紧迫 jǐnpò - urgent; urgency
+沸騰 : 沸腾 : 沸腾 fèiténg - to boil; boiling
+想方設法 : 想方设法 : 想方设法 xiǎng fāng shè fǎ - (saying) think of or try every possible method; by all means possible
+習俗 : 习俗 : 习俗 xísú - custom; tradition; (local) convention
+觀光 : 观光 : 观光 guānguāng - sight see; tour
+糾紛 : 纠纷 : 纠纷 jiūfēn - dispute; quarrel
+備份 : 备份 : 备份 bèifèn - to back up; a backup
+周邊 : 周边 : 周边 zhōubiān - surrounding
+充實 : 充实 : 充实 chōngshí - substantial; rich; enrich; substantiate
+儲備 : 储备 : 储备 chǔbèi - reserves; store up
+下屬 : 下属 : 下属 xiàshǔ - subordinate; underling
+領土 : 领土 : 领土 lǐngtǔ - territory
+領事館 : 领事馆 : 领事馆 lǐngshìguǎn - consulate
+頒發 : 颁发 : 颁发 bānfā - issue; promulgate; award
+滲透 : 渗透 : 渗透 shèntòu - infiltrate; permeate
+宣揚 : 宣扬 : 宣扬 xuānyáng - publicize; make public or well known
+妥當 : 妥当 : 妥当 tuǒdang - appropriate; proper; pertinence
+顧慮 : 顾虑 : 顾虑 gùlǜ - misgivings; apprehensions
+美滿 : 美满 : 美满 měimǎn - happy; blissful
+經費 : 经费 : 经费 jīngfèi - funds; expenses
+僥幸 : 侥幸 : 侥幸 jiǎoxìng - by luck; by a fluke
+收縮 : 收缩 : 收缩 shōusuō - pull back; shrink
+欽佩 : 钦佩 : 钦佩 qīnpèi - admire; have great respect for
+圓滿 : 圆满 : 圆满 yuánmǎn - satisfactory
+貨幣 : 货币 : 货币 huòbì - currency; money
+表態 : 表态 : 表态 biǎotài - make known one's position; declare where one stands
+維生素 : 维生素 : 维生素 wéishēngsù - vitamin
+樹立 : 树立 : 树立 shùlì - set up; establish
+反饋 : 反馈 : 反馈 fǎnkuì - feedback; send information back
+便條 : 便条 : 便条 biàntiáo - informal note
+主導 : 主导 : 主导 zhǔdǎo - leading; dominant; guiding
+協商 : 协商 : 协商 xiéshāng - consult with; talk things over
+冷卻 : 冷却 : 冷却 lěngquè - cooling; cool off
+管轄 : 管辖 : 管辖 guǎnxiá - administer; have jurisdiction (over)
+皺紋 : 皱纹 : 皱纹 zhòuwén - wrinkle; furrow
+間接 : 间接 : 间接 jiànjiē - indirect
+籠罩 : 笼罩 : 笼罩 lǒngzhào - envelop; to shroud; be masked by
+擴張 : 扩张 : 扩张 kuòzhāng - expansion; extension
+山脈 : 山脉 : 山脉 shānmài - mountain range
+調節 : 调节 : 调节 tiáojié - adjust; regulate; reconcile
+話筒 : 话筒 : 话筒 huàtǒng - microphone; transmitter; megaphone
+攢 : 攒 : 攒 zǎn, cuán - save; hoard | collect together; assemble
+堅固 : 坚固 : 坚固 jiāngù - firm; strong; sturdy
+務必 : 务必 : 务必 wùbì - must; need to; be sure to
+共鳴 : 共鸣 : 共鸣 gòngmíng - physical resonance; sympathetic response to something
+債券 : 债券 : 债券 zhàiquàn - bond
+眾所周知 : 众所周知 : 众所周知 zhòng suǒ zhōu zhī - as everyone knows; (saying) as is known to everyone
+預兆 : 预兆 : 预兆 yùzhào - omen, sign
+調動 : 调动 : 调动 diàodòng - to transfer; to maneuver (troops, etc.)
+稱號 : 称号 : 称号 chēnghào - title; term of address
+方圓 : 方圆 : 方圆 fāngyuán - circumference; neighborhood; vicinity
+選拔 : 选拔 : 选拔 xuǎnbá - select the best; choose
+籌備 : 筹备 : 筹备 chóubèi - make preparations; get ready for something
+國防 : 国防 : 国防 guófáng - national defense
+聯想 : 联想 : 联想 liánxiǎng - to associate (cognitively); to make an associative connection; mental association; word prediction and auto-complete functions of input method editing programs; abbr. for 联想集团 Lenovo Group (PRC computer firm)
+閃爍 : 闪烁 : 闪烁 shǎnshuò - to twinkle; to flicker; glimmer
+計較 : 计较 : 计较 jìjiào - focus excessively on; haggle; bicker; argue
+廢除 : 废除 : 废除 fèichú - abolish; annul; abrogate
+寂靜 : 寂静 : 寂静 jìjìng - quiet
+嗅覺 : 嗅觉 : 嗅觉 xiùjué - sense of smell; scent
+豐盛 : 丰盛 : 丰盛 fēngshèng - sumptuous; lavish
+過濾 : 过滤 : 过滤 guòlǜ - to filter; filter
+腐蝕 : 腐蚀 : 腐蚀 fǔshí - erode; corrode; corrupt; rusty
+胡亂 : 胡乱 : 胡乱 húluàn - carelessly; recklessly; casually
+特長 : 特长 : 特长 tècháng - strong point; specialty
+振奮 : 振奋 : 振奋 zhènfèn - stir oneself up; raise one's spirits; inspire
+相應 : 相应 : 相应 xiāngyìng - correspond; relevant
+啟程 : 启程 : 启程 qǐchéng - set out on a journey
+傾斜 : 倾斜 : 倾斜 qīngxié - incline; lean; to slant; to slope; to tilt
+遺失 : 遗失 : 遗失 yíshī - lose; lose due to carelessness
+氣概 : 气概 : 气概 qìgài - mettle; spirit; gumption
+機動 : 机动 : 机动 jīdòng - motorized; mobile; flexible
+承辦 : 承办 : 承办 chéngbàn - undertake; accept an assignment
+倒閉 : 倒闭 : 倒闭 dǎobì - go bankrupt; close down
+事跡 : 事迹 : 事迹 shìjì - achievement; deed
+禮節 : 礼节 : 礼节 lǐjié - etiquette; proprieties; festival
+書籍 : 书籍 : 书籍 shūjí - books; works
+之際 : 之际 : 之际 zhījì - during; at the time of; the time when something happens
+表決 : 表决 : 表决 biǎojué - decide by vote; vote
+惦記 : 惦记 : 惦记 diànjì - to remember with concern; to be concerned about; to think about; to keep thinking about; to worry about
+和藹 : 和蔼 : 和蔼 hé'ǎi - kindly; good-tempered; amiable
+記性 : 记性 : 记性 jìxing - memory
+正規 : 正规 : 正规 zhèngguī - formal; regular; according to standards
+品種 : 品种 : 品种 pǐnzhǒng - breed; variety
+轉達 : 转达 : 转达 zhuǎndá - pass on; convey; communicate
+貶低 : 贬低 : 贬低 biǎndī - to belittle; depreciate; disparage
+種植 : 种植 : 种植 zhòngzhí - plant; grow; crop
+愛戴 : 爱戴 : 爱戴 àidài - love and respect
+探討 : 探讨 : 探讨 tàntǎo - inquire into; explore
+心態 : 心态 : 心态 xīntài - pyschology; mentality; spirit
+關懷 : 关怀 : 关怀 guānhuái - care; solicitude; show care for; concerned about; attentive to
+辮子 : 辫子 : 辫子 biànzi - plait; braid; pigtail
+胡須 : 胡须 : 胡须 húxū - beard; moustache; whiskers
+國務院 : 国务院 : 国务院 guówùyuàn - State Council (PRC); State Department (USA)
+民間 : 民间 : 民间 mínjiān - among the people; popular; folk
+無動於衷 : 无动于衷 : 无动于衷 wúdòngyúzhōng - aloof; indifferent; unconcerned; untouched
+寬敞 : 宽敞 : 宽敞 kuānchang - spacious; commodious
+商標 : 商标 : 商标 shāngbiāo - trademark; logo
+體諒 : 体谅 : 体谅 tǐliàng - empathize; express sympathy; allow (for something)
+風味 : 风味 : 风味 fēngwèi - local flavor; local style
+過渡 : 过渡 : 过渡 guòdù - to cross a river by ferry; transition; interim
+見解 : 见解 : 见解 jiànjiě - view; opinion; understanding
+瀕臨 : 濒临 : 濒临 bīnlín - on the verge of
+湊合 : 凑合 : 凑合 còuhe - bring together; make do in a bad situation; improvise
+諒解 : 谅解 : 谅解 liàngjiě - understanding; make an allowance for; forgive
+開展 : 开展 : 开展 kāizhǎn - begin to develop; to launch
+台風 : 台风 : 台风 táifēng - typhoon
+暢銷 : 畅销 : 畅销 chàngxiāo - best seller; chart-topping; very marketable
+猶如 : 犹如 : 犹如 yóurú - just as; similar to; appearing to be
+斷定 : 断定 : 断定 duàndìng - conclude; determine; figure out
+不時 : 不时 : 不时 bùshí - frequently; often; at any time
+儲蓄 : 储蓄 : 储蓄 chǔxù - to save; to deposit
+盤旋 : 盘旋 : 盘旋 pánxuán - spiral; coil; circle; go around
+懶惰 : 懒惰 : 懒惰 lǎnduò - lazy; idle
+題材 : 题材 : 题材 tícái - subject matter
+生鏽 : 生锈 : 生锈 shēngxiù - to rust
+彈性 : 弹性 : 弹性 tánxìng - flexibility; elasticity
+個體 : 个体 : 个体 gètǐ - individual
+贈送 : 赠送 : 赠送 zèngsòng - give as a present
+海濱 : 海滨 : 海滨 hǎibīn - shore; seaside
+就職 : 就职 : 就职 jiù zhí - take office; assume a post
+輪廓 : 轮廓 : 轮廓 lúnkuò - outline; silhouette
+演變 : 演变 : 演变 yǎnbiàn - develop; evolve
+委員 : 委员 : 委员 wěiyuán - committee member; committee; council
+規范 : 规范 : 规范 guīfàn - standard (design or model); norm; without variation; to specify
+靈敏 : 灵敏 : 灵敏 língmǐn - sensitive (of an instrument); agile; acute
+晉升 : 晋升 : 晋升 jìnshēng - promote to a higher position
+鉤子 : 钩子 : 钩子 gōuzi - hook
+氣壓 : 气压 : 气压 qìyā - atmospheric pressure; barometric pressure
+口頭 : 口头 : 口头 kǒutóu - oral; verbal
+創立 : 创立 : 创立 chuànglì - to found; establish
+駐扎 : 驻扎 : 驻扎 zhùzhā - to station; to garrison (troops)
+庄嚴 : 庄严 : 庄严 zhuāngyán - stately; dignified
+劇烈 : 剧烈 : 剧烈 jùliè - acute; violent; severe
+嚴峻 : 严峻 : 严峻 yánjùn - grim; severe; rigorous; harsh
+氣勢 : 气势 : 气势 qìshì - imposing manner; look of great force or imposing manner
+充當 : 充当 : 充当 chōngdāng - serve as; play the part of
+領悟 : 领悟 : 领悟 lǐngwù - comprehend; grasp; fathom
+過癮 : 过瘾 : 过瘾 guòyǐn - satisfy a craving; get a kick out of sth; do to one's heart's content
+資本 : 资本 : 资本 zīběn - (Economics) capital; asset
+篩選 : 筛选 : 筛选 shāixuǎn - to filter; to sift
+瀟洒 : 潇洒 : 潇洒 xiāosǎ - free and easy
+擱 : 搁 : 搁 gē, gé - to place; put aside | to bear; endure
+當代 : 当代 : 当代 dāngdài - present day; contemporary
+堅硬 : 坚硬 : 坚硬 jiānyìng - hard; solid
+齊心協力 : 齐心协力 : 齐心协力 qíxīnxiélì - make concerted efforts
+高漲 : 高涨 : 高涨 gāozhǎng - upsurge; (tensions, etc.) run high
+頑強 : 顽强 : 顽强 wánqiáng - tenacious; hard to defeat
+資深 : 资深 : 资深 zīshēn - experienced; senior
+論壇 : 论坛 : 论坛 lùntán - forum
+素質 : 素质 : 素质 sùzhì - inner quality; basic essence; character quality
+文憑 : 文凭 : 文凭 wénpíng - diploma
+實質 : 实质 : 实质 shízhì - substance; essence; gist
+安詳 : 安详 : 安详 ānxiáng - serene; composed
+鑒別 : 鉴别 : 鉴别 jiànbié - differentiate; distinguish
+鄭重 : 郑重 : 郑重 zhèngzhòng - serious; solemn
+謎語 : 谜语 : 谜语 míyǔ - riddle; conundrum
+蔑視 : 蔑视 : 蔑视 mièshì - despise; loathe; disparage; scorn
+擁護 : 拥护 : 拥护 yōnghù - to support; endorse
+名額 : 名额 : 名额 míng'é - particular number of people; quota
+倉促 : 仓促 : 仓促 cāngcù - hurried
+鈣 : 钙 : 钙 gài - calcium
+採購 : 采购 : 采购 cǎigòu - make purchases for an organization; go shopping
+採納 : 采纳 : 采纳 cǎinà - accept; adopt (idea, plan, proposal)
+片斷 : 片断 : 片断 piànduàn - part; passage; extract; fragment; snatch
+橋梁 : 桥梁 : 桥梁 qiáoliáng - bridge
+攪拌 : 搅拌 : 搅拌 jiǎobàn - stir; mix up
+丑惡 : 丑恶 : 丑恶 chǒu'è - ugly; repulsive; odiousness
+踐踏 : 践踏 : 践踏 jiàntà - trample
+被動 : 被动 : 被动 bèidòng - passive
+機智 : 机智 : 机智 jīzhì - tact; quick-witted; resourceful
+尋覓 : 寻觅 : 寻觅 xúnmì - to seek; to look for
+領會 : 领会 : 领会 lǐnghuì - understand; comprehend; grasp
+推論 : 推论 : 推论 tuīlùn - infer; a deduction; a corollary
+恰到好處 : 恰到好处 : 恰到好处 qià dào hǎo chù - just right; it's just perfect
+飛躍 : 飞跃 : 飞跃 fēiyuè - to leap
+顛簸 : 颠簸 : 颠簸 diānbǒ - shake; to jolt; bump
+陣地 : 阵地 : 阵地 zhèndì - position; battlefront
+配備 : 配备 : 配备 pèibèi - provide; outfit with; deploy
+調料 : 调料 : 调料 tiáoliào - seasoning; flavoring
+精華 : 精华 : 精华 jīnghuá - elite; best feature; most important part of an object; essence; quintessence
+開闊 : 开阔 : 开阔 kāikuò - wide; open (spaces)
+座右銘 : 座右铭 : 座右铭 zuòyòumíng - motto
+生態 : 生态 : 生态 shēngtài - way of life; ecology
+標本 : 标本 : 标本 biāoběn - specimen; sample; the root cause and symptoms of a disease
+凝視 : 凝视 : 凝视 níngshì - gaze; stare
+信譽 : 信誉 : 信誉 xìnyù - reputation; prestige; trust
+黃昏 : 黄昏 : 黄昏 huánghūn - dusk; evening; nightfall
+請教 : 请教 : 请教 qǐngjiào - consult; seek advice
+泄氣 : 泄气 : 泄气 xièqì - despair; feel like giving up/disappointing; pathetic
+揮霍 : 挥霍 : 挥霍 huīhuò - squander money without restraint; squander
+形態 : 形态 : 形态 xíngtài - shape; form; pattern
+對策 : 对策 : 对策 duìcè - countermeasure for dealing with a situation
+遺留 : 遗留 : 遗留 yíliú - legacy; leave over; hand down
+還原 : 还原 : 还原 huányuán - restore to the original state; (Chemistry) reduce
+雜技 : 杂技 : 杂技 zájì - acrobatics
+顯著 : 显著 : 显著 xiǎnzhù - notable; marked; outstanding; remarkable
+元宵節 : 元宵节 : 元宵节 Yuánxiāo Jié - the Lantern Festival
+人為 : 人为 : 人为 rénwéi - artificial; man-made
+請柬 : 请柬 : 请柬 qǐngjiǎn - invitation card; written invitation
+裁員 : 裁员 : 裁员 cáiyuán - cut staff; lay off employees
+結晶 : 结晶 : 结晶 jiéjīng - a crystal; to crystallize
+煙花爆竹 : 烟花爆竹 : 烟花爆竹 yānhuābàozhú - fireworks and crackers
+數額 : 数额 : 数额 shù'é - amount; sum of money; fixed number
+尖銳 : 尖锐 : 尖锐 jiānruì - sharp; intense; penetrating
+告辭 : 告辞 : 告辞 gàocí - take leave; bid farewell
+可觀 : 可观 : 可观 kěguān - considerable; impressive
+齊全 : 齐全 : 齐全 qíquán - complete
+誠摯 : 诚挚 : 诚挚 chéngzhì - sincere; cordial; earnest
+膽怯 : 胆怯 : 胆怯 dǎnqiè - timid; coward
+指南針 : 指南针 : 指南针 zhǐnánzhēn - compass
+階層 : 阶层 : 阶层 jiēcéng - hierarchy
+規章 : 规章 : 规章 guīzhāng - regulations; rule
+來歷 : 来历 : 来历 láilì - history; antecedents; origin
+懸念 : 悬念 : 悬念 xuánniàn - reader's involvement; suspense in a movie, place etc
+寺廟 : 寺庙 : 寺庙 sìmiào - temple; monastery
+公認 : 公认 : 公认 gōngrèn - publicly know (to be); recognize; generally acknowledged
+阻撓 : 阻挠 : 阻挠 zǔnáo - thwart; to obstruct (something); stand in the way
+間隔 : 间隔 : 间隔 jiàngé - interval; intermission; gap; be separated
+補貼 : 补贴 : 补贴 bǔtiē - subsidy; allowance
+總而言之 : 总而言之 : 总而言之 zǒngéryánzhī - in short; in a word
+告誡 : 告诫 : 告诫 gàojiè - warn; admonish
+內涵 : 内涵 : 内涵 nèihán - connotation
+課題 : 课题 : 课题 kètí - task; problem; issue; question for discussion
+留戀 : 留恋 : 留恋 liúliàn - be reluctant to leave
+涮火鍋 : 涮火锅 : 涮火锅 shuànhuǒguō - to instant-boil (mutton, beef, vegetables, etc.)
+沉悶 : 沉闷 : 沉闷 chénmèn - oppressive (of weather); heavy; depressed; withdrawn
+保養 : 保养 : 保养 bǎoyǎng - take good care of (or conserve) one's health; keep in good repair
+調解 : 调解 : 调解 tiáojiě - mediation; bring together to an agreement
+立體 : 立体 : 立体 lìtǐ - solid; three dimensional
+物資 : 物资 : 物资 wùzī - goods and materials; commodity
+檔次 : 档次 : 档次 dàngcì - grade; quality; class; level
+半途而廢 : 半途而废 : 半途而废 bàn tú ér fèi - give up halfway; leave sth. unfinished
+醞釀 : 酝酿 : 酝酿 yùnniàng - mull over (an issue); hold a preliminary round of exploratory discussions
+輿論 : 舆论 : 舆论 yúlùn - public opinion
+水龍頭 : 水龙头 : 水龙头 shuǐlóngtóu - faucet; tap
+對應 : 对应 : 对应 duìyìng - corresponding; counterpart
+變質 : 变质 : 变质 biàn zhì - go bad; deteriorate; metamorphism
+剝削 : 剥削 : 剥削 bōxuē - to exploit
+爭端 : 争端 : 争端 zhēngduān - dispute; controversy; conflict
+誣陷 : 诬陷 : 诬陷 wūxiàn - entrap; to frame; plant false evidence against sb.
+編織 : 编织 : 编织 biānzhī - to weave; to knit; to plait; to braid; to crochet
+槳 : 桨 : 桨 jiǎng - oar; paddle
+無理取鬧 : 无理取闹 : 无理取闹 wúlǐqǔnào - to make trouble without reason (idiom); wilfully make trouble; to be deliberately provocative; deliberately awkward; pointless provocation
+阻攔 : 阻拦 : 阻拦 zǔlán - to stop; obstruct; block off
+捆綁 : 捆绑 : 捆绑 kǔnbǎng - tie up; bundled
+報銷 : 报销 : 报销 bàoxiāo - submit an expense account; apply for reimbursement; write off
+彌漫 : 弥漫 : 弥漫 mímàn - fill the air; permeate; to suffuse
+廣闊 : 广阔 : 广阔 guǎngkuò - wide; vast
+容納 : 容纳 : 容纳 róngnà - contain; accommodate; tolerate (different options)
+天然氣 : 天然气 : 天然气 tiānránqì - natural gas
+租賃 : 租赁 : 租赁 zūlìn - rent; lease
+生機 : 生机 : 生机 shēngjī - reprieve from death; life force; vitality
+名副其實 : 名副其实 : 名副其实 míng fù qí shí - not just in name only; but also in reality
+傳授 : 传授 : 传授 chuánshòu - impart; pass on; teach
+閑話 : 闲话 : 闲话 xiánhuà - gossip; digression
+連同 : 连同 : 连同 liántóng - together with; along with
+就業 : 就业 : 就业 jiùyè - employment; getting a job
+響應 : 响应 : 响应 xiǎngyìng - respond to; answer
+候選 : 候选 : 候选 hòuxuǎn - candidate
+竅門 : 窍门 : 窍门 qiàomén - special tricks
+抱負 : 抱负 : 抱负 bàofù - aspiration; ambition
+開朗 : 开朗 : 开朗 kāilǎng - outgoing and cheerful; optimistic; carefree; spacious and well-lit
+干勁 : 干劲 : 干劲 gànjìn - enthusiasm; energy; drive
+停頓 : 停顿 : 停顿 tíngdùn - pause; halt
+專程 : 专程 : 专程 zhuānchéng - special-purpose trip
+貪污 : 贪污 : 贪污 tānwū - (political, moral) corruption; embezzle
+纏繞 : 缠绕 : 缠绕 chánrào - bind; wind; twirl; twist; intertwine
+福氣 : 福气 : 福气 fúqì - good fortune
+傳記 : 传记 : 传记 zhuànjì - biography
+緩和 : 缓和 : 缓和 huǎnhé - alleviate; to moderate; to ease (tension)
+禿 : 秃 : 秃 tū - bald; blunt
+對稱 : 对称 : 对称 duìchèn - symmetry
+嘆氣 : 叹气 : 叹气 tàn qì - to sigh
+從容 : 从容 : 从容 cóngróng - leisurely; calm
+獨裁 : 独裁 : 独裁 dúcái - dictatorship
+沉著 : 沉着 : 沉着 chénzhuó - calm and collected; not nervous
+曖昧 : 暧昧 : 暧昧 ài mèi - ambiguous; shady
+開採 : 开采 : 开采 kāicǎi - extract ore or some other natural resource from a mine
+優越 : 优越 : 优越 yōuyuè - superior; superiority
+鮮明 : 鲜明 : 鲜明 xiānmíng - bright; clear-cut; distinct
+條理 : 条理 : 条理 tiáolǐ - consecutive; arrangement; orderliness
+直徑 : 直径 : 直径 zhíjìng - diameter
+狹窄 : 狭窄 : 狭窄 xiázhǎi - narrow
+滋潤 : 滋润 : 滋润 zīrùn - quenched; moist
+心甘情願 : 心甘情愿 : 心甘情愿 xīngānqíngyuàn - totally willing; perfectly happy to
+吝嗇 : 吝啬 : 吝啬 lìnsè - stingy; mean; miserly
+無憂無慮 : 无忧无虑 : 无忧无虑 wúyōuwúlǜ - carefree and without worries
+宏偉 : 宏伟 : 宏伟 hóngwěi - grand; imposing; magnificent; grand
+向來 : 向来 : 向来 xiànglái - always; all along
+勇於 : 勇于 : 勇于 yǒngyú - have the courage to; be brave enough
+一帆風順 : 一帆风顺 : 一帆风顺 yìfānfēngshùn - (saying) smooth sailing
+陳舊 : 陈旧 : 陈旧 chénjiù - old fashioned; outmoded; obsolete
+繡 : 绣 : 绣 xiù - embroider; embroidery
+細致 : 细致 : 细致 xìzhì - delicate; meticulous
+摧殘 : 摧残 : 摧残 cuīcán - to ruin; devastate; vandalize
+事項 : 事项 : 事项 shìxiàng - matter; item
+運算 : 运算 : 运算 yùnsuàn - (mathematical) operation
+牢騷 : 牢骚 : 牢骚 láosāo - grumble; complaint
+動員 : 动员 : 动员 dòngyuán - mobilize
+節制 : 节制 : 节制 jiézhì - to be restrained or moderate
+夕陽 : 夕阳 : 夕阳 xīyáng - setting sun
+復興 : 复兴 : 复兴 fùxīng - revive; restore
+體積 : 体积 : 体积 tǐjī - volume; bulk
+謙遜 : 谦逊 : 谦逊 qiānxùn - humble; modest; humility
+現成 : 现成 : 现成 xiànchéng - ready-made; off-the-shelf
+率領 : 率领 : 率领 shuàilǐng - lead; command; head
+無非 : 无非 : 无非 wúfēi - nothing but; only
+發炎 : 发炎 : 发炎 fāyán - become inflamed from infection or injury
+樂譜 : 乐谱 : 乐谱 yuèpǔ - sheet music
+遲疑 : 迟疑 : 迟疑 chíyí - hesitate
+遷徙 : 迁徙 : 迁徙 qiānxǐ - migrate; move; change one's residence
+滔滔不絕 : 滔滔不绝 : 滔滔不绝 tāotāo bù jué - (saying) talking non-stop; gushing; torrential
+驚動 : 惊动 : 惊动 jīngdòng - alarm; alert; startle; disturb
+壓縮 : 压缩 : 压缩 yāsuō - to compress
+覺醒 : 觉醒 : 觉醒 juéxǐng - awaken; arousal; realize
+鞏固 : 巩固 : 巩固 gǒnggù - consolidate; solidify
+闡述 : 阐述 : 阐述 chǎnshù - expound (a position); elaborate (on a topic)
+適宜 : 适宜 : 适宜 shìyí - suitable for; appropriate for
+過問 : 过问 : 过问 guòwèn - take an interest in; get involved with
+敗壞 : 败坏 : 败坏 bàihuài - ruin; corrupt; undermine
+請帖 : 请帖 : 请帖 qǐngtiě - invitation card; written invitation
+耗費 : 耗费 : 耗费 hàofèi - waste; spend; consume
+泛濫 : 泛滥 : 泛滥 fànlàn - to be in flood; to overflow (the banks); to inundate; to spread unchecked
+停滯 : 停滞 : 停滞 tíngzhì - stagnation; be at a standstill; bogged down
+嚴禁 : 严禁 : 严禁 yánjìn - strictly prohibit; forbid
+轉折 : 转折 : 转折 zhuǎnzhé - turning point; shift in the trend of events; plot twist in a book
+牽制 : 牵制 : 牵制 qiānzhì - control; curb; restrict; impede
+炎熱 : 炎热 : 炎热 yánrè - blistering hot; sizzling hot (weather)
+權衡 : 权衡 : 权衡 quánhéng - trade-off; weigh pros and cons
+應酬 : 应酬 : 应酬 yìngchou - socialize with; a social engagement
+奧秘 : 奥秘 : 奥秘 àomì - mystery; enigma; profound; deep
+響亮 : 响亮 : 响亮 xiǎngliàng - loud and clear; resounding
+劃分 : 划分 : 划分 huàfēn - divide up; differentiate
+附屬 : 附属 : 附属 fùshǔ - subsidiary; auxiliary; affiliate; attached
+背誦 : 背诵 : 背诵 bèisòng - recite
+盛開 : 盛开 : 盛开 shèngkāi - to bloom; be in full flower
+洶涌 : 汹涌 : 汹涌 xiōngyǒng - (used in reference to an ocean, river, lake etc.) violently surge up; turbulent
+敬業 : 敬业 : 敬业 jìngyè - work ethic
+拔苗助長 : 拔苗助长 : 拔苗助长 bámiáozhùzhǎng - (literally) help shoots grow by pulling them out; spoil things by excessive enthusiasm
+當務之急 : 当务之急 : 当务之急 dāngwùzhījí - the most pressing matter of the moment; a top priority task; urgent matter
+對立 : 对立 : 对立 duìlì - oppose; to counter
+隔閡 : 隔阂 : 隔阂 géhé - estrangement; misunderstanding
+腹瀉 : 腹泻 : 腹泻 fùxiè - diarrhea
+指標 : 指标 : 指标 zhǐbiāo - target; norm; index; indicator
+堅實 : 坚实 : 坚实 jiānshí - firm and substantial; solid
+啟事 : 启事 : 启事 qǐshì - announcement; public information (usually posted on a billboard)
+重疊 : 重叠 : 重叠 chóngdié - to overlap
+深奧 : 深奥 : 深奥 shēn'ào - profound; deep
+凶惡 : 凶恶 : 凶恶 xiōng'è - fierce; ferocious; menacing
+鑄造 : 铸造 : 铸造 zhùzào - cast (pour metal into a mold)
+投擲 : 投掷 : 投掷 tóuzhì - throw something a long distance; hurl
+急劇 : 急剧 : 急剧 jíjù - rapid; sudden
+優異 : 优异 : 优异 yōuyì - exceptional; excellent; outstandingly good
+專題 : 专题 : 专题 zhuāntí - special topic; questions; special matter or subject
+鼓動 : 鼓动 : 鼓动 gǔdòng - agitate; instigate
+轉讓 : 转让 : 转让 zhuǎnràng - transfer (technology, good, etc.); make over
+范疇 : 范畴 : 范畴 fànchóu - category
+致辭 : 致辞 : 致辞 zhìcí - make/deliver a speech
+田徑 : 田径 : 田径 tiánjìng - track and field
+固體 : 固体 : 固体 gùtǐ - solid
+飼養 : 饲养 : 饲养 sìyǎng - to raise; to rear (domestic animal)
+遷就 : 迁就 : 迁就 qiānjiù - humor; yield; adapt to; accommodate (something)
+輪船 : 轮船 : 轮船 lúnchuán - steamship
+解體 : 解体 : 解体 jiětǐ - disintegrate
+博覽會 : 博览会 : 博览会 bólǎnhuì - (international) exhibition
+勤勞 : 勤劳 : 勤劳 qínláo - hardworking; diligent; industrious
+作廢 : 作废 : 作废 zuòfèi - cancellation; delete; to nullify; to expire and thus lose validity
+陣容 : 阵容 : 阵容 zhènróng - line-up (sports); troop arrangement
+規格 : 规格 : 规格 guīgé - standard; norm; specification
+統籌兼顧 : 统筹兼顾 : 统筹兼顾 tǒngchóujiāngù - take every aspects into consideration through plan and preparation
+簡陋 : 简陋 : 简陋 jiǎnlòu - simple and crude (i.e. room or building)
+簡化 : 简化 : 简化 jiǎnhuà - simplify; simplification
+果斷 : 果断 : 果断 guǒduàn - firm; decisive
+提煉 : 提炼 : 提炼 tíliàn - extract and purify (ore, minerals, etc.); refine
+唯獨 : 唯独 : 唯独 wéidú - only; just (i.e. it is only that ...); alone
+不像話 : 不像话 : 不像话 búxiànghuà - unreasonable; absurd; outrageous
+裡程碑 : 里程碑 : 里程碑 lǐchéngbēi - milestone
+荒涼 : 荒凉 : 荒凉 huāngliáng - desolate
+狼狽 : 狼狈 : 狼狈 lángbèi - in a difficult position or situation; in a tight corner; scoundrel! (derogatory)
+方針 : 方针 : 方针 fāngzhēn - policy; guidelines
+投機 : 投机 : 投机 tóujī - speculate (on financial markets); congenial; opportunistic
+地質 : 地质 : 地质 dìzhì - geology
+團圓 : 团圆 : 团圆 tuányuán - have a reunion; reunite as a family
+嘈雜 : 嘈杂 : 嘈杂 cáozá - noisy; raucous
+號召 : 号召 : 号召 hàozhào - call upon; summon; to appeal
+發呆 : 发呆 : 发呆 fādāi - stare blankly; daze off
+分紅 : 分红 : 分红 fēn hóng - a bonus; to award a bonus; to draw or recieve dividends; to share profits
+淒涼 : 凄凉 : 凄凉 qīliáng - desolate; feel like no one likes you
+頒布 : 颁布 : 颁布 bānbù - promulgate; to issue; publish (e.g a decree)
+無精打採 : 无精打采 : 无精打采 wújīngdǎcǎi - listless; be dispirited; in low spirits
+參照 : 参照 : 参照 cānzhào - consult a reference; refer to (another document)
+切實 : 切实 : 切实 qièshí - realistic; feasible; conscientiously
+豐收 : 丰收 : 丰收 fēngshōu - bumper crop; have a good harvest
+迸發 : 迸发 : 迸发 bèngfā - burst forth; burst out
+董事長 : 董事长 : 董事长 dǒngshìzhǎng - chairman of the board
+簡要 : 简要 : 简要 jiǎnyào - concise; brief
+整頓 : 整顿 : 整顿 zhěngdùn - Rectify; consolidate; reorganise ; sort out
+抹殺 : 抹杀 : 抹杀 mǒshā - write off; erase; remove from evidence
+總和 : 总和 : 总和 zǒnghé - sum
+開明 : 开明 : 开明 kāimíng - enlightened; open-minded
+威風 : 威风 : 威风 wēifēng - awe-inspiring authority; power and prestige; impressive force
+壓榨 : 压榨 : 压榨 yāzhà - to press; to squeeze; to extract juice, oil, etc. by squeezing
+修養 : 修养 : 修养 xiūyǎng - accomplishment; self-cultivation
+隱患 : 隐患 : 隐患 yǐnhuàn - hidden danger
+真摯 : 真挚 : 真挚 zhēnzhì - sincere; sincerity; genuine
+申報 : 申报 : 申报 shēnbào - declare; report (to customs or other authority)
+狹隘 : 狭隘 : 狭隘 xiá'ài - narrow; tight; narrow (minded); lacking in experience
+本錢 : 本钱 : 本钱 běnqián - capital (financial)
+壟斷 : 垄断 : 垄断 lǒngduàn - monopoly
+虛榮 : 虚荣 : 虚荣 xūróng - vanity
+結算 : 结算 : 结算 jiésuàn - settle up the bill; close an account
+滯留 : 滞留 : 滞留 zhìliú - detain; retention
+無償 : 无偿 : 无偿 wúcháng - free; no charge; at no cost
+新陳代謝 : 新陈代谢 : 新陈代谢 xīn chén dàixiè - metabolism (bio); (saying) the new replaces the old
+攝氏度 : 摄氏度 : 摄氏度 shèshìdù - degrees Celsius
+接連 : 接连 : 接连 jiēlián - one after another; in a row; in succession
+惹禍 : 惹祸 : 惹祸 rěhuò - stir up troubles
+媳婦 : 媳妇 : 媳妇 xífù - daughter-in-law; son's wife
+參謀 : 参谋 : 参谋 cānmóu - advisor; give advice
+勾結 : 勾结 : 勾结 gōujié - collude with; collaborate; gang up
+動蕩 : 动荡 : 动荡 dòngdàng - (social or political) turmoil; unrest; upheaval
+會晤 : 会晤 : 会晤 huìwù - meet; meeting; conference
+亞軍 : 亚军 : 亚军 yàjūn - second place; runner-up
+主權 : 主权 : 主权 zhǔquán - sovereignty
+主辦 : 主办 : 主办 zhǔbàn - to host (a conference or sports event)
+瞇 : 眯 : 眯 mī, mí - to squint; to take a nap | get something in one's eye
+暢通 : 畅通 : 畅通 chàngtōng - unimpeded; unclogged; free-flowing; straight path; to expedite
+懸挂 : 悬挂 : 悬挂 xuánguà - suspend; hang; suspension (cable car)
+堆積 : 堆积 : 堆积 duījī - pile up; accumulate
+堅韌 : 坚韧 : 坚韧 jiānrèn - tough and durable; hard-bitten; firm and tenacious
+唾棄 : 唾弃 : 唾弃 tuòqì - cast aside; spurn
+覺悟 : 觉悟 : 觉悟 juéwù - consciousness; awareness; (Buddhist) enlightenment
+自發 : 自发 : 自发 zìfā - spontaneous; unprompted
+派別 : 派别 : 派别 pàibié - denomination; group; school; faction; school of thought; sect
+開拓 : 开拓 : 开拓 kāituò - break new ground (for agriculture); development
+別致 : 别致 : 别致 biézhì - unique; unconventional; fancy
+創業 : 创业 : 创业 chuàngyè - begin an undertaking; start a major task; start a company
+傷腦筋 : 伤脑筋 : 伤脑筋 shāng nǎojīn - troublesome; bothersome
+為期 : 为期 : 为期 wéiqī - be scheduled for; last for (a certain duration)
+通貨膨脹 : 通货膨胀 : 通货膨胀 tōnghuò péngzhàng - inflation
+港灣 : 港湾 : 港湾 gǎngwān - harbor; estuary
+文獻 : 文献 : 文献 wénxiàn - document; literature
+對照 : 对照 : 对照 duìzhào - contrast; compare
+處分 : 处分 : 处分 chǔfèn - punish; punishment; discipline; disposal
+和氣 : 和气 : 和气 héqi - friendly; polite; amiable
+贊嘆 : 赞叹 : 赞叹 zàntàn - sigh or grasp in admiration; highly praise
+苦澀 : 苦涩 : 苦涩 kǔsè - bitter and astringent; pained; agonized; anguished
+聳 : 耸 : 耸 sǒng - shrug; towering; shock (alarm)
+點綴 : 点缀 : 点缀 diǎnzhuì - decorate; an ornament; beautify; embellish; be the finishing touch
+歌頌 : 歌颂 : 歌颂 gēsòng - sing the praise of; extol; eulogize
+雜交 : 杂交 : 杂交 zájiāo - create a hybrid; cross-fertilize
+暫且 : 暂且 : 暂且 zànqiě - for the moment; for the time being; temporarily
+囑咐 : 嘱咐 : 嘱咐 zhǔfù - enjoin; to tell; exhort
+一絲不苟 : 一丝不苟 : 一丝不苟 yìsībùgǒu - (literally) not one thread loose; strictly according to the rules; meticulous
+遲緩 : 迟缓 : 迟缓 chíhuǎn - slow; sluggish
+欄目 : 栏目 : 栏目 lánmù - column (in a newspaper,TV,etc)
+有條不紊 : 有条不紊 : 有条不紊 yǒutiáobùwěn - in an orderly way; methodically; systematically; methodical
+慰問 : 慰问 : 慰问 wèiwèn - to express sympathy; consolation; extend regards to; salute
+燈籠 : 灯笼 : 灯笼 dēnglong - lantern
+時事 : 时事 : 时事 shíshì - current events; the present situation
+新穎 : 新颖 : 新颖 xīnyǐng - new and original; novel
+興高採烈 : 兴高采烈 : 兴高采烈 xìng gāo cǎi liè - in high spirits
+倔強 : 倔强 : 倔强 juéjiàng - stubborn; unbending
+俯視 : 俯视 : 俯视 fǔshì - look down at; overlook
+靠攏 : 靠拢 : 靠拢 kàolǒng - draw close; close up; move up
+踏實 : 踏实 : 踏实 tāshi - practical; down-to-earth; realistic; feel at ease; steadfast
+物業 : 物业 : 物业 wùyè - property management
+開辟 : 开辟 : 开辟 kāipì - open up; to start; to build
+家喻戶曉 : 家喻户晓 : 家喻户晓 jiā yù hù xiǎo - become a household name; well-known
+叢 : 丛 : 丛 cóng - crowd together; thicket; collection
+進而 : 进而 : 进而 jìn'ér - and then (what follows next)
+請示 : 请示 : 请示 qǐngshì - ask for instructions
+肆無忌憚 : 肆无忌惮 : 肆无忌惮 sìwújìdàn - absolutely unrestrained; unbridled; without the slightest scruple
+確立 : 确立 : 确立 quèlì - to establish; to institute
+隨即 : 随即 : 随即 suíjí - immediately (after); soon after; immediately
+精簡 : 精简 : 精简 jīngjiǎn - simplify; cut; reduce
+時而 : 时而 : 时而 shí'ér - occasionally; often, but not at any fixed time
+工藝品 : 工艺品 : 工艺品 gōngyìpǐn - handicraft; handiwork
+埋沒 : 埋没 : 埋没 máimò - oblivion; bury; neglect
+便於 : 便于 : 便于 biànyú - be easy; be convenient for
+雄偉 : 雄伟 : 雄伟 xióngwěi - grand; majestic
+裝卸 : 装卸 : 装卸 zhuāngxiè - load and unload; to transfer
+襯托 : 衬托 : 衬托 chèntuō - to set off; serve as a foil to
+繁華 : 繁华 : 繁华 fánhuá - flourishing; bustling; prosperous
+母語 : 母语 : 母语 mǔyǔ - native/mother tongue
+舉足輕重 : 举足轻重 : 举足轻重 jǔzúqīngzhòng - a foot's move sways the balance; hold the balance of power; play a key role
+隱約 : 隐约 : 隐约 yǐnyuē - vague; faint; indistinct
+調和 : 调和 : 调和 tiáohé - harmonious; harmony
+誤差 : 误差 : 误差 wùchā - difference; error; inaccuracy
+論証 : 论证 : 论证 lùnzhèng - prove a point; expound on; argumentation
+注釋 : 注释 : 注释 zhùshì - annotate; annotation; note; make notes in the margin
+油膩 : 油腻 : 油腻 yóunì - greasy or oily (food)
+大體 : 大体 : 大体 dàtǐ - in general; more or less; on the whole
+變故 : 变故 : 变故 biàngù - unforeseen event; accident
+發揚 : 发扬 : 发扬 fāyáng - develop; make full use of; to carry on
+反問 : 反问 : 反问 fǎnwèn - ask a rhetorical question; answer a question with a question
+爭氣 : 争气 : 争气 zhēng qì - work hard for sth.; determined not to fall short
+問世 : 问世 : 问世 wènshì - be published; to come out
+錦上添花 : 锦上添花 : 锦上添花 jǐnshàngtiānhuā - lit. on brocade, add flowers (idiom); to decorate sth already perfect / gilding the lily
+鑽研 : 钻研 : 钻研 zuānyán - study intensively; delve into
+波濤 : 波涛 : 波涛 bōtāo - great waves; billows
+播種 : 播种 : 播种 bōzhǒng - sow seeds; sowing; seed
+千方百計 : 千方百计 : 千方百计 qiān fāng bǎi jì - by every possible means
+加劇 : 加剧 : 加剧 jiājù - aggravate; intensify; sharpen; accelerate； exacerbate
+書法 : 书法 : 书法 shūfǎ - calligraphy; penmanship
+上進 : 上进 : 上进 shàngjìn - make forward progress; do better
+陳列 : 陈列 : 陈列 chénliè - to display; to exhibit
+鑲嵌 : 镶嵌 : 镶嵌 xiāngqiàn - inlay
+胸懷 : 胸怀 : 胸怀 xiōnghuái - think about; heart; one's bosom (the seat of emotions); breast; broad-minded and open
+無窮無盡 : 无穷无尽 : 无穷无尽 wúqióngwújìn - vast and limitless; endless span of time; no vestige of a beginning, no prospect of an end
+巴結 : 巴结 : 巴结 bājie - to fawn on; curry favor with
+不屑一顧 : 不屑一顾 : 不屑一顾 búxièyígù - not worth seeing; disdain as beneath contempt
+著重 : 着重 : 着重 zhuózhòng - put emphasis on; to stress
+蓋章 : 盖章 : 盖章 gàizhāng - affix one's seal; seal; stamp
+橢圓 : 椭圆 : 椭圆 tuǒyuán - ellipse; oval
+操勞 : 操劳 : 操劳 cāoláo - work hard; look after
+頸椎 : 颈椎 : 颈椎 jǐngzhuī - cervical vertebra; the seven cervical vertebrae in the neck of humans and most mammals
+舒暢 : 舒畅 : 舒畅 shūchàng - happy; entirely free from worry
+神氣 : 神气 : 神气 shénqì - expression; manner; spirited
+晝夜 : 昼夜 : 昼夜 zhòuyè - day and night; continuously without stop
+敵視 : 敌视 : 敌视 díshì - be hostile; adopt a negative attitude towards
+倡導 : 倡导 : 倡导 chàngdǎo - to advocate; propose; initiate
+詫異 : 诧异 : 诧异 chàyì - flabbergasted; astonished
+漁民 : 渔民 : 渔民 yúmín - fisherman; fisher folk
+托運 : 托运 : 托运 tuōyùn - check in (baggage); consign for shipment
+忌諱 : 忌讳 : 忌讳 jìhuì - avoid as a taboo; abstain from; taboo
+導向 : 导向 : 导向 dǎoxiàng - guidance; lead to; direct something towards
+變遷 : 变迁 : 变迁 biànqiān - changes; vicissitude
+制約 : 制约 : 制约 zhìyuē - restrict; condition
+列舉 : 列举 : 列举 lièjǔ - make a list; enumerate
+公証 : 公证 : 公证 gōngzhèng - notarization
+虧待 : 亏待 : 亏待 kuīdài - treat sb. unfairly
+頓時 : 顿时 : 顿时 dùnshí - immediately; suddenly
+相聲 : 相声 : 相声 xiàngsheng - comic dialogue; crosstalk
+涌現 : 涌现 : 涌现 yǒngxiàn - spring up; emerge prominently
+朴實 : 朴实 : 朴实 pǔshí - plain; sober; down-to-earth
+呼嘯 : 呼啸 : 呼啸 hūxiào - whistle; scream; howl
+譏笑 : 讥笑 : 讥笑 jīxiào - sneer at; deride
+蔚藍 : 蔚蓝 : 蔚蓝 wèilán - azure; sky blue
+莖 : 茎 : 茎 jīng - stalk; stem
+答辯 : 答辩 : 答辩 dábiàn - reply (to an accusation)
+學說 : 学说 : 学说 xuéshuō - theory; doctrine
+壯麗 : 壮丽 : 壮丽 zhuànglì - magnificence; splendid; majestic
+周轉 : 周转 : 周转 zhōuzhuǎn - turnover (in cash or personnel); have enough resources to cover a need
+興旺 : 兴旺 : 兴旺 xīngwàng - prosperous; thriving; to prosper
+借鑒 : 借鉴 : 借鉴 jièjiàn - take example by; use other people's experience
+飄揚 : 飘扬 : 飘扬 piāoyáng - wave in the wind; flutter; fly
+紡織 : 纺织 : 纺织 fǎngzhī - spinning and weaving; textile
+縱橫 : 纵横 : 纵横 zònghéng - able to move unhindered; length and breadth
+曠課 : 旷课 : 旷课 kuàng kè - cut school; be truant from school
+文藝 : 文艺 : 文艺 wényì - literature and art
+夾雜 : 夹杂 : 夹杂 jiāzá - mix together; have two dissimilar substances mixed together
+壯烈 : 壮烈 : 壮烈 zhuàngliè - brave and honorable
+歷來 : 历来 : 历来 lìlái - always; throughout (a period of time)
+貫徹 : 贯彻 : 贯彻 guànchè - to implement; put into practice; carry out
+蘊藏 : 蕴藏 : 蕴藏 yùncáng - hold in store; contain untapped quantities
+操練 : 操练 : 操练 cāoliàn - to drill; to practice
+攙 : 搀 : 搀 chān - assist by the arm; mix; support; sustain
+擬定 : 拟定 : 拟定 nǐdìng - make an initial draft; draw up
+懸殊 : 悬殊 : 悬殊 xuánshū - a wide gap; big contrast; large disparity; a mismatch
+歸根到底 : 归根到底 : 归根到底 guī gēn dào dǐ - (saying) to sum it up ...
+喧嘩 : 喧哗 : 喧哗 xuānhuá - cause a scene
+啟蒙 : 启蒙 : 启蒙 qǐméng - enlighten; enlightenment； instruct the young; to initiate
+俗話 : 俗话 : 俗话 súhuà - common saying; proverb
+貶義 : 贬义 : 贬义 biǎnyì - negative connotation; derogatory sense
+挑撥 : 挑拨 : 挑拨 tiǎobō - incite disharmony; provoke; stir up tension in others
+批發 : 批发 : 批发 pīfā - wholesale
+扎實 : 扎实 : 扎实 zhāshi - strong; sturdy; practical
+虧損 : 亏损 : 亏损 kuīsǔn - deficit; (financial) loss
+嚴寒 : 严寒 : 严寒 yánhán - bitter cold; severe winter
+飽和 : 饱和 : 饱和 bǎohé - saturation
+謝絕 : 谢绝 : 谢绝 xièjué - politely refuse
+自滿 : 自满 : 自满 zìmǎn - complacent; self-satisfied
+地勢 : 地势 : 地势 dìshì - terrain; topography of a place
+力爭 : 力争 : 力争 lìzhēng - work hard; do all one can to; strive for/argue strongly
+書記 : 书记 : 书记 shūji - secretary; clerk
+遮擋 : 遮挡 : 遮挡 zhēdǎng - shelter from; keep out
+葷 : 荤 : 荤 hūn - meat or fish dish; pungent vegetables forbidden to Buddhist vegetarians
+艦艇 : 舰艇 : 舰艇 jiàntǐng - warship; naval vessel
+職能 : 职能 : 职能 zhínéng - function; role
+濃厚 : 浓厚 : 浓厚 nónghòu - dense; thick (fog, clouds, etc.)
+洽談 : 洽谈 : 洽谈 qiàtán - discuss; talk over
+遼闊 : 辽阔 : 辽阔 liáokuò - vast; extensive
+空前絕后 : 空前绝后 : 空前绝后 kōngqiánjuéhòu - unprecedented and unrepeatable; never to be reduplicated; the first and the last; unmatched; unique
+檢討 : 检讨 : 检讨 jiǎntǎo - self-criticism; analyze
+無微不至 : 无微不至 : 无微不至 wú wēi bú zhì - in every possible way; meticulously
+並列 : 并列 : 并列 bìngliè - stand side by side; be juxtaposed
+實惠 : 实惠 : 实惠 shíhuì - substantial material benefit; advantageous (deal)
+勢必 : 势必 : 势必 shìbì - is bound to (happen)
+再接再厲 : 再接再厉 : 再接再厉 zàijiēzàilì - continue the struggle; persist; unremitting efforts
+興隆 : 兴隆 : 兴隆 xīnglóng - prosperous; flourishing
+風氣 : 风气 : 风气 fēngqì - general mood; atmosphere; common practice
+銜接 : 衔接 : 衔接 xiánjiē - to join together; to link (especially transport)
+美觀 : 美观 : 美观 měiguān - pleasing to the eye; beautiful; artistic
+愛不釋手 : 爱不释手 : 爱不释手 àibúshìshǒu - love something too much to part with it
+熱淚盈眶 : 热泪盈眶 : 热泪盈眶 rè lèi yíng kuàng - (saying) eyes brimming with tears; extremely moved
+志氣 : 志气 : 志气 zhìqì - ambition; resolve; backbone; drive; spirit
+兢兢業業 : 兢兢业业 : 兢兢业业 jīngjīng yèyè - cautious and conscientious
+與日俱增 : 与日俱增 : 与日俱增 yǔrìjùzēng - grow with each passing day
+調劑 : 调剂 : 调剂 tiáojì - make an adjustment
+見義勇為 : 见义勇为 : 见义勇为 jiànyìyǒngwéi - to see what is right and act courageously (idiom, from Analects); to stand up bravely for the truth; acting heroically in a just cause
+稱心如意 : 称心如意 : 称心如意 chènxīnrúyì - find sth. satisfactory; very satisfying
+神態 : 神态 : 神态 shéntài - appearance; looks; manner; expression
+盛產 : 盛产 : 盛产 shèngchǎn - abound in; teem with; superabundant
+氣魄 : 气魄 : 气魄 qìpò - spirit; daring; nerve; boldness; enterprising outlook
+擴充 : 扩充 : 扩充 kuòchōng - expand; extend
+應邀 : 应邀 : 应邀 yìngyāo - at sb.'s invitation
+屢次 : 屡次 : 屡次 lǚcì - repeatedly; time and again; frequently
+聲勢 : 声势 : 声势 shēngshì - momentum; fame and power; prestige
+取締 : 取缔 : 取缔 qǔdì - to ban; suppress
+饞 : 馋 : 馋 chán - gluttonous; greedy; to crave
+謀求 : 谋求 : 谋求 móuqiú - seek; strive for; try to get
+落實 : 落实 : 落实 luòshí - workable; implement
+杜絕 : 杜绝 : 杜绝 dùjué - put an end to
+驗收 : 验收 : 验收 yànshōu - inspect and then accept (i.e. received goods
+聾啞 : 聋哑 : 聋哑 lóngyǎ - deaf and dumb; deaf-mute
+繳納 : 缴纳 : 缴纳 jiǎonà - to pay (taxes)
+繁體字 : 繁体字 : 繁体字 fántǐzì - traditional Chinese character
+立交橋 : 立交桥 : 立交桥 lìjiāoqiáo - overpass; one road goes on top of another; cloverleaf intersection
+循序漸進 : 循序渐进 : 循序渐进 xún xù jiàn jìn - make steady progress incrementally; step by step program
+層出不窮 : 层出不穷 : 层出不穷 céng chū bù qióng - (idiom) emerge more and more; innumerable succession; breeding like flies
+實事求是 : 实事求是 : 实事求是 shí shì qiú shì - be practical and realistic; seek truth from facts
+完備 : 完备 : 完备 wánbèi - complete; perfect
+寧肯 : 宁肯 : 宁肯 nìngkěn - would rather ...; it would be better
+天倫之樂 : 天伦之乐 : 天伦之乐 tiānlúnzhīlè - family happiness
+倡議 : 倡议 : 倡议 chàngyì - suggest; propose
+爭先恐后 : 争先恐后 : 争先恐后 zhēng xiān kǒng hòu - striving to be first; compete with each other
+東張西望 : 东张西望 : 东张西望 dōngzhāngxīwàng - look in all directions; glance around
+閉塞 : 闭塞 : 闭塞 bìsè - stop up; shelter from; hard to get to; unenlightened
+貧乏 : 贫乏 : 贫乏 pínfá - lacking; incomplete
+礦產 : 矿产 : 矿产 kuàngchǎn - minerals
+物美價廉 : 物美价廉 : 物美价廉 wùměijiàlián - attractive goods at inexpensive prices
+服氣 : 服气 : 服气 fúqì - be convinced
+審美 : 审美 : 审美 shěnměi - aesthetic sense; appreciation of the arts
+叮囑 : 叮嘱 : 叮嘱 dīngzhǔ - urge again and again; exhort; repeatedly warn
+一舉兩得 : 一举两得 : 一举两得 yìjǔliǎngdé - kill two birds with one stone; (literally) attain two objectives with a single move
+見多識廣 : 见多识广 : 见多识广 jiànduōshíguǎng - experienced and knowledgeable
+畫蛇添足 : 画蛇添足 : 画蛇添足 huàshétiānzú - draw legs on a snake (idiom); to ruin something by adding something superfluous
+沉澱 : 沉淀 : 沉淀 chéndiàn - to precipitate (solid sediment out of a solution); to settle
+招標 : 招标 : 招标 zhāobiāo - to beckon; to invite bids
+嬌氣 : 娇气 : 娇气 jiāoqì - delicate; effeminate; squeamish
+園林 : 园林 : 园林 yuánlín - gardens; park; landscape
+后顧之憂 : 后顾之忧 : 后顾之忧 hòugùzhīyōu - fears of trouble in the rear (idiom); family worries (obstructing freedom to act); trouble back at home; worries about the future consequences; often in negative expressions, meaning no worries about anything
+剎那 : 刹那 : 刹那 chànà - an instant (Sanskrit: ksana); split second
+興致勃勃 : 兴致勃勃 : 兴致勃勃 xìngzhìbóbó - in high spirits
+共計 : 共计 : 共计 gòngjì - sum up; total
+不敢當 : 不敢当 : 不敢当 bù gǎndāng - (literally) I dare not accept the honor; you flatter me
+據悉 : 据悉 : 据悉 jùxī - according to reports; it is reported (that)
+賢惠 : 贤惠 : 贤惠 xiánhuì - virtuous and dutiful (of women)
+聚精會神 : 聚精会神 : 聚精会神 jù jīng huì shén - concentrate one's attention
+精打細算 : 精打细算 : 精打细算 jīng dǎ xì suàn - (saying) meticulous planning and careful accounting
+欣欣向榮 : 欣欣向荣 : 欣欣向荣 xīnxīn xiàng róng - flourishing; thriving; prosperous
+日新月異 : 日新月异 : 日新月异 rìxīnyuèyì - change with each passing day
+把關 : 把关 : 把关 bǎ guān - guard a pass; check on
+得不償失 : 得不偿失 : 得不偿失 dé bù cháng shī - the gains do not outweigh the losses
+刻不容緩 : 刻不容缓 : 刻不容缓 kèbùrónghuǎn - demand immediate action; brook no delay
+供不應求 : 供不应求 : 供不应求 gōng bú yìng qiú - (saying) demand outstrips supply
+爐灶 : 炉灶 : 炉灶 lúzào - kitchen range; cooking range; stovetop range
+優勝劣汰 : 优胜劣汰 : 优胜劣汰 yōushèngliètài - survival of the fittest
+須知 : 须知 : 须知 xūzhī - prerequisites; knowledge requirement
+邊疆 : 边疆 : 边疆 biānjiāng - border area; borderland; frontier; frontier region
+綱領 : 纲领 : 纲领 gānglǐng - program; guiding principle
+振興 : 振兴 : 振兴 zhènxīng - develop vigorously; promote; revive; revitalize; invigorate; re-energize
+廢寢忘食 : 废寝忘食 : 废寝忘食 fèiqǐnwàngshí - to forget even sleeping and eating
+堤壩 : 堤坝 : 堤坝 dībà - dam; dyke
+鄉鎮 : 乡镇 : 乡镇 xiāngzhèn - village and town
+難能可貴 : 难能可贵 : 难能可贵 nánnéngkěguì - difficult of attainment, hence worthy of esteem; deserving praise for one's excellent performance or behaviour; estimable; commendable
+鍥而不舍 : 锲而不舍 : 锲而不舍 qiè'érbùshě - keep on chipping away; work with perseverance
+辯証 : 辩证 : 辩证 biànzhèng - investigate; dialectical
+潛移默化 : 潜移默化 : 潜移默化 qiányímòhuà - exert a subtle influence on sb.'s character, thinking, etc.; impercebtibly influence; to influence secretly
+氣功 : 气功 : 气功 qìgōng - Qi Gong, a system of deep breathing exercises
+正氣 : 正气 : 正气 zhèngqì - healthy environment; healthy atmosphere
+斬釘截鐵 : 斩钉截铁 : 斩钉截铁 zhǎn dīng jié tiě - to chop the nail and slice the iron (idiom); resolute and decisive; definitely
+微觀 : 微观 : 微观 wēiguān - microscopic; sub atomic
+廉潔 : 廉洁 : 廉洁 liánjié - honest; incorruptible
+宏觀 : 宏观 : 宏观 hóngguān - macro-; macroscopic
+歷代 : 历代 : 历代 lìdài - successive dynasties; past dynasties
+風土人情 : 风土人情 : 风土人情 fēngtǔrénqíng - local conditions (human and environmental)
+豪邁 : 豪迈 : 豪迈 háomài - bold and generous; heroic
+見聞 : 见闻 : 见闻 jiànwén - information
+禮尚往來 : 礼尚往来 : 礼尚往来 lǐshàngwǎnglái - courtesy requires reciprocity
+省會 : 省会 : 省会 shěnghuì - provincial capital
+查獲 : 查获 : 查获 cháhuò - investigate and capture (a criminal); ferret out
+朝氣蓬勃 : 朝气蓬勃 : 朝气蓬勃 zhāo qì péng bó - full of youthful energy (idiom); full of vigour and vitality; energetic; spirited; a bright spark
+體裁 : 体裁 : 体裁 tǐcái - types or forms of literature
+任重道遠 : 任重道远 : 任重道远 rènzhòngdàoyuǎn - lit. a heavy load and a long road; fig. to bear heavy responsibilities through a long struggle; shoulder heavy responsibilities
+鴉雀無聲 : 鸦雀无声 : 鸦雀无声 yāquèwúshēng - not even a crow or sparrow can be heard (idiom); silence reigns
+過獎 : 过奖 : 过奖 guòjiǎng - praise excessively; flatter
+苦盡甘來 : 苦尽甘来 : 苦尽甘来 kǔjìngānlái - sweetness comes after bitterness; the hard times are over and the good times are just beginning
+籍貫 : 籍贯 : 籍贯 jíguàn - place of one's ancestry
+混濁 : 混浊 : 混浊 hùnzhuó - muddy; dirty; turbid
+懸崖峭壁 : 悬崖峭壁 : 悬崖峭壁 xuányáqiàobì - cliffside
+壓歲錢 : 压岁钱 : 压岁钱 yāsuìqián - gifts of money given to children during the Spring Festival
+舉世矚目 : 举世瞩目 : 举世瞩目 jǔshì zhǔmù - attract worldwide attention
+連年 : 连年 : 连年 liánnián - successive years; over many years; once again this year
+誕辰 : 诞辰 : 诞辰 dànchén - birthday
+絡繹不絕 : 络绎不绝 : 络绎不绝 luòyìbùjué - endless stream
+知足常樂 : 知足常乐 : 知足常乐 zhīzúchánglè - content with what one has
+急於求成 : 急于求成 : 急于求成 jíyúqiúchéng - impatient for success
+季軍 : 季军 : 季军 jìjūn - third in a race; bronze medalist
+南轅北轍 : 南辕北辙 : 南辕北辙 nányuánběizhé - at odds with; act in a way that defeats one's purpose
+烏黑 : 乌黑 : 乌黑 wūhēi - jet-black; pitch-black
+餡兒 : 馅儿 : 馅儿 xiànr - stuffing; filling
+聯歡 : 联欢 : 联欢 liánhuān - have a get-together
+相輔相成 : 相辅相成 : 相辅相成 xiāngfǔxiāngchéng - supplement and complement each other
+理直氣壯 : 理直气壮 : 理直气壮 lǐzhíqìzhuàng - with justice on one's side, one is bold and assured; to have the courage of ones convictions; just and forceful
+正負 : 正负 : 正负 zhèngfù - positive and negative; plus-minus
+各抒己見 : 各抒己见 : 各抒己见 gèshūjǐjiàn - everyone gives their own view
+勉勵 : 勉励 : 勉励 miǎnlì - encourage
+侃侃而談 : 侃侃而谈 : 侃侃而谈 kǎnkǎn'értán - speak frankly and in measured tones; argue about leisurely and boldly
+遞增 : 递增 : 递增 dìzēng - increase step by step; steadily increase
+踴躍 : 踊跃 : 踊跃 yǒngyuè - eager; enthusiastically
+羽絨服 : 羽绒服 : 羽绒服 yǔróngfú - down jacket
+經緯 : 经纬 : 经纬 jīngwěi - warp and woof; longitude and latitude; main points
+紀要 : 纪要 : 纪要 jìyào - written summary of a meeting; minutes
+炊煙 : 炊烟 : 炊烟 chuīyān - smoke from kitchen chimneys
+溫帶 : 温带 : 温带 wēndài - temperate zone
+懇切 : 恳切 : 恳切 kěnqiè - earnest; genuine; fair-spoken
+得天獨厚 : 得天独厚 : 得天独厚 détiāndúhòu - enjoy exceptional advantages; richly endowed by nature
+喜聞樂見 : 喜闻乐见 : 喜闻乐见 xǐwénlèjiàn - a delight to see (idiom); an attractive spectacle
+勤儉 : 勤俭 : 勤俭 qínjiǎn - hardworking and thrifty
+農歷 : 农历 : 农历 nónglì - agricultural calendar; lunar calendar
+東道主 : 东道主 : 东道主 dōngdàozhǔ - host for a party or conference
+飽經滄桑 : 饱经沧桑 : 饱经沧桑 bǎojīngcāngsāng - experienced many changes
+飛禽走獸 : 飞禽走兽 : 飞禽走兽 fēiqínzǒushòu - birds and animals; the beasts of the field and the birds of the air
+端午節 : 端午节 : 端午节 Duānwǔ Jié - Dragon Boat Festival
+深情厚誼 : 深情厚谊 : 深情厚谊 shēnqínghòuyì - profound friendship
+武俠 : 武侠 : 武侠 wǔxiá - knight-errant; a genre of swordplay martial arts movies and books
+將就 : 将就 : 将就 jiāngjiu - put up with; accept somewhat reluctantly
+對聯 : 对联 : 对联 duìlián - rhyming couplet; vertical written couplet usually placed along either side of a doorway
+華僑 : 华侨 : 华侨 huáqiáo - overseas Chinese
