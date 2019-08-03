@@ -10,10 +10,12 @@ body {
   
 h1 {
   color: Tomato;
+  font-size: 2vw;
 }
 
-.questionTitle {
+.question-title {
   color: Blue;
+  font-size: 2vw;
 }
 
 .question {
@@ -25,8 +27,9 @@ h1 {
   padding: 20px;
 }
 
-.answerTitle {
+.answer-title {
   color: Blue;
+  font-size: 2vw;
 }
 
 .answer {

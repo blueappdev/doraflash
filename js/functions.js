@@ -123,7 +123,7 @@ function loadCourse(name) {
     addCards(name);
     self.currentCourse.cleanupGarbage();
     localStorage.setItem("currentCourseName", name);
-    $("#course_name").html(self.currentCourse.name);
+    $("#course_title").html(self.currentCourse.title);
     fillScreen();
 }
 
@@ -214,6 +214,10 @@ function removeWhite(str) {
     return str.replace(/\s+/g,'');
 }
 
+function removeSomeSpecialCharacters(str) {
+    return str.replace(/'+/g,'');
+}
+
 function removeAccents(str) {
     str = str.replace(/Ā/g,"A");
     str = str.replace(/ā/g,"a");   
@@ -278,6 +282,9 @@ function isAcceptableAnswer(userAnswer) {
         }
         if (userAnswer === removeWhite(userAnswer)) {
             expectedAnswer = removeWhite(expectedAnswer);
+        }
+        if (userAnswer === removeSomeSpecialCharacters(userAnswer)) {
+            expectedAnswer = removeSomeSpecialCharacters(expectedAnswer);
         }
         if (userAnswer == expectedAnswer) return true;
     }
