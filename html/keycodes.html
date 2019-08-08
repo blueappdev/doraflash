@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="icon" href="png/favicon.png" type="image/png">
+    <base href="..">
+    <title>Key Codes</title>
+
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <!-- Key Code -->
+    <link rel="stylesheet" href="css/keycodes.css">
+    <script src="js/keycodes.js"></script>
+
+  </head>
+  <body onload="pageLoaded()">
+    <h1>Key Codes</h1>
+    <div>Press some keys</div>
+    <input id="input">
+    <div id="feedback" class="feedback">
+      <table id="feedback-table">
+        <thead>
+          <tr>
+            <th>event.type</th>
+            <th>event.key</th>
+            <th>event.location</th>
+            <th>event.which</th>
+            <th>event.charCode</th>
+            <th>event.keyCode</th>
+            <th>original.type</th>
+            <th>original.key</th>
+            <th>original.location</th>
+            <th>original.which</th>
+            <th>original.charCode</th>
+            <th>original.keyCode</th>
+        </thead>
+        <tbody id="feedbacklist">
+        </tbody>
+      </table>
+    </div>
+  </body>
+<html>

@@ -14,6 +14,9 @@ handlers:
   
 - url: /menu
   static_dir: menu
+
+- url: /html
+  static_dir: html
   
 #- url: /favicon.ico
 #  static_files: favicon.ico
