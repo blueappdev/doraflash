@@ -9,6 +9,7 @@ function pageLoaded () {
     $("#input").keypress(handler);
     $("#input").keydown(handler);
     $("#input").keyup(handler);
+    $("#input").textInput(handler);
     console.log('pageLoaded() - end');
 }
 
@@ -20,7 +21,6 @@ function addEvent(event) {
     addFeedback(
         event.type, 
         event.key, 
-        event.location,
         event.which,
         event.charCode,
         event.keyCode,
