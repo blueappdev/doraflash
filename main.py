@@ -1,8 +1,8 @@
 #!/usr/bin/env python
 
 from google.appengine.api import users
-import webapp2
-import codecs, json, os.path, string
+import logging, webapp2
+import codecs, json, os, os.path, string
 
 class RequestHandler(webapp2.RequestHandler):
     def write(self, *args):
@@ -14,7 +14,13 @@ class RequestHandler(webapp2.RequestHandler):
 
 class MainPage(RequestHandler):
     def loadTemplate(self):
-        stream = open('html/template.html')
+        logging.debug('This is a debug message')
+        logging.info('This is an info message')
+        logging.warning('This is a warning message')
+        logging.error('This is an error message')
+        logging.critical('This is a critical message')
+        logging.warning(os.getcwd())
+        stream = open('templates/template.html')
         self.template = stream.read()
         stream.close()
        
