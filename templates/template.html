@@ -2,6 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="png/favicon.png" type="image/png">
     <title>Dora Flash</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
@@ -12,11 +13,12 @@
     <script src="course?name=traditional"></script>
     <script src="js/german.js"></script>
     <script src="course?name=greek"></script>
+    <script src="course?name=korean-syllables"></script>
     <script src="js/functions.js"></script>
     <script src="js/inputProcessing.js"></script>
     <link rel="stylesheet" href="css/stylesheet.css">
   </head>
-  <body onload="pageLoaded()">
+  <body onload="pageLoaded()" class="%BODY_CLASS%">
   <div>
    <ul class="hMenuBar">
     <li class="hMenuItem"><a class="dropbtn" onclick="toggleMenu('myDropdown1')">Courses</a>
@@ -25,6 +27,7 @@
         <a onclick="loadCourse('traditional')">繁体字 Traditional Chinese Characters</a>
         <a onclick="loadCourse('german')">German</a>
         <a onclick="loadCourse('greek')">Greek</a>
+        <a onclick="loadCourse('korean-syllables')">Korean Syllables</a>
       </div>
     </li>
     <li class="hMenuItem"><a class="dropbtn" onclick="toggleMenu('myDropdown2')">Tools</a>

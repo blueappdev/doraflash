@@ -4,6 +4,12 @@ from google.appengine.api import users
 import logging, webapp2
 import codecs, json, os, os.path, string
 
+#logging.debug('This is a debug message')
+#logging.info('This is an info message')
+#logging.warning('This is a warning message')
+#logging.error('This is an error message')
+#logging.critical('This is a critical message')
+
 class RequestHandler(webapp2.RequestHandler):
     def write(self, *args):
         for arg in args:
@@ -14,12 +20,7 @@ class RequestHandler(webapp2.RequestHandler):
 
 class MainPage(RequestHandler):
     def loadTemplate(self):
-        logging.debug('This is a debug message')
-        logging.info('This is an info message')
-        logging.warning('This is a warning message')
-        logging.error('This is an error message')
-        logging.critical('This is a critical message')
-        logging.warning(os.getcwd())
+        #logging.warning(os.getcwd())
         stream = open('templates/template.html')
         self.template = stream.read()
         stream.close()
@@ -32,12 +33,22 @@ class MainPage(RequestHandler):
             username = user.nickname()
         #user.user_id() to be used with persistent data
         self.template = self.template.replace("%USERNAME%", username) 
+        self.template = self.template.replace("%BODY_CLASS%", self.getEnvironmentType()) 
     
     def get(self):
         self.response.headers['Content-Type'] = 'text/html'
         self.loadTemplate()
         self.enrichTemplate()
         self.write(self.template)
+    
+    def getEnvironmentType(self):
+        logging.warning("ENVIORNMENT TYPE")
+        logging.warning(os.getenv('SERVER_SOFTWARE', ''))
+        if os.getenv('SERVER_SOFTWARE', '').startswith('Google App Engine/'):
+            return "production"
+        else:
+            return "development"
+
         
 class CourseHandler(RequestHandler):
     def get(self):
@@ -50,9 +61,12 @@ class CourseHandler(RequestHandler):
         self.writeContent()
         self.writeFooter()
 
+    def cleanName(self):
+        return filter(lambda ch: ch.isalnum(), self.name)
+        
     def writeHeader(self):
         self.write('"use strict";\n')
-        self.write('function ', self.name, '() {\n')
+        self.write('function ', self.cleanName(), '() {\n')
         self.write('console.log("', self.name, '() - begin");\n')
     
     def writeFooter(self):
@@ -87,16 +101,27 @@ class CourseHandler(RequestHandler):
             raise Exception("unknown attribute found " + repr(key))
 
     def writeRecord(self, record):
-        if len(record) != 3:
-            print record
-        question, answers, comment = record
-        answers = answers.split("|")
-        answers = map(string.strip, answers)
-        self.write(
-            "addQuestionAnswersComment(",
-            self.json(question), ",", 
-            self.json(answers), ",", 
-            self.json(comment), ");\n")
+        if len(record) == 2:
+            question, answer = record
+            answers = [answer]
+            comment = answer
+            self.write(
+                "addQuestionAnswersComment(",
+                self.json(question), ",", 
+                self.json(answers), ",", 
+                self.json(answer), ");\n")
+        elif len(record) == 3:    
+            question, answers, comment = record
+            answers = answers.split("|")
+            answers = map(string.strip, answers)
+            self.write(
+                "addQuestionAnswersComment(",
+                self.json(question), ",", 
+                self.json(answers), ",", 
+                self.json(comment), ");\n")
+        else:
+            logging.error(repr(record))
+            raise Exception, "unsupported size of record"
         
 
 app = webapp2.WSGIApplication([

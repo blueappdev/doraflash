@@ -113,6 +113,10 @@ function addCards(name) {
         greek();
         return;
     }
+    if (name === "korean-syllables") {
+        koreansyllables();
+        return;
+    }
     addGermanCards();
 }
 
@@ -127,7 +131,7 @@ function loadCourse(name) {
     fillScreen();
 }
 
-function pageLoaded () {
+function pageLoaded() {
     console.log('pageLoaded() - begin');
     $("#answer").keypress(function(event){
         currentInputProcessor().processKeyPressed(event, this);
