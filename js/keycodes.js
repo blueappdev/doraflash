@@ -9,12 +9,16 @@ function pageLoaded () {
     $("#input").keypress(handler);
     $("#input").keydown(handler);
     $("#input").keyup(handler);
-    $("#input").textInput(handler);
+    $("#input").on('input',handler2); 
     console.log('pageLoaded() - end');
 }
 
 function handler(event) {
     addEvent(event);
+}
+
+function handler2(event) {
+  addFeedback(event.type, JSON.stringify(event));
 }
 
 function addEvent(event) {
@@ -31,6 +35,8 @@ function addEvent(event) {
         event.originalEvent.charCode,
         event.originalEvent.keyCode);
 }
+
+
 
 function addFeedback() {
     console.log("addFeedback(%o)", arguments);

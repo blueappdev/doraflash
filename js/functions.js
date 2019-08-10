@@ -420,6 +420,7 @@ function onTest() {
 }
 
 function onPeekAnswer() {
+    $("#answer").focus();
     $("#feedback").html("");
     addFeedback(false, "", currentCard);
 }
