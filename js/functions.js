@@ -419,12 +419,15 @@ function shuffleCards() {
 
 function onTest() {
     console.log("onTest() - begin");
-    $.post(
-        "updateCards", 
-        {resource: 'bla', params: { ant : 'ss'}},
-        callback,
-        'json');
+    $.post("updateCards", {resource: 'bla', params: { ant : 'ss'}})
+        .done(callback)
+        .fail(errorHandler);
     console.log("onTest() - end");
+}
+
+function errorHandler(xhr, status, errorThrown) {
+    console.log("xhr error() - begin");
+    console.log("xhr error() - end");
 }
 
 function callback(data, status, xhr) {
