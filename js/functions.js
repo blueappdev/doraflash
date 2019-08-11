@@ -419,8 +419,18 @@ function shuffleCards() {
 
 function onTest() {
     console.log("onTest() - begin");
-    $("#answer").val("uhu");
+    $.post(
+        "updateCards", 
+        {resource: 'bla', params: { ant : 'ss'}},
+        callback,
+        'json');
     console.log("onTest() - end");
+}
+
+function callback(data, status, xhr) {
+    console.log("callback() - begin");
+    console.log(data);
+    console.log("callback() - end");
 }
 
 function onPeekAnswer() {

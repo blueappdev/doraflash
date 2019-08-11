@@ -14,7 +14,11 @@ class RequestHandler(webapp2.RequestHandler):
     def write(self, *args):
         for arg in args:
             self.response.write(arg)
-    
+            
+    def log(self, *args):
+        for arg in args:
+            logging.info(arg + " ")
+            
     def json(self, str):
         return json.dumps(str, ensure_ascii=False)
 
@@ -42,8 +46,8 @@ class MainPage(RequestHandler):
         self.write(self.template)
     
     def getEnvironmentType(self):
-        logging.warning("ENVIORNMENT TYPE")
-        logging.warning(os.getenv('SERVER_SOFTWARE', ''))
+        #logging.warning("ENVIRONMENT TYPE")
+        #logging.warning(os.getenv('SERVER_SOFTWARE', ''))
         if os.getenv('SERVER_SOFTWARE', '').startswith('Google App Engine/'):
             return "production"
         else:
@@ -122,10 +126,21 @@ class CourseHandler(RequestHandler):
         else:
             logging.error(repr(record))
             raise Exception, "unsupported size of record"
+            
+class UpdateCardsHandler(RequestHandler):
+    def get(self):
+        logging.warning("UpdateCardsHandler>>get")
         
-
+    def post(self):
+        logging.warning("UpdateCardsHandler>>post - begin")
+        resource = self.request.get('resource')
+        self.log("resource", resource)
+        self.write('"hello"')
+        logging.warning("UpdateCardsHandler>>post - end")
+   
 app = webapp2.WSGIApplication([
         ('/course', CourseHandler),
+        ('/updateCards', UpdateCardsHandler),
         ('/', MainPage)
     ], debug=True)
 

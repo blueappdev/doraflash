@@ -56,7 +56,15 @@
     Gib hier bitte deine Antwort ein.
     <button onclick="onPeekAnswer()">Spicken</button>
   </div>
-  <input id="answer" class="answer" type="text" spellcheck="false" onchange="processAnswer()">
+  <input 
+    id="answer" 
+    class="answer" 
+    type="text" 
+    autocomplete="off" 
+    autocorrect="off" 
+    autocapitalize="off" 
+    spellcheck="false" 
+    onchange="processAnswer()">
   <div id="feedback" class="feedback"></div>
   </body>
 <html>
