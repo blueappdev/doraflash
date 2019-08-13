@@ -7,7 +7,7 @@ var currentCard = null;
 var feedback = [];
 
 // Returns a numeric timestamp in local time.
-function timestampNow() {
+function dateToday() {
     var date = new Date();
     return date.getFullYear() * 10000 + (date.getMonth() + 1) * 100 + date.getDate();
 }
@@ -37,7 +37,7 @@ Course.prototype.addCard = function(aCard) {
 Course.prototype.eligibleCards = function() {
     return this.cards.filter(
         function(each){
-            return each.timestampForSkipping !== timestampNow();
+            return each.timestampForSkipping !== dateToday();
         });
 }
 
@@ -303,13 +303,13 @@ function processCorrectAnswer(answer) {
     console.log("processCorrectAnswer(%o)", answer);
     var feedback = "Die Antwort ist richtig.";
     console.log("timestampOfLastWrongAnswer=%o", currentCard.timestampOfLastWrongAnswer)
-    console.log("currentTimestamp=%o", timestampNow())
-    if (currentCard.timestampOfLastWrongAnswer === timestampNow()) {
+    console.log("currentTimestamp=%o", dateToday())
+    if (currentCard.timestampOfLastWrongAnswer === dateToday()) {
         currentCard.numberOfCorrectAnswers += 1;
     } else {
         feedback = "Die Anwort war beim ersten Versuch heute richtig und wird heute nicht mehr gefragt.";
         currentCard.numberOfCorrectAnswers += 4;
-        currentCard.timestampForSkipping = timestampNow();
+        currentCard.timestampForSkipping = dateToday();
         console.log("timestampForSkipping %o", currentCard.timestampForSkipping);
     } 
     $("#feedback").html('<font color="darkgreen">' + feedback + '</font>');
@@ -320,7 +320,7 @@ function processCorrectAnswer(answer) {
 function processWrongAnswer(answer) {
     console.log("processWrongAnswer(%o)", answer);
     $("#feedback").html('<font color="red" weight="bold">Die Antwort ist leider noch nicht richtig.</font>')
-    currentCard.timestampOfLastWrongAnswer = timestampNow();  
+    currentCard.timestampOfLastWrongAnswer = dateToday();  
     currentCard.numberOfCorrectAnswers -= 2;   
     if (currentCard.numberOfCorrectAnswers) {
         currentCard.numberOfCorrectAnswers = 0;
@@ -375,6 +375,11 @@ function showFeedback() {
     console.log("showFeedback() - end");
 }
 
+function fib(n) {
+	if (n < 2) return n;
+    return fib(n-2) + fib(n-1) ;
+}
+
 function moveCurrentCard() {
     console.log("moveCurrentCard()");
     currentCourse.cards = currentCourse.cards.filter(function(each) {
@@ -382,8 +387,9 @@ function moveCurrentCard() {
         });
     console.log("computeNewPosition()");
     console.log("    numberOfCorrectAnswers %o", currentCard.numberOfCorrectAnswers);
-    const mapping = [ 1, 3, 6, 10, 20, 30, 40, 50, 70, 100, 140, 180, 230, 300, 380 ];
-    var newPosition = mapping[currentCard.numberOfCorrectAnswers] || 10000;
+    //const mapping = [ 1, 2, 6, 10, 20, 30, 40, 50, 70, 100, 140, 180, 230, 300, 380 ];
+    //var newPosition = mapping[currentCard.numberOfCorrectAnswers] || 10000;
+    var newPosition = fib(currentCard.numberOfCorrectAnswers);
     newPosition = Math.min(currentCourse.eligibleCards().length - 1, newPosition);
     console.log("    newPosition %o", newPosition);
     var cardAtNewPosition = currentCourse.eligibleCards()[newPosition];
