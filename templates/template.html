@@ -18,9 +18,9 @@
     <script src="js/inputProcessing.js"></script>
     <link rel="stylesheet" href="css/stylesheet.css">
   </head>
-  <body onload="pageLoaded()" class="%BODY_CLASS%">
+  <body onload="pageLoaded()">
   <div>
-   <ul class="hMenuBar">
+   <ul class="hMenuBar %BODY_CLASS%">
     <li class="hMenuItem"><a class="dropbtn" onclick="toggleMenu('myDropdown1')">Courses</a>
       <div class="dropdown-content" id="myDropdown1">
         <a onclick="loadCourse('chinese')">Chinese (简体字)</a>
@@ -45,8 +45,9 @@
         <a onclick="inspectFeedback()">Feedback</a>
       </div>
     </li>
-     Version 0.8 (2019-08-03)
+     <div class="xyz">Version 0.8 (2019-08-03)
      %USERNAME%
+     </div>
     </ul> 
   </div>
   <h1 id="course_title">[course_title]</h1>

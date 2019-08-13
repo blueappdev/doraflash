@@ -3,19 +3,22 @@
  */
   
 body {
-  background-color: red;    /* red indicates error if the environment type cannot be detected */
+  background-color: linen;    
   font-family: Arial, Helvetica, sans-serif;
   font-size: 2vw;
 }
 
-body.production {
-  background-color: linen;
+/* xyz copied from hMenuItem */
+.xyz {
+    font-family:Helvetica, Arial, Sans-Serif;
+    font-size:14px;
+    display: block;
+    //color: white;
+    text-align: center;
+    padding: 6px 10px;
+    text-decoration: none;
 }
 
-body.development {
-  background-color: lightgreen;
-}
-  
 h1 {
   color: Tomato;
   font-size: 2vw;
@@ -27,12 +30,12 @@ h1 {
 }
 
 .question {
-  /* background-color: linen; */
+  background-color: white; 
   color: Black;
   font-size: 5vw;
   margin: 10px;
   width: 60%; 
-  padding: 10px;
+  /* padding: 10px; */
   border-style: solid;   /* border-style must be before border-width */
   border-width: thin;
 }
@@ -48,7 +51,7 @@ h1 {
   font-size: 5vw;
   margin: 10px;
   width: 60%;
-  padding: 10px;
+  /* padding: 10px; */
   border-style: solid;     /* border-style must be before border-width */
   border-width: thin;
 }
@@ -56,7 +59,7 @@ h1 {
 table {
   margin: 20px;
   padding: 20px;
-  border-collapse: collapse;
+  border-collapse: collapse; 
 }
 
 th, td {
