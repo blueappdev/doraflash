@@ -30,7 +30,7 @@ h1 {
 }
 
 .question {
-  background-color: white; 
+  background-color: linen; 
   color: Black;
   font-size: 30px;
   margin: 1vw;
@@ -38,6 +38,7 @@ h1 {
   padding: 1vw; 
   border-style: solid;   /* border-style must be before border-width */
   border-width: thin;
+  border-color: lightgray;
 }
 
 .answer-title {
@@ -54,6 +55,14 @@ h1 {
   padding: 1vw;
   border-style: solid;     /* border-style must be before border-width */
   border-width: thin;
+  border-color: lightgray;
+}
+
+.wrong {
+  border-color: red;
+  outline: none !important;
+  border: 1px solid red;
+  box-shadow: 0 0 5px red;
 }
 
 table {

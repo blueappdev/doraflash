@@ -178,6 +178,7 @@ function setCurrentCard(card) {
     currentCard = card;
     $('#question').text(card.question);
     $('#answer').val(card.hint);
+    $("#answer").removeClass("wrong");
     console.log('setCurrentCard() - end');
 }
 
@@ -319,6 +320,7 @@ function processCorrectAnswer(answer) {
 
 function processWrongAnswer(answer) {
     console.log("processWrongAnswer(%o)", answer);
+    $("#answer").addClass("wrong");
     $("#feedback").html('<font color="red" weight="bold">Die Antwort ist leider noch nicht richtig.</font>')
     currentCard.timestampOfLastWrongAnswer = dateToday();  
     currentCard.numberOfCorrectAnswers -= 2;   
