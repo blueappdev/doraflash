@@ -26,32 +26,32 @@ h1 {
 
 .question-title {
   color: black;
-  font-size: 2vw;
+  font-size: 16px;
 }
 
 .question {
   background-color: white; 
   color: Black;
-  font-size: 5vw;
-  margin: 10px;
+  font-size: 30px;
+  margin: 1vw;
   width: 60%; 
-  /* padding: 10px; */
+  padding: 1vw; 
   border-style: solid;   /* border-style must be before border-width */
   border-width: thin;
 }
 
 .answer-title {
   color: Black;
-  font-size: 2vw;
+  font-size: 16px;
 }
 
 .answer {
   background-color: White;
   color: Black;
-  font-size: 5vw;
-  margin: 10px;
+  font-size: 24px;
+  margin: 1vw;
   width: 60%;
-  /* padding: 10px; */
+  padding: 1vw;
   border-style: solid;     /* border-style must be before border-width */
   border-width: thin;
 }

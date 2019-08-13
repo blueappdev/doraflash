@@ -375,9 +375,25 @@ function showFeedback() {
     console.log("showFeedback() - end");
 }
 
-function fib(n) {
-	if (n < 2) return n;
-    return fib(n-2) + fib(n-1) ;
+// Recursive implementation of Fibonacci function is slow.
+// function fib(n) {
+//     if (n < 2) return n;
+//     return fib(n-2) + fib(n-1) ;
+// }
+
+// Faster implementation of Fibonacci function.
+function fib(n) {  
+    var p = 0;
+    var q = 1;
+    var r = 0;
+    if (n < 2) return n
+    var i;
+    for (i =2; i <= n; i++) {
+        r = p + q;
+        p = q;
+        q = r;
+    }
+    return r;
 }
 
 function moveCurrentCard() {
