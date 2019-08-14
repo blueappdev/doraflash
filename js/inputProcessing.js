@@ -18,6 +18,10 @@ DefaultInputProcessor.prototype.reasonForInvalidPrecheck = function(event, str) 
     return "";
 };
 
+DefaultInputProcessor.prototype.getInputPlaceHolder = function() {
+    return "";
+};
+
 DefaultInputProcessor.prototype.processKeyPressed = function(event, widget) {
     // console.log("def inp %o", currentCourse.inputType);
     // By default do nothing.
@@ -71,6 +75,10 @@ PinyinInputProcessor.prototype.processKeyPressed = function(event, widget) {
     }
     return false;
   }
+};
+
+PinyinInputProcessor.prototype.getInputPlaceHolder = function() {
+    return "<pinyin>";
 };
 
 (new PinyinInputProcessor()).register();

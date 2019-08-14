@@ -179,6 +179,7 @@ function setCurrentCard(card) {
     $('#question').text(card.question);
     $('#answer').val(card.hint);
     $("#answer").removeClass("wrong");
+    $("#answer").attr("placeholder", currentInputProcessor().getInputPlaceHolder());
     console.log('setCurrentCard() - end');
 }
 
