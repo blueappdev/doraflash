@@ -3,15 +3,15 @@
  */
   
 body {
-  background-color: linen;    
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 2vw;
+    background-color: linen;    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2vw;
 }
 
 /* xyz copied from hMenuItem */
 .xyz {
     font-family:Helvetica, Arial, Sans-Serif;
-    font-size:14px;
+    font-size: 14px;
     display: block;
     //color: white;
     text-align: center;
@@ -20,69 +20,74 @@ body {
 }
 
 h1 {
-  color: Tomato;
-  font-size: 2vw;
+    color: Tomato;
+    font-size: 14px;;
 }
 
 .question-title {
-  color: black;
-  font-size: 16px;
+    color: black;
+    font-size: 14px;
 }
 
 .question {
-  background-color: linen; 
-  color: Black;
-  font-size: 30px;
-  margin: 1vw;
-  width: 60%; 
-  padding: 1vw; 
-  border-style: solid;   /* border-style must be before border-width */
-  border-width: thin;
-  border-color: lightgray;
+    background-color: linen; 
+    color: Black;
+    font-size: 30px;
+    margin: 1vw;
+    width: 60%; 
+    padding: 1vw; 
+    border-style: solid;   /* border-style must be before border-width */
+    border-width: thin;
+    border-color: lightgray;
 }
 
 .answer-title {
-  color: Black;
-  font-size: 16px;
+    color: Black;
+    font-size: 14px;
 }
 
 .answer {
-  background-color: White;
-  color: Black;
-  font-size: 24px;
-  margin: 1vw;
-  width: 60%;
-  padding: 1vw;
-  border-style: solid;     /* border-style must be before border-width */
-  border-width: thin;
-  border-color: lightgray;
+    background-color: White;
+    color: Black;
+    font-size: 24px;
+    margin: 1vw;
+    width: 60%;
+    padding: 1vw;
+    border-style: solid;     /* border-style must be before border-width */
+    border-width: thin;
+    border-color: lightgray;
 }
 
 .wrong {
-  border-color: red;
-  outline: none !important;
-  border: 1px solid red;
-  box-shadow: 0 0 5px red;
+    border-color: red;
+    outline: none !important;
+    border: 1px solid red;
+    box-shadow: 0 0 5px red;
 }
 
 table {
-  margin: 20px;
-  padding: 20px;
-  border-collapse: collapse; 
+    /* margin: 20px; */
+    /*padding: 20px; */
+    font-size: 14px;;
+    border-collapse: collapse; 
 }
 
 th, td {
-  border: 1px solid black;
-  padding: 2px;
-  text-align: left;
-  vertical-align: top;
+    border: 1px solid black;
+    padding: 2px;
+    text-align: left;
+    vertical-align: top;
 }
 
+.feedback {
+    font-size: 14px;
+}
 .correct-feedback {
-  color: darkgreen;
+    color: darkgreen;
 }
 
 .wrong-feedback {
+  font-size: 14px;;
   color: red;
   text-decoration: line-through;
 }

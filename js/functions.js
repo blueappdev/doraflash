@@ -133,12 +133,27 @@ function loadCourse(name) {
 
 function pageLoaded() {
     console.log('pageLoaded() - begin');
-    $("#answer").keypress(function(event){
-        currentInputProcessor().processKeyPressed(event, this);
-    });
+    $("#answer").on("keypress", onAnswerKeyPress);
+    $("#answer").on("input", onAnswerInput);
+    $("#answer").on("change", onAnswerChange);
     var currentCourseName = localStorage.getItem("currentCourseName") || "chinese";
     loadCourse(currentCourseName);
     console.log('pageLoaded() - end');
+}
+
+function onAnswerKeyPress(event) {
+    console.log('onKeyPress()');
+    currentInputProcessor().processKeyPressed(event);
+}
+
+function onAnswerInput(event) {
+    console.log('onInput()');
+    currentInputProcessor().processInput(event);
+}
+
+function onAnswerChange(event) {
+    console.log('onChange()');
+    processAnswer()
 }
 
 function currentInputProcessor() {
@@ -374,7 +389,7 @@ function showFeedback() {
         html += '</tr>';
     }
     html += '</table>';
-    $("#feedback").append(html);
+    $("#table").html(html);
     console.log("showFeedback() - end");
 }
 
