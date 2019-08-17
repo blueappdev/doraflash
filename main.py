@@ -37,7 +37,7 @@ class MainPage(RequestHandler):
             username = user.nickname()
         #user.user_id() to be used with persistent data
         self.template = self.template.replace("%USERNAME%", username) 
-        self.template = self.template.replace("%BODY_CLASS%", self.getEnvironmentType()) 
+        self.template = self.template.replace("%ENVIRONMENT_TYPE%", self.getEnvironmentType()) 
     
     def get(self):
         self.response.headers['Content-Type'] = 'text/html'
