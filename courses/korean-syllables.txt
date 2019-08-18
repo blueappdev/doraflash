@@ -3,6 +3,7 @@
 #
 
 @name = korean-syllables
+@version = 20190801
 @title = Korean Syllables
 @input-type = default
 

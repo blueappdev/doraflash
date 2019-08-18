@@ -1,6 +1,6 @@
 "use strict";
 
-console.log('load functions.js');
+console.log('functions.js - begin');
 
 var currentCourse = null;
 var currentCard = null;
@@ -121,7 +121,7 @@ function addCards(name) {
 }
 
 function loadCourse(name) {
-    console.log('loadCourse(%o)', name);
+    console.log('loadCourse %o', name);
     self.currentCourse = new Course(name);
     self.currentCourse.loadFromLocalStorage();
     addCards(name);
@@ -189,7 +189,7 @@ function fillScreen() {
 
 function setCurrentCard(card) {
     console.log('setCurrentCard() - begin');
-    console.log('question=%o', card.question);
+    console.log('question', card.question);
     currentCard = card;
     $('#question').text(card.question);
     $('#answer').val(card.hint);
@@ -201,7 +201,7 @@ function setCurrentCard(card) {
 function processAnswer() {
     console.log("processAnswer()");
     let answer = $('#answer').val();
-    console.log("answer=%o", answer);
+    console.log("answer %o", answer);
     answer = preprocessAnswer(answer);    
     if (!hasAnswer(answer)) {
         processMissingAnswer(answer);
@@ -209,7 +209,7 @@ function processAnswer() {
     }
     var reason = currentInputProcessor().reasonForInvalidPrecheck(answer);
     if (reason) {
-        console.log("wrong answer type ", answer);
+        log("wrong answer type ", answer);
         $("#feedback").html('<font color="red">'+reason+'</font>');
         return;
     }
@@ -393,13 +393,7 @@ function showFeedback() {
     console.log("showFeedback() - end");
 }
 
-// Recursive implementation of Fibonacci function is slow.
-// function fib(n) {
-//     if (n < 2) return n;
-//     return fib(n-2) + fib(n-1) ;
-// }
-
-// Faster implementation of Fibonacci function.
+// Fibonacci function.
 function fib(n) {  
     var p = 0;
     var q = 1;
@@ -459,21 +453,30 @@ function shuffleCards() {
 
 function onTest() {
     console.log("onTest() - begin");
-    $.post("updateCards", {resource: 'bla', params: { ant : 'ss'}})
-        .done(callback)
-        .fail(errorHandler);
+    perform("course", "view", {name : 'greek'}, courseLoaded);
+    perform("course", "version", {names : ['greek','chinese']}, versionLoaded);
     console.log("onTest() - end");
 }
 
-function errorHandler(xhr, status, errorThrown) {
-    console.log("xhr error() - begin");
-    console.log("xhr error() - end");
+function courseLoaded(result) {
+    console.log("courseLoaded() - begin");
+    if (!result.isOK ) {
+        alert(JSON.stringify(result));
+        return;
+    }
+    var course = result.value;
+    log("name", course.name);
+    log("title", course.title);
+    log("cards", course.cards.length);
+    log("version", course.version);
+    console.log("courseLoaded() - end");
 }
 
-function callback(data, status, xhr) {
-    console.log("callback() - begin");
-    console.log(data);
-    console.log("callback() - end");
+function versionLoaded(result) {
+    console.log("versionLoaded() - begin");
+    alert(JSON.stringify(result));
+    log(result)
+    console.log("versionLoaded() - end");
 }
 
 function onPeekAnswer() {
@@ -482,6 +485,6 @@ function onPeekAnswer() {
     addFeedback(false, "", currentCard);
 }
 
-console.log("bbbb");
+console.log('functions.js - end');
 
 

@@ -3,6 +3,7 @@
 #
 
 @name = traditional
+@version = 20190801
 @title = Traditional Chinese Characters
 @input-type = chinese
 

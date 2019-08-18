@@ -3,6 +3,7 @@
 @name = chinese
 @title = Chinese
 @input-type = pinyin
+@version = 20190801
 
 # hsk1.txt
 我 : wǒ : wǒ - I; me

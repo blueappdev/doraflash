@@ -3,6 +3,9 @@
 from google.appengine.api import users
 import logging, webapp2
 import codecs, json, os, os.path, string
+from domainmodel import *
+
+registeredPresenters = {}
 
 #logging.debug('This is a debug message')
 #logging.info('This is an info message')
@@ -17,10 +20,10 @@ class RequestHandler(webapp2.RequestHandler):
             
     def log(self, *args):
         for arg in args:
-            logging.info(arg + " ")
+            logging.info(repr(arg) + " ")
             
-    def json(self, str):
-        return json.dumps(str, ensure_ascii=False)
+    def json(self, obj):
+        return json.dumps(obj, ensure_ascii=False)
 
 class MainPage(RequestHandler):
     def loadTemplate(self):
@@ -101,6 +104,8 @@ class CourseHandler(RequestHandler):
             self.write("self.currentCourse.inputType = ", self.json(value), ";\n")        
         elif key == "title":
             self.write("self.currentCourse.title = ", self.json(value), ";\n")
+        elif key == "version":
+            pass
         else:
             raise Exception("unknown attribute found " + repr(key))
 
@@ -126,21 +131,104 @@ class CourseHandler(RequestHandler):
         else:
             logging.error(repr(record))
             raise Exception, "unsupported size of record"
-            
-class UpdateCardsHandler(RequestHandler):
+
+class Presenter:
+    def __init__(self, action, parameters):
+        self.action = action
+        self.parameters = parameters
+        
+    def newUseCaseResult(self):
+        result = {
+            "value": None, 
+            "info": [], 
+            "errors" : [], 
+            "warnings" : [], 
+            "isOK" : True}
+        return result
+    
+    def info(self, message, value=None):
+        result = self.newUseCaseResult()
+        result["value"] = value
+        result["info"].append(message)
+        return result
+
+    def error(self, message, value=None):
+        result = self.newUseCaseResult()
+        result["errors"].append(message)
+        result["value"] = value
+        result["isOK"] = False
+        return result
+
+    def warning(self, message, value=None):
+        result = self.newUseCaseResult()
+        result["warnings"].append(message)
+        result["value"] = value
+        result["isOK"] = False
+        return result
+        
+    def parameterNamed(self, name):
+        return self.parameters.get(name, None)
+        
+class CoursePresenter(Presenter):
+    def __init__(self, action, parameters):
+        Presenter.__init__(self, action, parameters)
+        
+    def perform(self):
+        if self.action == "view":
+            return self.view()
+        if self.action == "version":
+            return self.version()
+        return self.error("unknown action "+ self.action)
+    
+    def view(self):
+        name = self.parameterNamed("name")
+        newCourse = self.loadCourse(name)
+        return self.info("course", json.loads(json.dumps(newCourse.__dict__)))  
+
+    def version(self):
+        names = self.parameterNamed("names")
+        result = []
+        for name in names:
+            newCourse = self.loadCourse(name)
+            version = newCourse.version
+            result.append({"name":name, "version":version})
+        return self.info("course versions", result)  
+    
+    def loadCourse(self, name):
+        newCourse = Course(name)
+        newCourse.load()
+        return newCourse
+        
+class WebDispatcher(RequestHandler):
     def get(self):
-        logging.warning("UpdateCardsHandler>>get")
+        logging.warning("WebDispatcher>>get (not supported)")
         
     def post(self):
-        logging.warning("UpdateCardsHandler>>post - begin")
-        resource = self.request.get('resource')
-        self.log("resource", resource)
-        self.write('"hello"')
-        logging.warning("UpdateCardsHandler>>post - end")
-   
+        logging.warning("WebDispatcher>>post - begin")
+        self.resource = self.request.get('r')
+        self.action = self.request.get('a')
+        parameters = self.request.get('p')
+        self.log(self.resource)
+        self.log(self.action)
+        self.log(parameters)
+        self.parameters = json.loads(parameters)
+        result = self.perform()
+        self.write(self.json(result))
+        logging.warning("WebDispatcher>>post - end")
+    
+    def perform(self):
+        presenterClass = self.getPresenterClass()
+        presenter = presenterClass(self.action, self.parameters)
+        return presenter.perform()
+        
+    def getPresenterClass(self):
+        if self.resource == 'course':
+            return CoursePresenter;
+        raise Exception, "unsupported resource ", self.resource
+
 app = webapp2.WSGIApplication([
         ('/course', CourseHandler),
-        ('/updateCards', UpdateCardsHandler),
+        ('/perform', WebDispatcher),
         ('/', MainPage)
     ], debug=True)
 

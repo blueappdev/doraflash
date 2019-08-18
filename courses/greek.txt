@@ -1,7 +1,10 @@
-﻿# Greek 
+﻿#
+# Greek course
+#
 
 @name = greek
 @title = Greek
+@version = 20190801
 
 Α:Alpha:Alpha (a / a)
 Β:Beta:Beta (b / v (w))
