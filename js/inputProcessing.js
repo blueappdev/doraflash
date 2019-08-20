@@ -76,9 +76,13 @@ PinyinInputProcessor.prototype.processInput = function(event) {
     console.log("PinyinInputProcessor>>processInput");
     var widget = document.getElementById("answer");
     var actualAnswer = widget.value;
+    if (actualAnswer === "") {
+        $("#answer").removeClass("wrong");
+    }
     var changedAnswer = actualAnswer;
     changedAnswer = changedAnswer.replace(/v/g,"ü");
     changedAnswer = changedAnswer.replace(/V/g,"Ü");
+    changedAnswer = changedAnswer.replace(/a1/g,"ā"); 
     if (actualAnswer !== changedAnswer) {
         var start = widget.selectionStart;
         var end = widget.selectionEnd;
