@@ -417,7 +417,7 @@ function moveCurrentCard() {
     console.log("    numberOfCorrectAnswers %o", currentCard.numberOfCorrectAnswers);
     //const mapping = [ 1, 2, 6, 10, 20, 30, 40, 50, 70, 100, 140, 180, 230, 300, 380 ];
     //var newPosition = mapping[currentCard.numberOfCorrectAnswers] || 10000;
-    var newPosition = fib(currentCard.numberOfCorrectAnswers);
+    var newPosition = fib(currentCard.numberOfCorrectAnswers + 1);
     newPosition = Math.min(currentCourse.eligibleCards().length - 1, newPosition);
     console.log("    newPosition %o", newPosition);
     var cardAtNewPosition = currentCourse.eligibleCards()[newPosition];
@@ -453,9 +453,14 @@ function shuffleCards() {
 
 function onTest() {
     console.log("onTest() - begin");
-    perform("course", "view", {name : 'greek'}, courseLoaded);
-    perform("course", "version", {names : ['greek','chinese']}, versionLoaded);
+    //perform("course", "view", {name : 'greek'}, courseLoaded);
+    //perform("course", "version", {names : ['greek','chinese']}, versionLoaded);
+    perform("support","test", {title:"Uhu"}, defaultHandler);
     console.log("onTest() - end");
+}
+
+function defaultHandler(result) {
+    alert(JSON.stringify(result));
 }
 
 function courseLoaded(result) {
