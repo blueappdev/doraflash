@@ -5,6 +5,7 @@ console.log('functions.js - begin');
 var currentCourse = null;
 var currentCard = null;
 var feedback = [];
+var previousAnswer = "";
 
 // Returns a numeric timestamp in local time.
 function dateToday() {
@@ -135,7 +136,7 @@ function pageLoaded() {
     console.log('pageLoaded() - begin');
     $("#answer").on("keypress", onAnswerKeyPress);
     $("#answer").on("input", onAnswerInput);
-    $("#answer").on("change", onAnswerChange);
+    //$("#answer").on("change", onAnswerChange);
     var currentCourseName = localStorage.getItem("currentCourseName") || "chinese";
     loadCourse(currentCourseName);
     console.log('pageLoaded() - end');
@@ -143,7 +144,12 @@ function pageLoaded() {
 
 function onAnswerKeyPress(event) {
     console.log('onKeyPress()');
-    currentInputProcessor().processKeyPressed(event);
+    console.log(event.key);
+    if (event.key == "Enter") {
+        processAnswer();      
+    } else {
+        currentInputProcessor().processKeyPressed(event);
+    }
 }
 
 function onAnswerInput(event) {
@@ -152,8 +158,7 @@ function onAnswerInput(event) {
 }
 
 function onAnswerChange(event) {
-    console.log('onChange()');
-    processAnswer()
+    $("#feedback").html('<font color="red">Please use the &lt;ENTER&gt; key..</font>');
 }
 
 function currentInputProcessor() {
@@ -201,6 +206,8 @@ function setCurrentCard(card) {
 function processAnswer() {
     console.log("processAnswer()");
     let answer = $('#answer').val();
+    if (previousAnswer == answer) return;
+    previousAnswer = answer;
     console.log("answer %o", answer);
     answer = preprocessAnswer(answer);    
     if (!hasAnswer(answer)) {

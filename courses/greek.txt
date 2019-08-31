@@ -61,4 +61,5 @@
 Αθήνα:Athína:Athína - Athens
 Ζεύς:Zéfs:Zéfs - Zeus
 ώρα:óra:óra - hour  
-
+Θεοδώρα:Theodora:Theodora
+Δώρα:Dora:Dora
