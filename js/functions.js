@@ -216,7 +216,6 @@ function processAnswer() {
     }
     var reason = currentInputProcessor().reasonForInvalidPrecheck(answer);
     if (reason) {
-        log("wrong answer type ", answer);
         $("#feedback").html('<font color="red">'+reason+'</font>');
         return;
     }
