@@ -199,6 +199,7 @@ function setCurrentCard(card) {
     $('#question').text(card.question);
     $('#answer').val(card.hint);
     $("#answer").removeClass("wrong");
+    previousAnswer = "";
     $("#answer").attr("placeholder", currentInputProcessor().getInputPlaceHolder());
     console.log('setCurrentCard() - end');
 }
@@ -216,7 +217,6 @@ function processAnswer() {
     }
     var reason = currentInputProcessor().reasonForInvalidPrecheck(answer);
     if (reason) {
-        console.log("wrong answer type ", answer);
         $("#feedback").html('<font color="red">'+reason+'</font>');
         return;
     }
@@ -332,7 +332,7 @@ function processCorrectAnswer(answer) {
         currentCard.numberOfCorrectAnswers += 1;
     } else {
         feedback = "Die Anwort war beim ersten Versuch heute richtig und wird heute nicht mehr gefragt.";
-        currentCard.numberOfCorrectAnswers += 4;
+        currentCard.numberOfCorrectAnswers += 3;
         currentCard.timestampForSkipping = dateToday();
         console.log("timestampForSkipping %o", currentCard.timestampForSkipping);
     } 
@@ -346,7 +346,7 @@ function processWrongAnswer(answer) {
     $("#answer").addClass("wrong");
     $("#feedback").html('<font color="red" weight="bold">Die Antwort ist leider noch nicht richtig.</font>')
     currentCard.timestampOfLastWrongAnswer = dateToday();  
-    currentCard.numberOfCorrectAnswers -= 2;   
+    currentCard.numberOfCorrectAnswers -= 1;   
     if (currentCard.numberOfCorrectAnswers) {
         currentCard.numberOfCorrectAnswers = 0;
     }
