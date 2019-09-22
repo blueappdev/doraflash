@@ -158,7 +158,7 @@ function onAnswerInput(event) {
 }
 
 function onAnswerChange(event) {
-    $("#feedback").html('<font color="red">Please use the &lt;ENTER&gt; key..</font>');
+    $("#feedback").html('<font color="red">Please use the &lt;ENTER&gt; key.</font>');
 }
 
 function currentInputProcessor() {
@@ -199,7 +199,7 @@ function setCurrentCard(card) {
     $('#question').text(card.question);
     $('#answer').val(card.hint);
     $("#answer").removeClass("wrong");
-    previousAnswer = "";
+    previousAnswer = card.hint || ""; 
     $("#answer").attr("placeholder", currentInputProcessor().getInputPlaceHolder());
     console.log('setCurrentCard() - end');
 }
