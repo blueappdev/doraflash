@@ -82,7 +82,9 @@ PinyinInputProcessor.prototype.accentsMapping = [
     'OŌÓǑÒ',
     'oōóǒò',
     'UŪÚǓÙ',
-    'uūúǔù'
+    'uūúǔù',
+    'ÜǕǗǙǛ',
+    'üǖǘǚǜ'
 ];
 
 PinyinInputProcessor.prototype.allSyllables = [
@@ -123,18 +125,47 @@ PinyinInputProcessor.prototype.allSyllables = [
     "jin", "qin", "xin", "yin", "bing", "ping", "ming", "ding", "ting", "ning", "ling",  
     "jing", "qing", "xing", "ying", "jiong", "qiong", "xiong", "yong", "nü", "lü", "ju", 
     "qu", "xu", "yu", "nüe", "lüe", "jue", "que", "xue", "yue", "juan", "quan", "xuan", 
-    "yuan", "jun", "qun", "xun", "yun"
+    "yuan", "jun", "qun", "xun", "yun", "banr", "pir", "mianr", "fur", "dianr", "dingr", 
+    "tangr", "tuir", "nar", "nür", "ger", "ganr", "kour", "kongr", "hair", "haor", 
+    "huar", "huor", "huir", "jinr", "xiar", "xianr", "zher", "shir", "shuir", "wanr", 
+    "wor", "er"
 ];
 
-PinyinInputProcessor.prototype.getSyllable = function (str) {
+/*
+ * getBasicSyllable()
+ *
+ * Get the longest syllable from the argument.
+ * No attempt is made to adjust for ambiguous cases.
+ */
+PinyinInputProcessor.prototype.getBasicSyllable = function (str) {
     for(var i = 5; i > 0; i--) {
         var candidate = str.substring(0, i);
-        var strippedCandidate = this.removeAccents(candidate);
+        var strippedCandidate = this.removeAccents(candidate.toLowerCase());
         if (this.allSyllables.includes(strippedCandidate)) {
             return candidate;
         }
     }
     return null;
+}
+
+/* 
+ * getSyllable()
+ *
+ * Get a syllable from the argument and try to resolve ambiguous cases.
+ */
+PinyinInputProcessor.prototype.getSyllable = function (str) {
+    var candidate = this.getBasicSyllable(str);
+    if (!candidate) return candidate;
+    if (["n", "g", "r"].includes(candidate[candidate.length - 1])) {
+        var rest = str.substring(candidate.length);
+        var nextSyllable = this.getBasicSyllable(rest);        
+        if (! nextSyllable) {
+            var rest = str.substring(candidate.length - 1);
+            var nextSyllable = this.getBasicSyllable(rest);
+            if (nextSyllable) candidate = candidate.substring(0, candidate.length - 1);
+        }
+    }
+    return candidate;
 }
 
 PinyinInputProcessor.prototype.isPinyin = function (str) {
