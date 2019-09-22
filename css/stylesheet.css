@@ -4,13 +4,13 @@
   
 body {
     background-color: linen;    
-    font-family: Arial, Helvetica, sans-serif;
+    /* font-family: Arial, Helvetica, sans-serif, "FangSong", "仿宋", STFangSong, "华文仿宋";*/
+    font-family: Arial, Helvetica, sans-serif, "KaiTi", "楷体", STKaiti, "华文楷体";
     font-size: 2vw;
 }
 
 /* xyz copied from hMenuItem */
 .xyz {
-    font-family:Helvetica, Arial, Sans-Serif;
     font-size: 14px;
     display: block;
     //color: white;
