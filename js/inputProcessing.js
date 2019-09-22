@@ -128,6 +128,7 @@ PinyinInputProcessor.prototype.addAccent = function(final, toneNumber) {
             positionOfToneCarrier = 0;
     var toneCarrier = final[positionOfToneCarrier];
     var row = this.findAccentsRow(toneCarrier);
+    if (! row) return null;
     var accentedCharacter = row[toneNumber];
     return (final.substring(0, positionOfToneCarrier) 
         + accentedCharacter 
@@ -155,6 +156,7 @@ PinyinInputProcessor.prototype.convertToneNumber = function(widget, toneNumber) 
     console.log("oldFinal %o", oldFinal);
     var newFinal = this.addAccent(oldFinal, toneNumber);
     console.log("newFinal %o", newFinal);
+    if (!newFinal) return;
 
     var newValue = s.substring(0, startOfFinal) 
         + newFinal
