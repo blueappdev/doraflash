@@ -58,6 +58,21 @@ h1 {
     border-color: lightgray;
 }
 
+::-webkit-input-placeholder { /* Edge */
+  color: Tomato;
+  opacity: 0.3;
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: Tomato;
+  opacity: 0.3;
+}
+
+::placeholder {
+  color: Tomato;
+  opacity: 0.3; 
+}
+
 .wrong {
     border-color: red;
     outline: none !important;
@@ -87,8 +102,8 @@ th, td {
 }
 
 .wrong-feedback {
-  font-size: 14px;;
-  color: red;
-  text-decoration: line-through;
+    font-size: 14px;
+    color: red;
+    text-decoration: line-through;
 }
 
