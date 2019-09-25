@@ -305,8 +305,10 @@ function isAcceptableAnswer(userAnswer) {
         if (userAnswer === userAnswer.toLowerCase()) {
             expectedAnswer = expectedAnswer.toLowerCase();
         }
-        if (userAnswer === removeAccents(userAnswer)) {
-            expectedAnswer = removeAccents(expectedAnswer);
+        if (!getConfiguration("pinyin", "strictToneMarks")) {
+            if (userAnswer === removeAccents(userAnswer)) {
+                expectedAnswer = removeAccents(expectedAnswer);
+            }
         }
         if (userAnswer === removeWhite(userAnswer)) {
             expectedAnswer = removeWhite(expectedAnswer);
@@ -462,7 +464,14 @@ function onTest() {
     console.log("onTest() - begin");
     //perform("course", "view", {name : 'greek'}, courseLoaded);
     //perform("course", "version", {names : ['greek','chinese']}, versionLoaded);
-    perform("support","test", {title:"Uhu"}, defaultHandler);
+    //perform("support","test", {title:"Uhu"}, defaultHandler);
+    var configuration = {
+            "pinyin" : {
+                "strictToneMarks" : true
+            }
+        }; 
+    localStorage.setItem("configuration", JSON.stringify(configuration));
+    
     console.log("onTest() - end");
 }
 
