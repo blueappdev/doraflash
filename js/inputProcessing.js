@@ -140,9 +140,11 @@ PinyinInputProcessor.prototype.getBasicSyllable = function (str) {
         var candidate = str.substring(0, i);
         var strippedCandidate = this.removeAccents(candidate.toLowerCase());
         if (this.allSyllables.includes(strippedCandidate)) {
+            console.log("Basic syllable %o", candidate);
             return candidate;
         }
     }
+    console.log("Basic syllable %o", null);
     return null;
 }
 
@@ -150,19 +152,25 @@ PinyinInputProcessor.prototype.getBasicSyllable = function (str) {
  * getSyllable()
  *
  * Get a syllable from the argument and try to resolve ambiguous cases.
+
+ * bangongshi needs special treatment of o
  */
 PinyinInputProcessor.prototype.getSyllable = function (str) {
     var candidate = this.getBasicSyllable(str);
     if (!candidate) return candidate;
+    console.log("check1");
     if (["n", "g", "r"].includes(candidate[candidate.length - 1])) {
+    console.log("check2");
         var rest = str.substring(candidate.length);
         var nextSyllable = this.getBasicSyllable(rest);        
         if (! nextSyllable) {
+    console.log("check3");
             var rest = str.substring(candidate.length - 1);
             var nextSyllable = this.getBasicSyllable(rest);
             if (nextSyllable) candidate = candidate.substring(0, candidate.length - 1);
         }
     }
+    console.log("check4");
     return candidate;
 }
 
