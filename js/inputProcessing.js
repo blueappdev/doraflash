@@ -51,14 +51,12 @@ PinyinInputProcessor.prototype.processKeyPressed = function(event) {
         event.preventDefault();
         // IE
         if (document.selection) {
-            console.log("branch1");
             // Determines the selected text. If no text selected, the location of the cursor in the text is returned
             var range = document.selection.createRange();
             // Place the replacement on the location of the selection, and remove the data in the selection
             range.text = replacement;
             // Chrome + FF
         } else if (target.selectionStart || target.selectionStart == '0') {
-            console.log("branch2");
             var start = target.selectionStart;
             var end = target.selectionEnd;
             target.value = target.value.substring(0, start) + replacement
@@ -242,7 +240,7 @@ PinyinInputProcessor.prototype.convertToneNumber = function(widget, toneNumber) 
     var end = widget.selectionEnd;
     var positionOfToneNumber = s.indexOf(toneNumber);
     if (positionOfToneNumber == -1) return; 
-    console.log("position of tone number %o is %o.", toneNumber, positionOfToneNumber);
+    // console.log("position of tone number %o is %o.", toneNumber, positionOfToneNumber);
     var endOfFinal = positionOfToneNumber - 1;
     if (endOfFinal < 0) return;
     var startOfFinal = endOfFinal;
@@ -254,9 +252,9 @@ PinyinInputProcessor.prototype.convertToneNumber = function(widget, toneNumber) 
     }
     startOfFinal++;
     var oldFinal = this.removeAccents(s.substring(startOfFinal, endOfFinal+1));
-    console.log("oldFinal %o", oldFinal);
+    // console.log("oldFinal %o", oldFinal);
     var newFinal = this.addAccent(oldFinal, toneNumber);
-    console.log("newFinal %o", newFinal);
+    // console.log("newFinal %o", newFinal);
     if (!newFinal) return;
 
     var newValue = s.substring(0, startOfFinal) 
@@ -274,7 +272,7 @@ PinyinInputProcessor.prototype.convertAccents = function(widget) {
 }
 
 PinyinInputProcessor.prototype.processInput = function(event) {
-    console.log("PinyinInputProcessor>>processInput");
+    // console.log("PinyinInputProcessor>>processInput");
     var widget = document.getElementById("answer");
     var actualAnswer = widget.value;
     if (actualAnswer === "") {

@@ -26,7 +26,9 @@ function errorHandler() {
 }
 
 function getConfiguration() {
-    var value = JSON.parse(localStorage["configuration"]) || {};
+    var rawValue = localStorage["configuration"];
+    if (!rawValue) return null;
+    var value = JSON.parse(rawValue);
     for (var i in arguments) {
         value = value[arguments[i]];
     }

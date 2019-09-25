@@ -136,15 +136,15 @@ function pageLoaded() {
     console.log('pageLoaded() - begin');
     $("#answer").on("keypress", onAnswerKeyPress);
     $("#answer").on("input", onAnswerInput);
-    //$("#answer").on("change", onAnswerChange);
+    // $("#answer").on("change", onAnswerChange);
     var currentCourseName = localStorage.getItem("currentCourseName") || "chinese";
     loadCourse(currentCourseName);
     console.log('pageLoaded() - end');
 }
 
 function onAnswerKeyPress(event) {
-    console.log('onKeyPress()');
-    console.log(event.key);
+    // console.log('onKeyPress()');
+    // console.log(event.key);
     if (event.key == "Enter") {
         processAnswer();      
     } else {
@@ -153,7 +153,7 @@ function onAnswerKeyPress(event) {
 }
 
 function onAnswerInput(event) {
-    console.log('onInput()');
+    // console.log('onInput()');
     currentInputProcessor().processInput(event);
 }
 
@@ -194,7 +194,9 @@ function fillScreen() {
 
 function setCurrentCard(card) {
     console.log('setCurrentCard() - begin');
-    console.log('question', card.question);
+    console.log('    question', card.question);
+    console.log("    timestamoForSkipping: %o", card.timestampForSkipping);
+    console.log("    numberOfCorrectAnswers: %o", card.numberOfCorrectAnswers);
     currentCard = card;
     $('#question').text(card.question);
     $('#answer').val(card.hint);
@@ -348,15 +350,17 @@ function processWrongAnswer(answer) {
     $("#answer").addClass("wrong");
     $("#feedback").html('<font color="red" weight="bold">Die Antwort ist leider noch nicht richtig.</font>')
     currentCard.timestampOfLastWrongAnswer = dateToday();  
-    currentCard.numberOfCorrectAnswers -= 1;   
-    if (currentCard.numberOfCorrectAnswers) {
+    currentCard.numberOfCorrectAnswers -= 2;   
+    if (currentCard.numberOfCorrectAnswers < 0) {
         currentCard.numberOfCorrectAnswers = 0;
     }
     addFeedback(false, answer, currentCard);
 }
 
 function addFeedback(isCorrect, userAnswer, card) {
-    console.log("addFeedback(%o)", card.timestampForSkipping);
+    console.log("addFeedback(%o)", card.question);
+    console.log("    timestamoForSkipping: %o", card.timestampForSkipping);
+    console.log("    numberOfCorrectAnswers: %o", card.numberOfCorrectAnswers);
     var newRecord = {
             isCorrect: isCorrect,
             question: card.question,
@@ -503,6 +507,11 @@ function versionLoaded(result) {
 function onPeekAnswer() {
     $("#answer").focus();
     $("#feedback").html("");
+    currentCard.timestampOfLastWrongAnswer = dateToday();  
+    currentCard.numberOfCorrectAnswers -= 2;   
+    if (currentCard.numberOfCorrectAnswers < 0) {
+        currentCard.numberOfCorrectAnswers = 0;
+    }
     addFeedback(false, "", currentCard);
 }
 
