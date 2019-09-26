@@ -82,7 +82,7 @@ h1 {
 
 table {
     /* margin: 20px; */
-    /*padding: 20px; */
+    /* padding: 20px; */
     font-size: 14px;;
     border-collapse: collapse; 
 }
@@ -97,12 +97,12 @@ th, td {
 .feedback {
     font-size: 14px;
 }
+
 .correct-feedback {
     color: darkgreen;
 }
 
 .wrong-feedback {
-    font-size: 14px;
     color: red;
     text-decoration: line-through;
 }
