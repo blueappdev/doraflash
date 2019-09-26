@@ -358,52 +358,25 @@ function processWrongAnswer(answer) {
 }
 
 function addFeedback(isCorrect, userAnswer, card) {
-    console.log("addFeedback(%o)", card.question);
+    console.log("addFeedback(%o) - begin", card.question);
     console.log("    timestamoForSkipping: %o", card.timestampForSkipping);
     console.log("    numberOfCorrectAnswers: %o", card.numberOfCorrectAnswers);
-    var newRecord = {
-            isCorrect: isCorrect,
-            question: card.question,
-            userAnswer: userAnswer,
-            answer: card.comment || card.answers[0],
-            skip : (card.timestampForSkipping || 0).toString()
-        };
-    feedback.unshift(newRecord);  // unshift() adds at the beginning
-    showFeedback();
-}
-
-function showFeedback() {
-    console.log("showFeedback() - begin");
-    var html = '<table>';
-    html += '<thead><tr>';
-    html += '<th>Frage</th>';
-    html += '<th>Deine Antwort</th>';
-    html += '<th>Richtige Antwort</th>';
-    // html += '<th>Skip</th>';
-    html += '</tr></thead>';
-      
-    for (var i in feedback) {
-        html += '<tr>';
-        html += '<td>';
-        html += feedback[i].question;
-        html += '</td>';
-        if (feedback[i].isCorrect) 
-            html += '<td class="correct-feedback">';
-        else
-            html += '<td class="wrong-feedback">';
-        html += feedback[i].userAnswer;
-        html += '</td>';
-        html += '<td>';
-        html += feedback[i].answer;
-        html += '</td>';
-        //html += '<td>';
-        //html += feedback[i].skip;
-        //html += '</td>';
-        html += '</tr>';
-    }
-    html += '</table>';
-    $("#table").html(html);
-    console.log("showFeedback() - end");
+    var html = '<tr>';
+    html += '<td>';
+    html += card.question;
+    html += '</td>';
+    if (isCorrect) 
+        html += '<td class="correct-feedback">';
+    else
+        html += '<td class="wrong-feedback">';
+    html += userAnswer;
+    html += '</td>';
+    html += '<td>';
+    html += card.comment || card.answer[0];
+    html += '</td>';
+    html += '</tr>';
+    $("#feedback-table tbody").prepend(html);
+    console.log("addFeedback() - end");
 }
 
 // Fibonacci function.
