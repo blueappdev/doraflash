@@ -336,7 +336,7 @@ function processCorrectAnswer(answer) {
         currentCard.numberOfCorrectAnswers += 1;
     } else {
         feedback = "Die Anwort war beim ersten Versuch heute richtig und wird heute nicht mehr gefragt.";
-        currentCard.numberOfCorrectAnswers += 3;
+        currentCard.numberOfCorrectAnswers += 1;
         currentCard.timestampForSkipping = dateToday();
         console.log("timestampForSkipping %o", currentCard.timestampForSkipping);
     } 
