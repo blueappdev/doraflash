@@ -2,6 +2,15 @@
 # .gitignore
 #
 
+tmp
+
 *.pyc
 *.swp
+*.bk1
+*.bk2
+
+
+
+
+
 
