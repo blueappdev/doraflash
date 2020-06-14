@@ -1,2 +1,8 @@
 tmp
 .git
+
+deploy
+deploy.bat
+run
+run.bat
+
