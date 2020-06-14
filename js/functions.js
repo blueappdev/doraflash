@@ -7,6 +7,8 @@ var currentCard = null;
 var feedback = [];
 var previousAnswer = "";
 
+var animation = null;
+
 // Returns a numeric timestamp in local time.
 function dateToday() {
     var date = new Date();
@@ -203,6 +205,21 @@ function setCurrentCard(card) {
     $("#answer").removeClass("wrong");
     previousAnswer = card.hint || ""; 
     $("#answer").attr("placeholder", currentInputProcessor().getInputPlaceHolder());
+    if (animation) {
+        animation.setCharacter(card.question[0]);
+        animation.loopCharacterAnimation()
+    } else {
+      animation = HanziWriter.create('animation', card.question[0], {
+        width: 160,
+        height: 160,
+        padding: 0,
+        showOutline: true,
+        strokeAnimationSpeed: 1, // 5x normal speed
+        delayBetweenStrokes: 300, // milliseconds
+        delayBetweenLoops: 200}); // milliseconds
+      animation.loopCharacterAnimation();
+    }
+
     console.log('setCurrentCard() - end');
 }
 

@@ -29,8 +29,20 @@ handlers:
 - url: /robots.txt
   static_files: robots.txt
   upload: robots.txt
+
+- url: /course.*
+  script: course.app
+  secure: always
+  redirect_http_response_code: 301  
+
+- url: /data/.*
+  script: data.app
+  secure: always
+  redirect_http_response_code: 301  
+  
   
 - url: /.*
   script: main.app
   secure: always
   redirect_http_response_code: 301
+

@@ -34,7 +34,7 @@ h1 {
     color: Black;
     font-size: 30px;
     margin: 1vw;
-    width: 60%; 
+    width: 60vw; 
     padding: 1vw; 
     border-style: solid;   /* border-style must be before border-width */
     border-width: thin;
@@ -51,7 +51,7 @@ h1 {
     color: Black;
     font-size: 24px;
     margin: 1vw;
-    width: 60%;
+    width: 60vw;
     padding: 1vw;
     border-style: solid;     /* border-style must be before border-width */
     border-width: thin;
