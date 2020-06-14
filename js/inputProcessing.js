@@ -136,7 +136,7 @@ PinyinInputProcessor.prototype.allSyllables = [
  * No attempt is made to adjust for ambiguous cases.
  */
 PinyinInputProcessor.prototype.getBasicSyllable = function (str) {
-    for(var i = 5; i > 0; i--) {
+    for(var i = 6; i > 0; i--) {
         var candidate = str.substring(0, i);
         var strippedCandidate = this.removeAccents(candidate.toLowerCase());
         if (this.allSyllables.includes(strippedCandidate)) {
