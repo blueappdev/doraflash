@@ -157,11 +157,9 @@ PinyinInputProcessor.prototype.getBasicSyllable = function (str) {
         var candidate = str.substring(0, i);
         var strippedCandidate = this.removeAccents(candidate.toLowerCase());
         if (this.allSyllables.includes(strippedCandidate)) {
-            console.log("Basic syllable %o", candidate);
             return candidate;
         }
     }
-    console.log("Basic syllable %o", null);
     return null;
 }
 
@@ -173,17 +171,26 @@ PinyinInputProcessor.prototype.getBasicSyllable = function (str) {
  */
 PinyinInputProcessor.prototype.getSyllable = function (str) {
     var candidate = this.getBasicSyllable(str);
-    if (!candidate) return null;
+    console.log("Basic candidate %o", candidate);
+    if (!candidate) {
+        console.log("getSyllable() returns %o", candidate);
+        return candidate;
+    }
     console.log("check1");
     if (["n", "g", "r"].includes(candidate[candidate.length - 1])) {
         console.log("check2");
         var rest = str.substring(candidate.length);
+        console.log("Rest from %o %o", candidate.length, rest);
         var nextSyllable = this.getBasicSyllable(rest);        
-        if (! nextSyllable) {
-        console.log("check3");
+        console.log("Next1 %o", nextSyllable);
+        if (! nextSyllable || nextSyllable == "o") {
+            console.log("check3");
             var rest = str.substring(candidate.length - 1);
             var nextSyllable = this.getBasicSyllable(rest);
-            if (nextSyllable) candidate = candidate.substring(0, candidate.length - 1);
+            console.log("Next2 %o", candidate);
+            if (nextSyllable) {
+                candidate = candidate.substring(0, candidate.length - 1);
+            }
         }
     }
     console.log("getSyllable() returns %o", candidate);
