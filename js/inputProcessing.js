@@ -87,7 +87,7 @@ PinyinInputProcessor.prototype.accentsMapping = [
 
 PinyinInputProcessor.prototype.allSyllables = [
     "ba", "pa", "ma", "fa", "da", "ta", "na", "la", "ga", "ka", "ha", "za", "ca",
-    "sa", "zha", "cha", "sha", "a", "bo", "po", "mo", "fo", "xxxxxxxxxo", "me", "de", "te",
+    "sa", "zha", "cha", "sha", "a", "bo", "po", "mo", "fo", "o", "me", "de", "te",
     "ne", "le", "ge", "ke", "he", "ze", "ce", "se", "zhe", "che", "she", "re", 
     "e", "bai", "pai", "mai", "dai", "tai", "nai", "lai", "gai", "kai", "hai", 
     "zai", "cai", "sai", "zhai", "chai", "shai", "ai", "bei", "pei", "mei", "fei", 
