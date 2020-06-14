@@ -129,11 +129,28 @@ PinyinInputProcessor.prototype.allSyllables = [
     "wor", "er"
 ];
 
+PinyinInputProcessor.prototype.allFinals  = [
+    "a", "o", "e", "i", "u", "ü",
+    "ai", "ei", "ao", "ou", "an",
+    "ang", "en", "eng", "ong",
+    "ua", "uo", "uai", "ui", "uan",
+    "an", "uang", "un", "en", "eng",
+    "ia", "bie", "iao", "iu", "ian",
+    "iang", "in", "ing", "iong", "ong", 
+    "nüe", "ue", "anr", "ir", "ianr", "ur", 
+    "ianr", "ingr", "angr", "uir", "ar", "ür", 
+    "er", "anr", "our", "ongr", "air", "aor",
+    "uar", "uor", "uir", "inr", "iar", "ianr", 
+    "er", "ir", "uir", "anr",
+    "or", "er"
+];
+
 /*
  * getBasicSyllable()
  *
  * Get the longest syllable from the argument.
  * No attempt is made to adjust for ambiguous cases.
+ * Pinyin syllables can have up to six characters (e.g. chuang).
  */
 PinyinInputProcessor.prototype.getBasicSyllable = function (str) {
     for(var i = 6; i > 0; i--) {
@@ -152,32 +169,33 @@ PinyinInputProcessor.prototype.getBasicSyllable = function (str) {
  * getSyllable()
  *
  * Get a syllable from the argument and try to resolve ambiguous cases.
-
  * bangongshi needs special treatment of o
  */
 PinyinInputProcessor.prototype.getSyllable = function (str) {
     var candidate = this.getBasicSyllable(str);
-    if (!candidate) return candidate;
+    if (!candidate) return null;
     console.log("check1");
     if (["n", "g", "r"].includes(candidate[candidate.length - 1])) {
-    console.log("check2");
+        console.log("check2");
         var rest = str.substring(candidate.length);
         var nextSyllable = this.getBasicSyllable(rest);        
         if (! nextSyllable) {
-    console.log("check3");
+        console.log("check3");
             var rest = str.substring(candidate.length - 1);
             var nextSyllable = this.getBasicSyllable(rest);
             if (nextSyllable) candidate = candidate.substring(0, candidate.length - 1);
         }
     }
-    console.log("check4");
+    console.log("getSyllable() returns %o", candidate);
     return candidate;
 }
 
 PinyinInputProcessor.prototype.isPinyin = function (str) {
     var syllable = this.getSyllable(str);
+    console.log("isPinyin.1: %o", syllable);
     while (syllable) {
         str = str.substring(syllable.length);
+
         syllable = this.getSyllable(str);
     }
     return (str == "");
@@ -221,6 +239,7 @@ PinyinInputProcessor.prototype.removeAccents = function(s) {
 }
 
 PinyinInputProcessor.prototype.addAccent = function(final, toneNumber) {
+    console.log("addAccent final=%o", final);
     final = this.removeAccents(final);
     var positionOfToneCarrier;
     if (["iu", "ui" ].includes(final.toLowerCase()))
@@ -260,7 +279,12 @@ PinyinInputProcessor.prototype.convertToneNumber = function(widget, toneNumber) 
     }
     startOfFinal++;
     var oldFinal = this.removeAccents(s.substring(startOfFinal, endOfFinal+1));
-    // console.log("oldFinal %o", oldFinal);
+    console.log("original oldFinal %o", oldFinal);
+    while (oldFinal != "" && !this.allFinals.includes(oldFinal)) {
+        startOfFinal++;
+        oldFinal = this.removeAccents(s.substring(startOfFinal, endOfFinal+1));
+    }
+    console.log("adjusted oldFinal %o", oldFinal);
     var newFinal = this.addAccent(oldFinal, toneNumber);
     // console.log("newFinal %o", newFinal);
     if (!newFinal) return;
