@@ -216,7 +216,7 @@ PinyinInputProcessor.prototype.splitPinyin = function (str) {
         str = str.substring(syllable.length);
         syllable = this.getSyllable(str);
     }
-    return 'abc'; //syllables.join(" ");
+    return syllables.join(" ");
 }
 
 PinyinInputProcessor.prototype.isPinyinVowel = function(ch) {
