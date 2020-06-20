@@ -175,6 +175,14 @@ function inspectFeedback() {
     alert(JSON.stringify(feedback));
 }
 
+function inspectStrictToneMarks() {
+    alert(JSON.stringify(getConfiguration("pinyin", "strictToneMarks")));
+}
+
+function setStrictToneMarks() {
+    localStorage["configuration"] = JSON.stringify({"pinyin":{"strictToneMarks":true}});
+}
+
 function addQuestionHintAnswer(question, hint, answer) {
     currentCourse.mergeRecord(question, [answer], hint, "");
 }

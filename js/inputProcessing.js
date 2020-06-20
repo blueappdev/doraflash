@@ -183,7 +183,7 @@ PinyinInputProcessor.prototype.getSyllable = function (str) {
         console.log("Rest from %o %o", candidate.length, rest);
         var nextSyllable = this.getBasicSyllable(rest);        
         console.log("Next1 %o", nextSyllable);
-        if (! nextSyllable || nextSyllable == "o") {
+        if (! nextSyllable || this.removeAccents(nextSyllable.toLowerCase()) == "o") {
             console.log("check3");
             var rest = str.substring(candidate.length - 1);
             var nextSyllable = this.getBasicSyllable(rest);
@@ -216,7 +216,7 @@ PinyinInputProcessor.prototype.splitPinyin = function (str) {
         str = str.substring(syllable.length);
         syllable = this.getSyllable(str);
     }
-    return syllables.join(" ");
+    return 'abc'; //syllables.join(" ");
 }
 
 PinyinInputProcessor.prototype.isPinyinVowel = function(ch) {
